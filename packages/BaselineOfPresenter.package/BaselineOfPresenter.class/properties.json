@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfPresenter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfPresenter",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
