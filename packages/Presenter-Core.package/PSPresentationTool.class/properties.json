@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PSPresentationTool",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
