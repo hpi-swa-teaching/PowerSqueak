@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"slideContainer" ],
+		"slideContainer",
+		"slides",
+		"currentSlideNumber" ],
 	"name" : "PSPresentationTool",
 	"pools" : [
 		 ],
