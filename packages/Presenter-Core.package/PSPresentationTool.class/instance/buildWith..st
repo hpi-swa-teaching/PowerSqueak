@@ -1,25 +1,18 @@
 toolbuilder
 buildWith: builder
 
-	| windowSpec panelSpec window |
-	windowSpec := builder pluggableWindowSpec new.
-	windowSpec
-		model: self;
-		label: 'PowerSqueak';
-		extent: 500 @ 300;
-		children: OrderedCollection new.
+	| windowSpec slideViewportSpec buttonBarTopSpec window |
+	windowSpec := self createWindowSpec: builder.
 		
-	panelSpec := builder pluggablePanelSpec new.
-	panelSpec
-		model: self;
-		frame: (0@0.1 corner: 1@1);
-		name: #viewportSlide;
-		children: OrderedCollection new.
-	windowSpec children add: panelSpec.
+	slideViewportSpec := self createSlideViewportSpec: builder. 
+	windowSpec children add: slideViewportSpec.
+	
+	buttonBarTopSpec := self createButtonBarTopSpec: builder.
+	windowSpec children add: buttonBarTopSpec.
 	
 	window := builder build: windowSpec.
-	self viewportSlide: (builder widgetAt: #viewportSlide).
-	self slideContainer: PSSlideContainer new.
-	self viewportSlide addMorph: self slideContainer fullFrame: (LayoutFrame fractions: (0@0 corner: 1@1)).
+	self createSlideContainerIn: (builder widgetAt: #SlideViewport).
+	
+	self createSlide.
 	
 	^ window

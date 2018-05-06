@@ -8,8 +8,7 @@
 	"instvars" : [
 		"slideContainer",
 		"slides",
-		"currentSlideNumber",
-		"viewportSlide" ],
+		"currentSlideNumber" ],
 	"name" : "PSPresentationTool",
 	"pools" : [
 		 ],

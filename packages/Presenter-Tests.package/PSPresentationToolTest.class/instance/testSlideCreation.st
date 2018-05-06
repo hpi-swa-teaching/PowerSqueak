@@ -1,13 +1,15 @@
 slides test
 testSlideCreation
 
-	| tool slideCount |
-	tool := PSPresentationTool new.
-	self assert: tool currentSlideNumber = 1.
+	| window tool slideCount |
+	window := PSPresentationTool open.
+	tool := window model.
+	[self assert: tool currentSlideNumber = 1.
 	
 	self assert: tool slideCount = 1.
 	
-	slideCount := tool slideCount
+	slideCount := tool slideCount.
 	tool createSlide.
 	self assert: tool slideCount = (slideCount + 1).
-	self assert: tool currentSlideNumber = 2.
+	self assert: tool currentSlideNumber = 2] 
+	ensure: [window abandon]
