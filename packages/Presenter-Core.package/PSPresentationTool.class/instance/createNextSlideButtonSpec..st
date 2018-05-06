@@ -1,12 +1,12 @@
 toolbuilder
-createAddSlideButtonSpec: aBuilder
+createNextSlideButtonSpec: aBuilder
 
 	| buttonSpec |
 	buttonSpec := aBuilder pluggableButtonSpec new.
 	buttonSpec
 		model: self;
-		frame: (0.0@0.0 corner: 0.15@1.0);
+		frame: (0.2@0.0 corner: 0.25@1.0);
 		name: #AddSlideButton;
-		label: 'Create Slide';
-		action: #createSlide.
+		label: '>';
+		action: #nextSlide.
 	^ buttonSpec

@@ -1,6 +1,6 @@
 toolbuilder
 createButtonBarTopSpec: aBuilder 
-	| panelSpec buttonAddSlideSpec |
+	| panelSpec buttonAddSlideSpec buttonNextSlideSpec buttonPreviousSlideSpec |
 	panelSpec := aBuilder pluggablePanelSpec new.
 	panelSpec
 		model: self;
@@ -8,5 +8,10 @@ createButtonBarTopSpec: aBuilder
 		name: #ButtonBarTop;
 		children: OrderedCollection new.
 	buttonAddSlideSpec := self createAddSlideButtonSpec: aBuilder.
-	panelSpec children add: buttonAddSlideSpec.	
+	buttonPreviousSlideSpec := self createPreviousSlideButtonSpec: aBuilder.
+	buttonNextSlideSpec := self createNextSlideButtonSpec: aBuilder.
+	panelSpec children 
+		add: buttonAddSlideSpec;
+		add: buttonNextSlideSpec;
+		add: buttonPreviousSlideSpec.
 	^ panelSpec
