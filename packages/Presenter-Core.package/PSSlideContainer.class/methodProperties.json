@@ -2,5 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"createSlideDummy" : "MK 5/6/2018 16:12",
 		"currentSlide" : "MK 5/6/2018 13:56",
-		"currentSlide:" : "MK 5/6/2018 13:56" } }
+		"currentSlide:" : "MK 5/6/2018 15:51",
+		"initialize" : "MK 5/6/2018 16:32",
+		"showSlide:" : "MK 5/6/2018 16:34" } }

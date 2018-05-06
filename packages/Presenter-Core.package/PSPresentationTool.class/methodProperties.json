@@ -2,18 +2,20 @@
 	"class" : {
 		"open" : "WoC 5/6/2018 13:36" },
 	"instance" : {
-		"buildWith:" : "MK 5/6/2018 14:22",
+		"buildWith:" : "MK 5/6/2018 15:47",
 		"createSlide" : "LM 5/6/2018 15:14",
 		"currentSlide" : "LM 5/6/2018 15:41",
 		"currentSlideNumber" : "LM 5/6/2018 15:15",
-		"currentSlideNumber:" : "LM 5/6/2018 15:07",
+		"currentSlideNumber:" : "MK 5/6/2018 15:56",
 		"initialize" : "LM 5/6/2018 15:16",
 		"minimumSlideCount" : "LM 5/6/2018 15:35",
 		"nextSlide" : "LM 5/6/2018 15:33",
 		"previousSlide" : "LM 5/6/2018 15:33",
 		"selectSlide:" : "LM 5/6/2018 15:35",
 		"slideAt:" : "LM 5/6/2018 15:37",
-		"slideContainer" : "MK 5/6/2018 13:52",
-		"slideContainer:" : "MK 5/6/2018 13:56",
+		"slideContainer" : "MK 5/6/2018 15:32",
+		"slideContainer:" : "MK 5/6/2018 15:32",
 		"slides" : "LM 5/6/2018 15:05",
-		"slides:" : "LM 5/6/2018 15:05" } }
+		"slides:" : "MK 5/6/2018 15:56",
+		"viewportSlide" : "MK 5/6/2018 15:29",
+		"viewportSlide:" : "MK 5/6/2018 15:29" } }

@@ -10,5 +10,5 @@
 	"name" : "PSSlideContainer",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "PasteUpMorph",
 	"type" : "normal" }

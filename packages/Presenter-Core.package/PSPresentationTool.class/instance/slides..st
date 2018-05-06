@@ -1,4 +1,4 @@
 accessing
-slides: anObject
+slides: anOrderedCollection
 	
-	slides := anObject
+	slides := anOrderedCollection

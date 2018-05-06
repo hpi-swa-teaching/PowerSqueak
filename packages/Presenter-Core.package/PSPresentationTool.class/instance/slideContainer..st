@@ -1,4 +1,4 @@
 accessing
-slideContainer: aMorph
+slideContainer: aPSSlideContainer
 	
-	slideContainer := aMorph
+	slideContainer := aPSSlideContainer

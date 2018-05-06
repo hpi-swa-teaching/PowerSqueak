@@ -1,4 +1,4 @@
 accessing
-currentSlideNumber: anObject
+currentSlideNumber: aNumber
 	
-	currentSlideNumber := anObject
+	currentSlideNumber := aNumber
