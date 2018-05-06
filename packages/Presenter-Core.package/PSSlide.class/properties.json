@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"slideContainer" ],
-	"name" : "PSPresentationTool",
+		 ],
+	"name" : "PSSlide",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "PasteUpMorph",
 	"type" : "normal" }

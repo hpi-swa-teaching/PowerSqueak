@@ -1,0 +1,4 @@
+accessing
+currentSlide
+	
+	^ currentSlide
