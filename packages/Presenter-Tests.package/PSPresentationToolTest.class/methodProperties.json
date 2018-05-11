@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testBuildWith" : "LM 5/6/2018 14:01",
-		"testSlideCreation" : "LB 5/6/2018 17:26",
-		"testSlideDeletion" : "LB 5/6/2018 18:00",
-		"testSlideNavigation" : "WoC 5/6/2018 17:30" } }
+		"testBuildWith" : "LM 5/11/2018 17:29",
+		"testSlideCreation" : "LM 5/11/2018 17:29",
+		"testSlideDeletion" : "LM 5/11/2018 17:29",
+		"testSlideNavigation" : "LM 5/11/2018 17:13" } }

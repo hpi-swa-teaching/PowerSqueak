@@ -2,8 +2,8 @@ slides test
 testSlideNavigation
 
 	| tool slideCount window |
-	window := PSPresentationTool open.
-	[tool := window model.
+	[window := PSPresentationTool open.
+	tool := window model.
 	self assert: tool currentSlide = tool slides first.
 	self assert: tool currentSlideNumber = 1.
 	
