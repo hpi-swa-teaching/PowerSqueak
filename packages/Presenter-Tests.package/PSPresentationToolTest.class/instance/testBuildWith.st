@@ -2,7 +2,7 @@ ui creation tests
 testBuildWith
 
 	| presentationTool |
-	presentationTool := PSPresentationTool open.
+	[presentationTool := PSPresentationTool open.
 	
-	[self assert: presentationTool model class = PSPresentationTool]
+	self assert: presentationTool model class = PSPresentationTool]
 		ensure: [presentationTool abandon]
