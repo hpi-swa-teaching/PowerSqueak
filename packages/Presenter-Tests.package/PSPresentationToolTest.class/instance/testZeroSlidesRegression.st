@@ -1,4 +1,4 @@
-slide tests
+slide management tests
 testZeroSlidesRegression
 
 	| deletedSlide |

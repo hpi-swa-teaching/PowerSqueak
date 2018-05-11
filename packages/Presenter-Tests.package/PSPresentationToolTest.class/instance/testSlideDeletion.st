@@ -1,8 +1,7 @@
-slide tests
+slide management tests
 testSlideDeletion
 
 	| slideCount slide deletedSlide |
-	
 	self tool createSlide.
 	slideCount := self tool slideCount.
 	self assert: slideCount = 2.

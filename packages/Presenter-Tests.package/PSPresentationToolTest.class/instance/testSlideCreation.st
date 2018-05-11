@@ -1,9 +1,8 @@
-slide tests
+slide management tests
 testSlideCreation
 
 	| slideCount |
 	self assert: self tool currentSlideNumber = 1.
-	
 	self assert: self tool slideCount = 1.
 	
 	slideCount := self tool slideCount.
