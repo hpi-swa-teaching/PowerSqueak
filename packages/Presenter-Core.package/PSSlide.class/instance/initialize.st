@@ -1,7 +1,8 @@
-as yet unclassified
+initialize-release
 initialize 
 
 	super initialize.
 	self
 		color: Color white;
-		borderColor: nil
+		borderColor: nil;
+		beSticky
