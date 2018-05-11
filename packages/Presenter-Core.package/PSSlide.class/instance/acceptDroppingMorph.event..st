@@ -1,4 +1,4 @@
-as yet unclassified
+dropping/grabbing
 acceptDroppingMorph: aMorph event: anEvent
 
 	| upperLeft lowerRight |
