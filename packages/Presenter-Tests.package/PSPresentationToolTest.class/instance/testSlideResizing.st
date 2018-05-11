@@ -1,4 +1,4 @@
-slides test
+slide tests
 testSlideResizing
 
 	| tool slide morph morphExtent morphPosition morphSideRatio morphExtentRatio morphPositionRatio window |

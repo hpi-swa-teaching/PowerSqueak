@@ -1,4 +1,4 @@
-slides test
+slide tests
 testZeroSlidesRegression
 
 	self assert: tool slideCount = 1.

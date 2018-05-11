@@ -1,4 +1,4 @@
-slides test
+slide tests
 testSlideDeletion
 
 	| slideCount slide deletedSlide |
