@@ -1,27 +1,25 @@
 slides test
 testSlideDeletion
 
-	| window tool slideCount slide deletedSlide |
-	[window := PSPresentationTool open.
-	tool := window model.
-	tool createSlide.
-	slideCount := tool slideCount.
+	| slideCount slide deletedSlide |
+	
+	self tool createSlide.
+	slideCount := self tool slideCount.
 	self assert: slideCount = 2.
 	
-	slide := tool slides first.
-	deletedSlide := tool slides second.
+	slide := self tool slides first.
+	deletedSlide := self tool slides second.
 	
-	tool deleteSlide: 2.
-	self assert: tool slideCount = (slideCount - 1).
-	self assert: tool slides first = slide.
-	self assert: (tool slides includes: deletedSlide) not.
-	self assert: tool currentSlideNumber ~= 2.
-	self assert: tool currentSlide class = PSSlide.
+	self tool deleteSlide: 2.
+	self assert: self tool slideCount = (slideCount - 1).
+	self assert: self tool slides first = slide.
+	self assert: (self tool slides includes: deletedSlide) not.
+	self assert: self tool currentSlideNumber ~= 2.
+	self assert: self tool currentSlide class = PSSlide.
 	
-	tool createSlide.
-	deletedSlide := tool slides first.
-	slide := tool slides second.
-	tool deleteSlide: 1.
-	self assert: tool slides first = slide.
-	self assert: tool currentSlide class = PSSlide]
-	ensure: [window abandon]
+	self tool createSlide.
+	deletedSlide := self tool slides first.
+	slide := self tool slides second.
+	self tool deleteSlide: 1.
+	self assert: self tool slides first = slide.
+	self assert: self tool currentSlide class = PSSlide

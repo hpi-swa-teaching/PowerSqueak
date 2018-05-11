@@ -2,8 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testBuildWith" : "LM 5/11/2018 17:29",
-		"testSlideCreation" : "LM 5/11/2018 17:29",
-		"testSlideDeletion" : "LM 5/11/2018 17:29",
-		"testSlideNavigation" : "LM 5/11/2018 17:13",
-		"testSlideResizing" : "LB 5/11/2018 17:51" } }
+		"setUp" : "LM 5/11/2018 17:58",
+		"tearDown" : "LM 5/11/2018 17:57",
+		"testBuildWith" : "LM 5/11/2018 17:59",
+		"testSlideCreation" : "LM 5/11/2018 18:00",
+		"testSlideDeletion" : "LM 5/11/2018 18:01",
+		"testSlideNavigation" : "LM 5/11/2018 18:03",
+		"testSlideResizing" : "LB 5/11/2018 17:51",
+		"testZeroSlidesRegression" : "LM 5/11/2018 18:03",
+		"tool" : "LM 5/11/2018 17:57",
+		"tool:" : "LM 5/11/2018 17:58",
+		"window" : "LM 5/11/2018 17:57",
+		"window:" : "LM 5/11/2018 17:59" } }
