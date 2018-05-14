@@ -1,4 +1,4 @@
-as yet unclassified
+display
 showSlide: aPSSlide
 
 	self currentSlide ifNotNil: [self removeMorph: self currentSlide].

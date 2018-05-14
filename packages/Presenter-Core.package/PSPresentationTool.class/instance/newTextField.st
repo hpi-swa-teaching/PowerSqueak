@@ -1,0 +1,4 @@
+createSlideContent
+newTextField
+
+	PSTextMorph new openInHand

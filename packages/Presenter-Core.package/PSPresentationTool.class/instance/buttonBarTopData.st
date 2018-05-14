@@ -5,4 +5,5 @@ buttonBarTopData
 		self previousSlideButtonData.
 		self nextSlideButtonData.
 		self deleteSlideButtonData.
-		self selectSlideButtonData.}
+		self selectSlideButtonData.
+		self textFieldButtonData.}
