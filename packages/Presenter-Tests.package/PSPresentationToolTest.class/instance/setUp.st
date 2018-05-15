@@ -1,4 +1,4 @@
 running
 setUp
 
-	self window: PSPresentationTool open
+	self window: PSPresentationTool open.
