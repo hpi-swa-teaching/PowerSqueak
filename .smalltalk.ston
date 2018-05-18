@@ -10,7 +10,7 @@ SmalltalkCISpec {
   
   #testing: {
     #coverage: {
-      #packages: [ 'Presenter-Tests' ]
+      #packages: [ 'Presenter-Core' ]
     }
   }
 }
