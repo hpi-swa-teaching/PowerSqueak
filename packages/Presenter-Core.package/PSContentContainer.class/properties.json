@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"subMorph" ],
+		"resizeHandles",
+		"hasHandles",
+		"child" ],
 	"name" : "PSContentContainer",
 	"pools" : [
 		 ],
