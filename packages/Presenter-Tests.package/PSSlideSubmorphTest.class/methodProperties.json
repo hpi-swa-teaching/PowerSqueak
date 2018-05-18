@@ -2,11 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
+		"assert:onResizeToFit:" : "LM 5/18/2018 19:20",
+		"doForDifferentSizes:" : "LM 5/18/2018 19:20",
 		"morph" : "LB 5/18/2018 16:11",
 		"morph:" : "LB 5/18/2018 16:11",
 		"setUp" : "LB 5/18/2018 18:16",
 		"slide" : "LB 5/18/2018 18:15",
 		"slide:" : "LB 5/18/2018 18:15",
 		"tearDown" : "LB 5/18/2018 16:13",
+		"testDroppingCreatesContainer" : "LM 5/18/2018 18:59",
+		"testSlideContainerPosition" : "LM 5/18/2018 19:01",
 		"testSlideDropping" : "LB 5/18/2018 18:17",
+		"testSlideResizeToFit" : "LM 5/18/2018 19:20",
+		"testSlideResizeToFitKeepsAspectRatio" : "LM 5/18/2018 19:24",
+		"testSlideResizeToFitKeepsPosition" : "LM 5/18/2018 19:25",
 		"testSubmorphsOnResize" : "LB 5/18/2018 18:20" } }
