@@ -3,5 +3,5 @@ openImageField: aFileName
 
 	| imageField |
 	imageField := SketchMorph fromFile: aFileName.
-	self currentSlide resizeToFitOnSlide: imageField.
+	self currentSlide resizeMorphToFit: imageField.
 	imageField openInHand

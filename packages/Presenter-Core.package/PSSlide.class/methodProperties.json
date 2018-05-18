@@ -4,10 +4,14 @@
 	"instance" : {
 		"acceptDroppingMorph:event:" : "LB 5/11/2018 17:45",
 		"extent:" : "MK 5/14/2018 19:30",
+		"handleDroppedImage:event:" : "LB 5/18/2018 17:38",
+		"handleDroppedItem:event:" : "LB 5/18/2018 17:33",
 		"handlesMouseDown:" : "MK 5/14/2018 20:55",
 		"initialize" : "LM 5/15/2018 15:25",
+		"isImageFileName:" : "LB 5/18/2018 17:16",
 		"mouseDown:" : "MK 5/14/2018 20:56",
-		"resizeHeightToFitOnSlide:" : "LM 5/18/2018 17:30",
-		"resizeToFitOnSlide:" : "LM 5/18/2018 17:30",
-		"resizeWidthToFitOnSlide:" : "LM 5/18/2018 17:30",
-		"sideRatio" : "LB 5/11/2018 16:10" } }
+		"resizeMorphHeightToFit:" : "LB 5/18/2018 17:36",
+		"resizeMorphToFit:" : "LB 5/18/2018 17:36",
+		"resizeMorphWidthToFit:" : "LB 5/18/2018 17:35",
+		"sideRatio" : "LB 5/11/2018 16:10",
+		"wantsDropFiles:" : "LB 5/18/2018 17:29" } }

@@ -1,5 +1,5 @@
 geometry
-resizeHeightToFitOnSlide: aMorph
+resizeMorphHeightToFit: aMorph
 
 	| aspectRatio newHeight |
 	newHeight := self extent y.
