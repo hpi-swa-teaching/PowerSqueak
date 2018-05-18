@@ -1,12 +1,9 @@
-slide management tests
+slide creation tests
 testSlideCreation
 
-	| slideCount |
-	self flag: #TODO.
-	self assert: self tool currentSlideNumber = 1.
-	self assert: self tool slideCount = 1.
-	
+	| slideCount newSlide |
 	slideCount := self tool slideCount.
-	self tool createSlide.
+	newSlide := self tool createSlide.
 	self assert: self tool slideCount = (slideCount + 1).
-	self assert: self tool currentSlideNumber = 2
+	self assert: (self tool slides includes: newSlide)
+	
