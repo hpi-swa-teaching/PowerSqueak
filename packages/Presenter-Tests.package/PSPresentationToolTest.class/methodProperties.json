@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"assertIsConstantOnWindowResize:" : "LB 5/18/2018 18:19",
-		"is:constantOnResizeOf:" : "LM 5/16/2018 17:26",
+		"is:constantOnResizeOf:" : "LB 5/18/2018 20:25",
 		"setUp" : "LM 5/11/2018 19:57",
 		"setUpSlideDeletion" : "LM 5/18/2018 18:21",
 		"tearDown" : "LM 5/11/2018 17:57",
@@ -21,6 +21,7 @@
 		"testSlideCreationSelectsNewSlide" : "LM 5/18/2018 18:35",
 		"testSlideDeletionMovesSlideSelection" : "LM 5/18/2018 18:32",
 		"testSlideRatioIsFixed" : "LB 5/18/2018 18:20",
+		"testSlideResizeRegression" : "LB 5/18/2018 20:27",
 		"testZeroSlidesRegression" : "LM 5/11/2018 18:09",
 		"testnextSlideClampsToMax" : "LM 5/18/2018 18:42",
 		"tool" : "LM 5/16/2018 17:13",
