@@ -11,6 +11,6 @@ createButtonBarTopSpec: aBuilder
 	self buttonBarTopData do: [:each | 
 		| button |
 		button := self createButtonSpec: each with: aBuilder.
-		panelSpec children add: button ].
+		panelSpec children add: button].
 	
 	^ panelSpec
