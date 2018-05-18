@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"assertIsConstantOnWindowResize:" : "LB 5/18/2018 18:19",
 		"is:constantOnResizeOf:" : "LM 5/16/2018 17:26",
 		"setUp" : "LM 5/11/2018 19:57",
 		"tearDown" : "LM 5/11/2018 17:57",
@@ -9,7 +10,7 @@
 		"testSlideCreation" : "LM 5/16/2018 17:16",
 		"testSlideDeletion" : "LB 5/11/2018 18:38",
 		"testSlideNavigation" : "LM 5/11/2018 18:03",
-		"testSlideRatioIsFixed" : "LB 5/18/2018 17:07",
+		"testSlideRatioIsFixed" : "LB 5/18/2018 18:20",
 		"testZeroSlidesRegression" : "LM 5/11/2018 18:09",
 		"tool" : "LM 5/16/2018 17:13",
 		"window" : "LM 5/11/2018 17:57",
