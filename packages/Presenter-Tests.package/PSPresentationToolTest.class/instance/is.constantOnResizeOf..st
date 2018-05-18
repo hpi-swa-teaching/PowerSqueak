@@ -3,9 +3,9 @@ is: aBlock constantOnResizeOf: aMorph
 
 	| oldValue |
 	oldValue := aBlock value.
-	1 to: 20 do: [ :width |
-		1 to: 20 do: [ :height |
-			aMorph extent: (width*100)@(height*100).
+	100 to: 2000 by: 100 do: [ :width |
+		100 to: 2000 by: 100 do: [ :height |
+			aMorph extent: width@height.
 			aBlock value = oldValue ifFalse: [^ false]
 		]
 	].

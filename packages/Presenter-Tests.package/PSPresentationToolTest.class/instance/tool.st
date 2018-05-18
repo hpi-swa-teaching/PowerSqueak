@@ -1,4 +1,4 @@
 accessing
 tool
 	
-	^ self window model.
+	^ self window model

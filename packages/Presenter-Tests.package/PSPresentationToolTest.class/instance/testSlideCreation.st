@@ -2,6 +2,7 @@ slide management tests
 testSlideCreation
 
 	| slideCount |
+	self flag: #TODO.
 	self assert: self tool currentSlideNumber = 1.
 	self assert: self tool slideCount = 1.
 	
