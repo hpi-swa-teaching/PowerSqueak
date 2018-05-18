@@ -2,14 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"acceptDroppingMorph:event:" : "LB 5/11/2018 17:45",
+		"acceptDroppingMorph:event:" : "MK 5/18/2018 16:37",
+		"addContent:" : "MK 5/18/2018 16:43",
 		"extent:" : "MK 5/14/2018 19:30",
 		"handleDroppedImage:event:" : "LB 5/18/2018 17:38",
 		"handleDroppedItem:event:" : "LB 5/18/2018 17:33",
 		"handlesMouseDown:" : "MK 5/14/2018 20:55",
 		"initialize" : "LM 5/15/2018 15:25",
 		"isImageFileName:" : "LB 5/18/2018 17:16",
-		"mouseDown:" : "MK 5/14/2018 20:56",
+		"mouseDown:" : "MK 5/18/2018 17:13",
 		"resizeMorphHeightToFit:" : "LB 5/18/2018 17:36",
 		"resizeMorphToFit:" : "LB 5/18/2018 17:36",
 		"resizeMorphWidthToFit:" : "LB 5/18/2018 17:35",
