@@ -4,6 +4,7 @@
 	"instance" : {
 		"assertIsConstantOnWindowResize:" : "LB 5/18/2018 18:19",
 		"is:constantOnResizeOf:" : "LB 5/18/2018 20:33",
+		"number:isSimilarTo:" : "LM 5/18/2018 21:12",
 		"setUp" : "LM 5/11/2018 19:57",
 		"setUpSlideDeletion" : "LM 5/18/2018 18:21",
 		"tearDown" : "LM 5/11/2018 17:57",
