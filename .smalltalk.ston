@@ -7,4 +7,10 @@ SmalltalkCISpec {
       #load : [ 'tests' ]
     }
   ]
+  
+  #testing: {
+    #coverage: {
+      #packages: [ 'Presenter-Tests' ]
+    }
+  }
 }
