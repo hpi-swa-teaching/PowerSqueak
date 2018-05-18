@@ -1,8 +1,8 @@
 resizeToFit tests
 doForDifferentSizes: aBlock
 
-	10 to: self slide extent x + 200 by: 10 do: [ : width | 
-		10 to: self slide extent y + 200 by: 10 do: [ : height |
+	self slide extent x - 100 to: self slide extent x + 100 by: 10 do: [ : width | 
+		self slide extent y - 100 to: self slide extent y + 100 by: 10 do: [ : height |
 			aBlock value: width value: height
 		]
 	]
