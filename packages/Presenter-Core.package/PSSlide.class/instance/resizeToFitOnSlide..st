@@ -1,4 +1,4 @@
-createSlideContent
+geometry
 resizeToFitOnSlide: aMorph
 
 	self 

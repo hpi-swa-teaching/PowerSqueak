@@ -8,4 +8,7 @@
 		"handlesMouseDown:" : "MK 5/14/2018 20:55",
 		"initialize" : "LM 5/15/2018 15:25",
 		"mouseDown:" : "MK 5/18/2018 17:13",
+		"resizeHeightToFitOnSlide:" : "LM 5/18/2018 17:30",
+		"resizeToFitOnSlide:" : "LM 5/18/2018 17:30",
+		"resizeWidthToFitOnSlide:" : "LM 5/18/2018 17:30",
 		"sideRatio" : "LB 5/11/2018 16:10" } }

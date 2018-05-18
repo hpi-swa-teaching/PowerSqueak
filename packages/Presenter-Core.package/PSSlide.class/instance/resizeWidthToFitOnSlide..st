@@ -1,8 +1,8 @@
-createSlideContent
+geometry
 resizeWidthToFitOnSlide: aMorph
 
 	| aspectRatio newWidth |
-	newWidth := self currentSlide extent x.
+	newWidth := self extent x.
 	aMorph extent x <= newWidth
 		ifTrue: [ ^ self ].
 	
