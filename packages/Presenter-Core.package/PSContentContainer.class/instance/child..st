@@ -1,4 +1,4 @@
 accessing
-child: anObject
+child: aMorph
 	
-	child := anObject
+	child := aMorph

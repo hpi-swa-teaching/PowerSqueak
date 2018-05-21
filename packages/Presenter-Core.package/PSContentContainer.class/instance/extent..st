@@ -2,5 +2,5 @@ as yet unclassified
 extent: aPoint
 
 	super extent: aPoint.
-	subMorph extent: aPoint
+	self child extent: aPoint
 	 

@@ -2,13 +2,13 @@
 	"class" : {
 		"for:" : "MK 5/18/2018 16:30" },
 	"instance" : {
-		"addContent:" : "MK 5/18/2018 20:03",
+		"addContent:" : "LM 5/21/2018 12:48",
 		"addResizeHandles" : "MK 5/18/2018 20:44",
 		"child" : "MK 5/18/2018 20:03",
-		"child:" : "MK 5/18/2018 20:03",
+		"child:" : "LM 5/21/2018 12:48",
 		"corners" : "MK 5/18/2018 20:16",
 		"dragCorner:event:fromHandle:" : "MK 5/18/2018 20:14",
-		"extent:" : "JZ 5/18/2018 19:43",
+		"extent:" : "LM 5/21/2018 12:47",
 		"extentBottomLeft:" : "MK 5/18/2018 20:38",
 		"extentBottomRight:" : "MK 5/18/2018 20:20",
 		"extentTopLeft:" : "MK 5/18/2018 20:45",
@@ -22,6 +22,4 @@
 		"resizeChild" : "MK 5/18/2018 20:03",
 		"resizeHandleSize" : "MK 5/18/2018 19:13",
 		"resizeHandles" : "MK 5/18/2018 17:43",
-		"resizeHandles:" : "MK 5/18/2018 17:44",
-		"subMorph" : "JZ 5/18/2018 19:41",
-		"subMorph:" : "JZ 5/18/2018 19:41" } }
+		"resizeHandles:" : "MK 5/18/2018 17:44" } }
