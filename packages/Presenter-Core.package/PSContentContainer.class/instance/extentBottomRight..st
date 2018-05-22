@@ -1,4 +1,7 @@
 as yet unclassified
 extentBottomRight: aPoint
 
-	self extent: aPoint - self topLeft
+	self layoutFrame 
+		rightFraction: aPoint x;
+		bottomFraction: aPoint y.
+	self layoutChanged
