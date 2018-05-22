@@ -2,6 +2,6 @@ initialize-release
 initialize 
 
 	super initialize.
-	self color: Color transparent.
+	self color: Color seaFoam.
 	self resizeHandles: OrderedCollection new.
 	self hasHandles: false
