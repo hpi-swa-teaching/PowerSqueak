@@ -1,4 +1,5 @@
 running
 tearDown
 
-	self window abandon
+	self window abandon.
+	super tearDown

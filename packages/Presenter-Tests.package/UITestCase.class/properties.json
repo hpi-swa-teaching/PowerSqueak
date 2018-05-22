@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "LB 5/22/2018 17:34",
 	"instvars" : [
-		"window" ],
-	"name" : "PSPresentationToolTest",
+		"hand",
+		"world" ],
+	"name" : "UITestCase",
 	"pools" : [
 		 ],
-	"super" : "UITestCase",
+	"super" : "TestCase",
 	"type" : "normal" }
