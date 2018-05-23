@@ -10,7 +10,7 @@ setUp
 		
 	(self world instVarNamed: #worldState)
 		instVarNamed: #canvas
-		put: (Form extent: Display extent depth: 32) getCanvas. 
+		put: (Form extent: 300@200 depth: 32) getCanvas. 
 		
 	self hand: HandMorphForEventTests new.
 	
