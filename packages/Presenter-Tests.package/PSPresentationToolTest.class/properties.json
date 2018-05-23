@@ -10,5 +10,5 @@
 	"name" : "PSPresentationToolTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "UITestCase",
 	"type" : "normal" }
