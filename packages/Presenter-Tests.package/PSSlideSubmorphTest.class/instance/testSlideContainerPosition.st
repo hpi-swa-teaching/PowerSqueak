@@ -4,7 +4,7 @@ testSlideContainerPosition
 	| container morphPosition |
 	morphPosition := self morph position.
 	
-	self slide acceptDroppingMorph: self morph event: nil.
+	self slide addContent: self morph.
 	container := self morph owner.
 	
 	self assert: container position = morphPosition.

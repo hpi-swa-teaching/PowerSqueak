@@ -2,4 +2,4 @@ running
 setUp
 
 	super setUp.
-	self window: PSPresentationTool open
+	self window: (PSPresentationTool openIn: self world)

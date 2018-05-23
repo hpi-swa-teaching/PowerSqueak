@@ -1,4 +1,4 @@
-as yet unclassified
+dropping/grabbing
 handleDroppedImage: aFileStream event: anEvent
 
 	|morph|

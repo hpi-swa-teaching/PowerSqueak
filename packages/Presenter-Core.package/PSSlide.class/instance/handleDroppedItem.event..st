@@ -1,4 +1,4 @@
-as yet unclassified
+dropping/grabbing
 handleDroppedItem: anItem event: anEvent
 	
 	((anItem isKindOf: FileStream) and: [self isImageFileName: anItem name]) 

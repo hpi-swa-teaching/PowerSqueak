@@ -1,7 +1,7 @@
 submorph tests
 testSubmorphsOnResize
 
-	self slide acceptDroppingMorph: self morph event: nil.
+	self slide addContent: self morph.
 	
 	self assertIsNearlyConstantOnWindowResize: [self morph extent x / self morph extent y].
 	self assertDeviatesLessThan: 0.05@0.05  onWindowResize: [self morph extent / self slide extent].

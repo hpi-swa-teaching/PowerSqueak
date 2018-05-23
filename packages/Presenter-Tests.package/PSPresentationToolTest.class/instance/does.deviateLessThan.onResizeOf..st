@@ -3,11 +3,11 @@ does: aBlock deviateLessThan: aComparable onResizeOf: aMorph
 
 	| oldValue |
 	oldValue := aBlock value.
-	100 to: 2000 by: 100 do: [ :width |
-		100 to: 2000 by: 100 do: [ :height |
+	200 to: 2000 by: 100 do: [ :width |
+		200 to: 2000 by: 100 do: [ :height |
 			aMorph extent: width@height.
 			aMorph fullBounds.
-			(aBlock value - oldValue / oldValue) abs < aComparable ifFalse: [^ false]
+			(aBlock value - oldValue / oldValue) abs < aComparable ifFalse: [ ^ false]
 		]
 	].
-	^ aBlock value = oldValue
+	^ true

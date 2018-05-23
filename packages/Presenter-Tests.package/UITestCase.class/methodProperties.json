@@ -2,9 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
+		"blueMouseDownAt:" : "LB 5/23/2018 16:01",
 		"hand" : "LB 5/22/2018 17:35",
 		"hand:" : "LB 5/22/2018 17:35",
-		"setUp" : "LB 5/23/2018 11:38",
+		"keystroke:at:" : "LB 5/23/2018 16:01",
+		"redMouseDownAt:" : "LB 5/23/2018 16:01",
+		"setUp" : "LB 5/23/2018 16:00",
 		"tearDown" : "LB 5/22/2018 17:36",
 		"world" : "LB 5/22/2018 17:35",
-		"world:" : "LB 5/22/2018 17:35" } }
+		"world:" : "LB 5/22/2018 17:35",
+		"yellowMouseDownAt:" : "LB 5/23/2018 16:02" } }
