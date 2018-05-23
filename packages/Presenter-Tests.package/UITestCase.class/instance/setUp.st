@@ -4,8 +4,8 @@ setUp
 	super setUp.
 
 	self world: ((PasteUpMorph newWorldForProject: nil)
-		extent: 300@200;
-		viewBox: (0@0 extent: 300@200);
+		extent: Display extent;
+		viewBox: (0@0 extent: Display extent);
 		yourself).
 		
 	(self world instVarNamed: #worldState)
