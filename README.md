@@ -7,7 +7,7 @@ Supported platforms:
 * Squeak 6.0 (Trunk)
 
 ## Installation Instructions
-For easy installation, please first install [Metacello](https://github.com/dalehenrich/metacello-work).
+For easy installation, please first install [Metacello](https://github.com/Metacello/metacello).
 
 Then run the following code in your Squeak 5.1/6.0(trunk) image:
 ``` smalltalk
