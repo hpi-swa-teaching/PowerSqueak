@@ -12,5 +12,5 @@ smalltalk:
 
 matrix:
   allow_failures:
-    - Squeak-trunk
-    - Squeak-5.0
+    - smalltalk: Squeak-5.0
+    - smalltalk: Squeak-trunk
