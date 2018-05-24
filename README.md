@@ -4,7 +4,11 @@ A presentation tool for the Squeak development platform
 
 Supported platforms:
 * Squeak 5.1
-* Squeak 6.0 (Trunk)
+
+Squeak 6.0/Trunk is also a target plattform, but due to the fast changing nature of Trunk, certain versions of Squeak Trunk may not work.
+Please check [Travis-ci](https://travis-ci.org/hpi-swa-teaching/SWT18-Project-09) for the current build status.
+
+Squeak 5.0 is officially unsupported (see [Travis-ci](https://travis-ci.org/hpi-swa-teaching/SWT18-Project-09)).
 
 ## Installation Instructions
 For easy installation, please first install [Metacello](https://github.com/Metacello/metacello).
