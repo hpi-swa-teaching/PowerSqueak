@@ -1,4 +1,4 @@
-as yet unclassified
+dropping/grabbing
 isImageFileName: aString
 
 	^ ImageReadWriter allTypicalFileExtensions anySatisfy: 

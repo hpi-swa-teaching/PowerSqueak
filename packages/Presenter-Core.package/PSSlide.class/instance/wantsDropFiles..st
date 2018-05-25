@@ -1,4 +1,4 @@
-event handling
+dropping/grabbing
 wantsDropFiles: anEvent
 
 	^ true

@@ -7,4 +7,6 @@ keyStroke: evt
 		[Character arrowLeft] -> [self model previousSlide].
 		[Character pageUp] -> [self model previousSlide].
 		[Character pageDown] -> [self model nextSlide]}
-	otherwise: []
+	otherwise: [
+		evt keyCharacter isDigit
+			ifTrue: [self model selectSlide: evt keyCharacter digitValue]]
