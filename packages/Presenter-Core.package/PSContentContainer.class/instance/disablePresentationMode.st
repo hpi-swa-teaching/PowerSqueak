@@ -1,4 +1,4 @@
-as yet unclassified
+presentation mode
 disablePresentationMode 
 
 	self addResizeHandles

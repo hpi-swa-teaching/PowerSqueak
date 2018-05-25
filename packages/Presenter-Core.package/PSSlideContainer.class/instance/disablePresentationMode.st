@@ -1,4 +1,4 @@
-as yet unclassified
+presentation mode
 disablePresentationMode
 
 	DisplayScreen fullScreenOff.

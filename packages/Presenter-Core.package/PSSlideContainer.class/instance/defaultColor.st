@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 defaultColor
 
 	^ Color transparent
