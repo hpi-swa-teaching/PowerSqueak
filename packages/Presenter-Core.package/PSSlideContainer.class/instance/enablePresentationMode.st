@@ -1,6 +1,7 @@
 as yet unclassified
 enablePresentationMode 
 
+	self previousOwner: self owner.
 	DisplayScreen fullScreenOn.
 	self owner removeMorph: self.
 	self 

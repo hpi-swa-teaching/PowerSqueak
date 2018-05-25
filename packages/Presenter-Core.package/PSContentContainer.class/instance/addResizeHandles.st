@@ -8,8 +8,9 @@ addResizeHandles
 			handle := RectangleMorph
 				newBounds: (Rectangle center: each extent: self resizeHandleSize)
 				color: Color black.
+			handle setProperty: #morphicLayerNumber toValue: self handleLayerNumber.
 			self resizeHandles add: handle.
-			self addMorph: handle.
+			self addMorphInLayer: handle.
 			handle
 				on: #mouseMove
 				send: #dragCorner:event:fromHandle:

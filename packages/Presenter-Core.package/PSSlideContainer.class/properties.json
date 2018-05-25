@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"currentSlide" ],
+		"currentSlide",
+		"previousOwner" ],
 	"name" : "PSSlideContainer",
 	"pools" : [
 		 ],

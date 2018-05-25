@@ -5,5 +5,5 @@ initialize
 	self 
 		layoutPolicy: ProportionalLayout new;
 		beTransparent;
-		borderColor: nil
-	"self color: Color transparent"
+		borderColor: nil;
+		color: self defaultColor

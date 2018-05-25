@@ -4,6 +4,7 @@
 	"instance" : {
 		"acceptDroppingMorph:event:" : "LB 5/23/2018 15:46",
 		"addContent:" : "LB 5/23/2018 15:46",
+		"disablePresentationMode" : "MK 5/25/2018 16:13",
 		"enablePresentationMode" : "MK 5/25/2018 15:11",
 		"extent:" : "MK 5/18/2018 21:26",
 		"handleDroppedImage:event:" : "LB 5/18/2018 17:38",
