@@ -1,4 +1,4 @@
-as yet unclassified
+resizing
 extentBottomLeft: aPoint
 
 	self layoutFrame 

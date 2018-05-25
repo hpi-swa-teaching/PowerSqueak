@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 corners 
 
 	^ {self topLeft.
