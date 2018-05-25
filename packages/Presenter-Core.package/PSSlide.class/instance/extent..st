@@ -8,4 +8,5 @@ extent: aPoint
 	diffExtent := aPoint - newExtent.
 	self position: self position + (diffExtent/2).
 	super extent: newExtent.
-	self layoutChanged
+	self layoutChanged.
+	self submorphsDo: [:each | each notifySlideRescale: newExtent]
