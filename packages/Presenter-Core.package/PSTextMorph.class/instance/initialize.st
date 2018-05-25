@@ -2,4 +2,4 @@ initialize-release
 initialize 
 
 	super initialize.
-	self margins: self defaultMargins
+	self textMorph beAllFont: (PSTextMorph DefaultTextStyle fontOfSize: 32)

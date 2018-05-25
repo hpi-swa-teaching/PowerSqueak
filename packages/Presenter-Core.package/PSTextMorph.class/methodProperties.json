@@ -1,7 +1,6 @@
 {
 	"class" : {
-		 },
+		"DefaultTextStyle" : "LB 5/25/2018 15:53" },
 	"instance" : {
-		"defaultMargins" : "MK 5/14/2018 20:33",
-		"initialize" : "MK 5/18/2018 17:39",
+		"initialize" : "LB 5/25/2018 15:54",
 		"yellowButtonActivity:" : "MK 5/18/2018 17:29" } }

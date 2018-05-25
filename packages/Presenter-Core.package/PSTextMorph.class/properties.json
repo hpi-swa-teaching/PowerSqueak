@@ -3,12 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"DefaultTextStyle" ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
 	"name" : "PSTextMorph",
 	"pools" : [
 		 ],
-	"super" : "TextMorph",
+	"super" : "PluggableTextMorph",
 	"type" : "normal" }
