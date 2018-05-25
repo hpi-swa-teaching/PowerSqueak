@@ -2,5 +2,11 @@
 	"class" : {
 		"DefaultTextStyle" : "LB 5/25/2018 15:53" },
 	"instance" : {
-		"initialize" : "LB 5/25/2018 15:54",
+		"basicTextSize" : "LB 5/25/2018 15:59",
+		"basicTextSize:" : "LB 5/25/2018 16:09",
+		"defaultBasicTextSize" : "LB 5/25/2018 16:10",
+		"initialize" : "LB 5/25/2018 16:10",
+		"textScale" : "LB 5/25/2018 16:08",
+		"textScale:" : "LB 5/25/2018 16:09",
+		"updateTextSize" : "LB 5/25/2018 16:05",
 		"yellowButtonActivity:" : "MK 5/18/2018 17:29" } }

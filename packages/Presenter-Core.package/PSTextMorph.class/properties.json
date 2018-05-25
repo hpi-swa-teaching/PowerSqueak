@@ -6,7 +6,8 @@
 		"DefaultTextStyle" ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"basicTextSize",
+		"textScale" ],
 	"name" : "PSTextMorph",
 	"pools" : [
 		 ],
