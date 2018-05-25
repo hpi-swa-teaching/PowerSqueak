@@ -7,4 +7,5 @@ buttonBarTopData
 		self deleteSlideButtonData.
 		self selectSlideButtonData.
 		self textFieldButtonData.
-		self imageFieldButtonData }
+		self imageFieldButtonData.
+		self presentationModeButtonData }
