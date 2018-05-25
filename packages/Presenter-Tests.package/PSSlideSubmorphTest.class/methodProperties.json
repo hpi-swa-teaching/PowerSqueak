@@ -18,4 +18,5 @@
 		"testSlideResizeToFitKeepsAspectRatio" : "LM 5/18/2018 21:13",
 		"testSlideResizeToFitKeepsPosition" : "LM 5/18/2018 19:25",
 		"testSubmorphsOnResize" : "LB 5/23/2018 15:47",
-		"testTextFieldCreatedOnClick" : "LB 5/23/2018 16:07" } }
+		"testTextFieldCreatedOnClick" : "LB 5/23/2018 16:07",
+		"testTextFieldRescale" : "LB 5/25/2018 17:20" } }

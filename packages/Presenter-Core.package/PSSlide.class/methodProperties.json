@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"acceptDroppingMorph:event:" : "LB 5/23/2018 15:46",
-		"addContent:" : "LB 5/23/2018 15:46",
+		"addContent:" : "LB 5/25/2018 17:19",
 		"disablePresentationMode" : "MK 5/25/2018 16:13",
 		"enablePresentationMode" : "MK 5/25/2018 15:11",
 		"extent:" : "LB 5/25/2018 16:31",
@@ -12,7 +12,7 @@
 		"handlesMouseDown:" : "WoC 5/22/2018 19:23",
 		"initialize" : "MK 5/18/2018 20:53",
 		"isImageFileName:" : "LB 5/18/2018 17:16",
-		"mouseDown:" : "MK 5/25/2018 14:44",
+		"mouseDown:" : "LB 5/25/2018 17:02",
 		"resizeMorphHeightToFit:" : "LB 5/18/2018 17:36",
 		"resizeMorphToFit:" : "LB 5/18/2018 17:36",
 		"resizeMorphWidthToFit:" : "LM 5/18/2018 19:26",
