@@ -1,4 +1,4 @@
-as yet unclassified
+resizing
 resizeChild
 	
 	self child bounds: self bounds

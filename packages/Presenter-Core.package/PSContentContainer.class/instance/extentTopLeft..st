@@ -1,7 +1,8 @@
-as yet unclassified
+resizing
 extentTopLeft: aPoint
 
-	self layoutFrame 
+	self
+		layoutFrame 
 		leftFraction: aPoint x;
 		topFraction: aPoint y.
 	self layoutChanged

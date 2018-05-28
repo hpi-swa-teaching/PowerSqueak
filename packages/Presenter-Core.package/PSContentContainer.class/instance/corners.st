@@ -1,7 +1,8 @@
-as yet unclassified
+accessing
 corners 
 
-	^ {self topLeft.
-	self topRight.
-	self bottomRight.
-	self bottomLeft}
+	^ {
+		self topLeft.
+		self topRight.
+		self bottomRight.
+		self bottomLeft}

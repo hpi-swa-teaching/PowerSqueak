@@ -12,4 +12,6 @@ baseline: spec
 			spec
 				group: 'default' with: #('Presenter-Core');
 				group: 'tests' with: #('Presenter-Tests')];
-				yourself
+				yourself.
+			spec
+				preLoadDoIt: #preLoad

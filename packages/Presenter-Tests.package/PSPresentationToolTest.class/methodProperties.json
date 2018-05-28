@@ -6,7 +6,7 @@
 		"assertIsConstantOnWindowResize:" : "LB 5/18/2018 18:19",
 		"assertIsNearlyConstantOnWindowResize:" : "LB 5/22/2018 17:49",
 		"does:deviateLessThan:onResizeOf:" : "LB 5/23/2018 16:22",
-		"is:constantOnResizeOf:" : "LB 5/23/2018 12:15",
+		"is:constantOnResizeOf:" : "LM 5/25/2018 17:38",
 		"number:isSimilarTo:" : "LM 5/18/2018 21:12",
 		"setUp" : "LB 5/23/2018 16:11",
 		"setUpSlideDeletion" : "LM 5/18/2018 18:21",

@@ -1,4 +1,4 @@
-as yet unclassified
+handles
 removeResizeHandles
 
 	self resizeHandles do: [:each | each abandon].

@@ -1,4 +1,4 @@
-as yet unclassified
+resizing
 layoutFractionsOf: aPoint
 
 	| ownerBounds positionOnOwner|

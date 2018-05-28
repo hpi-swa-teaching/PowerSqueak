@@ -1,4 +1,4 @@
-as yet unclassified
+dropping/grabbing
 wantsDropFiles: anEvent
 
 	^ true

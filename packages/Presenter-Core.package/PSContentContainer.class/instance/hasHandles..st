@@ -1,4 +1,4 @@
 accessing
-hasHandles: anObject
+hasHandles: aBoolean
 	
-	hasHandles := anObject
+	hasHandles := aBoolean
