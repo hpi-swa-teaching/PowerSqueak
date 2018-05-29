@@ -1,4 +1,4 @@
 accessing
 world
 	
-	^ world
+	^ TestWorld current world

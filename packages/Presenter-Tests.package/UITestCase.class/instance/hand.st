@@ -1,4 +1,4 @@
 accessing
 hand
 	
-	^ hand
+	^ TestWorld current hand

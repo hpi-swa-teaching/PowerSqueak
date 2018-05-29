@@ -1,4 +1,4 @@
-running
+as yet unclassified
 tearDown
 
 	self hand showHardwareCursor: true. "Nasty side-effect"
