@@ -3,6 +3,6 @@ testSlideRatioIsFixed
 
 	| slide  |
 	slide := self tool currentSlide.
-	self assert: slide extent y / slide extent x = slide sideRatio.
+	self assert: (self does: slide answerSideRatio: slide sideRatio).
 	self assertIsConstantOnWindowResize: [	
-			(slide extent y - (slide extent x * slide sideRatio)) abs < 1]
+			self does: slide answerSideRatio: slide sideRatio]

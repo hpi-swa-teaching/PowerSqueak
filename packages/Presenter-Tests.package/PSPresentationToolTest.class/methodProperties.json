@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertDeviatesLessThan:onWindowResize:" : "LB 5/22/2018 17:48",
+		"assertDeviatesLessThan:onWindowResize:" : "LB 5/29/2018 17:54",
 		"assertIsConstantOnWindowResize:" : "LB 5/18/2018 18:19",
 		"assertIsNearlyConstantOnWindowResize:" : "LB 5/22/2018 17:49",
 		"setUp" : "LB 5/23/2018 16:11",
@@ -21,7 +21,7 @@
 		"testSlideCreationReturnsSlide" : "LM 5/18/2018 18:37",
 		"testSlideCreationSelectsNewSlide" : "LM 5/18/2018 18:35",
 		"testSlideDeletionMovesSlideSelection" : "LM 5/18/2018 18:32",
-		"testSlideRatioIsFixed" : "WoC 5/23/2018 15:29",
+		"testSlideRatioIsFixed" : "LB 5/29/2018 18:01",
 		"testSlideResizeRegression" : "LB 5/18/2018 20:27",
 		"testZeroSlidesRegression" : "LM 5/11/2018 18:09",
 		"testnextSlideClampsToMax" : "LM 5/18/2018 18:42",
