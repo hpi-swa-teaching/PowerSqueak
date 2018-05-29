@@ -3,8 +3,11 @@
 		"resources" : "LB 5/29/2018 17:31" },
 	"instance" : {
 		"blueMouseDownAt:" : "LB 5/23/2018 16:01",
+		"does:deviateLessThan:onResizeOf:" : "LB 5/29/2018 17:41",
 		"hand" : "LB 5/29/2018 17:32",
+		"is:constantOnResizeOf:" : "LB 5/29/2018 17:42",
 		"keystroke:at:" : "LB 5/23/2018 16:01",
+		"number:isSimilarTo:" : "LB 5/29/2018 17:39",
 		"redMouseDownAt:" : "LB 5/23/2018 16:01",
 		"world" : "LB 5/29/2018 17:32",
 		"yellowMouseDownAt:" : "LB 5/23/2018 16:02" } }

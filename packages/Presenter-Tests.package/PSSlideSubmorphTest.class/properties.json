@@ -11,5 +11,5 @@
 	"name" : "PSSlideSubmorphTest",
 	"pools" : [
 		 ],
-	"super" : "PSPresentationToolTest",
+	"super" : "UITestCase",
 	"type" : "normal" }

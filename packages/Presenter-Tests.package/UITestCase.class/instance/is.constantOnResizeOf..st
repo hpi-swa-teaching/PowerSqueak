@@ -1,4 +1,4 @@
-slide resizing tests
+helper functions
 is: aBlock constantOnResizeOf: aMorph
 
 	| oldValue |

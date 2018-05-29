@@ -1,4 +1,4 @@
-slide resizing tests
+window resizing tests
 testSlideRatioIsFixed
 
 	| slide  |

@@ -1,4 +1,4 @@
-slide resizing tests
+helper functions
 does: aBlock deviateLessThan: aComparable onResizeOf: aMorph
 
 	| oldValue |
