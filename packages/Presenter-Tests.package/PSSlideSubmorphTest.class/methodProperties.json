@@ -3,7 +3,6 @@
 		 },
 	"instance" : {
 		"assert:onResizeToFit:" : "LM 5/18/2018 19:20",
-		"assertDeviatesLessThan:onSlideResize:" : "LB 5/29/2018 17:46",
 		"doForDifferentSizes:" : "LM 5/18/2018 21:00",
 		"morph" : "LB 5/18/2018 16:11",
 		"morph:" : "LB 5/18/2018 16:11",
@@ -16,6 +15,4 @@
 		"testSlideResizeToFit" : "LM 5/18/2018 19:20",
 		"testSlideResizeToFitKeepsAspectRatio" : "LM 5/18/2018 21:13",
 		"testSlideResizeToFitKeepsPosition" : "LM 5/18/2018 19:25",
-		"testSubmorphsOnResize" : "LB 5/29/2018 17:52",
-		"testTextFieldCreatedOnClick" : "LM 5/25/2018 17:26",
-		"testTextFieldRescale" : "LB 5/25/2018 17:20" } }
+		"testSubmorphsOnResize" : "LB 5/29/2018 17:52" } }
