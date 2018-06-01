@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertDeviatesLessThan:onSlideResize:" : "LB 6/1/2018 17:54",
+		"setUp" : "LB 6/1/2018 17:50",
+		"slide" : "LB 6/1/2018 17:49",
+		"slide:" : "LB 6/1/2018 17:49",
+		"tearDown" : "LB 6/1/2018 17:51",
+		"testTextFieldCreatedOnClick" : "LB 6/1/2018 17:56" } }

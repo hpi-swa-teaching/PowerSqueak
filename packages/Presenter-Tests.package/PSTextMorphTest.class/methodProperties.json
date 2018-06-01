@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"defaultText" : "LB 6/1/2018 18:09",
+		"setUp" : "LB 6/1/2018 18:12",
+		"tearDown" : "LB 6/1/2018 18:21",
+		"testLocalFontColor" : "LB 6/1/2018 18:35",
+		"testTextFieldRescale" : "LB 6/1/2018 18:21",
+		"textField" : "LB 6/1/2018 18:21",
+		"textField:" : "LB 6/1/2018 17:57" } }

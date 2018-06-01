@@ -21,7 +21,7 @@
 		"testSlideCreationReturnsSlide" : "LM 5/18/2018 18:37",
 		"testSlideCreationSelectsNewSlide" : "LM 5/18/2018 18:35",
 		"testSlideDeletionMovesSlideSelection" : "LM 5/18/2018 18:32",
-		"testSlideRatioIsFixed" : "LB 5/29/2018 18:01",
+		"testSlideRatioIsFixed" : "LB 6/1/2018 18:49",
 		"testSlideResizeRegression" : "LB 5/18/2018 20:27",
 		"testZeroSlidesRegression" : "LM 5/11/2018 18:09",
 		"testnextSlideClampsToMax" : "LM 5/18/2018 18:42",

@@ -1,5 +1,5 @@
 running
 tearDown  
-	
-	self morph abandon.
+
+	self textField abandon.	
 	super tearDown

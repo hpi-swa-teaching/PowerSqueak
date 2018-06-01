@@ -6,11 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"window",
 		"slideContainer",
 		"slides",
 		"currentSlideNumber",
-		"presentationMode",
-		"window" ],
+		"presentationMode" ],
 	"name" : "PSPresentationTool",
 	"pools" : [
 		 ],
