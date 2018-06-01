@@ -7,7 +7,7 @@ testLocalFontColor
 		begin to: textLength do: [:end |
 			color := Color random.
 			self textField textMorph selectFrom: begin to: end.
-			self textField setLocalFontColor: color.
-			self assert: self textField getLocalFontColor equals: color
+			self textField selectionColor: color.
+			self assert: self textField selectionColor equals: color
 		]
 	]

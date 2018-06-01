@@ -2,9 +2,9 @@ styling
 showFontColorDialog
 
 	| color |
-	color := self getLocalFontColor.
+	color := self selectionColor.
 	(NewColorPickerMorph 
 		on: self 
 		originalColor: color 
-		setColorSelector: #setLocalFontColor:) 
+		setColorSelector: #selectionColor:) 
 		openNear: self fullBoundsInWorld
