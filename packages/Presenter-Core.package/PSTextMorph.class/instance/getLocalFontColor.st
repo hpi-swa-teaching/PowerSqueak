@@ -1,0 +1,4 @@
+styling
+getLocalFontColor
+
+	^ self selectionColor

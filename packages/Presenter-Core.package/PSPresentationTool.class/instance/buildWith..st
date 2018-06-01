@@ -14,5 +14,6 @@ buildWith: builder
 	self createSlideContainerIn: (builder widgetAt: #SlideViewport).
 	
 	self createSlide.
+	self window: window.
 	
 	^ window
