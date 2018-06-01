@@ -1,5 +1,6 @@
 running
 tearDown  
 	
-	self morph abandon.
-	super tearDown
+	super tearDown.
+	self slide abandon.
+	self morph abandon

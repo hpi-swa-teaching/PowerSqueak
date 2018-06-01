@@ -1,4 +1,4 @@
-event tests
+textfield test
 testTextFieldCreatedOnClick
 
 	|oldSubmorphs addedMorphs container|
