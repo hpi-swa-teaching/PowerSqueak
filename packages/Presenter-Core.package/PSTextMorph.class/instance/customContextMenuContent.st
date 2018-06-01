@@ -1,0 +1,7 @@
+accessing
+customContextMenuContent
+
+	^ #(
+		-
+		('halt' halt)
+	)
