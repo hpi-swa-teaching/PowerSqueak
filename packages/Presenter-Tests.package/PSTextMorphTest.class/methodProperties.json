@@ -2,9 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertDeviatesLessThan:onSlideResize:" : "LB 5/29/2018 17:46",
-		"setUp" : "LB 6/1/2018 17:57",
-		"tearDown" : "LB 6/1/2018 17:57",
-		"testTextFieldRescale" : "LB 6/1/2018 17:58",
-		"textField" : "LB 6/1/2018 17:57",
+		"defaultText" : "LB 6/1/2018 18:09",
+		"setUp" : "LB 6/1/2018 18:12",
+		"tearDown" : "LB 6/1/2018 18:21",
+		"testLocalFontColor" : "LB 6/1/2018 18:21",
+		"testTextFieldRescale" : "LB 6/1/2018 18:21",
+		"textField" : "LB 6/1/2018 18:21",
 		"textField:" : "LB 6/1/2018 17:57" } }

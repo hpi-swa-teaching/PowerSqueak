@@ -1,4 +1,4 @@
-textfield test
+rescaling tests
 testTextFieldRescale
 
 	| oldSize |
