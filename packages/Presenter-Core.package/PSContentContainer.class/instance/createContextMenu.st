@@ -9,4 +9,5 @@ createContextMenu
 	(self child hasProperty: #wantsCustomContextMenu) ifTrue: [
 		menu addList: self child customContextMenuContent].
 	menu setInvokingView: self.
-	menu popUpEvent: self activeHand lastEvent in: self world
+	menu popUpEvent: self activeHand lastEvent in: self world.
+	^ menu "just for testing reasons"

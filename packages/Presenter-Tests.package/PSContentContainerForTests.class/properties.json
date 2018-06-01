@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"menuCreated" ],
+	"name" : "PSContentContainerForTests",
+	"pools" : [
+		 ],
+	"super" : "PSContentContainer",
+	"type" : "normal" }

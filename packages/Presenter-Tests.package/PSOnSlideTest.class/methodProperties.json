@@ -3,8 +3,10 @@
 		 },
 	"instance" : {
 		"assertDeviatesLessThan:onSlideResize:" : "LB 6/1/2018 17:54",
+		"collectMenuContentFrom:" : "MK 6/1/2018 19:33",
 		"setUp" : "LB 6/1/2018 17:50",
 		"slide" : "LB 6/1/2018 17:49",
 		"slide:" : "LB 6/1/2018 17:49",
 		"tearDown" : "LB 6/1/2018 17:51",
-		"testTextFieldCreatedOnClick" : "LB 6/1/2018 17:56" } }
+		"testContextMenuContent:equals:" : "MK 6/1/2018 19:42",
+		"testTextFieldCreatedOnClick" : "MK 6/1/2018 18:21" } }
