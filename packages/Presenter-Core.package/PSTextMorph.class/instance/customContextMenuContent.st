@@ -2,6 +2,8 @@ accessing
 customContextMenuContent
 
 	^ #(
+		('Change text size' #showFontSizeDialog)
+		('Change text color' #showFontColorDialog)
 		-
-		('halt' halt)
+		('Halt' halt)
 	)
