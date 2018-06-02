@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"beKeyWindow" : "WoC 6/2/2018 23:38",
 		"createSlideDummy" : "MK 5/6/2018 16:12",
 		"currentSlide" : "MK 5/6/2018 13:56",
 		"currentSlide:" : "MK 5/6/2018 15:51",
@@ -11,7 +12,9 @@
 		"ensurePreviousOwnerIsNotSubmorph" : "LM 6/1/2018 20:13",
 		"handlesKeyboard:" : "MK 5/25/2018 16:08",
 		"initialize" : "LM 5/25/2018 16:43",
+		"isSystemWindow" : "WoC 6/2/2018 23:39",
 		"keyStroke:" : "MK 5/31/2018 10:10",
+		"makeMeVisible" : "WoC 6/2/2018 23:38",
 		"previousOwner" : "MK 5/25/2018 15:31",
 		"previousOwner:" : "MK 5/25/2018 15:32",
 		"showSlide:" : "LB 5/6/2018 16:49" } }
