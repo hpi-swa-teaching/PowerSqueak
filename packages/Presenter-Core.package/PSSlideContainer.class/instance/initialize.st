@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	self 
-		layoutPolicy: ProportionalLayout new;
+		layoutPolicy: PSSlideLayout new;
 		beSticky;
 		beTransparent;
 		borderColor: nil;

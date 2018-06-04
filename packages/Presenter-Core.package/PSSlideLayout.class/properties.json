@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PSSlideLayout",
+	"pools" : [
+		 ],
+	"super" : "ProportionalLayout",
+	"type" : "normal" }

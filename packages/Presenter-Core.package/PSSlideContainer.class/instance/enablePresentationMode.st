@@ -5,7 +5,7 @@ enablePresentationMode
 	DisplayScreen fullScreenOn.
 	self owner removeMorph: self.
 	self 
-		openInWorld;
+		openInWorld: self previousOwner world;
 		position: 0@0;
-		extent: World extent;
+		extent: self world extent;
 		color: Color black
