@@ -1,4 +1,4 @@
 helper functions
 does: aMorph answerSideRatio: aNumber
 
-	^ (aMorph extent y - (aMorph extent x * aMorph sideRatio)) abs < 1
+	^ (aMorph extent y - (aMorph extent x * aNumber)) abs < 1

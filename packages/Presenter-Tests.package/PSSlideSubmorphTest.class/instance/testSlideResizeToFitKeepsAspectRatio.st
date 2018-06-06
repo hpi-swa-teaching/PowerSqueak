@@ -4,6 +4,6 @@ testSlideResizeToFitKeepsAspectRatio
 	self doForDifferentSizes: [ :width :height |
 		| aspectRatio |
 		self morph extent: width @ height. 
-		aspectRatio := self morph extent x / self morph extent y.
+		aspectRatio := self morph extent y / self morph extent x.
 		self slide resizeMorphToFit: self morph.
-		self assert: (self number: self morph extent x / self morph extent y isSimilarTo: aspectRatio)]
+		self assert: (self does: self morph answerSideRatio: aspectRatio)]

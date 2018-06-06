@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"slide" ],
+		"slide",
+		"container" ],
 	"name" : "PSOnSlideTest",
 	"pools" : [
 		 ],
