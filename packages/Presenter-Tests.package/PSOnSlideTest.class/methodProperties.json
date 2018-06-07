@@ -2,11 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertDeviatesLessThan:onSlideResize:" : "LB 6/1/2018 17:54",
+		"assertDeviatesLessThan:onSlideResize:" : "LB 6/6/2018 15:03",
 		"collectMenuContentFrom:" : "MK 6/1/2018 19:33",
-		"setUp" : "LB 6/1/2018 17:50",
+		"container" : "LB 6/6/2018 14:50",
+		"container:" : "LB 6/6/2018 14:50",
+		"setUp" : "LB 6/6/2018 15:18",
 		"slide" : "LB 6/1/2018 17:49",
 		"slide:" : "LB 6/1/2018 17:49",
-		"tearDown" : "LB 6/1/2018 17:51",
+		"tearDown" : "LB 6/6/2018 14:50",
 		"testContextMenuContent:equals:" : "MK 6/1/2018 19:42",
 		"testTextFieldCreatedOnClick" : "MK 6/1/2018 18:21" } }

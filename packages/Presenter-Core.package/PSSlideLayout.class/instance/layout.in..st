@@ -11,5 +11,4 @@ layout: morph in: newBounds
 		ifFalse: [newExtent := proposedExtent y / slide sideRatio @ proposedExtent y].
 	diffExtent := proposedExtent - newExtent.
 
-	slide extent: newExtent; center: morph center.
-	slide submorphsDo: [:each | each notifySlideRescale: newExtent]
+	slide extent: newExtent; center: morph center
