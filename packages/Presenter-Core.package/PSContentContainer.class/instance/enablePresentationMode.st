@@ -1,4 +1,4 @@
 presentation mode
 enablePresentationMode 
 
-	self removeResizeHandles 
+	self removeResizeHandles

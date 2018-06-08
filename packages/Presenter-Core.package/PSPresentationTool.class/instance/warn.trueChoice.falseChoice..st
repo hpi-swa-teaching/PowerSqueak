@@ -1,6 +1,6 @@
 as yet unclassified
 warn: aString trueChoice: trueBlock falseChoice: falseBlock
 
-	(UserDialogBoxMorph confirm: aString)
+	(UIManager default confirm: aString)
 		ifTrue: trueBlock
 		ifFalse: falseBlock
