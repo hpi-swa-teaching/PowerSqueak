@@ -3,9 +3,9 @@ savePresentation
 
 	| directory |
 	directory := self defaultDirectory.
-	self warn: self riskyOperationMessage trueChoice: [].
 	
-	directory := self getValidPresentationName: directory. 
+	directory := self getValidPresentationName: directory.
+	directory ifNil: [^ self].
 	directory := self createDirectory: 'slides' in: directory. 
 
 	self slides doWithIndex: [:each :index | 

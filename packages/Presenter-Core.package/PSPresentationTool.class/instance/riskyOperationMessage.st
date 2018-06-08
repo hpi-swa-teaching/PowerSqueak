@@ -1,4 +1,4 @@
 as yet unclassified
 riskyOperationMessage 
 
-	^ 'Risky Operation! Do you want to save your image?'
+	^ 'Risky Operation! Are you sure you want to proceed?'

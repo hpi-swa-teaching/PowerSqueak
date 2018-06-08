@@ -3,10 +3,10 @@ getValidPresentationName: aFileDirectory
 
 	| presentationName directory  |
 	presentationName := self askForPresentationName.
+	presentationName = ''
+		ifTrue: [^ nil].
 	directory := (aFileDirectory / presentationName).
-	directory exists 
-		ifTrue: [self warn: 'The name you chose is already used. Do you want to overwrite the Presentation?' 
-			trueChoice: [directory recursiveDelete. 
-				^ self createDirectory: presentationName in: aFileDirectory] 
-			falseChoice: [^ self getValidPresentationName: aFileDirectory]]
-		ifFalse: [^ directory assureExistence]
+	^ directory exists 
+		ifTrue: [self validateUsageOf: presentationName inDirectory: aFileDirectory]
+		ifFalse: [directory assureExistence]
+		
