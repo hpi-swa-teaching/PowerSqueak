@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"receivedPresentationModeEnable" ],
+	"name" : "PSSlideForTests",
+	"pools" : [
+		 ],
+	"super" : "PSSlide",
+	"type" : "normal" }
