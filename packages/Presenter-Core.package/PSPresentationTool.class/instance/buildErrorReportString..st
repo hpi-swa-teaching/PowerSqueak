@@ -1,4 +1,4 @@
-as yet unclassified
+presentation loading
 buildErrorReportString: aDictionary
 
 	| errorString |
