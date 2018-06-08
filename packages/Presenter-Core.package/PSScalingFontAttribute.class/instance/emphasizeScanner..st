@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 emphasizeScanner: scanner
 
 	scanner setActualFont: self font

@@ -12,5 +12,5 @@
 	"name" : "PSScalingFontAttribute",
 	"pools" : [
 		 ],
-	"super" : "TextFontReference",
+	"super" : "TextAttribute",
 	"type" : "normal" }
