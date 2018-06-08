@@ -1,11 +1,13 @@
 as yet unclassified
 savePresentation
 
-	| directory |
+	| directory presentationName|
 	directory := self defaultDirectory.
-	self warn: 'Risky Operation! Do you want to save your image?' trueChoice: [Smalltalk saveSession].
+	self warn: self riskyOperationMessage trueChoice: [Smalltalk saveSession].
+	presentationName := self askForPresentationName.
+	directory createDirectory: presentationName.
 	directory createDirectory: 'slides'.
-	directory := directory / 'slides'.
+	directory := directory / presentationName /'slides'.
 	self slides doWithIndex: [:each :index | 
 		| directoryName |
 		directoryName := 'slide', index asString.
