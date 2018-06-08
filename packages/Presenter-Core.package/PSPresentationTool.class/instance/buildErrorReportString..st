@@ -1,4 +1,4 @@
-presentation loading
+notifications
 buildErrorReportString: aDictionary
 
 	| errorString |
