@@ -1,13 +1,13 @@
 as yet unclassified
 savePresentation
 
-	| directory presentationName|
+	| directory |
 	directory := self defaultDirectory.
-	self warn: self riskyOperationMessage trueChoice: [Smalltalk saveSession].
-	presentationName := self askForPresentationName.
-	directory createDirectory: presentationName.
-	directory createDirectory: 'slides'.
-	directory := directory / presentationName /'slides'.
+	self warn: self riskyOperationMessage trueChoice: [].
+	
+	directory := self getValidPresentationName: directory. 
+	directory := self createDirectory: 'slides' in: directory. 
+
 	self slides doWithIndex: [:each :index | 
 		| directoryName |
 		directoryName := 'slide', index asString.
