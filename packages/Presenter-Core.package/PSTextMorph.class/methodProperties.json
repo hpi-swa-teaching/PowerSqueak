@@ -2,11 +2,13 @@
 	"class" : {
 		"DefaultTextStyle" : "LB 5/25/2018 17:35" },
 	"instance" : {
+		"accept" : "LM 6/8/2018 20:47",
 		"createFontSizeAttribute" : "LB 6/8/2018 15:42",
 		"customContextMenuContent" : "WoC 6/2/2018 23:38",
 		"defaultBasicTextSize" : "LB 5/25/2018 16:44",
 		"defaultFontColor" : "LM 6/6/2018 19:22",
 		"defaultTextBackgroundColor" : "LM 6/6/2018 19:24",
+		"hasUnacceptedEdits" : "LM 6/8/2018 20:48",
 		"initialize" : "LM 6/8/2018 16:20",
 		"initializeTextAttribute" : "LB 6/8/2018 17:07",
 		"rescale:" : "LB 5/25/2018 16:42",
