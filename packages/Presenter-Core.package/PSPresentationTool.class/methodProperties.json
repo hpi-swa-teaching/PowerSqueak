@@ -5,7 +5,7 @@
 	"instance" : {
 		"abandonMorph:" : "MK 6/8/2018 17:37",
 		"addSlideButtonData" : "LM 5/16/2018 17:08",
-		"askForPresentationName" : "JZ 6/8/2018 19:32",
+		"askForPresentationName" : "JZ 6/8/2018 20:41",
 		"buildErrorReportString:" : "MK 6/8/2018 18:38",
 		"buildWith:" : "LM 6/1/2018 20:15",
 		"buttonBarTopData" : "JZ 6/8/2018 19:53",
@@ -26,7 +26,7 @@
 		"deleteSlideButtonData" : "JZ 6/8/2018 19:54",
 		"disablePresentationMode" : "LM 5/25/2018 16:58",
 		"enablePresentationMode" : "LM 6/8/2018 20:01",
-		"getValidPresentationName:" : "JZ 6/8/2018 20:21",
+		"getValidPresentationName:" : "JZ 6/8/2018 20:45",
 		"imageFieldButtonData" : "LM 5/18/2018 16:16",
 		"initialize" : "LM 5/25/2018 16:58",
 		"isValidPresentationDirectory:" : "MK 6/8/2018 18:15",

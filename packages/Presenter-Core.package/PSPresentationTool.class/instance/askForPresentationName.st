@@ -1,4 +1,4 @@
-as yet unclassified
+presentation saving
 askForPresentationName 
 
-	^UIManager default request: 'PresentationName ???' initialAnswer: 'Presentation' centerAt: World center
+	^ UIManager default request: 'Please enter a presentation name: ' initialAnswer: 'Presentation' centerAt: World center
