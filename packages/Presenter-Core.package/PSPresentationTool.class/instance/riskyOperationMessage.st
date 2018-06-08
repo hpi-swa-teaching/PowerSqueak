@@ -1,4 +1,4 @@
-accessing
+as yet unclassified
 riskyOperationMessage 
 
-	^ 'Risky Operation! Are you sure you want to proceed?'
+	^ 'This operation is risky as it might crash your image.', Character cr, 'Do you want me to proceed?'
