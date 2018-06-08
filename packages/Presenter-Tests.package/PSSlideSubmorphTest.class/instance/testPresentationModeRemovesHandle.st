@@ -5,4 +5,4 @@ testPresentationModeRemovesHandle
 		addContent: self morph;
 		enablePresentationMode;
 		submorphsDo: [:each |
-			self assert: each hasHandles]
+			self assert: each hasHandles not]
