@@ -2,10 +2,10 @@ as yet unclassified
 loadPresentation
 
 	| presentations presentationName |
-	presentations := (FileDirectory default / 'PSPresentations') directoryNames.
+	presentations := self defaultDirectory directoryNames.
 	presentationName := UIManager default
 		chooseFrom: presentations
 		values: presentations
 		title: 'Which presentation do you want me to load?'.
-	presentationName ifNotNil: [self loadPresentationFromDirectory: FileDirectory default / 'PSPresentations' / presentationName]
+	presentationName ifNotNil: [self loadPresentationFromDirectory: self defaultDirectory  / presentationName]
 	
