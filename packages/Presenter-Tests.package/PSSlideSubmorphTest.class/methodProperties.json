@@ -11,6 +11,8 @@
 		"testContainerResizing" : "LB 5/23/2018 16:44",
 		"testContextMenu" : "MK 6/1/2018 19:49",
 		"testDroppingCreatesContainer" : "LM 5/18/2018 18:59",
+		"testLeavePresentationModeEnablesHandles" : "LM 6/8/2018 20:11",
+		"testPresentationModeRemovesHandle" : "LM 6/8/2018 20:14",
 		"testSlideContainerPosition" : "LB 5/23/2018 15:47",
 		"testSlideDropping" : "LB 5/18/2018 18:17",
 		"testSlideResizeToFit" : "LM 5/18/2018 19:20",
