@@ -2,7 +2,6 @@ presentation mode
 enablePresentationMode 
 
 	self previousOwner: self owner.
-	DisplayScreen fullScreenOn.
 	self owner removeMorph: self.
 	self 
 		openInWorld: self previousOwner world;
