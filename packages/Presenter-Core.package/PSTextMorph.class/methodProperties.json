@@ -2,19 +2,20 @@
 	"class" : {
 		"DefaultTextStyle" : "LB 5/25/2018 17:35" },
 	"instance" : {
+		"createFontSizeAttribute" : "LB 6/8/2018 15:42",
 		"customContextMenuContent" : "WoC 6/2/2018 23:38",
 		"defaultBasicTextSize" : "LB 5/25/2018 16:44",
-		"initialize" : "LB 6/8/2018 14:57",
+		"initialize" : "LB 6/8/2018 16:39",
+		"initializeTextAttribute" : "LB 6/8/2018 17:07",
 		"rescale:" : "LB 5/25/2018 16:42",
 		"selectionAddAttribute:" : "LB 6/8/2018 15:11",
-		"selectionAddAttribute:onNoSelection:" : "LB 6/8/2018 15:14",
+		"selectionAddAttribute:onNoSelection:" : "LB 6/8/2018 15:23",
 		"selectionAttribute:" : "LB 6/8/2018 15:06",
 		"selectionColor" : "LB 6/8/2018 15:05",
-		"selectionColor:" : "LB 6/8/2018 15:14",
+		"selectionColor:" : "LB 6/8/2018 15:22",
 		"selectionFontSize" : "LB 6/8/2018 15:04",
 		"selectionFontSize:" : "LB 6/8/2018 15:13",
 		"showFontColorDialog" : "LB 6/8/2018 14:56",
 		"showFontSizeDialog" : "LB 6/8/2018 14:54",
 		"textScale" : "LB 5/25/2018 16:08",
-		"textScale:" : "LB 5/25/2018 16:09",
-		"updateTextSize" : "LB 6/8/2018 14:00" } }
+		"textScale:" : "LB 6/8/2018 15:38" } }
