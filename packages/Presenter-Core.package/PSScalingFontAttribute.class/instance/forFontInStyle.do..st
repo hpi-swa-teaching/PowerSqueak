@@ -1,4 +1,4 @@
-as yet unclassified
+private
 forFontInStyle: aTextStyle do: aBlock
 
-	aBlock value: self font
+	aBlock value: (aTextStyle fontOfSize: self actualTextSize)
