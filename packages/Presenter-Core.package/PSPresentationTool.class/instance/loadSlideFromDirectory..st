@@ -1,4 +1,4 @@
-as yet unclassified
+presentation loading
 loadSlideFromDirectory: aDirectory
 
 	| slide corruptedMorphs |

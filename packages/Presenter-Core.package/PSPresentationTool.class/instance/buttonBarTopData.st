@@ -8,4 +8,5 @@ buttonBarTopData
 		self selectSlideButtonData.
 		self textFieldButtonData.
 		self imageFieldButtonData.
-		self presentationModeButtonData }
+		self presentationModeButtonData.
+		self loadingButtonData }

@@ -1,0 +1,4 @@
+styling
+defaultFontColor
+
+	^ Color black

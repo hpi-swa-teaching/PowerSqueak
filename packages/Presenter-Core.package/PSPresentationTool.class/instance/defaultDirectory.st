@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 defaultDirectory
 
 	^ (FileDirectory default / self defaultDirectoryName)
