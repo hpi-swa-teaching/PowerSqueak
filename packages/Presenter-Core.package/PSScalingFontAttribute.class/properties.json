@@ -3,12 +3,14 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"DefaultTextStyle" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"textScale" ],
-	"name" : "PSTextMorph",
+		"style",
+		"basicTextSize",
+		"scalingSource" ],
+	"name" : "PSScalingFontAttribute",
 	"pools" : [
 		 ],
-	"super" : "PluggableTextMorph",
+	"super" : "TextFontReference",
 	"type" : "normal" }

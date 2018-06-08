@@ -1,4 +1,0 @@
-styling
-getLocalFontColor
-
-	^ self selectionColor
