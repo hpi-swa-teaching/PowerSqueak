@@ -8,6 +8,7 @@ testLocalFontSize
 			size := 200 atRandom.
 			self textField textMorph selectFrom: begin to: end.
 			self textField selectionFontSize: size.
+			self textField textMorph selectFrom: begin to: end.
 			self assert: self textField selectionFontSize equals: size
 		]
 	]

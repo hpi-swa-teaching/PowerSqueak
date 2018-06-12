@@ -9,6 +9,4 @@ selectionAddAttribute: anAttribute onNoSelection: aBlock
 	self textMorph text addAttribute: anAttribute from: interval first to: interval last.
 	interval size = self textMorph text string size 
 		ifTrue: aBlock.
-	self textMorph 
-		releaseParagraph;
-		changed
+	self textMorph releaseParagraph
