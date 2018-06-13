@@ -1,7 +1,10 @@
 loading tests
 testMorphLoadIsValid
 
-	self flag: #TODO.
-	"| morph |
-	morph := self tool loadMorphFromStream: (ReadWriteStream with: self validMorphFileData) binary reset.
-	self assert: morph isNil not"
+	| morph |
+	morph := self tool 
+		loadMorphFromStream: (self morphLoadingStreamFor:  self validMorphFileData)
+		testIn: self world.
+	self assert: morph isNil not.
+	self assert: morph class = PSContentContainer.
+	morph ifNotNil: [morph abandon.]

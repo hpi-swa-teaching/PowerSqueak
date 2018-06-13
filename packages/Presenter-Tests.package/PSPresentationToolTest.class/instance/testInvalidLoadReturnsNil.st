@@ -1,4 +1,4 @@
 loading tests
 testInvalidLoadReturnsNil
 
-	self assert: (self tool loadMorphFromStream: (MultiByteBinaryOrTextStream on: '')) equals: nil
+	self assert: (self tool loadMorphFromStream: (self morphLoadingStreamFor: '')) equals: nil
