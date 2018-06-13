@@ -30,9 +30,23 @@ Metacello new
 ## Using PowerSqueak
 To open PowerSqueak either
 * run: ``` PSPresentationTool open. ```
-* open PowerSqueak in the "Apps" drop-down-menu
+* click PowerSqueak in the "Apps" drop-down-menu<br><img src="/pictures/apps-drawer.png" alt="Open PowerSqueak in the Apps menu" width="250">
 
-You can then use the buttons at the top to create, delete and navigate slides and to create different slide elements (like text boxes, and images) and drop them onto the slide.
+### Edit mode
+During edit mode, you can use the buttons at the top to create, delete and navigate slides and to create different slide elements (like text boxes, and images) and drop them onto the slide.
 You may also drop in other Morphs, but be aware, that some features of those Morphs might not work as expected.
 
 For advanced features like deleting morphs or resizing text, right-click the morph.
+<br><img src="/pictures/right-click.png" alt="Right-click example" width="400">
+
+### Presentation mode
+To enter presentation mode, click the "Present" button.
+
+To control your presentation during presentation mode, use:
+
+| Key | Action |
+| ------- | ------- |
+| Esc | Leave presentation mode |
+| right arrow/page down | next slide |
+| left arrow/page up | previous slide |
+| Number keys | Jump to a slide number |
