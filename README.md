@@ -28,7 +28,11 @@ Metacello new
 | [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SWT18-Project-09/badge.svg?branch=release)](https://coveralls.io/github/hpi-swa-teaching/SWT18-Project-09?branch=release) | [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SWT18-Project-09/badge.svg?branch=master)](https://coveralls.io/github/hpi-swa-teaching/SWT18-Project-09?branch=master) |
 
 ## Using PowerSqueak
-To open PowerSqueak run: ``` PSPresentationTool open. ```
+To open PowerSqueak either
+* run: ``` PSPresentationTool open. ```
+* open PowerSqueak in the "Apps" drop-down-menu
 
 You can then use the buttons at the top to create, delete and navigate slides and to create different slide elements (like text boxes, and images) and drop them onto the slide.
 You may also drop in other Morphs, but be aware, that some features of those Morphs might not work as expected.
+
+For advanced features like deleting morphs or resizing text, right-click the morph.
