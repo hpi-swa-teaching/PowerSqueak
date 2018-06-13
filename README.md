@@ -50,3 +50,16 @@ To control your presentation during presentation mode, use:
 | right arrow/page down | next slide |
 | left arrow/page up | previous slide |
 | Number keys | Jump to a slide number |
+
+### Saving and loading
+PowerSqueak can save and load presentations to/from the file system.
+
+Use the corresponding save/load buttons to save/load the presentation.
+If you want to view the saved files, go to the PSPresentation folder in your Squeak VMs folder.
+You can share presentations by copying any presentation in the PSPresentation folder into the PSPresentations folder of another image.
+In the other image you can then load the presentation as usual in PowerSqueak.
+
+``` diff
+- Warning: some morphs may crash your image if they are saved/loaded!
+- It is recommended, that you save your image before every save/load operation in PowerSqueak
+```
