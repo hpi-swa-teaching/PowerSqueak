@@ -1,4 +1,4 @@
-# PowerSqueak [![Build Status](https://travis-ci.org/hpi-swa-teaching/SWT18-Project-09.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/SWT18-Project-09)[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SWT18-Project-09/badge.svg?branch=master)](https://coveralls.io/github/hpi-swa-teaching/SWT18-Project-09?branch=master)
+# PowerSqueak [![Build Status](https://travis-ci.org/hpi-swa-teaching/SWT18-Project-09.svg?branch=release)](https://travis-ci.org/hpi-swa-teaching/SWT18-Project-09)[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SWT18-Project-09/badge.svg?branch=release)](https://coveralls.io/github/hpi-swa-teaching/SWT18-Project-09?branch=release)
 
 A presentation tool for the Squeak development platform
 
@@ -20,6 +20,12 @@ Metacello new
 	repository: 'github://hpi-swa-teaching/SWT18-Project-09:release/packages';
 	load.
 ```
+
+## Build status
+| [Release](https://github.com/hpi-swa-teaching/SWT18-Project-09/releases/latest) | master
+| ------------------------- | ------------------- |
+| [![Build Status](https://travis-ci.org/hpi-swa-teaching/SWT18-Project-09.svg?branch=release)](https://travis-ci.org/hpi-swa-teaching/SWT18-Project-09) | [![Build Status](https://travis-ci.org/hpi-swa-teaching/SWT18-Project-09.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/SWT18-Project-09) |
+| [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SWT18-Project-09/badge.svg?branch=release)](https://coveralls.io/github/hpi-swa-teaching/SWT18-Project-09?branch=release) | [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SWT18-Project-09/badge.svg?branch=master)](https://coveralls.io/github/hpi-swa-teaching/SWT18-Project-09?branch=master) |
 
 ## Using PowerSqueak
 To open PowerSqueak run: ``` PSPresentationTool open. ```
