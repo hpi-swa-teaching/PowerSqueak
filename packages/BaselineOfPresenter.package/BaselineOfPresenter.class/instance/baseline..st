@@ -5,7 +5,6 @@ baseline: spec
 		for: #'common'
 		do: [
 			spec
-				
 				package: 'Presenter-Core';
 				package: 'Presenter-Tests' with: [spec requires: #('Presenter-Core')];
 				yourself.
@@ -14,4 +13,5 @@ baseline: spec
 				group: 'tests' with: #('Presenter-Tests')];
 				yourself.
 			spec
-				preLoadDoIt: #preLoad
+				preLoadDoIt: #preLoad;
+				postLoadDoIt: #postLoad.

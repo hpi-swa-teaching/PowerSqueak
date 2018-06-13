@@ -1,4 +1,4 @@
-as yet unclassified
+baseline
 preLoad
 
 	(TextStyle named: 'BitstreamVeraSans') fontArray do: [:font |

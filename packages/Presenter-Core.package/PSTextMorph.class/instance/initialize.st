@@ -2,7 +2,10 @@ initialize-release
 initialize 
 
 	super initialize.
-	self basicTextSize: self defaultBasicTextSize.
-	self extension
+	self 
+		initializeTextAttribute;
 		setProperty: #acceptRescale toValue: true;
-		setProperty: #wantsCustomContextMenu toValue: true
+		setProperty: #wantsCustomContextMenu toValue: true;
+		borderWidth: 0;
+		color: self defaultTextBackgroundColor;
+		selectionColor: self defaultFontColor
