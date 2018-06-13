@@ -17,7 +17,7 @@ Then run the following code in your Squeak 5.1/6.0(trunk) image:
 ``` smalltalk
 Metacello new
 	baseline: 'Presenter';
-	repository: 'github://hpi-swa-teaching/SWT18-Project-09:master/packages';
+	repository: 'github://hpi-swa-teaching/SWT18-Project-09:release/packages';
 	load.
 ```
 
