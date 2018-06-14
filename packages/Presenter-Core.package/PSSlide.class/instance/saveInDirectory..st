@@ -1,4 +1,4 @@
-presentation saving
+as yet unclassified
 saveInDirectory: aDirectory
 
 	self allMorphsDo: [:each | each prepareToBeSaved ].
