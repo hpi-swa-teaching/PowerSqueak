@@ -8,4 +8,5 @@ initialize
 		setProperty: #wantsCustomContextMenu toValue: true;
 		borderWidth: 0;
 		color: self defaultTextBackgroundColor;
-		selectionColor: self defaultFontColor
+		selectionColor: self defaultFontColor.
+	self textMorph releaseParagraph
