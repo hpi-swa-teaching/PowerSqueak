@@ -1,4 +1,0 @@
-scaling
-notifySlideRescale: aPoint
-
-	
