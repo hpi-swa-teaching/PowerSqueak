@@ -5,5 +5,5 @@ addContent: aMorph
 		position: aMorph position;
 		child: aMorph;
 		extent: aMorph extent;
-		addMorph: aMorph.
-	self addMouseCaptureFilter: self
+		addMorph: aMorph;
+		addMouseCaptureFilter: self

@@ -3,7 +3,8 @@
 		 },
 	"instance" : {
 		"assertDeviatesLessThan:onSlideResize:" : "LB 6/6/2018 15:03",
-		"collectMenuContentFrom:" : "MK 6/1/2018 19:33",
+		"collectMenuContentFrom:" : "LM 6/15/2018 19:18",
+		"collectMenuItemContentsFrom:" : "LM 6/15/2018 19:18",
 		"container" : "LB 6/6/2018 14:50",
 		"container:" : "LB 6/6/2018 14:50",
 		"setUp" : "LB 6/6/2018 15:18",
