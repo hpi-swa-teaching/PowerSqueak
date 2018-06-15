@@ -11,4 +11,6 @@ testNonInteractivetyInNonInteractiveMode
 	self hand handleEvent: (self redMouseDownAt: self slideContainer center).
 	
 	self assert: testMorph receivedMouseEvents equals: 0.
-	self assert: testMorph receivedKeyboardEvents equals: 0.	
+	self assert: testMorph receivedKeyboardEvents equals: 0.
+	
+	testMorph abandon
