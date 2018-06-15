@@ -2,7 +2,7 @@ context menu tests
 testTriggerContextMenu
 
 	| container |
-	container := (PSContentContainerForTests for: Morph new)
+	container := (PSMockContentContainer for: Morph new)
 		center: self slide center;
 		yourself.
 		

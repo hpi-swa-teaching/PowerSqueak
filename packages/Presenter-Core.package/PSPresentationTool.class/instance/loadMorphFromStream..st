@@ -1,12 +1,4 @@
 presentation loading
-loadMorphFromStream: aReadWriteStream
+loadMorphFromStream: aStream
 
-	| morph |
-	[morph := aReadWriteStream fileInObjectAndCode]
-		on: Error
-		do: [:each |
-			morph := self abandonMorph: morph].
-	(morph isNil not and: [self morphSurvivesOneCycle: morph])
-		ifFalse: [morph := self abandonMorph: morph].
-	^ morph
-	
+	^ self loadMorphFromStream: aStream testIn: World.

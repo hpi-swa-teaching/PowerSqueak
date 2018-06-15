@@ -2,6 +2,8 @@ accessing
 defaultContextMenuContent
 
 	^ #(
+		('grab' grabChild)
+		-
 		('delete' abandon)
 		-
 		('bring to front' comeToFront)

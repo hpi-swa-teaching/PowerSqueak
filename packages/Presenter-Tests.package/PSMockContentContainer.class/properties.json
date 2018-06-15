@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"world",
-		"hand" ],
-	"name" : "TestWorld",
+		"menuCreated" ],
+	"name" : "PSMockContentContainer",
 	"pools" : [
 		 ],
-	"super" : "TestResource",
+	"super" : "PSContentContainer",
 	"type" : "normal" }

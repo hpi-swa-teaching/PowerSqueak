@@ -6,9 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"receivedPresentationModeEnable" ],
-	"name" : "PSSlideForTests",
+		"name",
+		"parent",
+		"subdirectories",
+		"exists",
+		"isFile" ],
+	"name" : "PSMockFileDirectory",
 	"pools" : [
 		 ],
-	"super" : "PSSlide",
+	"super" : "Object",
 	"type" : "normal" }
