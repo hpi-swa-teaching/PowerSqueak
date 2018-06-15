@@ -5,4 +5,5 @@ selectionFontSize: aNumber
 		(PSScalingFontAttribute 
 			styled: PSTextMorph DefaultTextStyle 
 			sized: aNumber 
-			scaledBy: self)
+			scaledBy: self).
+	self textMorph releaseParagraph
