@@ -8,5 +8,4 @@ selectionAddAttribute: anAttribute onNoSelection: aBlock
 		ifTrue: [interval := 1 to: self textMorph text size].
 	self textMorph text addAttribute: anAttribute from: interval first to: interval last.
 	interval size = self textMorph text string size 
-		ifTrue: aBlock.
-	self textMorph releaseParagraph
+		ifTrue: aBlock
