@@ -7,6 +7,5 @@ loadPresentationUnchecked: aDirectory
 	slidesDirectory := aDirectory / self slidesDirectoryName.
 	slidesDirectory directoryNames do: [:each | 
 		errorReport at: each put: (self loadSlideFromDirectory: slidesDirectory / each)].
-	self
-		selectSlide: 1;
-		showErrorReport: errorReport
+	self selectSlide: 1.
+	^ errorReport

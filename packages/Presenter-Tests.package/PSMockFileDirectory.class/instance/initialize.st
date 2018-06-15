@@ -4,4 +4,5 @@ initialize
 	self
 		name: '';
 		subdirectories: Set new;
-		exists: true
+		exists: true;
+		isFile: false

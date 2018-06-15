@@ -1,4 +1,4 @@
 accessing
 hand
 	
-	^ TestWorld current hand
+	^ PSTestWorld current hand

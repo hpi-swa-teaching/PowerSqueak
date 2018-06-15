@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"receivedPresentationModeEnable" ],
-	"name" : "PSSlideForTests",
+		"menuCreated" ],
+	"name" : "PSMockContentContainer",
 	"pools" : [
 		 ],
-	"super" : "PSSlide",
+	"super" : "PSContentContainer",
 	"type" : "normal" }

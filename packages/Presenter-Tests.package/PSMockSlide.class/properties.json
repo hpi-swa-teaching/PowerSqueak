@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"world",
-		"hand" ],
-	"name" : "TestWorld",
+		"receivedPresentationModeEnable" ],
+	"name" : "PSMockSlide",
 	"pools" : [
 		 ],
-	"super" : "TestResource",
+	"super" : "PSSlide",
 	"type" : "normal" }

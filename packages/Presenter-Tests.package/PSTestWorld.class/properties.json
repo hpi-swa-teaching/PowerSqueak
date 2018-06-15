@@ -6,12 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name",
-		"parent",
-		"subdirectories",
-		"exists" ],
-	"name" : "MockFileDirectory",
+		"world",
+		"hand" ],
+	"name" : "PSTestWorld",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestResource",
 	"type" : "normal" }

@@ -6,9 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"menuCreated" ],
-	"name" : "PSContentContainerForTests",
+		"name",
+		"parent",
+		"subdirectories",
+		"exists",
+		"isFile" ],
+	"name" : "PSMockFileDirectory",
 	"pools" : [
 		 ],
-	"super" : "PSContentContainer",
+	"super" : "Object",
 	"type" : "normal" }

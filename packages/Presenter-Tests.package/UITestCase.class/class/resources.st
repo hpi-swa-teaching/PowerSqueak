@@ -1,4 +1,4 @@
 accessing
 resources
 
-	^ {TestWorld}
+	^ {PSTestWorld}
