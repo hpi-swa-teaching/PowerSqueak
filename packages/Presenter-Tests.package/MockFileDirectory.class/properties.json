@@ -1,0 +1,17 @@
+{
+	"category" : "Presenter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"parent",
+		"subdirectories",
+		"exists" ],
+	"name" : "MockFileDirectory",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
