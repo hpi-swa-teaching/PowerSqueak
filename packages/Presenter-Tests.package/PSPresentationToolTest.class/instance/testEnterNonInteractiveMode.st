@@ -8,5 +8,7 @@ testEnterNonInteractiveMode
 	
 	self hand handleEvent: (self keystroke: $i at: self slideContainer center).
 	self hand handleEvent: (self keystroke: Character escape at: self slideContainer center).
-	self assert: self slideContainer isInteractive equals: true
+	self assert: self slideContainer isInteractive equals: true.
+	
+	self tool disablePresentationMode
 	

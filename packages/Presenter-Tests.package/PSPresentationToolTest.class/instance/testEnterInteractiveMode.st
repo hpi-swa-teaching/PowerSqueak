@@ -6,4 +6,6 @@ testEnterInteractiveMode
 	
 	self tool enablePresentationMode.
 	self hand handleEvent: (self keystroke: $i at: self slideContainer center).
-	self assert: self slideContainer isInteractive equals: false
+	self assert: self slideContainer isInteractive equals: false.
+	
+	self tool disablePresentationMode
