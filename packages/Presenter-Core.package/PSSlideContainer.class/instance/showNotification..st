@@ -1,4 +1,4 @@
-as yet unclassified
+notifications
 showNotification: aString
 
 	self deleteNotification.
