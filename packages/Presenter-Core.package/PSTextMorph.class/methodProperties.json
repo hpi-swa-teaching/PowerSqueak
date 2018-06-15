@@ -4,7 +4,7 @@
 	"instance" : {
 		"accept" : "LM 6/8/2018 20:47",
 		"createFontSizeAttribute" : "LB 6/8/2018 15:42",
-		"customContextMenuContent" : "WoC 6/2/2018 23:38",
+		"customContextMenuContent" : "LB 6/15/2018 16:15",
 		"defaultBasicTextSize" : "LB 5/25/2018 16:44",
 		"defaultFontColor" : "LM 6/6/2018 19:22",
 		"defaultTextBackgroundColor" : "LM 6/6/2018 19:24",
@@ -19,6 +19,7 @@
 		"selectionColor:" : "LB 6/8/2018 15:22",
 		"selectionFontSize" : "LB 6/8/2018 15:04",
 		"selectionFontSize:" : "LB 6/8/2018 15:13",
+		"showBackgroundColorDialog" : "LB 6/15/2018 16:14",
 		"showFontColorDialog" : "LB 6/8/2018 14:56",
 		"showFontSizeDialog" : "LB 6/8/2018 14:54",
 		"textScale" : "LB 5/25/2018 16:08",
