@@ -1,0 +1,4 @@
+scaling
+notifySlideRescale: aPoint
+
+	

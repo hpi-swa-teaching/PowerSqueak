@@ -1,6 +1,6 @@
 presentation mode tests
 testSlideContainerExtent
 
-	self assert: self tool slideContainer extent ~= self tool slideContainer world extent.
-	self tool slideContainer enablePresentationMode.
-	self assert: self tool slideContainer extent equals: self tool slideContainer world extent
+	self assert: self slideContainer extent ~= self slideContainer world extent.
+	self tool enablePresentationMode.
+	self assert: self slideContainer extent equals: self slideContainer world extent

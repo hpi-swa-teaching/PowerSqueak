@@ -5,4 +5,7 @@ disablePresentationMode
 "	self ensurePreviousOwnerIsNotSubmorph."
 	self previousOwner 
 		addMorph: self.
-	self color: self defaultColor
+	self disableNonInteractiveMode;
+		color: self defaultColor;
+		deleteNotification
+		

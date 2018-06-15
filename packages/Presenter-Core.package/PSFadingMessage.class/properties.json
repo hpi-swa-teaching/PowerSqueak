@@ -1,0 +1,16 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"remaining",
+		"content",
+		"active" ],
+	"name" : "PSFadingMessage",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
