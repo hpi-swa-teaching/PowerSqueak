@@ -7,5 +7,5 @@ initializeSlideNumberMorph
 		addContent: self slideNumberMorph;
 		hideSlideNumberMorphHandles.
 	self slideNumberMorph owner 
-		frameFractions: (0.9 @ 0.9 corner: 1 @ 1)
+		layoutFrame: (LayoutFrame fractions: (0.9 @ 0.9 corner: 1 @ 1))
 	
