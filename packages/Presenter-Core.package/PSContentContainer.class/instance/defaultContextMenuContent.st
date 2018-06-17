@@ -8,4 +8,6 @@ defaultContextMenuContent
 		-
 		('bring to front' comeToFront)
 		('send to back' goBehind)
+		-
+		('duplicate' copyChildToHand)
 	)
