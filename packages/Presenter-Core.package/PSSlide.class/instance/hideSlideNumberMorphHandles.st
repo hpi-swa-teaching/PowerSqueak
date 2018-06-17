@@ -1,0 +1,4 @@
+as yet unclassified
+hideSlideNumberMorphHandles
+
+	self slideNumberMorph owner removeResizeHandles
