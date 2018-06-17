@@ -5,6 +5,6 @@ mockEmptyPresentationDirectory
 		'slides' -> {
 			'slide1'.
 			'slide2'.
-			'this folder name actually should not matter'
+			'slide5' "The number actually should not matter"
 		}
 	}
