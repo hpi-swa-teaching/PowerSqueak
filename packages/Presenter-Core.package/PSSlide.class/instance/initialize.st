@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	self
-		initializeSlideNumberMorph;
+		"initializeSlideNumberMorph;"
 		color: Color white;
 		borderColor: nil;
 		layoutPolicy: ProportionalLayout new;
