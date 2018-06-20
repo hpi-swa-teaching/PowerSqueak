@@ -1,4 +1,4 @@
 styling
 defaultTextBackgroundColor
 
-	^ Color white.
+	^ Color transparent.

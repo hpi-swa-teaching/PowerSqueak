@@ -3,8 +3,7 @@ initialize
 
 	super initialize.
 	self 
-		layoutPolicy: PSSlideLayout new;
-		beSticky;
-		beTransparent;
-		borderColor: nil;
-		color: self defaultColor
+		initializeStyle;
+		initializeShortcuts;
+		isInteractive: true
+		

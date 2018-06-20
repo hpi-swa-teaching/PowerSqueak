@@ -1,0 +1,15 @@
+{
+	"category" : "Presenter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"world",
+		"hand" ],
+	"name" : "PSTestWorld",
+	"pools" : [
+		 ],
+	"super" : "TestResource",
+	"type" : "normal" }

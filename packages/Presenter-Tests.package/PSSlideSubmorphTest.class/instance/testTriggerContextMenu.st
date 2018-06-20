@@ -2,10 +2,8 @@ context menu tests
 testTriggerContextMenu
 
 	| container |
-	container := (PSContentContainerForTests for: Morph new)
-		center: self slide center;
-		yourself.
-		
-	self slide addMorph: container.			
-	self hand handleEvent: (self yellowMouseDownAt: self slide center).
+	container := (PSMockContentContainer for: self morph).
+
+	self slide addMorph: container fullFrame: (self slide layoutFrameFor: container).			
+	self hand handleEvent: (self yellowMouseDownAt: container center).
 	self assert: container menuCreated equals: true

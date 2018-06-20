@@ -1,4 +1,4 @@
 accessing
 world
 	
-	^ TestWorld current world
+	^ PSTestWorld current world
