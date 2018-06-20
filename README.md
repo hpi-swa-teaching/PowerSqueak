@@ -17,7 +17,7 @@ Squeak 5.0 is officially unsupported (see [Travis-ci](https://travis-ci.org/hpi-
 * [Using PowerSqueak](https://github.com/hpi-swa-teaching/SWT18-Project-09#using-powersqueak)
 	* [Edit mode](https://github.com/hpi-swa-teaching/SWT18-Project-09#edit-mode)
 	* [Presentation mode](https://github.com/hpi-swa-teaching/SWT18-Project-09#presentation-mode)
-		* [Interactive/Non-Interactive mode](https://github.com/hpi-swa-teaching/SWT18-Project-09#interactive/non-interactive-mode)
+		* [Interactive/Non-Interactive mode](https://github.com/hpi-swa-teaching/SWT18-Project-09#interactivenon-interactive-mode)
 	* [saving and loading](https://github.com/hpi-swa-teaching/SWT18-Project-09#saving-and-loading)
 
 ## Installation Instructions
