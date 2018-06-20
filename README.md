@@ -10,6 +10,16 @@ Please check [Travis-ci](https://travis-ci.org/hpi-swa-teaching/SWT18-Project-09
 
 Squeak 5.0 is officially unsupported (see [Travis-ci](https://travis-ci.org/hpi-swa-teaching/SWT18-Project-09)).
 
+## Overview
+* [Overview](https://github.com/hpi-swa-teaching/SWT18-Project-09#overview)
+* [Installation Instructions](https://github.com/hpi-swa-teaching/SWT18-Project-09#installation-instructions)
+* [Build status](https://github.com/hpi-swa-teaching/SWT18-Project-09#build-status)
+* [Using PowerSqueak](https://github.com/hpi-swa-teaching/SWT18-Project-09#using-powersqueak)
+	* [Edit mode](https://github.com/hpi-swa-teaching/SWT18-Project-09#edit-mode)
+	* [Presentation mode](https://github.com/hpi-swa-teaching/SWT18-Project-09#presentation-mode)
+		* [Interactive/Non-Interactive mode](https://github.com/hpi-swa-teaching/SWT18-Project-09#interactive/non-interactive-mode)
+	* [saving and loading](https://github.com/hpi-swa-teaching/SWT18-Project-09#saving-and-loading)
+
 ## Installation Instructions
 For easy installation, please first install [Metacello](https://github.com/Metacello/metacello).
 
@@ -50,6 +60,12 @@ To control your presentation during presentation mode, use:
 | right arrow/page down | next slide |
 | left arrow/page up | previous slide |
 | Number keys | Jump to a slide number |
+| i | (de-)activate interactivity and (un-)hide cursor |
+#### Interactive/Non-Interactive mode
+By pressing "i" during presentation mode, you can disable/enable interactivity and hide/unhide the cursor.
+This mode is added to avoid the visual clutter of the cursor and to keep text on slides from grabbing the keyboard input, which prevents you from changing slides.
+
+Leaving presentation mode also enables interactivity and unhides the cursor.
 
 ### Saving and loading
 PowerSqueak can save and load presentations to/from the file system.
