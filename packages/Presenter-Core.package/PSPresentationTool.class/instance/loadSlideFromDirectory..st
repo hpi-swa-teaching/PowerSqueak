@@ -4,6 +4,7 @@ loadSlideFromDirectory: aDirectory
 	| slide corruptedMorphs |
 	corruptedMorphs := 0.
 	slide := PSSlide new.
+	slide setModel: self.
 	aDirectory fileNames do: [:each |
 		| morph |
 		morph := self loadMorphFromFile: aDirectory / each.
