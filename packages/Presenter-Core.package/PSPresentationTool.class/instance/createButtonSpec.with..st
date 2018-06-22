@@ -3,6 +3,7 @@ createButtonSpec: aDictionary with: aBuilder
 
 	| buttonSpec |
 	buttonSpec := aBuilder pluggableButtonSpec new.
+	buttonSpec style: #none.
 	^ buttonSpec
 		model: (aDictionary at: #model ifAbsent: self);
 		frame: (aDictionary at: #frame);
