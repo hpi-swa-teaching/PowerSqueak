@@ -7,4 +7,5 @@ enablePresentationMode
 		openInWorld: self previousOwner world;
 		position: 0@0;
 		extent: self world extent;
-		color: Color black
+		color: Color black;
+		showNotification: 'Press ''i'' to toggle interactivity'

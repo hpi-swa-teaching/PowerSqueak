@@ -1,10 +1,11 @@
 do not touch
-exportAsPNGs
+exportAsPNGs: name
 
+	(FileDirectory default / 'PSSlidePNGs' / name) assureExistence. 
 	self enablePresentationMode.
 	self slideContainer enableNonInteractiveMode.
 	self slides withIndexDo: [:each :index |
 		self selectSlide: index.
 		World doOneCycle.
-		each exportAsPNGNamed: 'SlidesPNG\slide',index,'.png'].
+		each exportAsPNGNamed: 'PSSlidePNGs\', name, '\slide',index,'.png'].
 	self disablePresentationMode
