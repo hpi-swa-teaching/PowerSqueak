@@ -12,5 +12,6 @@ createButtonBarTopSpec: aBuilder
 		| button |
 		button := self createButtonSpec: each with: aBuilder.
 		panelSpec children add: button].
+	panelSpec children add: (self createSlideNumberLabelSpec: aBuilder).
 	
 	^ panelSpec

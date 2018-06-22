@@ -2,7 +2,7 @@ toolbuilder
 nextSlideButtonData
 
 	^ Dictionary withAll: {	
-		#frame -> (0.2@0.0 corner: 0.25@1.0).
+		#frame -> (0.3@0.0 corner: 0.35@1.0).
 		#name -> #NextSlideButton.
 		#label -> '>'.
 		#action -> #nextSlide}

@@ -42,6 +42,7 @@
 		"testSlideCreationSelectsNewSlide" : "LM 5/18/2018 18:35",
 		"testSlideDeletionMovesSlideSelection" : "LM 5/18/2018 18:32",
 		"testSlideNavigationInPresentationMode" : "LM 6/8/2018 20:20",
+		"testSlideNumberLabelSelectsCorrectly" : "LB 6/22/2018 16:35",
 		"testSlideRatioIsFixed" : "LB 6/1/2018 18:49",
 		"testSlideResizeRegression" : "LB 5/18/2018 20:27",
 		"testSlidesDirectoryIsEmpty" : "LM 6/15/2018 18:42",
