@@ -10,4 +10,5 @@ buttonBarTopData
 		self imageFieldButtonData.
 		self presentationModeButtonData.
 		self loadingButtonData.
-		self saveButtonData }
+		self saveButtonData.
+		self switchButtonData }

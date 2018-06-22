@@ -2,5 +2,5 @@ presentation mode
 disableNonInteractiveMode
 
 	self isInteractive: true.
-	ActiveHand showHardwareCursor: true.
+	ActiveHand visible: true.
 	self showNotification: 'interactive mode'
