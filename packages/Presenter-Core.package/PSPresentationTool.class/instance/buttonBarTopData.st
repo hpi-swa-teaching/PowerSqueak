@@ -5,7 +5,6 @@ buttonBarTopData
 		self previousSlideButtonData.
 		self nextSlideButtonData.
 		self deleteSlideButtonData.
-		self selectSlideButtonData.
 		self textFieldButtonData.
 		self imageFieldButtonData.
 		self presentationModeButtonData.

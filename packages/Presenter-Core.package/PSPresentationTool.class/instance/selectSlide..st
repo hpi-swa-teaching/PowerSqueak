@@ -5,4 +5,5 @@ selectSlide: aNumber
 		(aNumber 
 			clampLow: self minimumSlideCount 
 			high: self slideCount).
-	self slideContainer showSlide: self currentSlide 
+	self slideContainer showSlide: self currentSlide.
+	self changed: #slideNumberString
