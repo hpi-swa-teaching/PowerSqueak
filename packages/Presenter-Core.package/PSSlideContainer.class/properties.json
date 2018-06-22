@@ -6,7 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"currentSlide" ],
+		"currentSlide",
+		"previousOwner",
+		"isInteractive",
+		"presentationShortcuts",
+		"presentationCreationShortcuts",
+		"notification" ],
 	"name" : "PSSlideContainer",
 	"pools" : [
 		 ],

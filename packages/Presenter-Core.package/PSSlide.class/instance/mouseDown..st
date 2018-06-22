@@ -2,4 +2,6 @@ event handling
 mouseDown: evt
 
 	super mouseDown: evt.
-	self redraw
+	evt redButtonPressed 
+		ifTrue: [self waitForDoubleClick: evt].
+	self fullBounds

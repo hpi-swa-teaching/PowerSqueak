@@ -1,0 +1,15 @@
+{
+	"category" : "Presenter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"slide",
+		"container" ],
+	"name" : "PSOnSlideTest",
+	"pools" : [
+		 ],
+	"super" : "UITestCase",
+	"type" : "normal" }

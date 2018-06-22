@@ -1,0 +1,4 @@
+styling
+defaultTextBackgroundColor
+
+	^ Color transparent.

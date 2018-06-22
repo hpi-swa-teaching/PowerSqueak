@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"for:" : "WoC 6/15/2018 17:24" },
+	"instance" : {
+		"active" : "WoC 6/15/2018 19:23",
+		"active:" : "WoC 6/15/2018 19:23",
+		"content" : "WoC 6/15/2018 17:21",
+		"content:" : "WoC 6/15/2018 17:21",
+		"defaultPadding" : "WoC 6/15/2018 17:31",
+		"fadingTime" : "WoC 6/15/2018 17:46",
+		"initialize" : "WoC 6/15/2018 19:23",
+		"isActive" : "WoC 6/15/2018 19:23",
+		"remaining" : "WoC 6/15/2018 17:41",
+		"remaining:" : "WoC 6/15/2018 17:41",
+		"setContent:" : "WoC 6/15/2018 18:13",
+		"step" : "WoC 6/15/2018 17:43",
+		"stepTime" : "WoC 6/15/2018 17:55",
+		"updateColor" : "WoC 6/15/2018 17:54" } }

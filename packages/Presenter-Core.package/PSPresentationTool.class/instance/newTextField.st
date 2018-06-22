@@ -1,4 +1,6 @@
 createSlideContent
 newTextField
 
-	PSTextMorph new openInHand
+	PSTextMorph new 
+		rescale: self currentSlide extent;
+		openInHand

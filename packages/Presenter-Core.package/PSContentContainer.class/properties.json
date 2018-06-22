@@ -1,0 +1,16 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"resizeHandles",
+		"hasHandles",
+		"child" ],
+	"name" : "PSContentContainer",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

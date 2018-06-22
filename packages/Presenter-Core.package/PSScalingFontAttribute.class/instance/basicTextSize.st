@@ -1,0 +1,4 @@
+accessing
+basicTextSize
+	
+	^ basicTextSize

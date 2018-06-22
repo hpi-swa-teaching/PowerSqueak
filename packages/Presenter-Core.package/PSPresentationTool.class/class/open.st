@@ -1,4 +1,4 @@
 instance creation
-open 
+open
 
 	^ ToolBuilder default open: self new

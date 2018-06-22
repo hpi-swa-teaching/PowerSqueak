@@ -9,3 +9,5 @@ deleteSlide: anIndex
 	self currentSlideNumber >= anIndex ifTrue: 
 		[self selectSlide: (self currentSlideNumber - 1 max: self minimumSlideCount)].
 	
+	self updateSlideNumbers 
+	

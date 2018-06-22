@@ -1,0 +1,4 @@
+accessing
+defaultColor
+
+	^ Color transparent

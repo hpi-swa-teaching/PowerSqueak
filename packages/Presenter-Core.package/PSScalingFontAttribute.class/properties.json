@@ -1,0 +1,16 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"style",
+		"basicTextSize",
+		"scalingSource" ],
+	"name" : "PSScalingFontAttribute",
+	"pools" : [
+		 ],
+	"super" : "TextAttribute",
+	"type" : "normal" }
