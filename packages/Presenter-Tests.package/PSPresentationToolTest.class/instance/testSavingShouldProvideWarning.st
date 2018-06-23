@@ -2,6 +2,6 @@ saving tests
 testSavingShouldProvideWarning
 
 	self
-		should: [self tool savingConfirmation] 
+		should: [self tool savePresentation] 
 		raise: ProvideAnswerNotification 
 		withDescriptionContainingCaseInsensitive: 'warning'.
