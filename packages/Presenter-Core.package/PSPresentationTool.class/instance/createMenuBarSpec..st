@@ -1,17 +1,16 @@
 toolbuilder
-createButtonBarTopSpec: aBuilder 
+createMenuBarSpec: aBuilder 
 	| panelSpec |
 	panelSpec := aBuilder pluggablePanelSpec new.
 	panelSpec
 		model: self;
-		frame: (self barFrameFrom: self buttonHeight  height: self buttonHeight);
-		name: #ButtonBarTop;
+		frame: (self barFrameFrom: 0  height: self buttonHeight);
+		name: #MenuBar;
 		children: OrderedCollection new.
 		
-	self buttonBarTopData do: [:each | 
+	self menuBarButtonData do: [:each | 
 		| button |
 		button := self createButtonSpec: each with: aBuilder.
 		panelSpec children add: button].
-	panelSpec children add: (self createSlideNumberLabelSpec: aBuilder).
 	
 	^ panelSpec

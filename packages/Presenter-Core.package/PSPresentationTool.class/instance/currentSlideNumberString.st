@@ -1,0 +1,4 @@
+accessing
+currentSlideNumberString
+	
+	^ currentSlideNumber asString

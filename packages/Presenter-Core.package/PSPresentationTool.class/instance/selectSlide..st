@@ -1,8 +1,6 @@
 slide management
 selectSlide: aNumber
 
-	self currentSlideNumber: 
-		(aNumber 
-			clampLow: self minimumSlideCount 
-			high: self slideCount).
-	self slideContainer showSlide: self currentSlide 
+	self currentSlideNumber: (self clampSlideNumber: aNumber).
+	self slideContainer showSlide: self currentSlide.
+	self changed: #slideNumberString

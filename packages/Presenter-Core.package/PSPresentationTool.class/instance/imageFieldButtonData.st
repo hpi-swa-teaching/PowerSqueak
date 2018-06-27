@@ -2,7 +2,7 @@ toolbuilder
 imageFieldButtonData
 
 	^ Dictionary withAll: {
-		#frame -> (0.3@0.0 corner: 0.35@1.0).
+		#frame -> (0.5@0.0 corner: 0.55@1.0).
 		#name -> #imageFieldButton.
 		#label -> 'I'.
 		#action -> #newImageField.
