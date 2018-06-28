@@ -2,9 +2,12 @@ events-processing
 filterEvent: evt for: aMorphOrNil
 	
 	self isInteractive
-		ifFalse: [
+		ifFalse: [ | shortcuts |
+			shortcuts := evt commandKeyPressed
+				ifTrue: [self presentationCommandShortcuts]
+				ifFalse: [self presentationShortcuts].
 			(evt isKeyboard and: [evt isKeystroke])
-				ifTrue: [self in: self presentationShortcuts tryToEvaluate: evt].
+				ifTrue: [self in: shortcuts tryToEvaluate: evt].
 			 evt ignore].
 	
 	^ evt

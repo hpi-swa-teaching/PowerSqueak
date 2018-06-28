@@ -11,7 +11,9 @@
 		"isInteractive",
 		"presentationShortcuts",
 		"presentationCreationShortcuts",
-		"notification" ],
+		"notification",
+		"presentationCommandShortcuts",
+		"presentationCreationCommandShortcuts" ],
 	"name" : "PSSlideContainer",
 	"pools" : [
 		 ],
