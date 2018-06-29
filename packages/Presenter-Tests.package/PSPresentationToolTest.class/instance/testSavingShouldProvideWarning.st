@@ -4,4 +4,4 @@ testSavingShouldProvideWarning
 	self
 		should: [self tool savePresentation] 
 		raise: ProvideAnswerNotification 
-		withDescriptionContainingCaseInsensitive: 'warning'.
+		description: self tool riskyOperationMessage.

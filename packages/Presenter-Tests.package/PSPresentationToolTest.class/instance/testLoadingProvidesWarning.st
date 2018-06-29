@@ -4,4 +4,4 @@ testLoadingProvidesWarning
 	self 
 		should: [self tool loadPresentation] 
 		raise: ProvideAnswerNotification 
-		withDescriptionContainingCaseInsensitive: 'warning'
+		description: self tool riskyOperationMessage.
