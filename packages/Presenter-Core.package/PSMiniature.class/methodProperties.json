@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"forSlide:" : "WoC 6/29/2018 15:31" },
+	"instance" : {
+		"clickAction" : "WoC 6/29/2018 15:34",
+		"clickAction:" : "WoC 6/29/2018 15:33",
+		"defaultSize" : "WoC 6/29/2018 15:29",
+		"handlesMouseDown:" : "WoC 6/29/2018 15:33",
+		"mouseDown:" : "WoC 6/29/2018 15:34",
+		"setSlide:" : "WoC 6/29/2018 15:26",
+		"slide" : "WoC 6/29/2018 15:19",
+		"slide:" : "WoC 6/29/2018 15:33",
+		"updateImage" : "WoC 6/29/2018 15:28" } }

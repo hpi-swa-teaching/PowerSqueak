@@ -1,0 +1,15 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"slide",
+		"clickAction" ],
+	"name" : "PSMiniature",
+	"pools" : [
+		 ],
+	"super" : "ImageMorph",
+	"type" : "normal" }
