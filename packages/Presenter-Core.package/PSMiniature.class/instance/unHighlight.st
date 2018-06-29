@@ -1,4 +1,4 @@
 as yet unclassified
 unHighlight
 
-	self borderWidth: 0
+	self borderColor: Color transparent

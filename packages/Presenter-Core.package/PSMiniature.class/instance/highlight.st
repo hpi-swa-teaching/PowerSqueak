@@ -1,4 +1,4 @@
 as yet unclassified
 highlight
 
-	self borderWidth: self highlightBorderWidth
+	self borderColor: self highlightBorderColor 
