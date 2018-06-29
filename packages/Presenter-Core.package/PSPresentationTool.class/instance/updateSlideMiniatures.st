@@ -1,4 +1,4 @@
-as yet unclassified
+slide miniatures
 updateSlideMiniatures
 
 	self changed: #slideMiniatures

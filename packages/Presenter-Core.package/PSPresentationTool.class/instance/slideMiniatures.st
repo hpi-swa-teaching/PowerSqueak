@@ -1,7 +1,4 @@
-as yet unclassified
+slide miniatures
 slideMiniatures
 
-	^ self slides collect: [:each | self miniatures at: each ifAbsentPut: 
-		[(PSMiniature forSlide: each) 
-			model: self; 
-			yourself]]
+	^ self slides collect: [:each | self miniatureOf: each]
