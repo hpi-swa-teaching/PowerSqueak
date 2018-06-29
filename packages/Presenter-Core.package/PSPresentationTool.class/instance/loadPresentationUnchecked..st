@@ -9,7 +9,7 @@ loadPresentationUnchecked: aDirectory
 	sortedDirectories do: [:each |
 		 | slide |
 		slide := self loadSlideFromDirectory: slidesDirectory / each.
-		slide redraw.
+		slide fullBounds.
 		self updateCurrentMiniature.
 		errorReport at: each 
 			put: (slidesDirectory / each) fileNames size - slide submorphs size].
