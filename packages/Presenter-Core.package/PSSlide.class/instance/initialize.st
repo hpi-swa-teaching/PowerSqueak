@@ -4,7 +4,7 @@ initialize
 	super initialize.
 	self
 		"initializeSlideNumberMorph;"
-		color: Color white;
+		color: Color seaFoam;
 		borderColor: nil;
 		layoutPolicy: ProportionalLayout new;
 		beSticky

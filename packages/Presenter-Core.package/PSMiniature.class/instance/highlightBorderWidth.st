@@ -1,0 +1,6 @@
+accessing
+highlightBorderWidth
+
+	^ 5
+
+	
