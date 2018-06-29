@@ -1,4 +1,4 @@
-as yet unclassified
+presentation loading
 checkSlideDirectory: aDirectory
 
 	^ (self checkSlideDirectoryName: aDirectory localName)
