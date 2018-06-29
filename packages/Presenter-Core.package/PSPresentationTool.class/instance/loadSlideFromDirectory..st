@@ -2,8 +2,7 @@ presentation loading
 loadSlideFromDirectory: aDirectory
 
 	| slide sortedMorphFiles |
-	slide := PSSlide new.
-	slide setModel: self.
+	slide := self createSlide.
 	sortedMorphFiles := self sortedMorphFiles: aDirectory fileNames.
 	sortedMorphFiles do: [:each |
 		 (self loadMorphFromFile: aDirectory / each)
