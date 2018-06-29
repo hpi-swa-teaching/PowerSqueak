@@ -9,7 +9,7 @@
 		"setUp" : "WoC 6/15/2018 20:15",
 		"tearDown" : "LB 6/1/2018 17:51",
 		"testContainerResizing" : "LB 5/23/2018 16:44",
-		"testContainerResizingAllCorners" : "LB 6/29/2018 20:09",
+		"testContainerResizingAllCorners" : "LM 6/29/2018 20:19",
 		"testContainerResizingCorner:offset:" : "LB 6/29/2018 20:06",
 		"testContextMenu" : "WoC 6/15/2018 20:13",
 		"testDroppingCreatesContainer" : "LM 5/18/2018 18:59",
