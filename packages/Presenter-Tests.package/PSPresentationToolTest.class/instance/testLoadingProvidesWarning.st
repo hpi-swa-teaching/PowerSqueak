@@ -1,4 +1,4 @@
-as yet unclassified
+loading tests
 testLoadingProvidesWarning
 
 	self 
