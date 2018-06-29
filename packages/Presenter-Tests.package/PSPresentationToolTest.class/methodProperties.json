@@ -26,6 +26,7 @@
 		"testInvalidLoadReturnsNil" : "LM 6/13/2018 17:34",
 		"testInvalidSlideDirectoryNames" : "JZ 6/29/2018 17:04",
 		"testLoadingProvidesWarning" : "LM 6/23/2018 14:20",
+		"testMiniatureChangesIfSlideChanges" : "WoC 6/29/2018 19:23",
 		"testMiniatureCreated" : "LB 6/29/2018 18:01",
 		"testMiniatureDeleted" : "LB 6/29/2018 18:02",
 		"testMiniatureSelects" : "LB 6/29/2018 18:56",
