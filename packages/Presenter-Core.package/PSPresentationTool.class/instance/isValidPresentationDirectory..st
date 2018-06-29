@@ -6,4 +6,4 @@ isValidPresentationDirectory: aDirectory
 	^ slidesDirectory exists
 		and: [slidesDirectory directoryNames isEmpty not]
 		and: [slidesDirectory directoryNames allSatisfy:  [:each | 
-				self checkSlideDirectory: each]]
+				self checkSlideDirectory: slidesDirectory / each]]
