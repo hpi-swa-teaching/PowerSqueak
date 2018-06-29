@@ -8,5 +8,5 @@ loadPresentationUnchecked: aDirectory
 	sortedDirectories := self sortedSlideSubdirectories: slidesDirectory.
 	sortedDirectories do: [:each |
 		errorReport at: each put: (self loadSlideFromDirectory: slidesDirectory / each)].
-	self selectSlide: 1.
+	self selectSlideNumber: 1.
 	^ errorReport

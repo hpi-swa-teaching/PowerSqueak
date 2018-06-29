@@ -1,4 +1,7 @@
 as yet unclassified
 slideMiniatures
 
-	^ self slides collect: [:each | Morph new color: Color random; yourself]
+	^ self slides collect: [:each | 
+		(PSMiniature forSlide: each) 
+			model: self; 
+			yourself]

@@ -5,7 +5,7 @@ exportAsPNGs: name
 	self enablePresentationMode.
 	self slideContainer enableNonInteractiveMode.
 	self slides withIndexDo: [:each :index |
-		self selectSlide: index.
+		self selectSlideNumber: index.
 		World doOneCycle.
 		each exportAsPNGNamed: 'PSSlidePNGs\', name, '\slide',index,'.png'].
 	self disablePresentationMode

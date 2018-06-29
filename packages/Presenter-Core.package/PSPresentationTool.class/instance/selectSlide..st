@@ -1,6 +1,4 @@
 slide management
-selectSlide: aNumber
+selectSlide: aSlide
 
-	self currentSlideNumber: (self clampSlideNumber: aNumber).
-	self slideContainer showSlide: self currentSlide.
-	self changed: #slideNumberString
+	self selectSlideNumber: (self slides indexOf: aSlide ifAbsent: [])

@@ -7,7 +7,7 @@ deleteSlide: anIndex
 	(self slideAt: anIndex) abandon.
 	self slides removeAt: anIndex.  
 	self currentSlideNumber >= anIndex ifTrue: 
-		[self selectSlide: (self currentSlideNumber - 1 max: self minimumSlideCount)].
+		[self selectSlideNumber: (self currentSlideNumber - 1 max: self minimumSlideCount)].
 	
 	self updateSlideMiniatures
 	"self updateSlideNumbers "
