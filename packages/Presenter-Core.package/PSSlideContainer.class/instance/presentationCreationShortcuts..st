@@ -1,4 +1,4 @@
 accessing
-presentationCreationShortcuts: anObject
+presentationCreationShortcuts: aDictionary
 	
-	presentationCreationShortcuts := anObject
+	presentationCreationShortcuts := aDictionary

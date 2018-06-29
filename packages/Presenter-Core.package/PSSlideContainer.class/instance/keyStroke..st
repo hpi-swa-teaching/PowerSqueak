@@ -1,9 +1,10 @@
 events-processing
 keyStroke: evt
 
-	| shortcuts |
+	| shortcuts choices |
+	choices := self chooseShortcutsDictionary: evt.
 	shortcuts := self model presentationMode
-		ifTrue: [self presentationShortcuts]
-		ifFalse: [self presentationCreationShortcuts].
+		ifTrue: [choices first]
+		ifFalse: [choices second].
 		
 	self in: shortcuts tryToEvaluate: evt

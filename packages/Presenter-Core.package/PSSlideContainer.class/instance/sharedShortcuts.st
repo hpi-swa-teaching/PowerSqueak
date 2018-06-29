@@ -2,13 +2,14 @@ accessing
 sharedShortcuts
 
 	^ {
-		{Character escape . [self model disablePresentationMode] . 'disables Presentation Mode'}.
-		{Character arrowRight . [self model nextSlide] . 'goes to the next slide'}.
-		{Character pageDown . [self model nextSlide] . 'goes to the next slide'}.
-		{Character arrowDown . [self model nextSlide] . 'goes to the next slide'}.
-		{Character arrowLeft . [self model previousSlide] . 'goes to the previous slide'}.
-		{Character pageUp . [self model previousSlide] . 'goes to the previous slide'}.
-		{Character arrowUp . [self model previousSlide] . 'goes to the previous slide'}.
+		{Character escape . [self model disablePresentationMode] . 'Disable Presentation Mode'}.
+		{Character arrowRight . [self model nextSlide] . 'Go to the next slide'}.
+		{Character pageDown . [self model nextSlide] . 'Go to the next slide'}.
+		{Character arrowDown . [self model nextSlide] . 'Go to the next slide'}.
+		{Character arrowLeft . [self model previousSlide] . 'Go to the previous slide'}.
+		{Character pageUp . [self model previousSlide] . 'Go to the previous slide'}.
+		{Character arrowUp . [self model previousSlide] . 'Go to the previous slide'}.
+		
 		{$1 . [self model selectSlide: 1] . 'Go to slide number 1'}.
 		{$2 . [self model selectSlide: 2] . 'Go to slide number 2'}.
 		{$3 . [self model selectSlide: 3] . 'Go to slide number 3'}.
