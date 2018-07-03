@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 	self borderWidth:  self highlightBorderWidth.
-	self unHighlight 
+	self borderColor: Color transparent
