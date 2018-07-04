@@ -1,13 +1,15 @@
 slide management
 deleteSlide: anIndex
 
+	| deletedSlide |
 	self slideCount = self minimumSlideCount
 		ifTrue: [ self createSlide ]. "There should never be zero slides"
-
-	(self slideAt: anIndex) abandon.
-	self slides removeAt: anIndex.  
+	deletedSlide :=  self slides removeAt: anIndex. 
+	deletedSlide abandon.
 	self currentSlideNumber >= anIndex ifTrue: 
-		[self selectSlide: (self currentSlideNumber - 1 max: self minimumSlideCount)].
+		[self selectSlideNumber: (self currentSlideNumber - 1 max: self minimumSlideCount)].
 	
+	self miniatures removeKey: deletedSlide ifAbsent: [].
+	self updateSlideMiniatures
 	"self updateSlideNumbers "
 	

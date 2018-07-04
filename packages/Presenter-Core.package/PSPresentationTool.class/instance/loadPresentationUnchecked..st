@@ -3,10 +3,16 @@ loadPresentationUnchecked: aDirectory
 
 	| slidesDirectory errorReport sortedDirectories |
 	errorReport := Dictionary new.
-	self slides removeAll.
+	self deleteAllSlides. "will remove all slides up to the minim slide count"
 	slidesDirectory := aDirectory / self slidesDirectoryName.
 	sortedDirectories := self sortedSlideSubdirectories: slidesDirectory.
 	sortedDirectories do: [:each |
-		errorReport at: each put: (self loadSlideFromDirectory: slidesDirectory / each)].
-	self selectSlide: 1.
+		 | slide |
+		slide := self loadSlideFromDirectory: slidesDirectory / each.
+		slide fullBounds.
+		self updateCurrentMiniature.
+		errorReport at: each 
+			put: (slidesDirectory / each) fileNames size - slide submorphs size].
+	self minimumSlideCount timesRepeat: [self deleteSlide: 1].
+	self selectSlideNumber: 1.
 	^ errorReport

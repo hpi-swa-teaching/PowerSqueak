@@ -1,15 +1,10 @@
 presentation loading
 loadSlideFromDirectory: aDirectory
 
-	| slide corruptedMorphs |
-	corruptedMorphs := 0.
-	slide := PSSlide new.
-	slide setModel: self.
-	aDirectory fileNames do: [:each |
-		| morph |
-		morph := self loadMorphFromFile: aDirectory / each.
-		morph
-			ifNil: [corruptedMorphs := corruptedMorphs + 1]
-			ifNotNil: [slide addMorph: morph]].
-	self slides addLast: slide.
-	^ corruptedMorphs
+	| slide sortedMorphFiles |
+	slide := self createSlide.
+	sortedMorphFiles := self sortedMorphFiles: aDirectory fileNames.
+	sortedMorphFiles do: [:each |
+		 (self loadMorphFromFile: aDirectory / each)
+			ifNotNil: [:morph | slide addMorphBack: morph]].
+	^ slide

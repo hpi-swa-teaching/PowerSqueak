@@ -1,9 +1,12 @@
 toolbuilder
 buildWith: builder
 
-	| windowSpec slideViewportSpec buttonBarTopSpec menuBarSpec window |
+	| windowSpec miniatureViewSpec slideViewportSpec buttonBarTopSpec menuBarSpec window |
 	windowSpec := self createWindowSpec: builder.
-		
+	
+	miniatureViewSpec := self createMiniatureViewSpec: builder. 
+	windowSpec children add: miniatureViewSpec.
+			
 	slideViewportSpec := self createSlideViewportSpec: builder. 
 	windowSpec children add: slideViewportSpec.
 	

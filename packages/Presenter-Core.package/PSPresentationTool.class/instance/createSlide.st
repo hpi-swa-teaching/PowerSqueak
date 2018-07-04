@@ -5,7 +5,9 @@ createSlide
 	newSlide := PSSlide new.
 	newSlide setModel: self.
 	self slides add: newSlide afterIndex: self currentSlideNumber.
-	self selectSlide: self currentSlideNumber + 1.
+	self selectSlideNumber: self currentSlideNumber + 1.
+	self updateSlideMiniatures.
+	self updateCurrentMiniature.
 	"self updateSlideNumbers."
 	^ newSlide
 	

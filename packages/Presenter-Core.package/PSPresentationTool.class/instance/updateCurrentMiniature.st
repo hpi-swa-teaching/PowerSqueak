@@ -1,0 +1,4 @@
+slide miniatures
+updateCurrentMiniature
+
+	self currentMiniature updateImage

@@ -10,7 +10,8 @@
 		"slideContainer",
 		"slides",
 		"currentSlideNumber",
-		"presentationMode" ],
+		"presentationMode",
+		"miniatures" ],
 	"name" : "PSPresentationTool",
 	"pools" : [
 		 ],

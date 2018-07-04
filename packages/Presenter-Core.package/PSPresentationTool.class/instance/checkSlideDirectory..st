@@ -1,4 +1,6 @@
-as yet unclassified
-checkSlideDirectory: aDirectoryName
+presentation loading
+checkSlideDirectory: aDirectory
 
-	^ aDirectoryName matchesRegex: 'slide[0-9]+'
+	^ (self checkSlideDirectoryName: aDirectory localName)
+		and: [aDirectory fileNames allSatisfy: [:each | 
+				each matchesRegex: '[0-9]+.morph']]	
