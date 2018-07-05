@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"acceptDroppingMorph:event:" : "LB 5/23/2018 15:46",
-		"addContent:" : "LB 6/15/2018 21:36",
+		"addContent:" : "LB 7/5/2018 19:57",
 		"addSlideNumberMorph" : "WoC 6/18/2018 10:12",
 		"changed" : "LB 6/29/2018 16:57",
 		"disablePresentationMode" : "WoC 6/27/2018 14:13",
@@ -17,7 +17,9 @@
 		"initialize" : "WoC 6/27/2018 14:13",
 		"initializeSlideNumberMorph" : "WoC 6/18/2018 10:12",
 		"isImageFileName:" : "LB 5/18/2018 17:16",
+		"isMagnetic" : "LB 7/5/2018 21:41",
 		"layoutFrameFor:" : "LB 6/15/2018 21:36",
+		"model" : "LB 7/5/2018 20:03",
 		"mouseDown:" : "LM 5/25/2018 17:21",
 		"prepareToBeSaved" : "LB 6/22/2018 19:33",
 		"resizeMorphHeightToFit:" : "LB 5/18/2018 17:36",

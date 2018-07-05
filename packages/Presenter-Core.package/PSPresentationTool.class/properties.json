@@ -11,7 +11,8 @@
 		"slides",
 		"currentSlideNumber",
 		"presentationMode",
-		"miniatures" ],
+		"miniatures",
+		"magneticRasterActive" ],
 	"name" : "PSPresentationTool",
 	"pools" : [
 		 ],

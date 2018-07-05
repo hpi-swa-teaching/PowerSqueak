@@ -11,4 +11,5 @@ createButtonSpec: aDictionary with: aBuilder
 		label: (aDictionary at: #label ifAbsent: 'Unlabeled button');
 		action: (aDictionary at: #action ifAbsent: nil);
 		help: (aDictionary at: #help ifAbsent: nil);
+		color: (aDictionary at: #color ifAbsent: nil);
 		yourself
