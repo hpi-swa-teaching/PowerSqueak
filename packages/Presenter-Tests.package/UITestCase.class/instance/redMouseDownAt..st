@@ -1,10 +1,4 @@
 support
-redMouseDownAt: point
+redMouseDownAt: aPoint
 
-	^ MouseButtonEvent new
-		setType: #mouseDown
-		position: point
-		which: 2r000 "no change"
-		buttons: 2r100 "red/left pressed"
-		hand: self hand
-		stamp: Time millisecondClockValue
+	^ self mouse: MouseEvent redButton DownAt: aPoint
