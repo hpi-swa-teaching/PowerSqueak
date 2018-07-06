@@ -1,4 +1,4 @@
-as yet unclassified
+layouts
 addPSTextMorphIn: aPSSlide at: aRectangle
 
 	| textMorph |
@@ -9,4 +9,5 @@ addPSTextMorphIn: aPSSlide at: aRectangle
 		rightFraction: aRectangle right;
 		topFraction: aRectangle top;
 		bottomFraction: aRectangle bottom.
-	^ textMorph
+	textMorph setText: 'lorem Ipsum'.
+ 	^ textMorph

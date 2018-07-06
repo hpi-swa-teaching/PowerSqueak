@@ -1,4 +1,4 @@
-as yet unclassified
+layouts
 addPSTextMorphIn: aPSSlide at: aRectangle withSize: aNumber
 
 	| textMorph |

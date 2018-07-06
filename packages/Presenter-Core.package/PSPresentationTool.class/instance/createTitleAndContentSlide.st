@@ -1,4 +1,4 @@
-as yet unclassified
+layouts
 createTitleAndContentSlide
 
 	| slide title content |
