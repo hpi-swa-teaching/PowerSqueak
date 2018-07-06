@@ -1,4 +1,4 @@
 accessing
-content: anObject
+content: aMorph
 	
-	content := anObject
+	content := aMorph

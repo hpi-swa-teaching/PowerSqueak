@@ -1,15 +1,13 @@
 {
 	"class" : {
-		"for:" : "MK 5/18/2018 16:30" },
+		"for:" : "LB 7/6/2018 18:09" },
 	"instance" : {
 		"actionForCorner:" : "LB 7/6/2018 16:30",
-		"addContent:" : "LM 6/15/2018 19:11",
-		"addHandleAt:" : "LB 7/6/2018 16:31",
+		"addHandleAt:" : "LB 7/6/2018 18:07",
 		"addResizeHandles" : "LB 7/6/2018 16:15",
 		"child" : "MK 5/18/2018 20:03",
 		"child:" : "LM 5/21/2018 12:48",
 		"copyChildToHand" : "LM 6/17/2018 11:52",
-		"corners" : "MK 5/25/2018 17:11",
 		"createContextMenu" : "LB 6/15/2018 21:42",
 		"createHandleOnMove:" : "LB 7/6/2018 16:26",
 		"defaultContextMenuContent" : "LM 6/17/2018 11:52",
@@ -34,15 +32,15 @@
 		"ifAnyHandleContains:do:" : "MK 5/25/2018 17:06",
 		"initialize" : "LB 7/6/2018 15:35",
 		"isMagnetic" : "LB 7/5/2018 21:38",
-		"layoutFractionsOf:" : "LB 7/5/2018 19:42",
 		"mouseDown:" : "MK 6/1/2018 16:25",
 		"notifySlideRescale:" : "LM 6/17/2018 19:02",
-		"placeHandles" : "LB 7/6/2018 15:43",
+		"placeHandles" : "LB 7/6/2018 18:10",
 		"rasterResolution" : "LB 7/5/2018 19:42",
 		"removeResizeHandles" : "MK 5/25/2018 16:18",
 		"removedMorph:" : "WoC 5/23/2018 18:40",
 		"resizeChild" : "MK 5/18/2018 20:03",
-		"resizeFractionsOf:" : "LB 7/6/2018 16:20",
+		"resizeFractionsOf:" : "LB 7/6/2018 17:48",
 		"resizeHandleSize" : "MK 5/18/2018 19:13",
 		"resizeHandles" : "MK 5/18/2018 17:43",
-		"resizeHandles:" : "LB 7/6/2018 15:35" } }
+		"resizeHandles:" : "LB 7/6/2018 15:35",
+		"setContent:" : "LB 7/6/2018 18:08" } }
