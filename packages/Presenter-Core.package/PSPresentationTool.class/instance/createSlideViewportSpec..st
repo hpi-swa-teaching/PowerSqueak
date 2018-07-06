@@ -1,10 +1,9 @@
 toolbuilder
 createSlideViewportSpec: aBuilder 
-	| panelSpec |
-	panelSpec := aBuilder pluggablePanelSpec new.
-	panelSpec
+	
+	^ aBuilder pluggablePanelSpec new
 		model: self;
 		frame: self viewPortLayoutFrame;
 		name: #SlideViewport;
-		children: OrderedCollection new.
-	^ panelSpec
+		children: OrderedCollection new;
+		yourself

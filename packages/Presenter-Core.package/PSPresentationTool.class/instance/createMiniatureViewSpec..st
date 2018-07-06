@@ -1,8 +1,7 @@
 toolbuilder
 createMiniatureViewSpec: aBuilder 
-	| panelSpec |
-	panelSpec := aBuilder pluggableScrollPaneSpec new.
-	panelSpec
+	
+	^ aBuilder pluggableScrollPaneSpec new
 		model: self;
 		frame: self miniatureViewLayoutFrame;
 		name: #MiniatureView;
@@ -10,5 +9,5 @@ createMiniatureViewSpec: aBuilder
 		horizontalResizing: #spaceFill;
 		layout: #vertical;
 		wantsResizeHandles: false;
-		children: #slideMiniatures.
-	^ panelSpec
+		children: #slideMiniatures;
+		yourself
