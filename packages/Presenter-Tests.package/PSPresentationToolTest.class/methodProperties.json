@@ -24,6 +24,7 @@
 		"testErrorReportExistsPerSlide" : "LM 6/15/2018 18:38",
 		"testInvalidLoadReturnsNil" : "LM 6/13/2018 17:34",
 		"testInvalidSlideDirectoryNames" : "JZ 6/29/2018 17:04",
+		"testLayoutedSlidesCreation" : "MK 7/6/2018 17:32",
 		"testLoadingProvidesWarning" : "LB 6/29/2018 19:38",
 		"testMagneticRasterButton" : "LB 7/5/2018 22:36",
 		"testMiniatureChangesIfSlideChanges" : "WoC 6/29/2018 19:23",
