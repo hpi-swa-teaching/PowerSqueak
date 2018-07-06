@@ -4,7 +4,7 @@ createMenuBarSpec: aBuilder
 	panelSpec := aBuilder pluggablePanelSpec new.
 	panelSpec
 		model: self;
-		frame: (self barFrameFrom: 0  height: self buttonHeight);
+		frame: (self barFrameFrom: 0  height: self menuBarHeight);
 		name: #MenuBar;
 		children: OrderedCollection new.
 		

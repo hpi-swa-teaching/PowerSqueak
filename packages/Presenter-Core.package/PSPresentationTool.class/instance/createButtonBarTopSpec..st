@@ -4,7 +4,7 @@ createButtonBarTopSpec: aBuilder
 	panelSpec := aBuilder pluggablePanelSpec new.
 	panelSpec
 		model: self;
-		frame: (self barFrameFrom: self buttonHeight  height: self buttonHeight);
+		frame: (self barFrameFrom: self menuBarHeight  height: self buttonHeight);
 		name: #ButtonBarTop;
 		children: OrderedCollection new.
 		

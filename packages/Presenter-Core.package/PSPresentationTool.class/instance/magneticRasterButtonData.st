@@ -2,8 +2,9 @@ toolbuilder
 magneticRasterButtonData
 
 	^ Dictionary withAll: {
-		#frame -> (0.7@0.0 corner: 0.8@1.0).
+		#frame -> (0.75@0.0 corner: 0.85@1.0).
 		#name -> #magneticRasterButton.
-		#label -> 'U'.
+		#label -> 'Snap'.
 		#action -> #toggleMagneticRaster.
-		#color -> #magneticRasterButtonColor}
+		#color -> #magneticRasterButtonColor.
+		#help -> 'Toggle grid snapping'}

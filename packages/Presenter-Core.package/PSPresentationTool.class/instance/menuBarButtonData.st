@@ -3,5 +3,6 @@ menuBarButtonData
 
 	^ {
 		self fileButtonData.
-		self insertButtonData
+		self insertButtonData.
+		self slideButtonData
 	}
