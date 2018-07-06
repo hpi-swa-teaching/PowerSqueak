@@ -8,6 +8,5 @@ createSlide
 	self selectSlideNumber: self currentSlideNumber + 1.
 	self updateSlideMiniatures.
 	self updateCurrentMiniature.
-	"self updateSlideNumbers."
 	^ newSlide
 	
