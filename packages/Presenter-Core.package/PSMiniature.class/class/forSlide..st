@@ -1,4 +1,6 @@
 as yet unclassified
 forSlide: aPSSlide
 
-	^ self new setSlide: aPSSlide
+	^ self new 
+		slide: aPSSlide;
+		yourself

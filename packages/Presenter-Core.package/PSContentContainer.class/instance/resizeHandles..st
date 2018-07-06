@@ -1,4 +1,4 @@
 accessing
-resizeHandles: anOrderedCollection
+resizeHandles: aDictionary
 	
-	resizeHandles := anOrderedCollection
+	resizeHandles := aDictionary

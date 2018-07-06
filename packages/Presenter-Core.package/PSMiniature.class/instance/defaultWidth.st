@@ -1,0 +1,4 @@
+accessing
+defaultWidth
+
+	^ 80

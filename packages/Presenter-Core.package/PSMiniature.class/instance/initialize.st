@@ -1,6 +1,7 @@
-as yet unclassified
+initialization
 initialize 
 
 	super initialize.
-	self borderWidth:  self highlightBorderWidth.
-	self borderColor: Color transparent
+	self
+		borderWidth:  self highlightBorderWidth;
+		borderColor: Color transparent
