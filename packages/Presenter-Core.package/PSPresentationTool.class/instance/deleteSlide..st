@@ -11,5 +11,3 @@ deleteSlide: anIndex
 	
 	self miniatures removeKey: deletedSlide ifAbsent: [].
 	self updateSlideMiniatures
-	"self updateSlideNumbers "
-	
