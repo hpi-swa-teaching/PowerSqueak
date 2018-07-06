@@ -6,4 +6,5 @@ initialize
 		miniatures: Dictionary new;
 		currentSlideNumber: 0;
 		magneticRasterActive: false;
-		presentationMode: false
+		presentationMode: false;
+		isInteractive: true
