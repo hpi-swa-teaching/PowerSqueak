@@ -2,8 +2,9 @@ handles
 addResizeHandles
 
 	self hasHandles ifFalse: [
-		self addHandleAtPosition: self topLeft withIndex: #topLeft.
-		self addHandleAtPosition: self topRight withIndex: #topRight.
-		self addHandleAtPosition: self bottomRight withIndex: #bottomRight.
-		self addHandleAtPosition: self bottomLeft withIndex: #bottomLeft. 
+		self addHandleAt: #topLeft.
+		self addHandleAt: #topRight.
+		self addHandleAt: #bottomRight.
+		self addHandleAt: #bottomLeft. 
+		self placeHandles.
 		self hasHandles: true]

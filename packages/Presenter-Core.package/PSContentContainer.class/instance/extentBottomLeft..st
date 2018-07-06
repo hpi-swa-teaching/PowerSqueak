@@ -1,8 +1,7 @@
 resizing
 extentBottomLeft: aPoint
 
-	self
-		layoutFrame 
+	self	layoutFrame 
 		leftFraction: aPoint x;
 		bottomFraction: aPoint y.
 	self layoutChanged
