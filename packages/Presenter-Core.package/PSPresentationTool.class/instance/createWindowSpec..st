@@ -1,12 +1,10 @@
 toolbuilder
 createWindowSpec: aBuilder
 
-	| windowSpec |
-	windowSpec := aBuilder pluggableWindowSpec new.
-	windowSpec
+	^ aBuilder pluggableWindowSpec new
 		model: self;
 		label: 'PowerSqueak';
 		minimumExtent: 500@300;
 		extent: 500 @ 300;
-		children: OrderedCollection new.
-	^ windowSpec
+		children: OrderedCollection new;
+		yourself
