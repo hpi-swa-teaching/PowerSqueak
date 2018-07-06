@@ -4,6 +4,6 @@ initialize
 	super initialize.
 	self 
 		color: Color transparent;
-		resizeHandles: OrderedCollection new;
+		resizeHandles: Dictionary new;
 		hasHandles: false;
 		addResizeHandles
