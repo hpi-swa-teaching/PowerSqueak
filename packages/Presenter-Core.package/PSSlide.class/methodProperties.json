@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"sideRatio" : "LM 7/6/2018 13:53" },
 	"instance" : {
 		"acceptDroppingMorph:event:" : "LB 5/23/2018 15:46",
 		"addContent:" : "LB 7/5/2018 19:57",
@@ -28,7 +28,7 @@
 		"saveInDirectory:" : "WoC 6/18/2018 10:12",
 		"setSlideNumber:" : "WoC 6/17/2018 18:25",
 		"setSlideNumberMorphContents:" : "WoC 6/17/2018 18:24",
-		"sideRatio" : "LB 5/11/2018 16:10",
+		"sideRatio" : "LM 7/6/2018 13:49",
 		"slideNumberMorph" : "WoC 6/17/2018 18:12",
 		"slideNumberMorph:" : "WoC 6/17/2018 18:12",
 		"waitForDoubleClick:" : "LM 5/25/2018 17:22",

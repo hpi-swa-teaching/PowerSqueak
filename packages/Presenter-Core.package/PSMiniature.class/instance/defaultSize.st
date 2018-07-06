@@ -1,4 +1,4 @@
 accessing
 defaultSize
 
- 	^ 80 @ 60
+ 	^ self defaultWidth @ (self defaultWidth * PSSlide sideRatio)

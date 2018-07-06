@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateImage 
 
 	self newForm: (self slide imageForm scaledToSize: self defaultSize).

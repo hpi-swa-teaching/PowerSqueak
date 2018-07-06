@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 isHighlighted
 
 	^ self borderColor = self highlightBorderColor

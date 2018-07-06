@@ -1,5 +1,5 @@
-as yet unclassified
+accessing
 unHighlight
 
-	self borderColor: Color transparent.
-	self updateImage
+	self isHighlighted ifTrue: [ self updateImage ].
+	self borderColor: Color transparent

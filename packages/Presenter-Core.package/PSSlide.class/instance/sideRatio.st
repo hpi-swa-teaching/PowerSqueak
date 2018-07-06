@@ -1,4 +1,4 @@
 geometry
 sideRatio
 
-	^ 3/4
+	^ self class sideRatio
