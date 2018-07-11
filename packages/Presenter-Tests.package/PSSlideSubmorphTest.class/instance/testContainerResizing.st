@@ -7,6 +7,6 @@ testContainerResizing
 	topLeft := self morph topLeft.
 	targetPoint := self morph bottomRight + (20 @ 20).
 	event := MouseButtonEvent new setPosition: targetPoint.
-	container dragCorner: 3 event: event fromHandle: nil.
+	container dragBottomRightEvent: event fromHandle: nil.
 	self slide fullBounds.
 	self assert: self morph bounds = (topLeft corner: targetPoint)

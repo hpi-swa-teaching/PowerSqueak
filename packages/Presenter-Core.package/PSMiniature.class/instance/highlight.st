@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 highlight
 
 	self borderColor: self highlightBorderColor.

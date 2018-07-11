@@ -5,4 +5,6 @@ initialize
 		slides: OrderedCollection new;
 		miniatures: Dictionary new;
 		currentSlideNumber: 0;
-		presentationMode: false
+		magneticRasterActive: false;
+		presentationMode: false;
+		isInteractive: true

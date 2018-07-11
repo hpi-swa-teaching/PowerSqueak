@@ -1,5 +1,5 @@
 resizing
 placeHandles
 
-	self resizeHandles withIndexDo: [:each :index | 
-		each center: (self corners at: index)]
+	self resizeHandles keysAndValuesDo:  [:key :each | 
+		each center: (self perform: key)]

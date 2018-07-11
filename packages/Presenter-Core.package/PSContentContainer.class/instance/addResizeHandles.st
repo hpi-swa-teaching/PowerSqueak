@@ -2,7 +2,9 @@ handles
 addResizeHandles
 
 	self hasHandles ifFalse: [
-		self corners
-			withIndexDo: [:each :index |
-				self addHandleAtPosition: each withIndex: index].
+		self addHandleAt: #topLeft.
+		self addHandleAt: #topRight.
+		self addHandleAt: #bottomRight.
+		self addHandleAt: #bottomLeft. 
+		self placeHandles.
 		self hasHandles: true]

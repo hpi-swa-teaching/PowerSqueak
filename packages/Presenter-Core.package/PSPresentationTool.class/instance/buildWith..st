@@ -22,4 +22,6 @@ buildWith: builder
 	self createSlide.
 	self window: window.
 	
+	self afterBuildWith: builder.
+	
 	^ window

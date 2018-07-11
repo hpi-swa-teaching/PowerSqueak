@@ -1,13 +1,9 @@
 toolbuilder
 buttonBarTopData
 
-	^ {	self addSlideButtonData.
+	^ {	self createSlideButtonData.
 		self previousSlideButtonData.
 		self nextSlideButtonData.
-		self switchButtonData.
-		self deleteSlideButtonData.
-		self textFieldButtonData.
-		self imageFieldButtonData.
+		self moveSlideButtonData.
 		self presentationModeButtonData.
-		self loadingButtonData.
-		self saveButtonData }
+		self magneticRasterButtonData}

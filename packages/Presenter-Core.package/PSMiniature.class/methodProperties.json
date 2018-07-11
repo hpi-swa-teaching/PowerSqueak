@@ -1,19 +1,20 @@
 {
 	"class" : {
-		"forSlide:" : "LB 6/29/2018 17:11" },
+		"forSlide:" : "LM 7/6/2018 14:58" },
 	"instance" : {
-		"defaultSize" : "WoC 6/29/2018 15:29",
+		"defaultWidth" : "LM 7/6/2018 13:51",
+		"formSize" : "LB 7/6/2018 15:25",
 		"handlesMouseDown:" : "WoC 6/29/2018 15:33",
 		"highlight" : "LB 7/3/2018 16:57",
-		"highlightBorderColor" : "LB 6/29/2018 17:48",
+		"highlightBorderColor" : "LB 7/5/2018 22:01",
 		"highlightBorderWidth" : "LB 6/29/2018 17:16",
-		"initialize" : "LB 7/3/2018 16:57",
+		"initialize" : "LM 7/6/2018 14:46",
 		"isHighlighted" : "LB 6/29/2018 19:05",
 		"model" : "LB 6/29/2018 15:52",
 		"model:" : "LB 6/29/2018 15:52",
 		"mouseDown:" : "LB 7/3/2018 17:00",
 		"setSlide:" : "WoC 6/29/2018 15:26",
 		"slide" : "WoC 6/29/2018 15:19",
-		"slide:" : "LB 6/29/2018 17:00",
-		"unHighlight" : "LB 7/3/2018 16:56",
-		"updateImage" : "LB 7/3/2018 17:04" } }
+		"slide:" : "LM 7/6/2018 14:57",
+		"unHighlight" : "LM 7/6/2018 15:01",
+		"updateImage" : "LB 7/6/2018 15:25" } }

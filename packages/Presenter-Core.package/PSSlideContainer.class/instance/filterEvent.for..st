@@ -1,7 +1,7 @@
 events-processing
 filterEvent: evt for: aMorphOrNil
 	
-	self isInteractive
+	self model isInteractive
 		ifFalse: [ | shortcuts |
 			shortcuts := evt commandKeyPressed
 				ifTrue: [self presentationCommandShortcuts]

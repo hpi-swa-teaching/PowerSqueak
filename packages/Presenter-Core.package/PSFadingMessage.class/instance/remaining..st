@@ -1,4 +1,4 @@
 accessing
-remaining: anObject
+remaining: aNumber
 	
-	remaining := anObject
+	remaining := aNumber

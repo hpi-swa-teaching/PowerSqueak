@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 setSlide: aPSSlide
 
 	self slide: aPSSlide.
