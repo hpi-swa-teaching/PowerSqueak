@@ -1,4 +1,4 @@
-as yet unclassified
+submorph tests
 testAcceptDropImageFile
 
 	| oldSubMorphs createdImages |

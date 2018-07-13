@@ -1,5 +1,5 @@
 layouts
-createTitleAndTwoContents
+createTitleAndTwoContentsSlide
 
 	| slide title leftContent rightContent |
 	slide := self createSlide.

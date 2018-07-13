@@ -1,4 +1,4 @@
 accessing
 defaultTextBackgroundColor
 
-	^ Color transparent.
+	^ Color transparent

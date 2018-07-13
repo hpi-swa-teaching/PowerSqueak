@@ -1,4 +1,4 @@
 presentation loading
 loadMorphFromStream: aStream
 
-	^ self loadMorphFromStream: aStream testIn: World.
+	^ self loadMorphFromStream: aStream testIn: World
