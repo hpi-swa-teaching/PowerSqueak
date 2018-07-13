@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"for:" : "WoC 6/15/2018 17:24" },
+		"for:" : "LB 7/6/2018 18:05" },
 	"instance" : {
 		"active" : "WoC 6/15/2018 19:23",
 		"active:" : "LM 7/13/2018 14:04",
@@ -10,10 +10,10 @@
 		"initialize" : "LM 7/13/2018 14:30",
 		"isActive" : "WoC 6/15/2018 19:23",
 		"remaining" : "WoC 6/15/2018 17:41",
-		"remaining:" : "LM 7/13/2018 14:19",
-		"setContent:" : "WoC 6/15/2018 18:13",
+		"remaining:" : "LB 7/6/2018 18:03",
 		"startFadingTime" : "LM 7/13/2018 14:25",
 		"step" : "WoC 6/15/2018 17:43",
 		"stepTime" : "WoC 6/15/2018 17:55",
 		"totalVisibleTime" : "LM 7/13/2018 14:30",
-		"updateColor" : "LM 7/13/2018 14:24" } }
+		"updateColor" : "LM 7/13/2018 14:24",
+		"withMessage:" : "LB 7/6/2018 18:05" } }

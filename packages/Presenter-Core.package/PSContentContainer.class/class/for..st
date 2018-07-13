@@ -1,4 +1,4 @@
 instance creation
 for: aMorph
 
-	^ self new addContent: aMorph
+	^ self new setContent: aMorph

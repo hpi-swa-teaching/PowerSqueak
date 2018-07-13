@@ -7,7 +7,7 @@ createButtonBarTopSpec: aBuilder
 		frame: (self barFrameFrom: self menuBarHeight  height: self buttonHeight);
 		name: #ButtonBarTop;
 		children: OrderedCollection new.
-	
+		
 	self buttonBarTopData do: [:each | 
 		| button |
 		button := self createButtonSpec: each with: aBuilder.
