@@ -1,4 +1,4 @@
 styling
 showBackgroundColorDialog
 
-	self openColorDialogWIth: self color selecting: #color
+	self openColorDialogWIth: self color selecting: #color:
