@@ -2,8 +2,8 @@ stepping and presenter
 updateColor
 	
 	| alpha |
-	self remaining: self remaining - 10.
-	self remaining < self alphaThreshold 
+	self remaining: self remaining - self stepTime.
+	self remaining < self startFadingTime
 		ifTrue: [
-			alpha := remaining / self alphaThreshold.
+			alpha := remaining / self startFadingTime.
 			self color: (self color alpha: alpha)]

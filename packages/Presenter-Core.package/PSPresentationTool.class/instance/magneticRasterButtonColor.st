@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 magneticRasterButtonColor
 
 	^ self magneticRasterActive 

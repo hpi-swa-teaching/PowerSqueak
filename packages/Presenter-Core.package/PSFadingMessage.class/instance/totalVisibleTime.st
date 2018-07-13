@@ -1,4 +1,4 @@
 accessing
-fadingTime
+totalVisibleTime
 
 	^ 1500
