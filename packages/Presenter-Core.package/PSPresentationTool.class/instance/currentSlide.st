@@ -1,6 +1,6 @@
 accessing
 currentSlide
 
-	(self currentSlideNumber between: 1 and: self slides size)
+	(self currentSlideNumber between: 1 and: self slideCount)
 		ifFalse: [ self error: 'No slide available'].
-	^ self slides at: self currentSlideNumber
+	^ self presentation slideAt: self currentSlideNumber

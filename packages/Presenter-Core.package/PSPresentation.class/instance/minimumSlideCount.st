@@ -1,0 +1,4 @@
+accessing
+minimumSlideCount
+
+	^ 1

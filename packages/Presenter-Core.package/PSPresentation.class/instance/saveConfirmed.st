@@ -1,5 +1,5 @@
-presentation saving
-savePresentationConfirmed
+saving
+saveConfirmed
 
 	| directory |
 	directory := self defaultDirectory.

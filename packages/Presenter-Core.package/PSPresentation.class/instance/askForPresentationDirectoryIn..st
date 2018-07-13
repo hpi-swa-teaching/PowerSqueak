@@ -1,4 +1,4 @@
-presentation saving
+saving
 askForPresentationDirectoryIn: aFileDirectory
 
 	| presentationName directory  |
