@@ -1,4 +1,4 @@
-presentation saving
+saving
 validateUsageOf: aString inDirectory: aFileDirectory 
 
 	| directory |

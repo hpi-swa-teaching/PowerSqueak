@@ -1,4 +1,4 @@
-presentation saving
+saving
 askForPresentationName 
 
 	^ (UIManager default 

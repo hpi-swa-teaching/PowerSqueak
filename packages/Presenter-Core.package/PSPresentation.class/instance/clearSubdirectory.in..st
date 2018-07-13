@@ -1,4 +1,4 @@
-presentation saving
+saving
 clearSubdirectory: aString in: aDirectory
 
 	(aDirectory / aString) recursiveDelete.

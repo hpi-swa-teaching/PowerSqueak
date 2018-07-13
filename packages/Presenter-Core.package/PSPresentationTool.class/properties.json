@@ -8,6 +8,7 @@
 	"instvars" : [
 		"window",
 		"slideContainer",
+		"presentation",
 		"slides",
 		"currentSlideNumber",
 		"presentationMode",

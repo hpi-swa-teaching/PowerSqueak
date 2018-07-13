@@ -2,7 +2,7 @@ initialize-release
 initialize
 
 	self 
-		slides: OrderedCollection new;
+		presentation: PSPresentation new;
 		miniatures: Dictionary new;
 		currentSlideNumber: 0;
 		magneticRasterActive: false;

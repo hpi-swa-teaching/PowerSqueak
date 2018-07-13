@@ -1,4 +1,4 @@
 accessing
 slides
 
-	^ self tool slides
+	^ self tool presentation slides

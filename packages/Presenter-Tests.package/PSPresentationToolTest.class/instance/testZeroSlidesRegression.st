@@ -4,7 +4,7 @@ testZeroSlidesRegression
 	| deletedSlide |
 	self assert: self tool slideCount = 1.
 	deletedSlide := self tool currentSlide.
-	self tool deleteSlide: 1.
+	self tool deleteSlideAt: 1.
 	self 
 		assert: self tool slideCount = 1 
 		description: 'There should never be 0 slides'.
