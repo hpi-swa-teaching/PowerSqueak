@@ -1,4 +1,0 @@
-accessing
-presentationCreationCommandShortcuts: aDictionary
-	
-	presentationCreationCommandShortcuts := aDictionary
