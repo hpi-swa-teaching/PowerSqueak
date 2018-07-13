@@ -2,6 +2,6 @@ contentHandling
 layoutFrameFor: aMorph
 
 	| upperLeft lowerRight |
-	upperLeft := self layoutFractionsOf: aMorph position.
+	upperLeft := (aMorph position - self position) / self extent.
 	lowerRight := upperLeft + (aMorph extent / self extent).
 	^ (LayoutFrame fractions: (upperLeft corner: lowerRight))

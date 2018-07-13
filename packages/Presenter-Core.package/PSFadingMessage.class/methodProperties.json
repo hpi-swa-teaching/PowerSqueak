@@ -1,19 +1,19 @@
 {
 	"class" : {
-		"for:" : "LB 7/6/2018 18:05" },
+		"for:" : "WoC 6/15/2018 17:24" },
 	"instance" : {
 		"active" : "WoC 6/15/2018 19:23",
-		"active:" : "WoC 6/15/2018 19:23",
-		"alphaThreshold" : "LB 7/6/2018 18:03",
+		"active:" : "LM 7/13/2018 14:04",
 		"content" : "WoC 6/15/2018 17:21",
-		"content:" : "LB 7/6/2018 18:02",
+		"content:" : "LM 7/13/2018 14:19",
 		"defaultPadding" : "WoC 6/15/2018 17:31",
-		"fadingTime" : "WoC 6/15/2018 17:46",
-		"initialize" : "WoC 6/15/2018 19:23",
+		"initialize" : "LM 7/13/2018 14:30",
 		"isActive" : "WoC 6/15/2018 19:23",
 		"remaining" : "WoC 6/15/2018 17:41",
-		"remaining:" : "LB 7/6/2018 18:03",
+		"remaining:" : "LM 7/13/2018 14:19",
+		"setContent:" : "WoC 6/15/2018 18:13",
+		"startFadingTime" : "LM 7/13/2018 14:25",
 		"step" : "WoC 6/15/2018 17:43",
 		"stepTime" : "WoC 6/15/2018 17:55",
-		"updateColor" : "LB 7/6/2018 18:03",
-		"withMessage:" : "LB 7/6/2018 18:05" } }
+		"totalVisibleTime" : "LM 7/13/2018 14:30",
+		"updateColor" : "LM 7/13/2018 14:24" } }

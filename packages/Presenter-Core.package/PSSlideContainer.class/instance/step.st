@@ -2,5 +2,6 @@ stepping and presenter
 step
 
 	self model presentationMode ifFalse: [^self].
-	self occupiesWorld 
-		ifFalse: [self occupyWorld: self world]
+	(self extent ~= self world extent 
+		or: [self position ~= (0@0)])
+		ifTrue: [self occupyWorld: self world]

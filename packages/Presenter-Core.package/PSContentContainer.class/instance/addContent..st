@@ -1,5 +1,5 @@
 contentHandling
-setContent: aMorph
+addContent: aMorph
 	
 	self 
 		position: aMorph position;

@@ -1,6 +1,5 @@
 toolbuilder
 styleMenuBar: aBuilder
-	"Only works with Morphs!"
+	"Only for esthetics, only works with Morphs!"
 	self menuBarButtonData do: [ :each |
-		(aBuilder widgetAt: (each at: #name) ifAbsent: [nil])
-			borderWidth: 0]
+		(aBuilder widgetAt: (each at: #name)) borderWidth: 0]

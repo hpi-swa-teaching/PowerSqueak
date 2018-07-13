@@ -1,4 +1,4 @@
 nil
 for: aString
 
-	^ self new withMessage: aString
+	^ self new setContent: aString

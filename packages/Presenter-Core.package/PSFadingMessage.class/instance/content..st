@@ -1,4 +1,4 @@
 accessing
-content: aMorph
+content: aStringMorph
 	
-	content := aMorph
+	content := aStringMorph
