@@ -1,4 +1,4 @@
 accessing
 presentationModeCommandShortcuts
-	"{character that trggers event .  action block . discription}"
+	"{character that triggers event .  action block . discription}"
 	^ {}, self sharedCommandShortcuts
