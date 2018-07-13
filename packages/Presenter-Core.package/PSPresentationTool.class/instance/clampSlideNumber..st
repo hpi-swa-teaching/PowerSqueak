@@ -1,4 +1,4 @@
-as yet unclassified
+slide management
 clampSlideNumber: aNumber
 
 	^ aNumber 
