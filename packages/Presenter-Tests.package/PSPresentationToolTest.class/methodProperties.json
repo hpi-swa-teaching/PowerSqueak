@@ -19,6 +19,8 @@
 		"testDeleteFirstSlide" : "LM 7/13/2018 17:40",
 		"testDeletionDecreasesSlideCount" : "LM 7/13/2018 17:23",
 		"testDeletionRemovesSlide" : "LM 7/13/2018 17:43",
+		"testDuplicateSlide" : "MK 7/13/2018 17:03",
+		"testDuplicatedSlidesContent" : "MK 7/13/2018 17:37",
 		"testEmptyPresentationDirectoryIsValid" : "LM 6/15/2018 18:44",
 		"testEnterNonInteractiveMode" : "LB 7/6/2018 17:16",
 		"testErrorReportExistsPerSlide" : "LM 6/15/2018 18:38",

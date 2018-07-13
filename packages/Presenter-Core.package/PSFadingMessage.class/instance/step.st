@@ -3,5 +3,5 @@ step
 	
 	self remaining: self remaining - self stepTime.
 	self remaining <= 0
-		ifTrue: [ self delete ]
+		ifTrue: [self delete]
 		ifFalse: [self updateColor]

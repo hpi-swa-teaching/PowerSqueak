@@ -1,4 +1,4 @@
 accessing
-textField: anObject
+textField: aPSTextMorph
 	
-	textField := anObject
+	textField := aPSTextMorph
