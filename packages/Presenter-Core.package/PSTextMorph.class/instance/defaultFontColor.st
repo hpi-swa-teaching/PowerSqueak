@@ -1,4 +1,4 @@
-styling
+accessing
 defaultFontColor
 
 	^ Color black

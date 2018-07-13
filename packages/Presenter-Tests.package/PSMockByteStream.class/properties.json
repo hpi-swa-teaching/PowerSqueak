@@ -1,15 +1,14 @@
 {
-	"category" : "Presenter-Core",
+	"category" : "Presenter-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"remaining",
-		"content" ],
-	"name" : "PSFadingMessage",
+		"name" ],
+	"name" : "PSMockByteStream",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "FileStream",
 	"type" : "normal" }

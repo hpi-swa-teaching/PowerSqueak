@@ -1,0 +1,4 @@
+accessing
+defaultTextScale
+
+	^ 1
