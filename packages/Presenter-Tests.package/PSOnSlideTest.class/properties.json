@@ -11,5 +11,5 @@
 	"name" : "PSOnSlideTest",
 	"pools" : [
 		 ],
-	"super" : "UITestCase",
+	"super" : "PSUITestCase",
 	"type" : "normal" }

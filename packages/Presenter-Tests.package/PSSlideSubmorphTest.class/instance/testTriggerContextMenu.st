@@ -5,5 +5,5 @@ testTriggerContextMenu
 	container := (PSMockContentContainer for: self morph).
 
 	self slide addMorph: container fullFrame: (self slide layoutFrameFor: container).			
-	self hand handleEvent: (self yellowMouseDownAt: container center).
+	self click: MouseEvent yellowButton at: container center.
 	self assert: container menuCreated equals: true

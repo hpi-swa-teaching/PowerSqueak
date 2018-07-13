@@ -1,4 +1,4 @@
 support
-mouse: aButtonCode DownAt: aPoint
+mouse: aButtonCode downAt: aPoint
 
 	^ self mouse: aButtonCode does: #mouseDown at: aPoint

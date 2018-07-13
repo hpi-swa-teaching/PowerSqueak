@@ -5,10 +5,10 @@ testNonInteractivetyInNonInteractiveMode
 	testMorph := PSMorphForEventTests new.
 	self tool enablePresentationMode.
 	self slideContainer currentSlide addContent: testMorph.
-	self hand handleEvent: (self keystroke: $i at: self slideContainer center).
+	self pressKey: $i at: self slideContainer center.
 	
-	self hand handleEvent: (self keystroke: $a at: self slideContainer center).
-	self hand handleEvent: (self redMouseDownAt: self slideContainer center).
+	self pressKey: $a at: self slideContainer center.
+	self click: MouseEvent redButton at:  self slideContainer center.
 	
 	self assert: testMorph receivedMouseEvents equals: 0.
 	self assert: testMorph receivedKeyboardEvents equals: 0.
