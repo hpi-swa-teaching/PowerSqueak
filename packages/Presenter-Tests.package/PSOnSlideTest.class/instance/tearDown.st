@@ -2,5 +2,5 @@ running
 tearDown 
 
 	self slide abandon.
-	self container abandon.
+	self slideContainer abandon.
 	super tearDown
