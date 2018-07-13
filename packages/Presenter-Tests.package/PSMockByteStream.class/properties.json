@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name" ],
+	"name" : "PSMockByteStream",
+	"pools" : [
+		 ],
+	"super" : "FileStream",
+	"type" : "normal" }
