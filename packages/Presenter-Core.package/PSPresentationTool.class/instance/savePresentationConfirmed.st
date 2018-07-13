@@ -4,7 +4,7 @@ savePresentationConfirmed
 	| directory |
 	directory := self defaultDirectory.
 	
-	directory := self getValidPresentationName: directory.
+	directory := self askForPresentationDirectoryIn: directory.
 	directory ifNil: [^ self].
 	directory := self createDirectory: 'slides' in: directory. 
 
