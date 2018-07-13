@@ -1,4 +1,4 @@
-as yet unclassified
+slide management
 toggleMagneticRaster
 
 	self magneticRasterActive: self magneticRasterActive not.
