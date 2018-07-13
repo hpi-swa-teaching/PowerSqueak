@@ -1,8 +1,4 @@
 styling
 showBackgroundColorDialog
 
-	(NewColorPickerMorph 
-		on: self 
-		originalColor: self color 
-		setColorSelector: #color:) 
-		openNear: self fullBoundsInWorld
+	self openColorDialogWIth: self color selecting: #color:

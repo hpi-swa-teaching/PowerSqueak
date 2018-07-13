@@ -57,6 +57,7 @@
 		"testSlideNumberLabelSelectsCorrectly" : "LB 6/22/2018 16:35",
 		"testSlideRatioIsFixed" : "LB 6/1/2018 18:49",
 		"testSlideResizeRegression" : "LB 5/18/2018 20:27",
+		"testSlideSelectionDialog" : "LB 7/13/2018 14:58",
 		"testSlidesDirectoryIsEmpty" : "LM 6/15/2018 18:42",
 		"testSlidesReceiveEnablePresentationMode" : "LM 6/15/2018 18:40",
 		"testSortMorphFiles" : "JZ 6/29/2018 18:00",

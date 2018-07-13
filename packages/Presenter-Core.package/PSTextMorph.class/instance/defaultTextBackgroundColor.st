@@ -1,4 +1,4 @@
-styling
+accessing
 defaultTextBackgroundColor
 
 	^ Color transparent.

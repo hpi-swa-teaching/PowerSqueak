@@ -2,7 +2,7 @@ slide management
 openSlideSelectionDialog
 
 	| userInput |
-	userInput := UIManager default request: 'Which slide should I select???'.
+	userInput := UIManager default request: self slideSelectionDialogText.
 	userInput ifEmpty: [^ self]. "Check for cancel"
 	[self selectSlideNumber: userInput asNumber] 
 		on: Error 

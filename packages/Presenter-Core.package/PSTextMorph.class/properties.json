@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		"DefaultTextStyle" ],
-	"commentStamp" : "",
+	"commentStamp" : "WoC 7/13/2018 16:46",
 	"instvars" : [
 		"textScale" ],
 	"name" : "PSTextMorph",
