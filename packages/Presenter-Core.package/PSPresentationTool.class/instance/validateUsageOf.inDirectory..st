@@ -6,4 +6,4 @@ validateUsageOf: aString inDirectory: aFileDirectory
 	self warn: self overwriteQuestion 
 			trueChoice: [directory recursiveDelete. 
 				^ self createDirectory: aString in: aFileDirectory] 
-			falseChoice: [^ self getValidPresentationName: aFileDirectory]
+			falseChoice: [^ self askForPresentationDirectoryIn: aFileDirectory]
