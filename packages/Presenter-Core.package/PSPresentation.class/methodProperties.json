@@ -2,12 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addSlide:afterIndex:" : "LM 7/13/2018 19:04",
 		"askForPresentationDirectoryIn:" : "LM 7/13/2018 18:33",
 		"askForPresentationName" : "LM 7/13/2018 18:32",
 		"clampSlideNumber:" : "LM 7/13/2018 17:18",
 		"clearSubdirectory:in:" : "LM 7/13/2018 18:32",
 		"createDirectory:in:" : "LM 7/13/2018 18:32",
-		"createSlideAfter:" : "LM 7/13/2018 17:29",
+		"createSlideAfter:" : "LM 7/13/2018 19:04",
 		"defaultDirectory" : "LM 7/13/2018 18:35",
 		"defaultDirectoryName" : "LM 7/13/2018 18:35",
 		"deleteSlideAt:" : "LM 7/13/2018 17:37",

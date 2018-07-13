@@ -3,6 +3,5 @@ createSlideAfter: anIndex
 
 	| newSlide |
 	newSlide := PSSlide new.
-	newSlide setModel: self.
-	self slides add: newSlide afterIndex: anIndex.
+	self addSlide: newSlide afterIndex: anIndex.
 	^ newSlide
