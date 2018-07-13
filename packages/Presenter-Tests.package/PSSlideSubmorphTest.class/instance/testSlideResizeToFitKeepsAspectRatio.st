@@ -1,7 +1,7 @@
 resizeToFit tests
 testSlideResizeToFitKeepsAspectRatio
 
-	self doForDifferentSizes: [ :width :height |
+	self doForDifferentSizes: [:width :height |
 		| aspectRatio |
 		self morph extent: width @ height. 
 		aspectRatio := self morph extent y / self morph extent x.
