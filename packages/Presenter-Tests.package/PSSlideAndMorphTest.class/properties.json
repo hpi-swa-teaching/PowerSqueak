@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "PSSlideSubmorphTest",
+		"morph" ],
+	"name" : "PSSlideAndMorphTest",
 	"pools" : [
 		 ],
-	"super" : "PSSlideAndMorphTest",
+	"super" : "PSOnSlideTest",
 	"type" : "normal" }

@@ -1,4 +1,4 @@
-submorph tests
+dropping tests
 testDroppingCreatesContainer
 
 	self slide acceptDroppingMorph: self morph event: nil.

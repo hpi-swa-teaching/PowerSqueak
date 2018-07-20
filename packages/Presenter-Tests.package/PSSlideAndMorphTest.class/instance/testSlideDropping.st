@@ -1,8 +1,7 @@
-submorph tests
+dropping tests
 testSlideDropping
 
 	| morphExtent morphPosition |
-	
 	morphPosition := self morph position.
 	morphExtent := self morph extent.
 	
