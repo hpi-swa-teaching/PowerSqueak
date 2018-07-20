@@ -1,4 +1,4 @@
-support
+inputs
 mouseMove: aMouseButton from: aPoint to: anotherPoint
 
 	^ MouseMoveEvent new

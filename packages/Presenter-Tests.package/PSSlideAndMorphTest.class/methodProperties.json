@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:onResizeToFit:" : "MK 7/13/2018 18:07",
+		"doForDifferentSizes:" : "MK 7/13/2018 18:07",
+		"morph" : "LB 7/20/2018 15:04",
+		"morph:" : "LB 7/20/2018 15:04",
+		"setUp" : "LB 7/20/2018 15:05",
+		"tearDown" : "LB 6/1/2018 17:51",
+		"testDroppingCreatesContainer" : "LB 7/20/2018 15:07",
+		"testSlideDropping" : "LB 7/20/2018 15:07",
+		"testSlideResizeToFit" : "LB 7/20/2018 15:08",
+		"testSlideResizeToFitKeepsPosition" : "LB 7/20/2018 15:08",
+		"testSlideResizeToFitKeepsSideRatio" : "LB 7/20/2018 15:08",
+		"testTriggerContextMenu" : "LB 7/20/2018 15:09" } }
