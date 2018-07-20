@@ -1,4 +1,4 @@
-support
+inputs
 mouse: aButtonCode does: aType at: aPoint
 
 	^ MouseButtonEvent new

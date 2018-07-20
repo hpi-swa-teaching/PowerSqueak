@@ -24,5 +24,7 @@
 		"testSlideResizeToFit" : "LM 5/18/2018 19:20",
 		"testSlideResizeToFitKeepsAspectRatio" : "MK 7/13/2018 18:08",
 		"testSlideResizeToFitKeepsPosition" : "MK 7/13/2018 18:08",
-		"testSubmorphsOnResize" : "LM 6/6/2018 18:09",
+		"testSubmorphRelativePositionOnResize" : "LB 7/20/2018 14:46",
+		"testSubmorphRelativeSizeOnResize" : "LB 7/20/2018 14:44",
+		"testSubmorphSideRatioOnResize" : "LB 7/20/2018 14:28",
 		"testTriggerContextMenu" : "LB 7/13/2018 18:39" } }
