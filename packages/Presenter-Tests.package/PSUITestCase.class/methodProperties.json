@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"resources" : "LM 6/15/2018 18:41" },
+	"instance" : {
+		"assert:constantOnResizeOf:" : "LB 7/13/2018 18:59",
+		"assert:deviateLessThan:onResizeOf:" : "LB 7/13/2018 19:01",
+		"assert:onResizeOf:" : "LB 7/13/2018 18:48",
+		"click:at:" : "LB 7/13/2018 22:10",
+		"does:answerSideRatio:" : "LB 6/6/2018 15:10",
+		"drag:from:to:" : "LB 7/13/2018 18:44",
+		"dragndrop:from:to:" : "LB 7/13/2018 18:44",
+		"getNew:createdIn:" : "LB 6/15/2018 16:46",
+		"hand" : "LM 6/15/2018 18:41",
+		"keystroke:at:" : "WoC 6/15/2018 18:26",
+		"mouse:does:at:" : "LB 7/13/2018 18:24",
+		"mouse:downAt:" : "LB 7/13/2018 18:43",
+		"mouse:upAt:" : "LB 7/13/2018 18:44",
+		"mouseMove:from:to:" : "LB 7/5/2018 22:57",
+		"number:isSimilarTo:" : "LB 5/29/2018 17:39",
+		"pressKey:at:" : "LB 7/13/2018 18:29",
+		"setUp" : "LB 7/13/2018 19:04",
+		"tearDown" : "LB 7/13/2018 17:25",
+		"world" : "LM 6/15/2018 18:41" } }

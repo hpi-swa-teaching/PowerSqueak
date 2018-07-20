@@ -1,7 +1,7 @@
 slide management
 duplicateCurrentSlide
 
-	self slides 
-		add: self currentSlide copy 
+	self presentation 
+		addSlide: self currentSlide copy 
 		afterIndex: self currentSlideNumber.
 	self updateSlideMiniatures

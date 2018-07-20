@@ -5,5 +5,5 @@ testSlideCreation
 	slideCount := self tool slideCount.
 	newSlide := self tool createSlide.
 	self assert: self tool slideCount = (slideCount + 1).
-	self assert: (self tool slides includes: newSlide)
+	self assert: (self slides includes: newSlide)
 	

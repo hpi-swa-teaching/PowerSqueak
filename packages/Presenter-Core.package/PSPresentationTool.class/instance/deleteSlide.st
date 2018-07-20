@@ -1,5 +1,5 @@
 slide management
 deleteSlide
 
-	self deleteSlide: self currentSlideNumber
+	self deleteSlideAt: self currentSlideNumber
 	

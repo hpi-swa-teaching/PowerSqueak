@@ -1,4 +1,4 @@
 accessing
 slideCount 
 
-	^ self slides size
+	^ self presentation slideCount

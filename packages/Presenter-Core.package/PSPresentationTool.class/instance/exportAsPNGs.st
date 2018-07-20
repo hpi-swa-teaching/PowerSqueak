@@ -2,6 +2,6 @@ exporting
 exportAsPNGs
 
 	| directory |
-	directory := self askForPresentationDirectoryIn: self exportFolder.
+	directory := self presentation askForPresentationDirectoryIn: self exportFolder.
 	directory
 		ifNotNil: [self exportAsPNGsIn: directory]

@@ -1,4 +1,4 @@
 slide miniatures
 slideMiniatures
 
-	^ self slides collect: [:each | self miniatureOf: each]
+	^ self presentation slidesCollect: [:each | self miniatureOf: each]

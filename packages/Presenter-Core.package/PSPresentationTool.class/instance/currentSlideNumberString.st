@@ -1,4 +1,0 @@
-accessing
-currentSlideNumberString
-	
-	^ currentSlideNumber asString

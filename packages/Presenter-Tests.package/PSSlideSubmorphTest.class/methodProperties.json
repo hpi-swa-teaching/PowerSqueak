@@ -8,7 +8,6 @@
 		"morph:" : "LB 5/18/2018 16:11",
 		"setUp" : "WoC 6/15/2018 20:15",
 		"tearDown" : "LB 6/1/2018 17:51",
-		"testAcceptDropImageFile" : "LB 7/13/2018 17:01",
 		"testContainerResizing" : "LB 7/6/2018 16:33",
 		"testContainerResizingAllCorners" : "LB 7/6/2018 15:41",
 		"testContainerResizingCorner:offset:" : "LB 7/6/2018 15:40",
@@ -26,4 +25,4 @@
 		"testSlideResizeToFitKeepsAspectRatio" : "MK 7/13/2018 18:08",
 		"testSlideResizeToFitKeepsPosition" : "MK 7/13/2018 18:08",
 		"testSubmorphsOnResize" : "LM 6/6/2018 18:09",
-		"testTriggerContextMenu" : "LB 6/15/2018 21:37" } }
+		"testTriggerContextMenu" : "LB 7/13/2018 18:39" } }

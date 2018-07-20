@@ -13,6 +13,6 @@ loadPresentationUnchecked: aDirectory
 		self updateCurrentMiniature.
 		errorReport at: each 
 			put: (slidesDirectory / each) fileNames size - slide submorphs size].
-	self minimumSlideCount timesRepeat: [self deleteSlide: 1].
+	self minimumSlideCount timesRepeat: [self deleteSlideAt: 1].
 	self selectSlideNumber: 1.
 	^ errorReport

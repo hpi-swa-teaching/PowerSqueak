@@ -7,9 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"slide",
-		"container" ],
+		"slideContainer" ],
 	"name" : "PSOnSlideTest",
 	"pools" : [
 		 ],
-	"super" : "UITestCase",
+	"super" : "PSUITestCase",
 	"type" : "normal" }
