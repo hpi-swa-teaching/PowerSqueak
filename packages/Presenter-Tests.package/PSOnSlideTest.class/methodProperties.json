@@ -11,5 +11,5 @@
 		"slideContainer:" : "LB 7/13/2018 18:13",
 		"tearDown" : "LB 7/13/2018 18:13",
 		"testAcceptDropImageFile" : "LB 7/13/2018 21:57",
-		"testContextMenuContent:equals:" : "LB 6/15/2018 16:39",
-		"testTextFieldCreatedOnClick" : "LB 7/13/2018 22:09" } }
+		"testContextMenuContent:equals:" : "LB 7/20/2018 15:32",
+		"testTextFieldCreatedOnDoubleClick" : "LB 7/20/2018 15:42" } }

@@ -1,4 +1,4 @@
-inputs
+mock inputs
 dragndrop: aMouseButton from: aPoint to: anotherPoint
 
 	self drag: aMouseButton from: aPoint to: anotherPoint. 

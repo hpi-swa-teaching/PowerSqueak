@@ -1,4 +1,4 @@
-inputs
+input events
 keystroke: char at: point
 
 	^ KeyboardEvent new

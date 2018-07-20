@@ -1,4 +1,4 @@
-inputs
+mock inputs
 click: aMouseButton at: aPoint
 
 	self hand handleEvent: (self mouse: aMouseButton downAt: aPoint).

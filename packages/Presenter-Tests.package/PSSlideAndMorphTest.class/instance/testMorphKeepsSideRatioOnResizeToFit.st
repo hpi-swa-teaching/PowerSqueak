@@ -1,5 +1,5 @@
 resizeToFit tests
-testSlideResizeToFitKeepsSideRatio
+testMorphKeepsSideRatioOnResizeToFit
 
 	self doForDifferentSizes: [:width :height |
 		| sideRatio |
