@@ -1,4 +1,4 @@
 magnetic raster
 isMagnetic 
 
-	^ self model magneticRasterActive
+	^ self owner isMagnetic 

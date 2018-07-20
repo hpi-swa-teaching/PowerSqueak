@@ -1,0 +1,15 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"errorReport",
+		"presentation" ],
+	"name" : "PSPresentationLoader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
