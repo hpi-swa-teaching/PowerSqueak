@@ -1,4 +1,4 @@
-exporting
+presentation serialization
 exportFolder
 
 	^ (FileDirectory default / self exportFolderName)

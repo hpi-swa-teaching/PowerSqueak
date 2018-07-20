@@ -1,4 +1,4 @@
-as yet unclassified
+warning
 warn: aString trueChoice: aBlock
 
 	self warn: aString trueChoice: aBlock falseChoice: []

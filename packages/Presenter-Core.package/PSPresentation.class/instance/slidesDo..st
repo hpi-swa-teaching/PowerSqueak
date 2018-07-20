@@ -1,4 +1,4 @@
-as yet unclassified
+collection behaviour
 slidesDo: aBlock
 
 	self slides do: aBlock

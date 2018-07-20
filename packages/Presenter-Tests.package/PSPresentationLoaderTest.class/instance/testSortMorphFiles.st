@@ -1,4 +1,4 @@
-as yet unclassified
+presentation loading
 testSortMorphFiles
 
 	self assert: {'1.morph'} equals: (self loader sortedMorphFiles: {'1.morph'}).

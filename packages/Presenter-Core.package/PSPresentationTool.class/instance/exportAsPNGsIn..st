@@ -1,4 +1,4 @@
-exporting
+presentation serialization
 exportAsPNGsIn: aDirectory
 
 	self enablePresentationMode.

@@ -1,4 +1,4 @@
-exporting
+presentation serialization
 exportSlidesAsPNGsInDirectory: aDirectory
 
 	self presentation slidesWithIndexDo: [:each :index |

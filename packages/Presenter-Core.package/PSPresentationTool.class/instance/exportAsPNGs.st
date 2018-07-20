@@ -1,4 +1,4 @@
-exporting
+presentation serialization
 exportAsPNGs
 
 	| directory |

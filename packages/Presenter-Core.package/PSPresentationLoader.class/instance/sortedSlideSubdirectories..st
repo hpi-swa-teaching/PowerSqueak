@@ -1,4 +1,4 @@
-as yet unclassified
+slide loading
 sortedSlideSubdirectories: aFileDirectory
 
 	| sortedDirectories |

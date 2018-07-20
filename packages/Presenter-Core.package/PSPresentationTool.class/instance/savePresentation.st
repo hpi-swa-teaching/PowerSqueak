@@ -1,4 +1,4 @@
-presentation saving
+presentation serialization
 savePresentation
 
 	self presentation save

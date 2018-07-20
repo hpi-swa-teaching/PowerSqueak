@@ -1,4 +1,4 @@
-as yet unclassified
+slide management
 createSlideBack
 
 	^ self createSlideAfter: self slides size

@@ -1,4 +1,4 @@
-as yet unclassified
+warning
 warn: aString trueChoice: trueBlock falseChoice: falseBlock
 
 	(UIManager default confirm: aString)

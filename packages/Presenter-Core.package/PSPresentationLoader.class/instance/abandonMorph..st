@@ -1,4 +1,4 @@
-as yet unclassified
+morph loading
 abandonMorph: aMorph
 
 	aMorph ifNotNil: [aMorph abandon].

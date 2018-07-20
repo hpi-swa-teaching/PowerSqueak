@@ -1,4 +1,4 @@
-as yet unclassified
+directory checking
 testInvalidSlideDirectoryNames
 
 	| invalidSlideDirectoryNames |

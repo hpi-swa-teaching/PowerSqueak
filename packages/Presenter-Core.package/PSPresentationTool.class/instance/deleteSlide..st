@@ -1,4 +1,4 @@
-as yet unclassified
+slide management
 deleteSlide: anIndex
 
 	| deletedSlide |

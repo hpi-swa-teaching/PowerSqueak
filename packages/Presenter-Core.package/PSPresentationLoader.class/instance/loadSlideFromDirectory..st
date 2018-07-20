@@ -1,4 +1,4 @@
-as yet unclassified
+slide loading
 loadSlideFromDirectory: aDirectory
 
 	| slide sortedMorphFiles |

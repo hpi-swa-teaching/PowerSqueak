@@ -1,4 +1,4 @@
-as yet unclassified
+directory checking
 checkSlideDirectoryName: aDirectoryName
 
 	^ aDirectoryName matchesRegex: 'slide[0-9]+'

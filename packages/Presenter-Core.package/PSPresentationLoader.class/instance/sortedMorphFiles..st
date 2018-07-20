@@ -1,4 +1,4 @@
-as yet unclassified
+morph loading
 sortedMorphFiles: anOrderedCollection
 
 	^ anOrderedCollection sorted: [:a :b |

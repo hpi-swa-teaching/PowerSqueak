@@ -1,4 +1,4 @@
-as yet unclassified
+morph loading
 loadMorphFromStream: aStream testIn: aWorld
 
 	| morph |

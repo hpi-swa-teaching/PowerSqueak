@@ -1,4 +1,4 @@
-presentation loading
+presentation serialization
 loadPresentationFromDirectory: aDirectory
 
 	| loader |
