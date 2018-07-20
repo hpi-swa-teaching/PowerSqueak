@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"examplePngBytes" : "LB 7/13/2018 16:12",
+		"examplePngBytes" : "LB 7/20/2018 15:28",
 		"newPng" : "LB 7/13/2018 16:13" },
 	"instance" : {
 		"atEnd" : "LB 7/13/2018 15:45",
@@ -10,6 +10,6 @@
 		"initialize" : "LB 7/13/2018 16:13",
 		"name" : "LB 7/13/2018 16:10",
 		"name:" : "LB 7/13/2018 16:10",
-		"reset" : "LB 7/13/2018 15:51",
+		"reset" : "LB 7/20/2018 15:30",
 		"setToEnd" : "LB 7/13/2018 16:04",
 		"skip:" : "LB 7/13/2018 15:45" } }

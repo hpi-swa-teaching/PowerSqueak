@@ -3,7 +3,6 @@
 		"resources" : "LM 6/15/2018 18:41" },
 	"instance" : {
 		"assert:constantOnResizeOf:" : "LB 7/13/2018 18:59",
-		"assert:deviateLessThan:onResizeOf:" : "LB 7/13/2018 19:01",
 		"assert:onResizeOf:" : "LB 7/13/2018 18:48",
 		"click:at:" : "LB 7/20/2018 14:11",
 		"do:and:answerRatio:" : "LB 7/20/2018 14:45",

@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertDeviatesLessThan:onSlideResize:" : "LB 7/13/2018 19:01",
 		"collectMenuContentFrom:" : "LM 6/15/2018 19:18",
 		"collectMenuItemContentsFrom:" : "LM 6/15/2018 19:18",
 		"setUp" : "LB 7/13/2018 18:13",

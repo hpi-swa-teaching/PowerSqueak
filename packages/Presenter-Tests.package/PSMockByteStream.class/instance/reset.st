@@ -1,4 +1,4 @@
 positioning
 reset
 
-	position := 1
+	position := 0
