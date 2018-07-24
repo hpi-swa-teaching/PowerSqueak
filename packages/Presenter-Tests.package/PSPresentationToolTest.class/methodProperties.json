@@ -29,7 +29,7 @@
 		"testMoveSlideOutOfBounds" : "LB 6/29/2018 15:45",
 		"testMovedSlideStayCurrentSlide" : "LB 6/29/2018 15:45",
 		"testNextSlide" : "LM 7/13/2018 17:52",
-		"testNonInteractivetyInNonInteractiveMode" : "LB 7/13/2018 18:36",
+		"testNonInteractivetyInNonInteractiveMode" : "LM 7/24/2018 15:12",
 		"testPreviousSlideClampsToMin" : "LM 7/13/2018 17:53",
 		"testSavingShouldProvideWarning" : "LM 7/13/2018 18:40",
 		"testSelectSlide" : "LM 7/13/2018 17:53",

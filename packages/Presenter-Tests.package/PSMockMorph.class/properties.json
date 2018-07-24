@@ -8,7 +8,7 @@
 	"instvars" : [
 		"receivedMouseEvents",
 		"receivedKeyboardEvents" ],
-	"name" : "PSMorphForEventTests",
+	"name" : "PSMockMorph",
 	"pools" : [
 		 ],
 	"super" : "Morph",

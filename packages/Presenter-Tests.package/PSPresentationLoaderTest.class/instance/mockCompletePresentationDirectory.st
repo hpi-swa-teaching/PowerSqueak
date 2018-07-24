@@ -10,7 +10,7 @@ mockCompletePresentationDirectory
 		}
 	}.
 	slidesDirectory := directory / PSPresentationLoader slidesDirectoryName.
-	slidesDirectory / 'slide1' / '1.morph' contents: PSMorphForEventTests new.
-	slidesDirectory / 'slide3' / '1.morph' contents: PSMorphForEventTests new.
-	slidesDirectory / 'slide3' / '2.morph' contents: PSMorphForEventTests new.
+	slidesDirectory / 'slide1' / '1.morph' contents: PSMockMorph new.
+	slidesDirectory / 'slide3' / '1.morph' contents: PSMockMorph new.
+	slidesDirectory / 'slide3' / '2.morph' contents: PSMockMorph new.
 	^ directory
