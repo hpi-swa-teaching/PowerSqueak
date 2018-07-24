@@ -3,14 +3,14 @@
 		 },
 	"instance" : {
 		"assert:onResizeToFit:" : "MK 7/13/2018 18:07",
-		"doForDifferentSizes:" : "MK 7/13/2018 18:07",
+		"doForDifferentSizes:" : "WoC 7/24/2018 17:57",
 		"morph" : "LB 7/20/2018 15:04",
 		"morph:" : "LB 7/20/2018 15:04",
-		"setUp" : "LB 7/20/2018 16:13",
+		"setUp" : "WoC 7/24/2018 17:59",
 		"tearDown" : "LB 6/1/2018 17:51",
-		"testDroppingCreatesContainer" : "LB 7/20/2018 15:07",
+		"testDroppingCreatesContainer" : "WoC 7/24/2018 17:57",
 		"testMorphFitsSlideOnResizeToFit" : "LB 7/20/2018 15:48",
 		"testMorphKeepsPositionOnResizeToFit" : "LB 7/20/2018 15:56",
-		"testMorphKeepsSideRatioOnResizeToFit" : "LB 7/20/2018 15:51",
+		"testMorphKeepsSideRatioOnResizeToFit" : "WoC 7/24/2018 17:58",
 		"testSlideDropping" : "LB 7/20/2018 15:07",
 		"testTriggerContextMenu" : "LB 7/20/2018 15:09" } }
