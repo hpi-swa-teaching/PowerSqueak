@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"message" : "LB 7/24/2018 17:12",
+		"message:" : "LB 7/24/2018 17:12",
+		"setUp" : "LB 7/24/2018 17:13",
+		"stepCount" : "LB 7/24/2018 17:21",
+		"testDecaysAfterFadingTime" : "LB 7/24/2018 17:21",
+		"testNotDecaysBeforeFadingTime" : "LB 7/24/2018 17:21" } }
