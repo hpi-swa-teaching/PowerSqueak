@@ -1,5 +1,4 @@
 presentation mode
 enableNonInteractiveMode
 	
-	ActiveHand showHardwareCursor: false.
-	self showNotification: 'non interactive mode'
+	self shouldShowCursor: false andNotify: 'non interactive mode'

@@ -1,4 +1,4 @@
-stepping and presenter
+testing
 occupiesWorld
 
 	^ self extent = self world extent 
