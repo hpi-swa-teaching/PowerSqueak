@@ -5,6 +5,4 @@ mockEmptyPresentationDirectory
 		'slides' -> {
 			'slide1'.
 			'slide2'.
-			'slide5' "The number actually should not matter"
-		}
-	}
+			'slide5' "The number actually should not matter"}}
