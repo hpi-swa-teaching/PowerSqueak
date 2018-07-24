@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"slidesDirectoryName" : "LM 7/24/2018 14:46" },
 	"instance" : {
 		"abandonMorph:" : "MK 7/20/2018 14:56",
 		"checkSlideDirectory:" : "MK 7/20/2018 15:00",
@@ -10,7 +10,7 @@
 		"initialize" : "MK 7/20/2018 14:23",
 		"isValidPresentationDirectory:" : "MK 7/20/2018 14:59",
 		"loadMorphFromStream:" : "MK 7/20/2018 14:54",
-		"loadMorphFromStream:testIn:" : "MK 7/20/2018 14:54",
+		"loadMorphFromStream:testIn:" : "LM 7/24/2018 15:08",
 		"loadMorphInDirectory:fromFile:" : "LM 7/24/2018 14:27",
 		"loadPresentationFromDirectory:" : "MK 7/20/2018 14:43",
 		"loadPresentationUnchecked:" : "MK 7/20/2018 14:43",
@@ -18,6 +18,6 @@
 		"morph:survivesOneCycleIn:" : "MK 7/20/2018 14:56",
 		"presentation" : "MK 7/20/2018 14:20",
 		"presentation:" : "MK 7/20/2018 14:20",
-		"slidesDirectoryName" : "MK 7/20/2018 14:45",
+		"slidesDirectoryName" : "LM 7/24/2018 14:54",
 		"sortedMorphFiles:" : "MK 7/20/2018 14:48",
 		"sortedSlideSubdirectories:" : "MK 7/20/2018 14:52" } }

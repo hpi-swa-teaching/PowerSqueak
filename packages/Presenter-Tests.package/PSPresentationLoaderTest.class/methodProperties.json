@@ -4,6 +4,7 @@
 	"instance" : {
 		"loader" : "MK 7/20/2018 15:44",
 		"loader:" : "MK 7/20/2018 15:44",
+		"mockCompletePresentationDirectory" : "LM 7/24/2018 15:06",
 		"mockEmptyPresentationDirectory" : "MK 7/20/2018 15:47",
 		"morphLoadingStreamFor:" : "MK 7/20/2018 15:48",
 		"setUp" : "MK 7/20/2018 15:46",
@@ -13,6 +14,7 @@
 		"testErrorReportExistsPerSlide" : "MK 7/20/2018 15:51",
 		"testInvalidLoadReturnsNil" : "MK 7/20/2018 15:51",
 		"testInvalidSlideDirectoryNames" : "MK 7/20/2018 15:51",
+		"testLoadCompletePresentation" : "LM 7/24/2018 15:07",
 		"testMissingSlidesDirectory" : "MK 7/20/2018 15:53",
 		"testMorphLoadIsValid" : "MK 7/20/2018 15:53",
 		"testMorphNameIsNotNumber" : "MK 7/20/2018 15:54",
