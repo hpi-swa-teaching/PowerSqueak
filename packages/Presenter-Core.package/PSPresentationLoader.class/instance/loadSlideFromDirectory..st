@@ -5,6 +5,6 @@ loadSlideFromDirectory: aDirectory
 	slide := self presentation createSlideBack.
 	sortedMorphFiles := self sortedMorphFiles: aDirectory fileNames.
 	sortedMorphFiles do: [:each |
-		 (self loadMorphFromFile: aDirectory / each)
+		(self loadMorphInDirectory: aDirectory fromFile: each)
 			ifNotNil: [:morph | slide addMorphBack: morph]].
 	^ slide

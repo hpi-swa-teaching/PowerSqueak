@@ -10,7 +10,8 @@
 		"parent",
 		"subdirectories",
 		"exists",
-		"isFile" ],
+		"isFile",
+		"contents" ],
 	"name" : "PSMockFileDirectory",
 	"pools" : [
 		 ],

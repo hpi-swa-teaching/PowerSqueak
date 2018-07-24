@@ -1,7 +1,9 @@
 {
 	"class" : {
-		"examplePngBytes" : "LB 7/20/2018 15:28",
-		"newPng" : "LB 7/13/2018 16:13" },
+		"examplePngBytes" : "LB 7/24/2018 13:58",
+		"exampleTextMorphBytes" : "LB 7/24/2018 14:21",
+		"newPng" : "LB 7/13/2018 16:13",
+		"on:" : "LM 7/24/2018 14:35" },
 	"instance" : {
 		"atEnd" : "LB 7/13/2018 15:45",
 		"binary" : "LB 7/13/2018 15:29",

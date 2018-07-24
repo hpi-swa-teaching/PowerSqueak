@@ -6,6 +6,6 @@ loadMorphFromStream: aStream testIn: aWorld
 		on: Error
 		do: [:error |
 			morph := self abandonMorph: morph].
-	(morph isNil not and: [self morph: morph survivesOneCycleIn: aWorld])
+	(morph notNil and: [self morph: morph survivesOneCycleIn: aWorld])
 		ifFalse: [morph := self abandonMorph: morph].
 	^ morph

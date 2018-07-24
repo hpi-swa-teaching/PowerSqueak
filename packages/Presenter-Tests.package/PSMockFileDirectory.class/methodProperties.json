@@ -5,11 +5,13 @@
 		"named:" : "LM 6/15/2018 17:35" },
 	"instance" : {
 		"/" : "LM 6/15/2018 18:38",
+		"contents" : "LM 7/24/2018 14:31",
+		"contents:" : "LM 7/24/2018 15:09",
 		"directoryNames" : "LM 6/15/2018 17:35",
 		"exists" : "LM 6/15/2018 17:23",
 		"exists:" : "LM 6/15/2018 17:23",
 		"fileNames" : "LM 6/15/2018 17:38",
-		"initialize" : "LM 6/15/2018 17:35",
+		"initialize" : "LM 7/24/2018 15:09",
 		"isFile" : "LM 6/15/2018 17:34",
 		"isFile:" : "LM 6/15/2018 17:34",
 		"localName" : "JZ 6/29/2018 17:00",
@@ -17,5 +19,6 @@
 		"name:" : "LM 6/15/2018 16:54",
 		"parent" : "LM 6/15/2018 16:54",
 		"parent:" : "LM 6/15/2018 16:54",
+		"readOnlyFileNamed:" : "LM 7/24/2018 15:03",
 		"subdirectories" : "LM 6/15/2018 16:54",
 		"subdirectories:" : "LM 6/15/2018 16:54" } }

@@ -1,4 +1,4 @@
 accessing
 slidesDirectoryName
 
-	^ 'slides'
+	^ self class slidesDirectoryName
