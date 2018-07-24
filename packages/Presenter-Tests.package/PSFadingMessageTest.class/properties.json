@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"message" ],
+	"name" : "PSFadingMessageTest",
+	"pools" : [
+		 ],
+	"super" : "PSUITestCase",
+	"type" : "normal" }

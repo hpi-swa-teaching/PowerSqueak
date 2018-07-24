@@ -20,7 +20,6 @@ buildWith: builder
 	self createSlideContainerIn: (builder widgetAt: #SlideViewport).
 	
 	self selectSlideNumber: 1.
-	self window: window.
 	
 	self afterBuildWith: builder.
 	

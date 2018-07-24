@@ -1,3 +1,4 @@
 accessing
-presentation: anObject
-	presentation := anObject
+presentation: aPSPresentation
+
+	presentation := aPSPresentation
