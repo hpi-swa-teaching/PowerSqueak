@@ -1,4 +1,4 @@
 accessing
-receivedMouseEvents: anObject
+receivedMouseEvents: aNumber
 	
-	receivedMouseEvents := anObject
+	receivedMouseEvents := aNumber

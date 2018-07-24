@@ -1,4 +1,4 @@
 accessing
-receivedPresentationModeEnable: anObject
+receivedPresentationModeEnable: aBoolean
 	
-	receivedPresentationModeEnable := anObject
+	receivedPresentationModeEnable := aBoolean
