@@ -1,6 +1,7 @@
 handles
 removeResizeHandles
 
-	self resizeHandles do: [:each | each abandon].
-	self resizeHandles removeAll.
+	self resizeHandles 
+		do: [:each | each abandon];
+		removeAll.
 	self hasHandles: false

@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createContextMenu" : "MK 6/1/2018 20:03",
+		"createContextMenu" : "WoC 7/24/2018 16:56",
 		"initialize" : "MK 6/1/2018 20:02",
+		"invokeContextMenu" : "WoC 7/24/2018 16:57",
 		"menuCreated" : "MK 6/1/2018 20:02",
 		"menuCreated:" : "MK 6/1/2018 20:03" } }
