@@ -4,9 +4,8 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MK 7/24/2018 16:55",
 	"instvars" : [
-		"window",
 		"slideContainer",
 		"presentation",
 		"slides",
