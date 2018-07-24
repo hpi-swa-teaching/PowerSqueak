@@ -1,5 +1,5 @@
 A PSSlideContainer is a container for a slide.
-It manages displaying the slide, saves the corresponding PSPresentationTool when entering the presentation mode and handles keystroke events.
+It manages displaying the slide, saves the previous owner when entering the presentation mode and handles keystroke events.
 The PSSlideContainer pretends to be a system window in order to be in the foreground after closing a system window that was put on a slide.
 
 Instance Variables

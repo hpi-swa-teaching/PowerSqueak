@@ -2,13 +2,13 @@ slide deletion tests
 testZeroSlidesRegression
 
 	| deletedSlide |
-	self assert: self tool slideCount = 1.
-	deletedSlide := self tool currentSlide.
+	self assert: self slideCount = 1.
+	deletedSlide := self currentSlide.
 	self tool deleteSlideAt: 1.
 	self 
-		assert: self tool slideCount = 1 
+		assert: self slideCount = 1 
 		description: 'There should never be 0 slides'.
 	
 	self 
-		assert: self tool currentSlide ~= deletedSlide 
+		assert: self currentSlide ~= deletedSlide 
 		description: 'The slide should actually be deleted'

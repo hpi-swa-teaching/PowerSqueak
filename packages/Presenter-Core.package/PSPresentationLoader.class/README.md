@@ -1,4 +1,4 @@
-A PSPresentationLoader loads a PSPresentation from a given file directory. Therefore PSPresentationLoader>>#loadPresentationFromDirectory is used and returns the presentation.
+A PSPresentationLoader loads a PSPresentation from a given file directory. For this purpose PSPresentationLoader>>#loadPresentationFromDirectory is used and returns the presentation.
 
 Instance Variables
 	errorReport:		<Dictionary>

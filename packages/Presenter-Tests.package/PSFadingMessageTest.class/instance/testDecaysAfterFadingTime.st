@@ -1,4 +1,4 @@
-as yet unclassified
+decaying
 testDecaysAfterFadingTime
 
 	self stepCount + 1 timesRepeat: 

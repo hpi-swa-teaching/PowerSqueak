@@ -3,4 +3,4 @@ testSlideCreationReturnsSlide
 
 	| slide |
 	slide := self tool createSlide.
-	self assert: slide = self tool currentSlide.
+	self assert: slide = self currentSlide
