@@ -1,5 +1,5 @@
 A PSMockFileDirectory mocks a standard FileDirectory without doing actual FileIO.
-Supports most common operatons, like asking for fileNames/subdirectoryNames, etc.
+Supports most common operations like asking for fileNames/subdirectoryNames, etc.
 Can even mock non-existent files.
 PSMockFileDirectories can be easily instantiated to simulate complex directory structures via the PSMockFileDirectory>>#from: method.
 This method accepts an association of the following scheme:
