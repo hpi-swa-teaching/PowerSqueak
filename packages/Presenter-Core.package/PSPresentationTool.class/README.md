@@ -1,4 +1,4 @@
-A PSPresentationTool is xxxxxxxxx.
+A PSPresentationTool is a tool to create and edit PSPresentations. 
 
 Instance Variables
 	currentSlideNumber:		<Number>
