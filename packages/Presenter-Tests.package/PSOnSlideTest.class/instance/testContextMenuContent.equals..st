@@ -3,7 +3,7 @@ testContextMenuContent: aMorph equals: aCollection
 
 	| container menu items |
 	container := aMorph owner.
-	menu := container createContextMenu.
+	menu := container invokeContextMenu.
 	items := self collectMenuContentFrom: menu.
 	self assert: (items = aCollection).
 	menu abandon
