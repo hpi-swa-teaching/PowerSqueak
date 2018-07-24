@@ -1,4 +1,4 @@
 resizing
-dragTopRightEvent: evt fromHandle: handle
+dragTopRightEvent: evt
 	
 	self extentTopRight: (self resizeFractionsOf: evt)

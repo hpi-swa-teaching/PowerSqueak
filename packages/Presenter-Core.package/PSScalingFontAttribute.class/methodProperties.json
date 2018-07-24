@@ -2,12 +2,12 @@
 	"class" : {
 		"styled:sized:scaledBy:" : "LB 6/8/2018 12:42" },
 	"instance" : {
-		"=" : "LB 6/8/2018 12:29",
+		"=" : "MK 7/24/2018 15:33",
 		"actualTextSize" : "LB 6/8/2018 12:32",
 		"basicTextSize" : "LB 6/8/2018 12:31",
 		"basicTextSize:" : "LB 6/8/2018 12:31",
 		"couldDeriveFromPrettyPrinting" : "LB 6/8/2018 12:29",
-		"dominates:" : "WoC 7/24/2018 15:12",
+		"dominates:" : "MK 7/24/2018 15:28",
 		"emphasizeScanner:" : "LB 6/8/2018 12:33",
 		"font" : "LB 6/8/2018 12:45",
 		"forFontInStyle:do:" : "LB 6/8/2018 16:16",

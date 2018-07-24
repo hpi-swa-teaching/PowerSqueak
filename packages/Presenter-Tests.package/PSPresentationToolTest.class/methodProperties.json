@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"expectedFailures" : "LB 7/24/2018 15:38",
 		"setUp" : "LB 5/23/2018 16:11",
 		"setUpSlideDeletion" : "LM 5/18/2018 18:21",
 		"slideContainer" : "WoC 6/15/2018 18:21",
@@ -29,7 +30,7 @@
 		"testMoveSlideOutOfBounds" : "LB 6/29/2018 15:45",
 		"testMovedSlideStayCurrentSlide" : "LB 6/29/2018 15:45",
 		"testNextSlide" : "LM 7/13/2018 17:52",
-		"testNonInteractivetyInNonInteractiveMode" : "LB 7/13/2018 18:36",
+		"testNonInteractivetyInNonInteractiveMode" : "LM 7/24/2018 15:12",
 		"testPreviousSlideClampsToMin" : "LM 7/13/2018 17:53",
 		"testSavingShouldProvideWarning" : "LM 7/13/2018 18:40",
 		"testSelectSlide" : "LM 7/13/2018 17:53",
@@ -44,7 +45,7 @@
 		"testSlideNavigationInPresentationMode" : "LB 6/29/2018 15:45",
 		"testSlideNumberLabelSelectsCorrectly" : "LB 6/22/2018 16:35",
 		"testSlideRatioIsFixed" : "LB 7/13/2018 19:05",
-		"testSlideResizeRegression" : "LB 7/13/2018 18:59",
+		"testSlideResizeRegression" : "LB 7/24/2018 15:39",
 		"testSlidesReceiveEnablePresentationMode" : "LM 7/13/2018 18:21",
 		"testZeroSlidesRegression" : "LM 7/13/2018 17:23",
 		"testnextSlideClampsToMax" : "LM 7/13/2018 17:57",

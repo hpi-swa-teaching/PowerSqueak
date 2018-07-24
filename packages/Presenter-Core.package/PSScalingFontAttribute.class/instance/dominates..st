@@ -1,4 +1,4 @@
 testing
-dominates: other
+dominates: otherTextAttribute
 
-	^ (other isKindOf: TextFontChange) or: [other class == self class]
+	^ (otherTextAttribute isKindOf: TextFontChange) or: [otherTextAttribute class ==  self class]
