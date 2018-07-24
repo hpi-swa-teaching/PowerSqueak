@@ -1,11 +1,11 @@
 presentation serialization
 exportAsPNGsIn: aDirectory
-	
-	self enablePresentationMode.
-	self enableNonInteractiveMode.
-	
+
+	self
+		enablePresentationMode;
+		enableNonInteractiveMode.
 	World doOneCycle.
-	self exportSlidesAsPNGsInDirectory: aDirectory.
-	
-	self disablePresentationMode.	
-	UIManager default inform: self exportMessage , aDirectory fullName
+	self
+		exportSlidesAsPNGsInDirectory: aDirectory;
+		disablePresentationMode.
+	UIManager default inform: 'Your presentation has been exported to: ', aDirectory fullName

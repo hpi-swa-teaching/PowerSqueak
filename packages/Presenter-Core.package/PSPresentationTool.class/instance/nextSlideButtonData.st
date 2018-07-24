@@ -1,4 +1,4 @@
-toolbuilder
+toolbuilder buttons
 nextSlideButtonData
 
 	^ Dictionary withAll: {	
