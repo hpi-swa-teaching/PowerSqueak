@@ -4,7 +4,7 @@
 	"instance" : {
 		"expectedFailures" : "LB 7/24/2018 15:38",
 		"setUp" : "LB 5/23/2018 16:11",
-		"setUpSlideDeletion" : "LM 5/18/2018 18:21",
+		"setUpSlideDeletion" : "LM 7/24/2018 17:31",
 		"slideContainer" : "WoC 6/15/2018 18:21",
 		"slides" : "LM 7/13/2018 17:42",
 		"slides:" : "LM 7/13/2018 18:22",
@@ -42,7 +42,7 @@
 		"testSlideCreation" : "LM 7/13/2018 18:20",
 		"testSlideCreationReturnsSlide" : "LM 5/18/2018 18:37",
 		"testSlideCreationSelectsNewSlide" : "LM 7/13/2018 17:56",
-		"testSlideDeletionMovesSlideSelection" : "LM 7/13/2018 17:56",
+		"testSlideDeletionMovesSlideSelection" : "LM 7/24/2018 17:28",
 		"testSlideNavigationInPresentationMode" : "LB 6/29/2018 15:45",
 		"testSlideNumberLabelSelectsCorrectly" : "LB 6/22/2018 16:35",
 		"testSlideRatioIsFixed" : "LB 7/13/2018 19:05",

@@ -8,4 +8,4 @@ testSlideDeletionMovesSlideSelection
 	
 	self tool deleteSlideAt: 2.
 	self assert: self slides first = slide.
-	self assert: self tool currentSlide = slide.
+	self assert: self tool currentSlide = slide
