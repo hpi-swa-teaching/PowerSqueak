@@ -6,6 +6,7 @@ setUp
 	self slideContainer setModel: PSPresentationTool new.
 	self slide: PSSlide new.
 	self slide setModel: self slideContainer model.
-	self slideContainer showSlide: self slide.
-	self slideContainer extent: self world extent / 2.
-	self slideContainer openInWorld: self world
+	self slideContainer 
+		showSlide: self slide;
+		extent: self world extent / 2;
+		openInWorld: self world

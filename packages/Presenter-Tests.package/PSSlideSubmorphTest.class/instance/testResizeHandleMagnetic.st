@@ -1,5 +1,6 @@
 container tests
 testResizeHandleMagnetic
+	
 	| bottomRightFractions | 
 	self slide model magneticRasterActive: true.
 	self dragndrop: MouseEvent redButton from: self morph bottomRight to: self morph bottomRight + (20 @ 20).
