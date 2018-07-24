@@ -3,7 +3,7 @@ setContent: aMorph
 	
 	self 
 		position: aMorph position;
-		child: aMorph;
+		content: aMorph;
 		extent: aMorph extent;
 		addMorph: aMorph;
 		addMouseCaptureFilter: self

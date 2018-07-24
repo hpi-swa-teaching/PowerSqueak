@@ -3,4 +3,4 @@ mouseDown: evt
 
 	self ifAnyHandleContains: evt position 
 		do: [:handle | ^ evt hand newMouseFocus: handle]. 
-	evt hand grabMorph: self child
+	evt hand grabMorph: self content

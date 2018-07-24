@@ -6,4 +6,4 @@ ensurePreviousOwnerIsNotSubmorph
 	morph ifNotNil: [ 
 		window := morph model window.
 		window owner removeMorph: window.
- 		window openInWorld.] 
+ 		window openInWorld] 
