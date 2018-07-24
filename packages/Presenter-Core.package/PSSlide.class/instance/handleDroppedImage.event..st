@@ -6,4 +6,3 @@ handleDroppedImage: aFileStream event: anEvent
 	self resizeMorphToFit: morph.
 	morph center: anEvent position.
 	self acceptDroppingMorph: morph event: anEvent
-			

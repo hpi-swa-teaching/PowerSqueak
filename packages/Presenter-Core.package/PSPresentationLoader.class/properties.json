@@ -7,7 +7,8 @@
 	"commentStamp" : "MK 7/24/2018 16:37",
 	"instvars" : [
 		"errorReport",
-		"presentation" ],
+		"presentation",
+		"world" ],
 	"name" : "PSPresentationLoader",
 	"pools" : [
 		 ],
