@@ -5,5 +5,6 @@ ensurePreviousOwnerIsNotSubmorph
 	morph := self findDeepSubmorphThat: [:m | m = self previousOwner ] ifAbsent: [nil].
 	morph ifNotNil: [ 
 		window := morph model window.
-		window owner removeMorph: window.
- 		window openInWorld] 
+		window 
+			delete;
+ 			openInWorld] 

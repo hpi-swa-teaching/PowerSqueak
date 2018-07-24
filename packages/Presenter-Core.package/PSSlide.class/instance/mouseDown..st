@@ -3,5 +3,4 @@ mouseDown: evt
 
 	super mouseDown: evt.
 	evt redButtonPressed 
-		ifTrue: [self waitForDoubleClick: evt].
-	"self fullBounds"
+		ifTrue: [self waitForDoubleClick: evt]
