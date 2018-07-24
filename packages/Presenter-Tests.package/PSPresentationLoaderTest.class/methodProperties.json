@@ -14,7 +14,7 @@
 		"testErrorReportExistsPerSlide" : "MK 7/20/2018 15:51",
 		"testInvalidLoadReturnsNil" : "MK 7/20/2018 15:51",
 		"testInvalidSlideDirectoryNames" : "MK 7/20/2018 15:51",
-		"testLoadCompletePresentation" : "LM 7/24/2018 15:24",
+		"testLoadCompletePresentation" : "LM 7/24/2018 15:33",
 		"testMissingSlidesDirectory" : "MK 7/20/2018 15:53",
 		"testMorphLoadIsValid" : "MK 7/20/2018 15:53",
 		"testMorphNameIsNotNumber" : "MK 7/20/2018 15:54",
