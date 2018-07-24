@@ -1,5 +1,5 @@
 A PSScalingFontAttribute scales the font of a text according to a scaling factor.
-The actual text size is calculated multiplying a basic text size with that factor.
+The actual text size is calculated by multiplying a basic text size with that factor.
 
 Instance Variables
 	basicTextSize:		<Number>

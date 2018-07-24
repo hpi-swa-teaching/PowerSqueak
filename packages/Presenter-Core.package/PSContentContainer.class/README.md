@@ -1,5 +1,6 @@
 A PSContentContainer is a container for a single morph put on a slide.
 It manages resizing and the context menu for its morph.
+Resizing is done with "handles", small rectangles, which can be dragged to resize the child morph.
 
 Instance Variables
 	content:		<Morph>
