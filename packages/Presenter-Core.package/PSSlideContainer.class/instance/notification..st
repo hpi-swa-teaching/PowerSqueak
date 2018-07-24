@@ -1,4 +1,4 @@
 accessing
-notification: anObject
+notification: aPSFadingMessage
 	
-	notification := anObject
+	notification := aPSFadingMessage

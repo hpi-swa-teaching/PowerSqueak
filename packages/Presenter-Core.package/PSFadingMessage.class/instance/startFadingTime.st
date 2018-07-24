@@ -1,4 +1,4 @@
 accessing
 startFadingTime
 
-	^ 1000.0
+	^ 1000

@@ -1,5 +1,5 @@
 submorphs-add/remove
 removedMorph: aMorph
 
-	aMorph = self child 
+	aMorph = self content 
 		ifTrue: [self abandon]
