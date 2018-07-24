@@ -1,4 +1,4 @@
 accessing
-hand: anObject
+hand: aHandMorph
 	
-	hand := anObject
+	hand := aHandMorph

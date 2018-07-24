@@ -1,6 +1,6 @@
 running
 setUp
-
+	"Inspired of UserInputEventTest"
 	super setUp.
 
 	self world: ((PasteUpMorph newWorldForProject: nil)

@@ -1,4 +1,4 @@
 accessing
-receivedKeyboardEvents: anObject
+receivedKeyboardEvents: aNumber
 	
-	receivedKeyboardEvents := anObject
+	receivedKeyboardEvents := aNumber

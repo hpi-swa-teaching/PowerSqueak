@@ -1,4 +1,4 @@
 accessing
-world: anObject
+world: aWorld
 	
-	world := anObject
+	world := aWorld
