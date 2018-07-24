@@ -7,4 +7,4 @@ testMovedSlideStayCurrentSlide
 	
 	self tool selectSlideNumber: 1.
 	self tool moveCurrentSlideTo: 5.
-	self assert: slide = self tool currentSlide 
+	self assert: slide = self currentSlide 

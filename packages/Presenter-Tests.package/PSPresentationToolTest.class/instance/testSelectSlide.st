@@ -3,7 +3,7 @@ testSelectSlide
 
 	self tool createSlide.
 	self tool selectSlideNumber: 1.
-	self assert: self tool currentSlide = self slides first.
+	self assert: self currentSlide = self slides first.
 	
 	self tool selectSlideNumber: 2.
-	self assert: self tool currentSlide = self slides second
+	self assert: self currentSlide = self slides second
