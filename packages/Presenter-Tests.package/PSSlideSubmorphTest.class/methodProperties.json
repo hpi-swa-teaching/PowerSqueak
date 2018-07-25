@@ -3,9 +3,10 @@
 		 },
 	"instance" : {
 		"container" : "LB 7/20/2018 14:51",
+		"defaultDragOffset" : "MK 7/25/2018 11:50",
 		"setUp" : "LB 7/20/2018 15:05",
-		"testContainerResizingAllCorners" : "WoC 7/24/2018 17:59",
-		"testContainerResizingCorner:offset:" : "LB 7/20/2018 17:11",
+		"testContainerResizingAllCorners" : "MK 7/25/2018 11:52",
+		"testContainerResizingCorner:" : "MK 7/25/2018 11:51",
 		"testContextMenu" : "MK 7/25/2018 11:33",
 		"testDuplicateChild" : "LB 7/20/2018 14:52",
 		"testGrabbing" : "LB 7/20/2018 14:52",
