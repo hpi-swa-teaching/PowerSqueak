@@ -1,4 +1,4 @@
 loading tests
 fileInObjectAndCode
-	"For loading tests"
+	"Imitates a Stream for loading tests"
 	^ self
