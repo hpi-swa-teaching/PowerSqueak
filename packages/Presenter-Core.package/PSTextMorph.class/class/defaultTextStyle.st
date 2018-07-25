@@ -1,5 +1,5 @@
 constants
-DefaultTextStyle
+defaultTextStyle
 
 	^ DefaultTextStyle
 		ifNil: [TextStyle fontArray: 

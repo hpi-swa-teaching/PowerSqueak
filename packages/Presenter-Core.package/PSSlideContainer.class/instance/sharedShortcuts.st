@@ -1,8 +1,7 @@
-accessing
+shortcuts
 sharedShortcuts
 
 	^ {
-		{Character escape . [self model disablePresentationMode] . 'Disable Presentation Mode'}.
 		{Character arrowRight . [self model nextSlide] . 'Go to the next slide'}.
 		{Character pageDown . [self model nextSlide] . 'Go to the next slide'}.
 		{Character arrowDown . [self model nextSlide] . 'Go to the next slide'}.
@@ -18,5 +17,6 @@ sharedShortcuts
 		{$6 . [self model selectSlideNumber: 6] . 'Go to slide number 6'}.
 		{$7 . [self model selectSlideNumber: 7] . 'Go to slide number 7'}.
 		{$8 . [self model selectSlideNumber: 8] . 'Go to slide number 8'}.
-		{$9 . [self model selectSlideNumber: 9] . 'Go to slide number 9'}
+		{$9 . [self model selectSlideNumber: 9] . 'Go to slide number 9'}.
+		{$0 . [self model selectSlideNumber: self model slideCount] . 'Go to last slide'}
 	}

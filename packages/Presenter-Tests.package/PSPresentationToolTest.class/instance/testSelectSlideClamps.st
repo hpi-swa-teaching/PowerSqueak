@@ -4,7 +4,7 @@ testSelectSlideClamps
 	self 
 		createSlide;
 		selectSlideNumber: 3;
-		assert: self tool currentSlide = self slides last.
+		assert: self currentSlide = self slides last.
 	
 	self 
 		selectSlideNumber: 0;

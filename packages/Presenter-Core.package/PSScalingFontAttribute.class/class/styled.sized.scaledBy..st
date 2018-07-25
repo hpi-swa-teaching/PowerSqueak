@@ -2,6 +2,6 @@ instance creation
 styled: aTextStyle sized: aNumber scaledBy: anObject
 
 	^ self new 
-		 style: aTextStyle;
+		style: aTextStyle;
 		basicTextSize: aNumber;
 		scalingSource: anObject

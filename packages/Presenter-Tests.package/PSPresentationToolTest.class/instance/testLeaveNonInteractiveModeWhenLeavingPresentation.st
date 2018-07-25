@@ -4,5 +4,5 @@ testLeaveNonInteractiveModeWhenLeavingPresentation
 	self 
 		pressKey: $i at: self slideContainer center;
 		pressKey: Character escape at: self slideContainer center;
-		assert: self tool isInteractive
+		assert: self isInteractive
 	
