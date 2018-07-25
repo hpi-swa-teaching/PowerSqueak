@@ -41,7 +41,7 @@
 		"testMovedSlideStayCurrentSlide" : "MK 7/25/2018 13:16",
 		"testNextSlide" : "MK 7/25/2018 13:16",
 		"testNonInteractivetyInNonInteractiveMode" : "LM 7/25/2018 13:24",
-		"testNotEnterNonInteractiveModeInEditMode" : "WoC 7/24/2018 17:42",
+		"testNotEnterNonInteractiveModeInEditMode" : "LM 7/25/2018 13:25",
 		"testOccupiesWorldOnStep" : "MK 7/25/2018 13:13",
 		"testPreviousSlideClampsToMin" : "WoC 7/24/2018 17:36",
 		"testSavingShouldProvideWarning" : "LM 7/13/2018 18:40",
