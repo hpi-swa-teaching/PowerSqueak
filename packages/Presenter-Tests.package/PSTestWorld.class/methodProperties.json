@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"createWorld" : "LM 7/25/2018 11:22",
 		"hand" : "LB 5/29/2018 17:26",
 		"hand:" : "MK 7/24/2018 17:54",
-		"setUp" : "MK 7/24/2018 18:00",
+		"initializeHand" : "LM 7/25/2018 11:20",
+		"setUp" : "LM 7/25/2018 11:22",
 		"world" : "LB 5/29/2018 17:26",
 		"world:" : "MK 7/24/2018 17:53" } }

@@ -9,6 +9,4 @@ testLocalFontColor
 			self textField textMorph selectFrom: begin to: end.
 			self textField selectionColor: color.
 			self textField textMorph selectFrom: begin to: end.
-			self assert: self textField selectionColor equals: color
-		]
-	]
+			self assert: self textField selectionColor equals: color]]
