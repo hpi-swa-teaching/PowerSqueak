@@ -4,6 +4,6 @@ testDeletionDecreasesSlideCount
 	| slideCount |
 	self setUpSlideDeletion.
 	
-	slideCount := self tool slideCount.
+	slideCount := self slideCount.
 	self deleteSlideAt: 1.
 	self assert: self slideCount equals: (slideCount - 1)

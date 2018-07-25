@@ -2,7 +2,7 @@ miniature view tests
 testMiniatureSelects
 
 	| slideToSelect miniatureToClick |
-	5 timesRepeat: [self tool createSlide].
+	5 timesRepeat: [self createSlide].
 	
 	slideToSelect := self slides third.
 	miniatureToClick := self tool miniatureOf: slideToSelect.

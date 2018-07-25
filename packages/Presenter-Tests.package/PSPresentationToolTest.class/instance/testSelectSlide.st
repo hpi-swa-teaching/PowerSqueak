@@ -1,7 +1,7 @@
 slide navigation tests
 testSelectSlide
 
-	self tool createSlide.
+	self createSlide.
 	self tool selectSlideNumber: 1.
 	self assert: self currentSlide = self slides first.
 	

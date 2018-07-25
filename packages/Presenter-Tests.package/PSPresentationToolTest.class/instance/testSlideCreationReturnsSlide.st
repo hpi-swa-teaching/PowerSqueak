@@ -2,5 +2,5 @@ slide creation tests
 testSlideCreationReturnsSlide
 
 	| slide |
-	slide := self tool createSlide.
+	slide := self createSlide.
 	self assert: slide = self currentSlide
