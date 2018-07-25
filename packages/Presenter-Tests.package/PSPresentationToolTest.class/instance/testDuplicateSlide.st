@@ -2,7 +2,7 @@ slide creation tests
 testDuplicateSlide
 
 	| slideCount |
-	slideCount := self tool slideCount.
+	slideCount := self slideCount.
 	self tool duplicateCurrentSlide.
-	self assert: self tool slideCount equals: (slideCount + 1)
+	self assert: self slideCount equals: (slideCount + 1)
 	
