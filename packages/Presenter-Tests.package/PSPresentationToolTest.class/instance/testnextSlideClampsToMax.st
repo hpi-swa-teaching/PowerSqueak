@@ -1,6 +1,6 @@
 slide navigation tests
 testnextSlideClampsToMax
 
-	self assert: self currentSlide = self slides last.
+	self assert: self currentSlide equals: self slides last.
 	self tool nextSlide.
-	self assert: self currentSlide = self slides last.
+	self assert: self currentSlide equals: self slides last.
