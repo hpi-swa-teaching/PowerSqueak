@@ -1,4 +1,4 @@
 accessing
 container
 
-	^ self morph owner
+	^ container
