@@ -3,4 +3,4 @@ testPreviousSlideClampsToMin
 
 	self assert: self currentSlide = self slides first.
 	self tool previousSlide.
-	self assert: self currentSlide = self slides first.
+	self assert: self currentSlide = self slides first
