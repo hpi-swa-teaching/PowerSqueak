@@ -6,6 +6,7 @@ testMiniatureSelects
 	
 	slideToSelect := self slides third.
 	miniatureToClick := self miniatureOf: slideToSelect.
-	self click: MouseEvent redButton at: miniatureToClick boundsInWorld center.
 	
-	self assert: self currentSlide equals: slideToSelect
+	self 
+		click: MouseEvent redButton at: miniatureToClick boundsInWorld center;
+	 	assert: self currentSlide equals: slideToSelect
