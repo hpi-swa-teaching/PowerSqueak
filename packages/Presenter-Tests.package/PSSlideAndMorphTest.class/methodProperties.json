@@ -8,9 +8,9 @@
 		"morph:" : "LB 7/20/2018 15:04",
 		"setUp" : "WoC 7/24/2018 17:59",
 		"tearDown" : "LB 6/1/2018 17:51",
-		"testDroppingCreatesContainer" : "WoC 7/24/2018 17:57",
+		"testDroppingCreatesContainer" : "WoC 7/25/2018 11:30",
+		"testKeepsBoundsOnDrop" : "WoC 7/25/2018 11:46",
 		"testMorphFitsSlideOnResizeToFit" : "LB 7/20/2018 15:48",
 		"testMorphKeepsPositionOnResizeToFit" : "LB 7/20/2018 15:56",
 		"testMorphKeepsSideRatioOnResizeToFit" : "WoC 7/24/2018 17:58",
-		"testSlideDropping" : "LB 7/20/2018 15:07",
-		"testTriggerContextMenu" : "LB 7/20/2018 15:09" } }
+		"testTriggerContextMenu" : "WoC 7/25/2018 11:35" } }
