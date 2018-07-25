@@ -1,4 +1,4 @@
 accessing
-subdirectories: anObject
+subdirectories: aCollection
 	
-	subdirectories := anObject
+	subdirectories := aCollection
