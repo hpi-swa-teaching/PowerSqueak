@@ -1,4 +1,4 @@
 as yet unclassified
 createSlide 
 
-	self tool createSlide
+	^ self tool createSlide

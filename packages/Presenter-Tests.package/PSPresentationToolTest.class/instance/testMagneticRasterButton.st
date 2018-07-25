@@ -10,5 +10,5 @@ testMagneticRasterButton
 	self assert: self magneticRasterActive equals: modeBefore not.
 	
 	self click: MouseEvent redButton at: button boundsInWorld center.
-	self assert: self magneticRasterActive equals: modeBefore.
+	self assert: self magneticRasterActive equals: modeBefore
 	
