@@ -6,6 +6,6 @@ testSlideNavigationInPresentationMode
 		selectSlideNumber: 1;
 		enablePresentationMode.
 		
-	self assert: self tool slideContainer currentSlide equals: self currentSlide.
+	self assert: self slideContainer currentSlide equals: self currentSlide.
 	self tool selectSlideNumber: 2.
-	self assert: self tool slideContainer currentSlide equals: self currentSlide
+	self assert: self slideContainer currentSlide equals: self currentSlide

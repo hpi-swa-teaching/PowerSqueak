@@ -4,5 +4,5 @@ testDuplicateSlide
 	| slideCount |
 	slideCount := self tool slideCount.
 	self tool duplicateCurrentSlide.
-	self assert: self tool slideCount = (slideCount + 1)
+	self assert: self tool slideCount equals: (slideCount + 1)
 	
