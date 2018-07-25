@@ -2,11 +2,10 @@ style tests
 testFontColorDialog
 
 	| newPicker newColor |
-	newPicker := self getNew: NewColorPickerMorph createdIn: [self textField showFontColorDialog].
-	self assert: newPicker size equals: 1.
+	newPicker := self textField showFontColorDialog.
 	
 	newColor := Color random.
-	(newPicker at: 1) selectedColor: newColor.
+	newPicker selectedColor: newColor.
 	self assert: self textField selectionColor equals: newColor.
 	
-	newPicker do: [:each | each delete]
+	newPicker abandon
