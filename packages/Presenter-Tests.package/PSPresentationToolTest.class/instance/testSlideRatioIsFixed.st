@@ -3,5 +3,6 @@ testSlideRatioIsFixed
 
 	| slide  |
 	slide := self currentSlide.
-	self assert: (self does: slide answerSideRatio: slide sideRatio).
-	self assert: [self does: slide answerSideRatio: slide sideRatio] onResizeOf: self window
+	self 
+		assert: (self does: slide answerSideRatio: slide sideRatio);
+		assert: [self does: slide answerSideRatio: slide sideRatio] onResizeOf: self window

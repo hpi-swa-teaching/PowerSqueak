@@ -3,5 +3,6 @@ testMiniatureCreated
 
 	| oldSize |
 	oldSize := self slideMiniatures size.
-	self createSlide.
-	self assert: self slideMiniatures size equals: oldSize + 1
+	self 
+		createSlide;
+		assert: self slideMiniatures size equals: oldSize + 1

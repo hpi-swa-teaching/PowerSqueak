@@ -2,6 +2,6 @@ initialize-release
 createFontSizeAttribute
 
 	 ^ PSScalingFontAttribute 
-		styled: PSTextMorph DefaultTextStyle  
+		styled: self class defaultTextStyle  
 		sized: self defaultBasicTextSize 
 		scaledBy: self
