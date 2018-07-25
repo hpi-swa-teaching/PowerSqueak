@@ -6,12 +6,12 @@ testMoveSlide
 	slide := self slides first.
 	
 	self selectSlideNumber: 1.
-	self tool moveCurrentSlideTo: 3.
+	self moveCurrentSlideTo: 3.
 	self assert: (self slides indexOf: slide startingAt: 0) equals: 3.
 	
-	self tool moveCurrentSlideTo: 1.
+	self moveCurrentSlideTo: 1.
 	self assert: (self slides indexOf: slide startingAt: 0) equals: 1.
 	
-	self tool moveCurrentSlideTo: 5.
+	self moveCurrentSlideTo: 5.
 	self assert: (self slides indexOf: slide startingAt: 0) equals: 5
 	 

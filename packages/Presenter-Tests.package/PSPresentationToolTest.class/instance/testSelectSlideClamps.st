@@ -1,12 +1,15 @@
 slide navigation tests
 testSelectSlideClamps
 
-	self createSlide.
-	self selectSlideNumber: 3.
-	self assert: self tool currentSlide = self slides last.
+	self 
+		createSlide;
+		selectSlideNumber: 3;
+		assert: self currentSlide = self slides last.
 	
-	self selectSlideNumber: 0.
-	self assert: self currentSlide = self slides first.
+	self 
+		selectSlideNumber: 0;
+		assert: self currentSlide = self slides first.
 	
-	self selectSlideNumber: -1.
-	self assert: self currentSlide = self slides first.
+	self 
+		selectSlideNumber: -1;
+		assert: self currentSlide = self slides first.
