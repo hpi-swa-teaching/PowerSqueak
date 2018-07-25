@@ -8,7 +8,8 @@ testAcceptDropImageFile
 		handleDroppedItem: PSMockByteStream newPng 
 		event: (UserInputEvent new setPosition: self slide center).
 		
-	createdImages := (self submorphs difference: oldSubMorphs) 
-		select: [:each | each content isKindOf: SketchMorph].
-		
-	self assert: createdImages size equals: 1 
+	createdImages := (self submorphs difference: oldSubMorphs).
+	
+	self assert: createdImages size equals: 1.
+	createdImages do: [:each |
+		self assert: (each content isKindOf: SketchMorph)]
