@@ -1,4 +1,4 @@
-accessing
+shortcuts
 presentationCreationModeCommandShortcuts
 	"{character that triggers event .  action block . description}"
 	^ {
