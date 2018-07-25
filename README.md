@@ -114,7 +114,7 @@ You may also export your presentation to a list of .png files, which will get ex
 | --- | --- |
 | Cmd + i | Create an image |
 
-### **Presentation mode shortcuts **
+### **Presentation mode shortcuts**
 | Key | Action |
 | --- | --- |
 | i | (de-)activate interactivity and (un-)hide cursor |
