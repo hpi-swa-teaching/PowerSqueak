@@ -1,5 +1,6 @@
 slide creation tests
 testDefaultSlideCount
 
-	self assert: self tool slideCount = 1.
-	self assert: self tool currentSlide = self tool slides first.
+	self 
+		assert: self slideCount equals: 1;
+		assert: self currentSlide equals: (self slideAt: 1)

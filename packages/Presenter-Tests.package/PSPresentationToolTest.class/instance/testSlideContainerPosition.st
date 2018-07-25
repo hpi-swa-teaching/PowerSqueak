@@ -1,5 +1,7 @@
 presentation mode tests
 testSlideContainerPosition
 
-	self tool slideContainer enablePresentationMode.
-	self assert: self tool slideContainer position equals: 0@0
+	self 
+		deny: self slideContainer position = (0 @ 0);
+		enablePresentationMode;
+		assert: self slideContainer position equals: 0 @ 0

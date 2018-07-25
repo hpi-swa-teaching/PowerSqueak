@@ -2,7 +2,9 @@ rescaling tests
 testTextFieldRescale
 
 	| oldSize |
-	self flag: #TODO.
-	oldSize := self textField textScale * self textField selectionFontSize.
+	oldSize := self textField textScale.
 	self slide extent: self slide extent * 2.
-	self assert: oldSize * 2 = (self textField textScale * self textField selectionFontSize)
+	
+	self 
+		assert: oldSize * 2 
+		equals: self textField textScale

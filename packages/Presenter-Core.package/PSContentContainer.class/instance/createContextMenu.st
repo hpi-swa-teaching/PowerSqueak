@@ -2,12 +2,8 @@ context menu
 createContextMenu
 
 	| menu |
-	menu := MenuMorph new defaultTarget: self.
-	menu 
-		addList: self defaultContextMenuContent;
-		defaultTarget: self child.
-	(self child hasProperty: #wantsCustomContextMenu) ifTrue: [
-		menu addList: self child customContextMenuContent].
-	menu setInvokingView: self.
-	menu popUpEvent: self activeHand lastEvent in: self world.
-	^ menu "just for testing reasons"
+	menu := MenuMorph new 
+		defaultTarget: self;
+		yourself.
+	menu addList: self defaultContextMenuContent.
+	^ menu

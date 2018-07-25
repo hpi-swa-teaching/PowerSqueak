@@ -1,0 +1,4 @@
+accessing
+enablePresentationMode
+
+	self tool enablePresentationMode

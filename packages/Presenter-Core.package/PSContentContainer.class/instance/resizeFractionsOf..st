@@ -3,5 +3,6 @@ resizeFractionsOf: anEvent
 	
 	| layoutFractions |
 	layoutFractions := self owner layoutFractionsOf: anEvent cursorPoint.
-	self isMagnetic ifTrue: [layoutFractions := layoutFractions roundTo: self rasterResolution].
+	self isMagnetic 
+		ifTrue: [layoutFractions := self magnetizeLayoutFractions: layoutFractions].
 	^ layoutFractions

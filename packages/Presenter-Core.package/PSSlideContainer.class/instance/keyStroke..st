@@ -3,7 +3,7 @@ keyStroke: evt
 
 	| shortcuts choices |
 	choices := self chooseShortcutsDictionary: evt.
-	shortcuts := self model presentationMode
+	shortcuts := self isInPresentationMode
 		ifTrue: [choices first]
 		ifFalse: [choices second].
 		

@@ -1,6 +1,7 @@
 stepping and presenter
 step
 	
-	self remaining <= 0
-		ifTrue: [ self delete ]
+	self remainingTime: self remainingTime - self stepTime.
+	self remainingTime <= 0
+		ifTrue: [self delete]
 		ifFalse: [self updateColor]

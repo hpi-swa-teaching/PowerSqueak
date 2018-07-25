@@ -1,4 +1,4 @@
 magnetic raster
 rasterResolution
 
-	^ (0.04@0.03)
+	^ 0.04 @ 0.03

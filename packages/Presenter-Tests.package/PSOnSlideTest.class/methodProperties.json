@@ -2,14 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertDeviatesLessThan:onSlideResize:" : "LB 6/6/2018 15:03",
-		"collectMenuContentFrom:" : "LM 6/15/2018 19:18",
+		"assertContextMenuContent:equals:" : "LM 7/25/2018 12:15",
+		"collectMenuContentFrom:" : "MK 7/25/2018 11:28",
 		"collectMenuItemContentsFrom:" : "LM 6/15/2018 19:18",
-		"container" : "LB 6/6/2018 14:50",
-		"container:" : "LB 6/6/2018 14:50",
-		"setUp" : "LB 7/6/2018 17:11",
+		"setUp" : "WoC 7/24/2018 17:54",
 		"slide" : "LB 6/1/2018 17:49",
 		"slide:" : "LB 6/1/2018 17:49",
-		"tearDown" : "LB 6/6/2018 14:50",
-		"testContextMenuContent:equals:" : "LB 6/15/2018 16:39",
-		"testTextFieldCreatedOnClick" : "MK 6/1/2018 18:21" } }
+		"slideContainer" : "LB 7/13/2018 18:12",
+		"slideContainer:" : "LB 7/13/2018 18:13",
+		"submorphs" : "WoC 7/24/2018 17:55",
+		"tearDown" : "LB 7/13/2018 18:13",
+		"testAcceptDropImageFile" : "LM 7/25/2018 12:27",
+		"testTextFieldCreatedOnDoubleClick" : "WoC 7/25/2018 13:49" } }

@@ -1,6 +1,4 @@
-as yet unclassified
+slide management
 clampSlideNumber: aNumber
 
-	^ aNumber 
-			clampLow: self minimumSlideCount
-			high: self slideCount
+	^ self presentation clampSlideNumber: aNumber

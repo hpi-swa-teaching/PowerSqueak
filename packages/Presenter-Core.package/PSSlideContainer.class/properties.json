@@ -4,16 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "LM 7/24/2018 17:57",
 	"instvars" : [
 		"currentSlide",
 		"previousOwner",
 		"isInteractive",
-		"presentationShortcuts",
-		"presentationCreationShortcuts",
-		"notification",
-		"presentationCommandShortcuts",
-		"presentationCreationCommandShortcuts" ],
+		"notification" ],
 	"name" : "PSSlideContainer",
 	"pools" : [
 		 ],

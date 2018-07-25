@@ -1,0 +1,15 @@
+{
+	"category" : "Presenter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MK 7/24/2018 18:14",
+	"instvars" : [
+		"receivedMouseEvents",
+		"receivedKeyboardEvents" ],
+	"name" : "PSMockMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

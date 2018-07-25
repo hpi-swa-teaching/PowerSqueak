@@ -4,8 +4,9 @@ testDeleteFirstSlide
 	| deletedSlide slide |
 	self setUpSlideDeletion.
 	
-	deletedSlide := self tool slides first.
-	slide := self tool slides second.
+	deletedSlide := self slideAt: 1.
+	slide := self slideAt: 2.
 	
-	self tool deleteSlide: 1.
-	self assert: self tool slides first = slide.
+	self 
+		deleteSlideAt: 1;
+		assert: (self slideAt: 1) equals: slide

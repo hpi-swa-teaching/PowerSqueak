@@ -1,4 +1,4 @@
 accessing
-isFile: anObject
+isFile: aBoolean
 	
-	isFile := anObject
+	isFile := aBoolean

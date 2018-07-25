@@ -1,0 +1,16 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LM 7/24/2018 17:50",
+	"instvars" : [
+		"errorReport",
+		"presentation",
+		"world" ],
+	"name" : "PSPresentationLoader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

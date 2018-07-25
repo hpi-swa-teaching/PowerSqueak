@@ -2,8 +2,11 @@ miniature view tests
 testMiniatureSelects
 
 	| slideToSelect miniatureToClick |
-	5 timesRepeat: [self tool createSlide].
-	slideToSelect := self tool slides at: 3.
-	miniatureToClick := self tool miniatureOf: slideToSelect.
-	self hand handleEvent: (self redMouseDownAt: miniatureToClick boundsInWorld center).
-	self assert: self tool currentSlide equals: slideToSelect
+	5 timesRepeat: [self createSlide].
+	
+	slideToSelect := self slides third.
+	miniatureToClick := self miniatureOf: slideToSelect.
+	
+	self 
+		click: MouseEvent redButton at: miniatureToClick boundsInWorld center;
+	 	assert: self currentSlide equals: slideToSelect

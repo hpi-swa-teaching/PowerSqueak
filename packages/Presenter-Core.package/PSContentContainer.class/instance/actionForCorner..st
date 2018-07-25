@@ -1,4 +1,4 @@
 resizing
 actionForCorner: aSymbol
 
-	^ ('drag', aSymbol capitalized, 'Event:fromHandle:') asSymbol
+	^ ('drag', aSymbol capitalized, 'Event:') asSymbol

@@ -1,6 +1,7 @@
-as yet unclassified
+slide management
 duplicateCurrentSlide
 
-	self slides 
-			add: self currentSlide copy 
-			afterIndex: self currentSlideNumber
+	self presentation 
+		addSlide: self currentSlide copy 
+		afterIndex: self currentSlideNumber.
+	self updateSlideMiniatures

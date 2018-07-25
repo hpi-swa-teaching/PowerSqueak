@@ -1,7 +1,9 @@
-presentation loading
+presentation serialization
 loadPresentationFromDirectory: aDirectory
 
-	(self isValidPresentationDirectory: aDirectory)
-		ifTrue: [self showErrorReport: (self loadPresentationUnchecked: aDirectory)]
-		ifFalse: [UIManager default inform: 'I could not load the presentation. 
-It''s directory might be corrupted.']
+	| loader |
+	loader := PSPresentationLoader new.
+	(loader loadPresentationFromDirectory: aDirectory)
+		ifNotNil: [:presentation |
+			self updatePresentation: presentation withErrorReport: loader errorReport]
+		ifNil: [UIManager default inform: self loadCorruptionMessage]

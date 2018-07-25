@@ -1,8 +1,7 @@
 accessing
 defaultContextMenuContent
 
-	^ #(
-		('grab' grabChild)
+	^ #(('grab' grabChild)
 		-
 		('delete' abandon)
 		-

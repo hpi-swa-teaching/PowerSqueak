@@ -1,6 +1,6 @@
 dropping/grabbing
 handleDroppedItem: anItem event: anEvent
 	
-	((anItem isKindOf: FileStream) and: [self isImageFileName: anItem name]) 
+	(self isImageStream: anItem) 
 		ifTrue: [self handleDroppedImage: anItem event: anEvent]
 		ifFalse: [super handleDroppedItem: anItem event: anEvent]

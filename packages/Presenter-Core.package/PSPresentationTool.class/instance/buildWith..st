@@ -19,8 +19,7 @@ buildWith: builder
 	window := builder build: windowSpec.
 	self createSlideContainerIn: (builder widgetAt: #SlideViewport).
 	
-	self createSlide.
-	self window: window.
+	self selectSlideNumber: 1.
 	
 	self afterBuildWith: builder.
 	

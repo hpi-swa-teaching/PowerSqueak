@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LB 7/13/2018 18:45",
+	"instvars" : [
+		 ],
+	"name" : "PSUITestCase",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

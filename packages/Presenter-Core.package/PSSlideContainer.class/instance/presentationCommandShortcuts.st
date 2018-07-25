@@ -1,4 +1,4 @@
-accessing
+shortcuts
 presentationCommandShortcuts
 	
-	^ presentationCommandShortcuts
+	^ self createShortcutsFrom: self presentationModeCommandShortcuts

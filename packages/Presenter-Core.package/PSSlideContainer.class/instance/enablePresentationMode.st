@@ -2,9 +2,8 @@ presentation mode
 enablePresentationMode 
 
 	self previousOwner: self owner.
-	self owner removeMorph: self.
 	self 
-		occupyWorld: self previousOwner world;
+		occupyWorld: self world;
 		startStepping;
 		color: Color black;
 		showNotification: 'Press ''i'' to toggle interactivity'

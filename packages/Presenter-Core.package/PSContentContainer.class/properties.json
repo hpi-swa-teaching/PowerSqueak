@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "LM 7/24/2018 17:46",
 	"instvars" : [
 		"resizeHandles",
 		"hasHandles",
-		"child" ],
+		"content" ],
 	"name" : "PSContentContainer",
 	"pools" : [
 		 ],

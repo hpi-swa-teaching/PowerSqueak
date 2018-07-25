@@ -1,4 +1,4 @@
-toolbuilder
+toolbuilder buttons
 moveSlideButtonData
 
 	^ Dictionary withAll: {

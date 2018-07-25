@@ -1,9 +1,11 @@
-toolbuilder
+toolbuilder buttons
 buttonBarTopData
 
-	^ {	self createSlideButtonData.
+	^ {	
+		self createSlideButtonData.
 		self previousSlideButtonData.
 		self nextSlideButtonData.
 		self moveSlideButtonData.
 		self presentationModeButtonData.
-		self magneticRasterButtonData}
+		self magneticRasterButtonData
+	}

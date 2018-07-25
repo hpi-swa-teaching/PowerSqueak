@@ -1,0 +1,4 @@
+accessing
+handleColor
+
+	^ Color black

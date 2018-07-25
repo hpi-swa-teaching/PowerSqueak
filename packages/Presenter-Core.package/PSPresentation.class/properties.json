@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MK 7/24/2018 13:52",
+	"instvars" : [
+		"slides" ],
+	"name" : "PSPresentation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

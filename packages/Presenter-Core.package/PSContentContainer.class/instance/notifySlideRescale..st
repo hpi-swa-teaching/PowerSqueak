@@ -1,5 +1,5 @@
 scaling
 notifySlideRescale: newExtent
 
-	(self child hasProperty: #acceptRescale) 
-		ifTrue: [self child rescale: newExtent]
+	(self content hasProperty: #acceptRescale) 
+		ifTrue: [self content rescale: newExtent]

@@ -1,6 +1,6 @@
 comparing
-= other
+= otherTextAttribute
 
-	^ (other class == self class)
-		and: [other style == self style]
-		and: [other scalingSource  == self scalingSource]
+	^ (otherTextAttribute class == self class)
+		and: [otherTextAttribute style == self style]
+		and: [otherTextAttribute scalingSource  == self scalingSource]

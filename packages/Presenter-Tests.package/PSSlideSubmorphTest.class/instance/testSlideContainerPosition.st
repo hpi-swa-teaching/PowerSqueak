@@ -1,11 +1,4 @@
-submorph tests
+container tests
 testSlideContainerPosition
 
-	| container morphPosition |
-	morphPosition := self morph position.
-	
-	self slide addContent: self morph.
-	container := self morph owner.
-	
-	self assert: container position = morphPosition.
-	self assert: container extent = self morph extent
+	self assert: self container position equals: self morph position

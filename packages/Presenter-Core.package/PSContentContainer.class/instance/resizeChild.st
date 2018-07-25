@@ -1,4 +1,4 @@
 resizing
 resizeChild
 	
-	self child bounds: self bounds
+	self content bounds: self bounds

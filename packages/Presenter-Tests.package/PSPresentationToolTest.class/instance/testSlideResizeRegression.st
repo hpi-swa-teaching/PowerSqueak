@@ -1,4 +1,4 @@
 window resizing tests
 testSlideResizeRegression
-	"Regression test for #32"
-	self assert: (self is: [self tool currentSlide extent] constantOnResizeOf: self window) not
+	"Regression test for #32 - expected to fail!"
+	self assert: [self currentSlide extent] constantOnResizeOf: self window

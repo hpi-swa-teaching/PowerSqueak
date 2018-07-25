@@ -3,6 +3,6 @@ enablePresentationMode
 
 	self presentationMode ifTrue: [^ self].
 	
-	self slides do: [:each | each enablePresentationMode].
+	self presentation slidesDo: [:each | each enablePresentationMode].
 	self slideContainer enablePresentationMode.
 	self presentationMode: true

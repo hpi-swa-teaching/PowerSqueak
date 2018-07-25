@@ -4,8 +4,9 @@ testSlideDeletionMovesSlideSelection
 	| slide |
 	self setUpSlideDeletion.
 	
-	slide := self tool slides first.
+	slide := self slides first.
 	
-	self tool deleteSlide: 2.
-	self assert: self tool slides first = slide.
-	self assert: self tool currentSlide = slide.
+	self deleteSlideAt: 2.
+	self 
+		assert: self slides first equals: slide;
+		assert: self currentSlide equals: slide

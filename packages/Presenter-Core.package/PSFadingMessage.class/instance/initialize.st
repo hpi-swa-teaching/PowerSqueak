@@ -6,5 +6,5 @@ initialize
 		content: StringMorph new;
 		addMorph: self content;
 		color: Color gray;
-		remaining: self fadingTime;
+		remainingTime: self totalVisibleTime;
 		startStepping

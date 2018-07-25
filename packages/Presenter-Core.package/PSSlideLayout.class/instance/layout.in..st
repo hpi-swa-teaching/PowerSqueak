@@ -11,4 +11,6 @@ layout: morph in: newBounds
 		ifFalse: [newExtent := proposedExtent y / slide sideRatio @ proposedExtent y].
 	diffExtent := proposedExtent - newExtent.
 
-	slide extent: newExtent; center: morph center
+	slide 
+		extent: newExtent; 
+		center: morph center

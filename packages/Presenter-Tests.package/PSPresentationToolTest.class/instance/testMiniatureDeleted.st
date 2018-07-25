@@ -2,7 +2,7 @@ miniature view tests
 testMiniatureDeleted
 
 	| oldSize |
-	self tool createSlide.
-	oldSize := self tool slideMiniatures size.
+	self createSlide.
+	oldSize := self slideMiniatures size.
 	self tool deleteSlide.
-	self assert: self tool slideMiniatures size equals: oldSize - 1
+	self assert: self slideMiniatures size equals: oldSize - 1

@@ -1,4 +1,4 @@
-toolbuilder
+toolbuilder buttons
 fileButtonData
 
 	^ Dictionary withAll: {	

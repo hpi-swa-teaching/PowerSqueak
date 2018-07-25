@@ -5,4 +5,5 @@ initialize
 		name: '';
 		subdirectories: Set new;
 		exists: true;
-		isFile: false
+		isFile: false;
+		contents: nil
