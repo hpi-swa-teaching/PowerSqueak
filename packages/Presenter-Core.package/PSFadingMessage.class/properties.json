@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "MK 7/24/2018 14:31",
 	"instvars" : [
-		"remaining",
-		"content" ],
+		"content",
+		"remainingTime" ],
 	"name" : "PSFadingMessage",
 	"pools" : [
 		 ],

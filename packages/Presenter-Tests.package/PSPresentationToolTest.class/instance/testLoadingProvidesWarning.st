@@ -1,4 +1,4 @@
-loading tests
+loading and saving tests
 testLoadingProvidesWarning
 
 	self 

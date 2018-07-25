@@ -6,4 +6,4 @@ testDeletionRemovesSlide
 	
 	deletedSlide := self slides first.
 	self tool deleteSlideAt: 1.
-	self assert: (self slides includes: deletedSlide) not
+	self deny: (self slides includes: deletedSlide)
