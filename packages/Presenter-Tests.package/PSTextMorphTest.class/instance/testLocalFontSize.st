@@ -9,6 +9,4 @@ testLocalFontSize
 			self textField textMorph selectFrom: begin to: end.
 			self textField selectionFontSize: size.
 			self textField textMorph selectFrom: begin to: end.
-			self assert: self textField selectionFontSize equals: size
-		]
-	]
+			self assert: self textField selectionFontSize equals: size]]
