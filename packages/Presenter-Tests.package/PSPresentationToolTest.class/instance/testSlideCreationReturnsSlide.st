@@ -3,4 +3,4 @@ testSlideCreationReturnsSlide
 
 	| slide |
 	slide := self createSlide.
-	self assert: slide = self currentSlide
+	self assert: slide equals: self currentSlide
