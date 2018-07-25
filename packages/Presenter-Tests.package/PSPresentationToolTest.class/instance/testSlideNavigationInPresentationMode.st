@@ -1,7 +1,7 @@
 presentation mode tests
 testSlideNavigationInPresentationMode
 
-	self tool 
+	self 
 		createSlide;
 		selectSlideNumber: 1;
 		enablePresentationMode.
