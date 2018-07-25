@@ -1,4 +1,4 @@
-contentHandling
+initialize-release
 setContent: aMorph
 	
 	self 

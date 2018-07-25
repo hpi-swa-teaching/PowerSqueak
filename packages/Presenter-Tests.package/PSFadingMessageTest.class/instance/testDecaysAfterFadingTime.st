@@ -1,6 +1,6 @@
 decaying
 testDecaysAfterFadingTime
 
-	self stepCount + 1 
+	self stepCount + 1
 		timesRepeat: [self message step].
-	self assert: self message owner equals: nil
+	self assert: (self isAbandoned: self message)
