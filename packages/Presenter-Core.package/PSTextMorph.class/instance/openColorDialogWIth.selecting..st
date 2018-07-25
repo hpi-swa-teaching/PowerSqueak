@@ -1,8 +1,10 @@
 styling
 openColorDialogWIth: aColor selecting: aSymbol
 
-	(NewColorPickerMorph 
+	^ (NewColorPickerMorph 
 		on: self 
 		originalColor: aColor
 		setColorSelector: aSymbol) 
-		openNear: self fullBoundsInWorld
+		openNear: self fullBoundsInWorld;
+		yourself
+		
