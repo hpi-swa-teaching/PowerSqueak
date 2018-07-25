@@ -1,4 +1,4 @@
 accessing
-magneticRasterActive: aBool
+magneticRasterActive: aBoolean
 
-	magneticRasterActive := aBool
+	magneticRasterActive := aBoolean
