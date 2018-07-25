@@ -4,6 +4,6 @@ testEnterNonInteractiveMode
 	self enablePresentationMode.
 	self 
 		pressKey: $i at: self slideContainer center;
-		deny: self tool isInteractive.
+		deny: self isInteractive.
 	
 	self tool disablePresentationMode
