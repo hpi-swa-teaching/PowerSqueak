@@ -3,7 +3,7 @@ testNonInteractivetyInNonInteractiveMode
 
 	| testMorph |
 	testMorph := PSMockMorph new.
-	self tool enablePresentationMode.
+	self enablePresentationMode.
 	self slideContainer currentSlide addContent: testMorph.
 	self pressKey: $i at: self slideContainer center.
 	
