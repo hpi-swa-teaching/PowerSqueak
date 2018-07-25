@@ -5,6 +5,6 @@ testMovedSlideStayCurrentSlide
 	4 timesRepeat: [self createSlide].	"=> 5 slides"
 	slide := self slides first.
 	
-	self tool selectSlideNumber: 1.
+	self selectSlideNumber: 1.
 	self tool moveCurrentSlideTo: 5.
 	self assert: slide = self currentSlide 
