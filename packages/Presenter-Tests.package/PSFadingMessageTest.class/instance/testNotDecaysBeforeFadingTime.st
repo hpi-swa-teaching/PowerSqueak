@@ -1,6 +1,7 @@
 decaying
 testNotDecaysBeforeFadingTime
 
-	self stepCount - 1 
+	self 
+		stepCount - 1 
 		timesRepeat: [self message step].
-	self deny: self message owner = nil
+	self deny: (self isAbandoned: self message)
