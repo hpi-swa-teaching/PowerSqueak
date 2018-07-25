@@ -3,6 +3,6 @@ testEnterNonInteractiveMode
 	
 	self enablePresentationMode.
 	self pressKey: $i at: self slideContainer center.
-	self assert: self tool isInteractive equals: false.
+	self assert: self isInteractive equals: false.
 	
 	self tool disablePresentationMode
