@@ -1,15 +1,15 @@
 slide navigation tests
 testSlideNumberLabelSelectsCorrectly
 
-	| numberOfSlides index |
-	numberOfSlides := 5.
-	numberOfSlides timesRepeat: [self createSlide].
+	| numberOfNewSlides index |
+	numberOfNewSlides := 5.
+	numberOfNewSlides timesRepeat: [self createSlide].
 	
-	index := numberOfSlides atRandom.
+	index := self slideCount atRandom.
 	self tool slideNumberString: index asString asText.
 	self assert: index equals: self currentSlideNumber.
 	
-	index := numberOfSlides atRandom.
-	self tool slideNumberString: (index asString , '/' , numberOfSlides) asText.
-	self assert: index equals: self currentSlideNumber.
+	index := self slideCount atRandom.
+	self tool slideNumberString: (index asString , '/' , self slideCount) asText.
+	self assert: index equals: self currentSlideNumber
 	

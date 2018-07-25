@@ -5,6 +5,7 @@ testErrorReportExistsPerSlide
 	directory := self mockEmptyPresentationDirectory.
 	self loader loadPresentationUnchecked: directory.
 	errorReport := self loader errorReport.
+	
 	self 
 		assert: errorReport keys asSet
 		equals: (directory / self loader slidesDirectoryName) directoryNames asSet

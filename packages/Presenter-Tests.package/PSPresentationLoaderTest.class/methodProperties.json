@@ -11,7 +11,7 @@
 		"testCanLoadEmptyPresentation" : "LM 7/25/2018 13:09",
 		"testCanLoadEmptySlide" : "LM 7/25/2018 13:10",
 		"testEmptyPresentationDirectoryIsValid" : "MK 7/20/2018 15:50",
-		"testErrorReportExistsPerSlide" : "MK 7/20/2018 15:51",
+		"testErrorReportExistsPerSlide" : "WoC 7/25/2018 12:43",
 		"testInvalidLoadReturnsNil" : "MK 7/20/2018 15:51",
 		"testInvalidSlideDirectoryNames" : "LB 7/24/2018 17:35",
 		"testLoadCompletePresentation" : "LM 7/25/2018 13:12",
