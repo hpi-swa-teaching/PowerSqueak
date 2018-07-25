@@ -8,9 +8,6 @@ morph: aMorph survivesOneCycleIn: aWorld
 	[aWorld doOneCycle]
 		on: Error
 		do: [^false].
-	newDebuggers := Debugger allInstances reject: [:each |
-		debuggersBefore includes: each].
+	newDebuggers := Debugger allInstances difference: debuggersBefore.
 	newDebuggers do: [:each | each abandon].
-	newDebuggers size > 0
-		ifTrue: [^ false].
-	^ true
+	^ newDebuggers isEmpty
