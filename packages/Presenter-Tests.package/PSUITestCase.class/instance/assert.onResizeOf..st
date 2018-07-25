@@ -6,6 +6,4 @@ assert: aBlock onResizeOf: aMorph
 			aMorph extent: width@height.
 			"Setting the extent does not update everything immediately, for the update, we need fullBounds."
 			aMorph fullBounds.
-			self assert: aBlock.
-		]
-	]
+			self assert: aBlock]]
