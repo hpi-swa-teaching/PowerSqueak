@@ -3,7 +3,7 @@ selectionFontSize: aNumber
 
 	self selectionAddAttribute: 
 		(PSScalingFontAttribute 
-			styled: PSTextMorph DefaultTextStyle 
+			styled: self class defaultTextStyle 
 			sized: aNumber 
 			scaledBy: self).
 	self textMorph releaseParagraph
