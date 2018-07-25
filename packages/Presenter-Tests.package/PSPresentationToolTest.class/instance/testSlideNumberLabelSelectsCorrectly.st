@@ -3,7 +3,7 @@ testSlideNumberLabelSelectsCorrectly
 
 	| numberOfSlides index |
 	numberOfSlides := 5.
-	numberOfSlides timesRepeat: [self tool createSlide].
+	numberOfSlides timesRepeat: [self createSlide].
 	
 	index := numberOfSlides atRandom.
 	self tool slideNumberString: index asString asText.

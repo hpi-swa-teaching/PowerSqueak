@@ -1,14 +1,14 @@
 button tests
 testMagneticRasterButton
 
-	| button modeBefore|
+	| button modeBefore |
 	button := self window allMorphs detect: 
 		[:m | m externalName = (self tool magneticRasterButtonData at: #name)].
-	modeBefore := self tool magneticRasterActive.
+	modeBefore := self magneticRasterActive.
 	
 	self click: MouseEvent redButton at: button boundsInWorld center.
-	self assert: self tool magneticRasterActive equals: modeBefore not.
+	self assert: self magneticRasterActive equals: modeBefore not.
 	
 	self click: MouseEvent redButton at: button boundsInWorld center.
-	self assert: self tool magneticRasterActive equals: modeBefore.
+	self assert: self magneticRasterActive equals: modeBefore.
 	
