@@ -1,4 +1,4 @@
 accessing
-exists: anObject
+exists: aBoolean
 	
-	exists := anObject
+	exists := aBoolean
