@@ -1,4 +1,4 @@
-# **PowerSqueak** [![Build Status](https://travis-ci.org/hpi-swa-teaching/SWT18-Project-09.svg?branch=release)](https://travis-ci.org/hpi-swa-teaching/SWT18-Project-09)[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SWT18-Project-09/badge.svg?branch=release)](https://coveralls.io/github/hpi-swa-teaching/SWT18-Project-09?branch=release)
+# **PowerSqueak** [![Build Status](https://travis-ci.org/hpi-swa-teaching/PowerSqueak.svg?branch=release)](https://travis-ci.org/hpi-swa-teaching/PowerSqueak)[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SWT18-Project-09/badge.svg?branch=release)](https://coveralls.io/github/hpi-swa-teaching/SWT18-Project-09?branch=release)
 
 A presentation tool for the Squeak development platform
 
@@ -38,7 +38,7 @@ Alternatively, download the .sar file from the [latest release](https://github.c
 ## **Build status**
 | [Release](https://github.com/hpi-swa-teaching/SWT18-Project-09/releases/latest) | master
 | ------------------------- | ------------------- |
-| [![Build Status](https://travis-ci.org/hpi-swa-teaching/SWT18-Project-09.svg?branch=release)](https://travis-ci.org/hpi-swa-teaching/SWT18-Project-09) | [![Build Status](https://travis-ci.org/hpi-swa-teaching/SWT18-Project-09.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/SWT18-Project-09) |
+| [![Build Status](https://travis-ci.org/hpi-swa-teaching/PowerSqueak.svg?branch=release)](https://travis-ci.org/hpi-swa-teaching/PowerSqueak) | [![Build Status](https://travis-ci.org/hpi-swa-teaching/PowerSqueak.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/PowerSqueak) |
 | [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SWT18-Project-09/badge.svg?branch=release)](https://coveralls.io/github/hpi-swa-teaching/SWT18-Project-09?branch=release) | [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SWT18-Project-09/badge.svg?branch=master)](https://coveralls.io/github/hpi-swa-teaching/SWT18-Project-09?branch=master) |
 
 ## **Using PowerSqueak**
