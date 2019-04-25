@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PSShapeTest",
+	"pools" : [
+		 ],
+	"super" : "PSOnSlideTest",
+	"type" : "normal" }

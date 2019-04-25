@@ -3,5 +3,6 @@ openInsertMenu
 
 	self openMenuWith: {
 		{'Text field' . #newTextField}.
-		{'Image' . #newImageField}
+		{'Image' . #newImageField}.
+		{'Shape' . #openShapeChooser}
 	}
