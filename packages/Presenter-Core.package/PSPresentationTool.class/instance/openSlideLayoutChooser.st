@@ -2,6 +2,6 @@ layouts
 openSlideLayoutChooser
 
 	(UIManager default
-		chooseFrom: self slideLayoutNames keys
-		values: self slideLayoutNames values
+		chooseFrom: self presentation slideLayouts keys
+		values: (self presentation slideLayouts values collect: [:aSlide | [self createSlideFromLayout: aSlide]])
 		title: 'Choose a predefined layout') value

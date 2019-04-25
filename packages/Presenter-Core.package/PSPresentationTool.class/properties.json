@@ -13,7 +13,8 @@
 		"presentationMode",
 		"miniatures",
 		"magneticRasterActive",
-		"isInteractive" ],
+		"isInteractive",
+		"slideLayouts" ],
 	"name" : "PSPresentationTool",
 	"pools" : [
 		 ],

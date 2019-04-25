@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addLayout:withName:" : "mb 4/25/2019 17:57",
 		"addSlide:afterIndex:" : "LM 7/13/2018 19:04",
 		"askForPresentationDirectoryIn:" : "LM 7/13/2018 18:33",
 		"askForPresentationName" : "LM 7/13/2018 18:32",
@@ -14,7 +15,8 @@
 		"defaultDirectoryName" : "LM 7/13/2018 18:35",
 		"deleteSlideAt:" : "WoC 7/24/2018 16:37",
 		"indexOf:" : "LM 7/13/2018 17:55",
-		"initialize" : "MK 7/20/2018 15:17",
+		"initialize" : "mb 4/25/2019 17:26",
+		"initializeSlides" : "mb 4/25/2019 17:26",
 		"minimumSlideCount" : "LM 7/13/2018 17:16",
 		"moveSlideAt:to:" : "LM 7/13/2018 18:27",
 		"overwriteQuestion" : "LM 7/13/2018 18:41",
@@ -23,6 +25,8 @@
 		"saveConfirmed" : "LM 7/13/2018 18:46",
 		"slideAt:" : "LM 7/13/2018 18:11",
 		"slideCount" : "LM 7/13/2018 17:34",
+		"slideLayouts" : "mb 4/25/2019 16:57",
+		"slideLayouts:" : "mb 4/25/2019 16:57",
 		"slides" : "JZ 7/25/2018 12:41",
 		"slides:" : "JZ 7/25/2018 12:41",
 		"slidesCollect:" : "LM 7/13/2018 18:18",
