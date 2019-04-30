@@ -1,4 +1,4 @@
-events-processing
+testing
 filterEvent: evt for: aMorphOrNil
 	
 	self model isInteractive

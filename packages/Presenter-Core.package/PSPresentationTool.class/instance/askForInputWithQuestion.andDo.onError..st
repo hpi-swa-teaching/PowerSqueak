@@ -1,9 +1,9 @@
 slide management
-askForNumberWithQuestion: aString andDo: aBlock
+askForInputWithQuestion: aString andDo: aBlock onError: anotherString
 
 	| userInput |
 	userInput := UIManager default request: aString.
 	userInput ifEmpty: [^ self]. "Check for cancel"
 	(aBlock value: userInput)
 		on: Error 
-		do: [UIManager inform: 'Not a valid number']
+		do: [UIManager inform: anotherString]
