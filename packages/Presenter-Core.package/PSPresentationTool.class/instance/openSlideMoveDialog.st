@@ -2,5 +2,6 @@ slide management
 openSlideMoveDialog
 
 	self 
-		askForNumberWithQuestion: self slideMoveText
+		askForInputWithQuestion: self slideMoveText
 		andDo: [:userInput | [self moveCurrentSlideTo: userInput asNumber]]
+		onError: 'Not a valid number'
