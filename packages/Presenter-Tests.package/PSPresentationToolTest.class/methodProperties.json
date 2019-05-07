@@ -48,6 +48,7 @@
 		"testNotEnterNonInteractiveModeInEditMode" : "MK 7/25/2018 13:45",
 		"testOccupiesWorldOnStep" : "MK 7/25/2018 13:13",
 		"testPreviousSlideClampsToMin" : "WoC 7/25/2018 13:14",
+		"testRectangleShapeIsRectangle" : "VO 5/2/2019 14:06",
 		"testSavingShouldProvideWarning" : "LM 7/13/2018 18:40",
 		"testSelectSlide" : "LM 7/25/2018 13:37",
 		"testSelectSlideClamps" : "MK 7/25/2018 13:46",
