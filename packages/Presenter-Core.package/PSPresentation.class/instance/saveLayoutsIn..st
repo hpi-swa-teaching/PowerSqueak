@@ -6,6 +6,6 @@ saveLayoutsIn: aDirectory
 
 	self slideLayouts keysAndValuesDo: [:key :value | 
 		| directoryName |
-		directoryName := PSPresentationLoader layoutsDirectoryName, key asString.
+		directoryName := PSPresentationLoader layoutDirectoryPrefix, key asString.
 		directory createDirectory: directoryName.
 		value saveInDirectory: directory / directoryName ]
