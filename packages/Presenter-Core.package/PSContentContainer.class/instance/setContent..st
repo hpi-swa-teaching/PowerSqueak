@@ -6,4 +6,4 @@ setContent: aMorph
 		content: aMorph;
 		extent: aMorph extent;
 		addMorph: aMorph;
-		addMouseCaptureFilter: self
+		addMouseCaptureFilter: self.
