@@ -3,4 +3,4 @@ initialize
 
 	self slides: OrderedCollection new.
 	self minimumSlideCount timesRepeat: [self createSlideBack].
-	self loadDefaultLayouts.
+	self slideLayouts: Dictionary new

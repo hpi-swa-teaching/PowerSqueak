@@ -1,5 +1,5 @@
 styling
-openColorDialogWIth: aColor selecting: aSymbol
+openColorDialogWith: aColor selecting: aSymbol
 
 	^ (NewColorPickerMorph 
 		on: self 

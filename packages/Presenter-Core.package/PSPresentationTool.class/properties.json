@@ -8,13 +8,12 @@
 	"instvars" : [
 		"slideContainer",
 		"presentation",
-		"slides",
 		"currentSlideNumber",
 		"presentationMode",
 		"miniatures",
 		"magneticRasterActive",
 		"isInteractive",
-		"slideLayouts" ],
+		"isFullScreenMode" ],
 	"name" : "PSPresentationTool",
 	"pools" : [
 		 ],

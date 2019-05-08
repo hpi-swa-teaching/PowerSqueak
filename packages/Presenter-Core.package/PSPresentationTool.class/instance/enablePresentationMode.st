@@ -5,4 +5,5 @@ enablePresentationMode
 	
 	self presentation slidesDo: [:each | each enablePresentationMode].
 	self slideContainer enablePresentationMode.
-	self presentationMode: true
+	self presentationMode: true.
+	self enterFullScreen

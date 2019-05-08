@@ -6,6 +6,6 @@ saveSlidesIn: aDirectory
 
 	self slides doWithIndex: [:each :index | 
 		| directoryName |
-		directoryName := 'slide', index asString.
+		directoryName := PSPresentationLoader slideDirectoryPrefix, index asString.
 		directory createDirectory: directoryName.
 		each saveInDirectory: directory / directoryName ]

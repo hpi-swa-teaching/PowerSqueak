@@ -1,5 +1,5 @@
 directory checking
 isValidPresentationDirectory: aDirectory
 
-	^ (self isValidSlidesDirectory: aDirectory / self slidesDirectoryName) and:
-	   [self isValidLayoutsDirectory: aDirectory / self layoutsDirectoryName].
+	^ (self isValidContentDirectory: aDirectory / self slidesDirectoryName namesSatisfy: [:each | self checkSlideDirectoryName: each]) and:
+	   [self isValidContentDirectory: aDirectory / self layoutsDirectoryName namesSatisfy: [:each | self checkLayoutDirectoryName: each]].
