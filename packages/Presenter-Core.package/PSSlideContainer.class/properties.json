@@ -8,7 +8,8 @@
 	"instvars" : [
 		"currentSlide",
 		"previousOwner",
-		"notification" ],
+		"notification",
+		"selection" ],
 	"name" : "PSSlideContainer",
 	"pools" : [
 		 ],

@@ -8,7 +8,8 @@
 	"instvars" : [
 		"resizeHandles",
 		"hasHandles",
-		"content" ],
+		"content",
+		"slideContainer" ],
 	"name" : "PSContentContainer",
 	"pools" : [
 		 ],

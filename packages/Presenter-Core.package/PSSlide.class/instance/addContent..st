@@ -4,4 +4,5 @@ addContent: aMorph
 	| container |
 	container := PSContentContainer for: aMorph.
 	self addMorph: container fullFrame: (self layoutFrameFor: aMorph).
-	container notifySlideRescale: self extent
+	container notifySlideRescale: self extent.
+	container slideContainer: self owner.
