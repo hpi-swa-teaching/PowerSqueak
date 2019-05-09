@@ -1,0 +1,16 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"menu",
+		"content",
+		"event" ],
+	"name" : "PSContextMenu",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

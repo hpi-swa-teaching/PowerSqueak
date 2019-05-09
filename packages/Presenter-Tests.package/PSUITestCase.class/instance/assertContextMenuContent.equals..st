@@ -1,4 +1,4 @@
-context menu tests
+helper functions
 assertContextMenuContent: aMorph equals: aCollection
 	"Tests whether the context menu is created correctly.
 	Tests both the PowerSqueak method to create the correct context menu and describes our assumptions about how Morphic creates context-menus from Collections."
