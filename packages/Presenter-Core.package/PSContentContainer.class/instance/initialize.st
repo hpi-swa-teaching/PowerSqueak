@@ -4,5 +4,4 @@ initialize
 	super initialize.
 	self 
 		color: Color transparent;
-		resizeHandles: Dictionary new;
-		hasHandles: false
+		resizeHandles: Dictionary new
