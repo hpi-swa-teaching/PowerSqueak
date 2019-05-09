@@ -31,6 +31,8 @@
 		"testDuplicateSlide" : "MK 7/25/2018 12:51",
 		"testDuplicatedSlidesContent" : "LM 7/25/2018 13:32",
 		"testEnterNonInteractiveMode" : "MK 7/25/2018 13:45",
+		"testFullScreenOff" : "mb 5/8/2019 16:23",
+		"testFullScreenOn" : "mb 5/8/2019 16:23",
 		"testLeaveNonInteractiveMode" : "MK 7/25/2018 13:45",
 		"testLeaveNonInteractiveModeWhenLeavingPresentation" : "MK 7/25/2018 13:46",
 		"testLoadingProvidesWarning" : "LB 6/29/2018 19:38",

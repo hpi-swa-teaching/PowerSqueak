@@ -12,7 +12,8 @@
 		"presentationMode",
 		"miniatures",
 		"magneticRasterActive",
-		"isInteractive" ],
+		"isInteractive",
+		"isFullScreenMode" ],
 	"name" : "PSPresentationTool",
 	"pools" : [
 		 ],
