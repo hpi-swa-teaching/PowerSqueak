@@ -1,4 +1,4 @@
 accessing
 hasHandles
 	
-	^ hasHandles
+	^ self resizeHandles notEmpty

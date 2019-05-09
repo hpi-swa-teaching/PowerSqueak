@@ -1,4 +1,4 @@
 as yet unclassified
 updateSelection
-
-	self slideContainer selection: self
+	
+	self slideContainer updateSelection: self
