@@ -5,5 +5,4 @@ disablePresentationMode
 	
 	self disableNonInteractiveMode.
 	self slideContainer disablePresentationMode.
-	self presentation slidesDo: [:each | each disablePresentationMode].
 	self presentationMode: false

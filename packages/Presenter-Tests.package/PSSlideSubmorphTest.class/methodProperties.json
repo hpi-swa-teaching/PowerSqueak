@@ -12,9 +12,7 @@
 		"testContextMenu" : "MK 7/25/2018 11:33",
 		"testDuplicateChild" : "LM 7/25/2018 12:48",
 		"testGrabbing" : "LM 7/25/2018 12:51",
-		"testLeavePresentationModeEnablesHandles" : "LB 7/20/2018 14:54",
 		"testOnlyOneContainerHasHandles" : "jb 5/9/2019 12:12",
-		"testPresentationModeRemovesHandle" : "LB 7/20/2018 14:54",
 		"testRemoveMorphAbandonsContainer" : "LM 7/25/2018 12:52",
 		"testResizeHandleMagnetic" : "WoC 7/25/2018 12:29",
 		"testSelectByClicking" : "jb 5/8/2019 17:25",
@@ -23,4 +21,5 @@
 		"testSubmorphRelativePositionOnResize" : "WoC 7/25/2018 12:37",
 		"testSubmorphRelativeSizeOnResize" : "WoC 7/25/2018 12:37",
 		"testSubmorphSideRatioOnResize" : "WoC 7/25/2018 12:37",
-		"testUnselectByClicking" : "jb 5/8/2019 17:42" } }
+		"testUnselectByClicking" : "jb 5/8/2019 17:42",
+		"testUnselectedElementsDoNotReceiveEvents" : "VO 5/9/2019 18:32" } }
