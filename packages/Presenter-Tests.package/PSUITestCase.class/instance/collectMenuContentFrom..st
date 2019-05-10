@@ -1,4 +1,4 @@
-context menu tests
+helper functions
 collectMenuContentFrom: aMenu
 
 	^ aMenu submorphs collect: [:each | 

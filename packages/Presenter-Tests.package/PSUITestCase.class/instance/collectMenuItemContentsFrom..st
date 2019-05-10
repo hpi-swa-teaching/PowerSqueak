@@ -1,4 +1,4 @@
-context menu tests
+helper functions
 collectMenuItemContentsFrom: aMenuItem
 
 	^ aMenuItem balloonText 

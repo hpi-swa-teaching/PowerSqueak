@@ -1,14 +1,6 @@
 {
 	"class" : {
-		"newWithMenu:content:andEvent:" : "kw 5/9/2019 18:26" },
+		"newWith:" : "mb 5/10/2019 01:26" },
 	"instance" : {
-		"addContentMenuItemsTo:" : "kw 5/9/2019 18:02",
-		"content" : "kw 5/9/2019 17:59",
-		"content:" : "kw 5/9/2019 17:59",
-		"createContextMenu" : "kw 5/9/2019 18:19",
-		"event" : "kw 5/9/2019 18:27",
-		"event:" : "kw 5/9/2019 18:27",
-		"invokeContextMenu" : "kw 5/9/2019 17:25",
-		"menu" : "kw 5/9/2019 17:30",
-		"menu:" : "kw 5/9/2019 17:30",
-		"openMenu:" : "kw 5/9/2019 18:26" } }
+		"addSubmorphContentMenuItemsOf:" : "mb 5/10/2019 01:37",
+		"openContextMenu:" : "mb 5/10/2019 00:38" } }

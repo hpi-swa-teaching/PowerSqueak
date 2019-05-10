@@ -12,5 +12,5 @@
 	"name" : "PSContextMenu",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "MenuMorph",
 	"type" : "normal" }
