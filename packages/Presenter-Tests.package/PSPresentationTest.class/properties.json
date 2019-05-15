@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"presentation",
-		"tool" ],
+		"presentation" ],
 	"name" : "PSPresentationTest",
 	"pools" : [
 		 ],
-	"super" : "PSUITestCase",
+	"super" : "PSPresentationToolTest",
 	"type" : "normal" }

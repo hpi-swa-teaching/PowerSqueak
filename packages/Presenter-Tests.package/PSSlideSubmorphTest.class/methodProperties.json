@@ -21,5 +21,4 @@
 		"testSubmorphRelativePositionOnResize" : "WoC 7/25/2018 12:37",
 		"testSubmorphRelativeSizeOnResize" : "WoC 7/25/2018 12:37",
 		"testSubmorphSideRatioOnResize" : "WoC 7/25/2018 12:37",
-		"testUnselectByClicking" : "jb 5/8/2019 17:42",
-		"testUnselectedElementsDoNotReceiveEvents" : "VO 5/9/2019 18:32" } }
+		"testUnselectByClicking" : "jb 5/8/2019 17:42" } }

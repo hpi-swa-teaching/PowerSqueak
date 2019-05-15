@@ -10,4 +10,5 @@ setUp
 			yourself).
 	self morph position: self slide position + (30 @ 30).
 	self slide addContent: self morph.
-	self interacted: false
+	self interacted: false.
+	self slide fullBounds.
