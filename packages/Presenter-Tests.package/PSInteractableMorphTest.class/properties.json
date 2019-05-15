@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"presentation" ],
-	"name" : "PSPresentationTest",
+		"morph",
+		"interacted" ],
+	"name" : "PSInteractableMorphTest",
 	"pools" : [
 		 ],
-	"super" : "PSPresentationToolTest",
+	"super" : "PSOnSlideTest",
 	"type" : "normal" }

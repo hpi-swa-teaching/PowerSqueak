@@ -1,4 +1,7 @@
 layouts
-createSlideFromLayout: aSlide
+createSlideFromLayout: aLayout
 
-	self addSlide: aSlide copy
+	| slide |
+	slide := aLayout copy.
+	slide updateSlideContainer: self slideContainer.	
+	self addSlide: slide

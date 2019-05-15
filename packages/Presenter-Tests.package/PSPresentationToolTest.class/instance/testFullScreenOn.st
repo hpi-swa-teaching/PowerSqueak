@@ -5,4 +5,4 @@ testFullScreenOn
 	self tool enablePresentationMode.
 	self assert: self tool presentationMode equals: DisplayScreen displayIsFullScreen.
 	self tool disablePresentationMode.
-	self assert:  DisplayScreen displayIsFullScreen equals: true
+	self assert: DisplayScreen displayIsFullScreen equals: true

@@ -1,5 +1,8 @@
 menu bar
 createLayout: aString
 
-	self presentation addLayout: self currentSlide copy withName: aString.
+	| layout |
+	layout := self currentSlide copy.
+	layout updateSlideContainer: nil.
+	self presentation addLayout: layout withName: aString
 	
