@@ -1,7 +1,7 @@
 as yet unclassified
 defaultContextMenuContent
 
-	^ #(('hide' hideSlide)
-		-
-		('unhide' unhideSlide)
-	)
+	self slide isHidden 
+		ifTrue: [^ #(('unhide' unhideSlide))] 
+		ifFalse: [^ #(('hide' hideSlide))]
+	

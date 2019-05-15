@@ -2,7 +2,7 @@
 	"class" : {
 		"forSlide:" : "LM 7/6/2018 14:58" },
 	"instance" : {
-		"defaultContextMenuContent" : "kw 5/9/2019 17:39",
+		"defaultContextMenuContent" : "kw 5/15/2019 16:26",
 		"defaultWidth" : "LM 7/6/2018 13:51",
 		"formSize" : "LB 7/6/2018 15:25",
 		"handlesMouseDown:" : "WoC 6/29/2018 15:33",
@@ -14,9 +14,11 @@
 		"isHighlighted" : "LB 6/29/2018 19:05",
 		"model" : "LB 6/29/2018 15:52",
 		"model:" : "LB 6/29/2018 15:52",
-		"mouseDown:" : "mb 5/9/2019 22:06",
+		"mouseDown:" : "kw 5/15/2019 15:57",
 		"slide" : "WoC 6/29/2018 15:19",
 		"slide:" : "LB 7/25/2018 12:03",
+		"symbolForHiding" : "kw 5/15/2019 17:35",
+		"symbolForHiding:" : "kw 5/15/2019 17:35",
 		"unHighlight" : "LM 7/6/2018 15:01",
 		"unhideSlide" : "mb 5/10/2019 14:15",
-		"updateImage" : "LB 7/6/2018 15:25" } }
+		"updateImage" : "kw 5/15/2019 18:07" } }
