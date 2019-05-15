@@ -1,0 +1,15 @@
+{
+	"category" : "Presenter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"morph",
+		"interacted" ],
+	"name" : "PSInteractableMorphTest",
+	"pools" : [
+		 ],
+	"super" : "PSOnSlideTest",
+	"type" : "normal" }
