@@ -2,7 +2,7 @@ toolbuilder buttons
 moveSlideButtonData
 
 	^ Dictionary withAll: {
-		#frame -> (0.35@0.0 corner: 0.45@1.0).
+		#size -> self class bigButtonSize.
 		#name -> #moveButton.
 		#label -> 'Move'.
 		#action -> #openSlideMoveDialog.

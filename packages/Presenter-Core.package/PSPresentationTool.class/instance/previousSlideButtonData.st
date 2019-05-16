@@ -2,7 +2,7 @@ toolbuilder buttons
 previousSlideButtonData
 
 	^ Dictionary withAll: {	
-		#frame -> (0.15@0.0 corner: 0.2@1.0).
+		#size -> self class smallButtonSize.
 		#name -> #PreviousSlideButton.
 		#label -> '<'.
 		#action -> #previousSlide.
