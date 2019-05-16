@@ -1,5 +1,5 @@
 accessing
 unhideSlide
 
-	self symbolForHiding abandon. 
+	self symbolForHiding ifNotNil: [self symbolForHiding abandon].
 	self slide unhideSlide

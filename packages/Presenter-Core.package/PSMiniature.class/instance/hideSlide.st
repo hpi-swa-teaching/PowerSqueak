@@ -1,7 +1,7 @@
 accessing
 hideSlide
 
-	self 
-		symbolForHiding: (ImageMorph new center: self center);
-		addMorph: self symbolForHiding.
+	self symbolForHiding 
+		ifNil: [self symbolForHiding: (ImageMorph new center: self center).
+				self addMorph: self symbolForHiding].
 	self slide hideSlide
