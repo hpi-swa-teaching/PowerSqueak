@@ -1,4 +1,4 @@
 slide management
 nextSlide
-
-	self selectSlideNumber: self currentSlideNumber + 1
+	
+	self selectSlideNumber: self nextVisibleSlideNumber

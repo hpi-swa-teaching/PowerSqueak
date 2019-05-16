@@ -4,11 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JB 4/18/2019 15:20",
+	"commentStamp" : "",
 	"instvars" : [
-		"isHidden" ],
-	"name" : "PSSlide",
+		"menu",
+		"content",
+		"event" ],
+	"name" : "PSContextMenu",
 	"pools" : [
 		 ],
-	"super" : "PasteUpMorph",
+	"super" : "MenuMorph",
 	"type" : "normal" }

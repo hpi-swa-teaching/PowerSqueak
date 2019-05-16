@@ -4,7 +4,10 @@
 	"instance" : {
 		"assert:constantOnResizeOf:" : "LB 7/13/2018 18:59",
 		"assert:onResizeOf:" : "LM 7/25/2018 12:14",
+		"assertContextMenuContent:equals:" : "mb 5/10/2019 13:53",
 		"click:at:" : "LB 7/20/2018 14:11",
+		"collectMenuContentFrom:" : "mb 5/10/2019 14:11",
+		"collectMenuItemContentsFrom:" : "mb 5/10/2019 14:11",
 		"do:and:answerRatio:" : "LM 7/25/2018 11:28",
 		"does:answerRatio:" : "LM 7/25/2018 11:27",
 		"does:answerSideRatio:" : "LB 7/20/2018 14:24",

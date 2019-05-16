@@ -2,9 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertContextMenuContent:equals:" : "LM 7/25/2018 12:15",
-		"collectMenuContentFrom:" : "MK 7/25/2018 11:28",
-		"collectMenuItemContentsFrom:" : "LM 6/15/2018 19:18",
 		"setUp" : "WoC 7/24/2018 17:54",
 		"slide" : "LB 6/1/2018 17:49",
 		"slide:" : "LB 6/1/2018 17:49",

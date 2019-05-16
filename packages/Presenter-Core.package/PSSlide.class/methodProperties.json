@@ -12,7 +12,10 @@
 		"handleDroppedImage:event:" : "WoC 7/24/2018 15:09",
 		"handleDroppedItem:event:" : "WoC 7/24/2018 15:05",
 		"handlesMouseDown:" : "WoC 5/22/2018 19:23",
-		"initialize" : "LM 7/6/2018 16:48",
+		"hideSlide" : "kw 5/15/2019 15:41",
+		"initialize" : "kw 5/15/2019 16:06",
+		"isHidden" : "kw 5/15/2019 15:41",
+		"isHidden:" : "kw 5/15/2019 15:41",
 		"isImageFileName:" : "WoC 7/24/2018 15:00",
 		"isImageStream:" : "WoC 7/24/2018 15:05",
 		"isMagnetic" : "MK 7/20/2018 14:29",
@@ -26,5 +29,6 @@
 		"resizeMorphWidthToFit:" : "LM 5/18/2018 19:26",
 		"saveInDirectory:" : "JZ 7/25/2018 12:50",
 		"sideRatio" : "LB 7/6/2018 15:26",
+		"unhideSlide" : "kw 5/15/2019 15:42",
 		"waitForDoubleClick:" : "LM 5/25/2018 17:22",
 		"wantsDropFiles:" : "LB 5/18/2018 17:29" } }

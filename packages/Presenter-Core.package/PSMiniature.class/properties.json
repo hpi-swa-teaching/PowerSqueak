@@ -7,7 +7,8 @@
 	"commentStamp" : "MK 7/24/2018 15:56",
 	"instvars" : [
 		"slide",
-		"model" ],
+		"model",
+		"symbolForHiding" ],
 	"name" : "PSMiniature",
 	"pools" : [
 		 ],
