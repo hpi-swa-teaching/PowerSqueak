@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"interact" : "VO 5/15/2019 15:41",
+		"interacted" : "VO 5/15/2019 15:27",
+		"interacted:" : "VO 5/15/2019 15:27",
+		"morph" : "VO 5/15/2019 15:27",
+		"morph:" : "VO 5/15/2019 15:27",
+		"setUp" : "VO 5/15/2019 17:59",
+		"tearDown" : "VO 5/15/2019 15:42",
+		"testNoInteractionWithUnselectedObject" : "VO 5/15/2019 18:04" } }

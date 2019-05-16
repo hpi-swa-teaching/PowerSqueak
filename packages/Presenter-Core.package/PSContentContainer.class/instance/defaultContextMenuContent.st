@@ -5,6 +5,8 @@ defaultContextMenuContent
 		-
 		('delete' abandon)
 		-
+		('recolor' recolor)
+		-
 		('bring to front' comeToFront)
 		('send to back' goBehind)
 		-
