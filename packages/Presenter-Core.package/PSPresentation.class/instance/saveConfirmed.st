@@ -6,5 +6,6 @@ saveConfirmed
 	
 	directory := self askForPresentationDirectoryIn: directory.
 	directory ifNil: [^ self].
-	self saveSlidesIn: directory.
-	self saveLayoutsIn: directory.
+	"self saveSlidesIn: directory.
+	self saveLayoutsIn: directory."
+	self saveIn: directory 

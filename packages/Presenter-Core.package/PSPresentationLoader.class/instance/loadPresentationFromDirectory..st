@@ -1,7 +1,11 @@
 presentation loading
 loadPresentationFromDirectory: aDirectory
 
+	| presentation |
 	self reset.
-	^ (self isValidPresentationDirectory: aDirectory)
+	presentation := self readFrom: aDirectory / '.presentation'.
+	^ presentation
+	
+	"^ (self isValidPresentationDirectory: aDirectory)
 		ifTrue: [self loadPresentationUnchecked: aDirectory]
-		ifFalse: [nil]
+		ifFalse: [nil]"
