@@ -7,13 +7,15 @@
 	"commentStamp" : "MK 7/24/2018 17:21",
 	"instvars" : [
 		"slideContainer",
+		"advancedMenuBar",
 		"presentation",
 		"currentSlideNumber",
 		"presentationMode",
 		"miniatures",
 		"magneticRasterActive",
 		"isInteractive",
-		"isFullScreenMode" ],
+		"isFullScreenMode",
+		"toolBuilder" ],
 	"name" : "PSPresentationTool",
 	"pools" : [
 		 ],

@@ -1,0 +1,4 @@
+accessing
+menuBarItems
+
+	^ self convertContextMenuToSpec.

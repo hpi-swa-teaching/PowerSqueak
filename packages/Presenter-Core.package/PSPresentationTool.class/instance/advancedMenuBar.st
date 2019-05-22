@@ -1,0 +1,4 @@
+accessing
+advancedMenuBar
+
+	^ advancedMenuBar
