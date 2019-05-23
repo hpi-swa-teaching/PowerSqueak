@@ -2,7 +2,7 @@ toolbuilder buttons
 recolorButtonData
 
 	^ Dictionary withAll: {
-		#size -> self class bigButtonSize.
+		#size -> #bigButtonSize.
 		#name -> #recolorButton.
 		#label -> 'Recolor'.
 		#action -> #openRecolorDialog.

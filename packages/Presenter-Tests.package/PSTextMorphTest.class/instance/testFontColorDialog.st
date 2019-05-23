@@ -2,7 +2,7 @@ style tests
 testFontColorDialog
 
 	| newPicker newColor |
-	newPicker := self textField showFontColorDialog.
+	newPicker := self textField showTextColorDialog.
 	
 	newColor := Color random.
 	newPicker selectedColor: newColor.

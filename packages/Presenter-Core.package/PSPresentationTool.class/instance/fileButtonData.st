@@ -2,7 +2,7 @@ toolbuilder buttons
 fileButtonData
 
 	^ Dictionary withAll: {	
-		#size -> self class bigButtonSize.
+		#size -> #bigButtonSize.
 		#name -> #FileButton.
 		#label -> 'File'.
 		#action -> #openFileMenu.

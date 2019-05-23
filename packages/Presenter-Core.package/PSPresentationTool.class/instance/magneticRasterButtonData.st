@@ -2,7 +2,7 @@ toolbuilder buttons
 magneticRasterButtonData
 
 	^ Dictionary withAll: {
-		#size -> self class bigButtonSize.
+		#size -> #bigButtonSize.
 		#name -> #magneticRasterButton.
 		#label -> 'Snap'.
 		#action -> #toggleMagneticRaster.

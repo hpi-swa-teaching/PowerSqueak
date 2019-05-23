@@ -2,7 +2,7 @@ toolbuilder buttons
 changeTextSizeButtonData
 
 	^ Dictionary withAll: {	
-		#size -> self class bigButtonSize.
+		#size -> #bigButtonSize.
 		#name -> #changeTextSizeButton.
 		#label -> 'changeTextSize'.
 		#action -> #changeTextSize}

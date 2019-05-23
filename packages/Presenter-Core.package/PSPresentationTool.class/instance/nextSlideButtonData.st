@@ -2,7 +2,7 @@ toolbuilder buttons
 nextSlideButtonData
 
 	^ Dictionary withAll: {	
-		#size -> self class smallButtonSize.
+		#size -> #smallButtonSize.
 		#name -> #NextSlideButton.
 		#label -> '>'.
 		#action -> #nextSlide.

@@ -2,7 +2,7 @@ toolbuilder buttons
 slideButtonData
 
 	^ Dictionary withAll: {	
-		#size -> self class bigButtonSize.
+		#size -> #bigButtonSize.
 		#name -> #SlideButton.
 		#label -> 'Slide'.
 		#action -> #openSlideMenu.

@@ -1,4 +1,4 @@
 styling
-showFontColorDialog
+showTextColorDialog
 
 	^ self openColorDialogWith: self selectionColor selecting: #selectionColor:

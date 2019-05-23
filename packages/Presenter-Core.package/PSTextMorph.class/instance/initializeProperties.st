@@ -3,4 +3,4 @@ initializeProperties
 
 	self
 		setProperty: #acceptRescale toValue: true;
-		setProperty: #wantsCustomContextMenu toValue: true
+		setProperty: #hasCustomActions toValue: true

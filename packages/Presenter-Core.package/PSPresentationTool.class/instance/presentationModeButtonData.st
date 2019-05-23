@@ -2,7 +2,7 @@ toolbuilder buttons
 presentationModeButtonData 
 
 	^ Dictionary withAll: {
-		#size -> self class bigButtonSize.
+		#size -> #bigButtonSize.
 		#name -> #PresentationModeButton.
 		#label -> 'Present'.
 		#action -> #enablePresentationMode}

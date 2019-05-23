@@ -2,7 +2,7 @@ toolbuilder buttons
 insertButtonData
 
 	^ Dictionary withAll: {	
-		#size -> self class bigButtonSize.
+		#size -> #bigButtonSize.
 		#name -> #InsertButton.
 		#label -> 'Insert'.
 		#action -> #openInsertMenu.

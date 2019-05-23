@@ -1,8 +1,6 @@
 toolbuilder
 createAdvancedMenuBarIn: aPluggablePanelMorph
 	
-	
-	self advancedMenuBar: PSAdvancedMenuBar new.
 	self advancedMenuBar model: self.
 	aPluggablePanelMorph 
 		addMorph: self advancedMenuBar

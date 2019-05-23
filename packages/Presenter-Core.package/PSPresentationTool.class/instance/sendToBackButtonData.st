@@ -2,7 +2,7 @@ toolbuilder buttons
 sendToBackButtonData
 
 	^ Dictionary withAll: {	
-		#size -> self class bigButtonSize.
+		#size -> #bigButtonSize.
 		#name -> #sendToBackButton.
 		#label -> 'sendToBack'.
 		#action -> #sendToBack}
