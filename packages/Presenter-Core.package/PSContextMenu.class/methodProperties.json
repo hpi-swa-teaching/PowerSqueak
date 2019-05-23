@@ -1,8 +1,8 @@
 {
 	"class" : {
+		"generateListFrom:" : "VO 5/23/2019 17:51",
 		"newWith:" : "VO 5/23/2019 17:38" },
 	"instance" : {
-		"addDictionaries:" : "VO 5/23/2019 17:37",
-		"addSubmorphContentMenuItemsOf:" : "VO 5/23/2019 17:37",
-		"generateListFrom:" : "VO 5/23/2019 17:38",
+		"addDictionaries:" : "VO 5/23/2019 17:51",
+		"addSubmorphContentMenuItemsOf:" : "VO 5/23/2019 17:56",
 		"openContextMenu:" : "mb 5/10/2019 00:38" } }

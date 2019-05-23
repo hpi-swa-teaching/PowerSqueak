@@ -1,7 +1,7 @@
 as yet unclassified
 addSubmorphContentMenuItemsOf: anObject
 
-	(anObject hasSubmorphWithProperty: #wantsCustomContextMenu)
+	(anObject hasSubmorphWithProperty: #hasCustomActions)
 		ifTrue: [self
 					defaultTarget: anObject content;
-					addList: (self addDictionaries: anObject content customActions)]
+					addDictionaries: anObject content customActions]

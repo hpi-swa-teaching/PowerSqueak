@@ -2,7 +2,8 @@ menu commands
 changeTextColorData
 
 	 ^ Dictionary withAll: {
-			#label -> 'Change text color'.
+			#label -> 'Text color'.
+			#contextMenuLabel -> 'Change text color'.
 			#action -> #showTextColorDialog.
 			#help -> 'changes the currently selected text or the whole text, if none is selected'.
 			#size -> #bigButtonSize.
