@@ -7,6 +7,8 @@
 		"defaultDragOffset" : "MK 7/25/2018 11:50",
 		"setUp" : "LM 7/25/2018 13:00",
 		"testAbandonMorphDeletesContainer" : "LM 7/25/2018 12:52",
+		"testAdvancedMenuBarHasAllTheButtons" : "VO 5/29/2019 16:21",
+		"testAdvancedMenuBarHasNoButtonsAfterUnselect" : "VO 5/29/2019 16:26",
 		"testColorDialog" : "VO 5/16/2019 16:27",
 		"testContainerResizingAllCorners" : "MK 7/25/2018 11:52",
 		"testContainerResizingCorner:" : "WoC 7/25/2018 12:18",
