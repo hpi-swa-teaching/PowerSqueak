@@ -4,6 +4,8 @@ loadSlideFromDirectory: aDirectory
 	| slide instanceVar|
 	slide := self presentation createSlideBack.
 	self loadMorphsFromDirectory: aDirectory intoSlide: slide.
-	instanceVar := FileStream oldFileNamed: (aDirectory / 'metadata.dict') fullName do: [:in | Object readFrom: in].
-	self update:slide with: instanceVar. 
+	(aDirectory / 'metadata.dict') exists ifTrue:
+	[instanceVar := Object readFrom: (aDirectory readOnlyFileNamed: 'metadata.dict').
+	"instanceVar := FileStream oldFileNamed: (aDirectory / ) fullName do: [:in | Object readFrom: in]."
+	self update:slide with: instanceVar.].
 	^ slide

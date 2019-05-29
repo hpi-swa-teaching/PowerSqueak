@@ -4,5 +4,5 @@ hideData
 	 ^ Dictionary withAll: {
 			#noButton -> true.
 			#contextMenuLabel -> 'Hide'.
-			#action -> #hide.
+			#action -> #hideSlide.
 			#model -> self}

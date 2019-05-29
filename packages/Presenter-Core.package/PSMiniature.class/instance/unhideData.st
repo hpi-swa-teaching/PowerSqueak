@@ -4,5 +4,5 @@ unhideData
 	 ^ Dictionary withAll: {
 			#noButton -> true.
 			#contextMenuLabel -> 'Unhide'.
-			#action -> #unhide.
+			#action -> #unhideSlide.
 			#model -> self}
