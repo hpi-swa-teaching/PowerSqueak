@@ -7,5 +7,5 @@ loadSlidesFrom: aDirectory
 		 | slide |
 		slide := self loadSlideFromDirectory: aDirectory / each.
 		self errorReport at: each 
-			put: (aDirectory / each) fileNames size-1 - slide submorphs size].
+			put: (self morphFilesIn: aDirectory) size - slide submorphs size].
 	self presentation minimumSlideCount timesRepeat: [self presentation deleteSlideAt: 1].

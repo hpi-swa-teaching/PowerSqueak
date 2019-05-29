@@ -7,4 +7,4 @@ loadLayoutsFrom: aDirectory
 		 | slide |
 		slide := self loadLayoutFromDirectory: aDirectory / each.
 		self errorReport at: each 
-			put: (aDirectory / each) fileNames size -1 - slide submorphs size].
+			put: (self morphFilesIn: aDirectory) size - slide submorphs size].

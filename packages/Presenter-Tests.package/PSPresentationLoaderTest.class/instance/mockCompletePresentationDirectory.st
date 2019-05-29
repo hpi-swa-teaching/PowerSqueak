@@ -4,9 +4,9 @@ mockCompletePresentationDirectory
 	| directory slidesDirectory |
 	directory := PSMockFileDirectory from: 'Presentation' -> {
 		PSPresentationLoader slidesDirectoryName -> {
-			'slide1' -> {'1.morph'. 'metadata.dict'}.
-			'slide2' -> {'metadata.dict'}.
-			'slide3' -> {'1.morph' . '2.morph' . 'metadata.dict'}}.
+			'slide1' -> {'1.morph'}.
+			'slide2' -> {}.
+			'slide3' -> {'1.morph' . '2.morph'}}.
 		PSPresentationLoader layoutsDirectoryName -> {
 			'layoutTest' -> {'metadata.dict'}}}.
 	slidesDirectory := directory / PSPresentationLoader slidesDirectoryName.
