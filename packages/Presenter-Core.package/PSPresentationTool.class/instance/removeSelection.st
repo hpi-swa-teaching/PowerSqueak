@@ -1,4 +1,4 @@
 slide miniatures
 removeSelection
 
-	 self advancedMenuBar removeAllButtons.
+	 self removeAllButtons.

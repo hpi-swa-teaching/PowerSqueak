@@ -4,8 +4,8 @@ createAdvancedMenuBarSpec: aBuilder
 	panelSpec := aBuilder pluggablePanelSpec new.
 	panelSpec
 		model: self;
-		frame: (self barFrameFrom: self menuBarHeight height: self buttonHeight);
+		frame: (self barFrameFrom: self menuBarHeight height: self menuBarHeight);
 		name: #AdvancedMenuBar;
-		children: OrderedCollection new.
+		children: #advancedMenuBarButtons.
 			
 	^ panelSpec

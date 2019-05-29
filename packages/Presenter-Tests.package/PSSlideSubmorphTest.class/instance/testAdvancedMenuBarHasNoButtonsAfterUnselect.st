@@ -2,6 +2,6 @@ container tests
 testAdvancedMenuBarHasNoButtonsAfterUnselect
 
 	self tool removeSelection.
-	self assert: self tool advancedMenuBar buttons isEmpty
+	self assert: self tool advancedMenuBarButtons isEmpty
 	
 	
