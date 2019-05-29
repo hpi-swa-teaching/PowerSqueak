@@ -4,4 +4,4 @@ testMiniatureRightClick
 	| miniatureToClick |
 	miniatureToClick := self miniatureOf: self createSlide.
 	
-	self assertContextMenuContent: miniatureToClick equals: miniatureToClick defaultContextMenuContent
+	self assertContextMenuContent: miniatureToClick equals: (PSContextMenu generateListFrom: miniatureToClick defaultActions)

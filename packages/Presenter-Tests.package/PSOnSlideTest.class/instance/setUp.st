@@ -1,9 +1,10 @@
 running
 setUp 
 
+	| tool |
 	super setUp.
-	self slideContainer: PSSlideContainer new.
-	self slideContainer setModel: PSPresentationTool new.
+	tool := PSPresentationTool openIn: self world.
+	self slideContainer: tool model slideContainer.
 	self slide: PSSlide new.
 	self slide setModel: self slideContainer model.
 	self slideContainer 

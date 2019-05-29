@@ -1,5 +1,5 @@
 styling
-showFontSizeDialog
+showTextSizeDialog
 
 	| newSize |
 	newSize := UIManager default 

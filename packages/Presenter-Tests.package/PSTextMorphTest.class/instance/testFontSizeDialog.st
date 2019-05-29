@@ -2,6 +2,6 @@ style tests
 testFontSizeDialog
 
 	self 
-		should: [self textField showFontSizeDialog] 
+		should: [self textField showTextSizeDialog] 
 		raise: ProvideAnswerNotification 
 		description: self textField fontSizeDialogText

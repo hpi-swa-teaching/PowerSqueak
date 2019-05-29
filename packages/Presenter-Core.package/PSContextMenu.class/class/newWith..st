@@ -3,7 +3,7 @@ newWith: anObject
 
 	^ self new
 		defaultTarget: anObject;
-		addList: anObject defaultContextMenuContent;
+		addDictionaries: anObject defaultActions;
 		addSubmorphContentMenuItemsOf: anObject;
 		openContextMenu: anObject;
 		yourself

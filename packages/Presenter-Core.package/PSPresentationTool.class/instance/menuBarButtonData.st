@@ -4,5 +4,8 @@ menuBarButtonData
 	^ {
 		self fileButtonData.
 		self insertButtonData.
-		self slideButtonData
+		self slideButtonData.
+		self createSlideButtonData.
+		self magneticRasterButtonData.
+		self presentationModeButtonData.
 	}
