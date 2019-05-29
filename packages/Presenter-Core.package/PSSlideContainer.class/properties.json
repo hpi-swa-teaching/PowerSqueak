@@ -9,7 +9,8 @@
 		"currentSlide",
 		"previousOwner",
 		"notification",
-		"selection" ],
+		"selection",
+		"snapSize" ],
 	"name" : "PSSlideContainer",
 	"pools" : [
 		 ],
