@@ -4,7 +4,7 @@ deleteData
 	 ^ Dictionary withAll: {
 			#label -> 'Delete'.
 			#contextMenuLabel -> 'Delete'.
-			#action -> #abandon.
+			#action -> #deleteContent.
 			#size -> #bigButtonSize.
 			#name -> #DeleteButton.
 			#model -> self}
