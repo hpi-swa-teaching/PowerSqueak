@@ -10,8 +10,15 @@ baseline: spec
 				yourself.
 			spec
 				group: 'default' with: #('Presenter-Core');
-				group: 'tests' with: #('Presenter-Tests')];
+				group: 'tests' with: #('Presenter-Tests');
 				yourself.
 			spec
 				preLoadDoIt: #preLoad;
-				postLoadDoIt: #postLoad.
+				postLoadDoIt: #postLoad].
+	spec 
+		for: #'squeak5.1.x'
+		do: [
+			spec
+				package: 'Presenter-Compatibility-Tests';
+				package: 'Presenter-Tests' with: [spec requires: #('Presenter-Compatibility-Tests')]]
+				
