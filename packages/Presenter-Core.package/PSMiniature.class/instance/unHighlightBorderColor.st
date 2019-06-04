@@ -1,0 +1,4 @@
+accessing
+unHighlightBorderColor
+
+	^ PSPresentationTool unHighlightColor 

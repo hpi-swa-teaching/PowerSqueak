@@ -6,7 +6,8 @@
 		"open" : "rhi 6/6/2018 22:55",
 		"openIn:" : "LB 5/23/2018 16:11",
 		"registerInWorldMenu" : "LM 6/13/2018 12:19",
-		"smallButtonSize" : "VO 5/16/2019 17:51" },
+		"smallButtonSize" : "VO 5/16/2019 17:51",
+		"unHighlightColor" : "mb 6/4/2019 15:40" },
 	"instance" : {
 		"addButton:" : "VO 5/29/2019 17:57",
 		"addPSTextMorphIn:at:" : "MK 7/6/2018 17:07",
