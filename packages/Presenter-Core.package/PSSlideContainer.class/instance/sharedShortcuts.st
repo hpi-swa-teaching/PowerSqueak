@@ -8,6 +8,8 @@ sharedShortcuts
 		{Character arrowLeft . [self model previousSlide] . 'Go to the previous slide'}.
 		{Character pageUp . [self model previousSlide] . 'Go to the previous slide'}.
 		{Character arrowUp . [self model previousSlide] . 'Go to the previous slide'}.
+		{Character delete. [self deleteSelectedMorph] . 'Delete selected morph'}.
+		{Character backspace. [self deleteSelectedMorph] . 'Delete selected morph'}.
 		
 		{$1 . [self model selectSlideNumber: 1] . 'Go to slide number 1'}.
 		{$2 . [self model selectSlideNumber: 2] . 'Go to slide number 2'}.
