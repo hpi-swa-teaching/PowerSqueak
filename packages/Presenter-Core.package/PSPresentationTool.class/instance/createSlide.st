@@ -1,4 +1,4 @@
 slide management
 createSlide
 
-	^ self addSlide: PSSlide new
+	^ self addSlide: (PSSlide newWith: self presentation)

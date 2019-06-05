@@ -2,7 +2,7 @@ default layouts
 createTitleAndSubtitleSlide
 
 	| slide title subtitle |
-	slide := PSSlide new.
+	slide := PSSlide newWith: self.
 	title := self
 		addPSTextMorphIn: slide
 		at: (0.05 @ 0.2 corner: 0.95 @ 0.52)

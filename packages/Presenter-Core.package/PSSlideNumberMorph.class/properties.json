@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JB 4/18/2019 15:20",
+	"commentStamp" : "",
 	"instvars" : [
-		"isHidden",
 		"presentation" ],
-	"name" : "PSSlide",
+	"name" : "PSSlideNumberMorph",
 	"pools" : [
 		 ],
-	"super" : "PasteUpMorph",
+	"super" : "PSTextMorph",
 	"type" : "normal" }

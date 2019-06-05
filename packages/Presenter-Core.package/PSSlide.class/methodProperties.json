@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"newWith:" : "mb 6/5/2019 19:34" },
 	"instance" : {
 		"acceptDroppingMorph:event:" : "LB 5/23/2018 15:46",
 		"addContent:" : "jb 5/8/2019 17:40",
@@ -18,11 +18,14 @@
 		"isImageFileName:" : "WoC 7/24/2018 15:00",
 		"isImageStream:" : "WoC 7/24/2018 15:05",
 		"isMagnetic" : "MK 7/20/2018 14:29",
+		"isPSSlide" : "mb 6/5/2019 19:51",
 		"layoutFractionsOf:" : "LB 7/6/2018 17:47",
 		"layoutFrameFor:" : "LB 7/6/2018 17:47",
 		"model" : "LB 7/5/2018 20:03",
 		"mouseDown:" : "jb 5/8/2019 17:32",
 		"prepareToBeSaved" : "WoC 7/24/2018 14:50",
+		"presentation" : "mb 6/5/2019 19:30",
+		"presentation:" : "mb 6/5/2019 19:30",
 		"resizeMorphHeightToFit:" : "LB 5/18/2018 17:36",
 		"resizeMorphToFit:" : "LB 5/18/2018 17:36",
 		"resizeMorphWidthToFit:" : "LM 5/18/2018 19:26",

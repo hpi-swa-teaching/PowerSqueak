@@ -4,5 +4,6 @@ openInsertMenu
 	self openMenuWith: {
 		{'Text field' . #newTextField}.
 		{'Image' . #newImageField}.
-		{'Shape' . #openShapeChooser}
+		{'Shape' . #openShapeChooser}.
+		{'Slide Number' . #insertSlideNumber}
 	}
