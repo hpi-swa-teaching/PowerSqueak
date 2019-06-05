@@ -1,7 +1,11 @@
 slide management
 duplicateCurrentSlide
 
-	self presentation 
-		addSlide: self currentSlide copy 
-		afterIndex: self currentSlideNumber.
-	self updateSlideMiniatures
+	| newSlide |
+	self slideContainer removeSelectionDuring:
+		[newSlide := self currentSlide copy.
+		newSlide updateSlideContainer: self slideContainer.
+		self presentation 
+			addSlide: newSlide
+			afterIndex: self currentSlideNumber.
+		self updateSlideMiniatures.]

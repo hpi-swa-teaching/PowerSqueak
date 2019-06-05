@@ -1,6 +1,6 @@
 accessing
 removeSelection
 	
-	self selection ifNotNil: [self selection removeResizeHandles].
-	self selection: nil.
+	self selection removeResizeHandles.
+	self selection: PSNullContentContainer new.
 	self model removeSelection.

@@ -1,4 +1,4 @@
 shortcuts
 deleteSelectedMorph
 	
-	self selection ifNotNil: [self selection deleteContent]
+	self selection deleteContent
