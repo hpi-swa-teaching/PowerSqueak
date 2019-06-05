@@ -6,6 +6,7 @@ menuBarButtonData
 		self insertButtonData.
 		self slideButtonData.
 		self createSlideButtonData.
-		self magneticRasterButtonData.
+		self snapButtonData.
+		self snapOptionsButtonData.
 		self presentationModeButtonData.
 	}

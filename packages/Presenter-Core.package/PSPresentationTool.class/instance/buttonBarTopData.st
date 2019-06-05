@@ -3,6 +3,6 @@ buttonBarTopData
 
 	^ {	
 		self createSlideButtonData.
-		self magneticRasterButtonData.
+		self snapButtonData.
 		self presentationModeButtonData
 	}

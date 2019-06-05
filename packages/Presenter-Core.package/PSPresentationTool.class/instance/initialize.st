@@ -6,6 +6,6 @@ initialize
 		miniatures: Dictionary new;
 		advancedMenuBarButtons: OrderedCollection new;
 		currentSlideNumber: 0;
-		magneticRasterActive: false;
+		snapActive: false;
 		presentationMode: false;
 		isInteractive: true

@@ -1,5 +1,5 @@
 slide management
 toggleMagneticRaster
 
-	self magneticRasterActive: self magneticRasterActive not.
-	self changed: #magneticRasterButtonColor
+	self snapActive: self snapActive not.
+	self changed: #snapButtonColor

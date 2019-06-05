@@ -8,11 +8,11 @@ createButtonBarTopSpec: aBuilder
 		name: #ButtonBarTop;
 		children: OrderedCollection new.
 		
-	buttonData := self setFrames: self buttonBarTopData.
+	buttonData := self buttonBarTopData.
+	self setFrames: buttonData.
 	buttonData do: [:each |
 		| button |
 		button := self createButtonSpec: each with: aBuilder.
 		panelSpec children add: button].
-	"panelSpec children add: (self createSlideNumberLabelSpec: aBuilder)."
 	
 	^ panelSpec

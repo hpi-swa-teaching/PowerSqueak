@@ -1,6 +1,6 @@
 toolbuilder
-magneticRasterButtonColor
+snapButtonColor
 
-	^ self magneticRasterActive 
+	^ self snapActive 
 		ifTrue: [PSPresentationTool highlightColor]
 		ifFalse: [Color transparent]

@@ -12,10 +12,10 @@
 		"currentSlideNumber",
 		"presentationMode",
 		"miniatures",
-		"magneticRasterActive",
 		"isInteractive",
 		"isFullScreenMode",
-		"toolBuilder" ],
+		"toolBuilder",
+		"snapActive" ],
 	"name" : "PSPresentationTool",
 	"pools" : [
 		 ],

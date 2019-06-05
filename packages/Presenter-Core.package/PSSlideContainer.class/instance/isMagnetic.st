@@ -1,4 +1,4 @@
 systemwindow-compatibility
 isMagnetic 
 
-	^ self model magneticRasterActive
+	^ self model snapActive
