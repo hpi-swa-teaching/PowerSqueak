@@ -2,7 +2,7 @@ toolbuilder buttons
 createSlideButtonData
 
 	^ Dictionary withAll: {	
-		#size -> #bigButtonSize.
+		#size -> #hugeButtonSize.
 		#name -> #CreateSlideButton.
 		#label -> 'Create slide'.
 		#action -> #createSlide}
