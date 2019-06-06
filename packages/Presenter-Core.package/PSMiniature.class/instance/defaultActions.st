@@ -1,7 +1,4 @@
 as yet unclassified
 defaultActions
 
-	self slide isHidden 
-		ifTrue: [^ {self unhideData}] 
-		ifFalse: [^ {self hideData}]
-	
+	^{ self hideButtonData . self deleteSlideData . self duplicateCurrentSlideData . self moveSlideData . self saveAsLayoutData}
