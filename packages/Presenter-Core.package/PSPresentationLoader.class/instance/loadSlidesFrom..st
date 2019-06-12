@@ -1,11 +1,13 @@
 presentation loading
 loadSlidesFrom: aDirectory
 	
-	| sortedDirectories |
-	sortedDirectories := self sortedSlideSubdirectories: aDirectory.
-	sortedDirectories do: [:each |
-		 | slide |
-		slide := self loadSlideFromDirectory: aDirectory / each.
-		self errorReport at: each 
-			put: (self morphFilesIn: aDirectory) size - slide submorphs size].
-	self presentation minimumSlideCount timesRepeat: [self presentation deleteSlideAt: 1].
+	| sortedDirectories slidesPath |
+	slidesPath := aDirectory / self slidesDirectoryName.
+	slidesPath exists ifTrue: 
+		[sortedDirectories := self sortedSubdirectories: slidesPath.
+		sortedDirectories do: [:each |
+			 | slide |
+			slide := self loadSlideFromDirectory: slidesPath / each.
+			self errorReport at: each 
+				put: (self morphFilesIn: slidesPath / each) size - slide submorphs size].
+		self presentation minimumSlideCount timesRepeat: [self presentation deleteSlideAt: 1]]

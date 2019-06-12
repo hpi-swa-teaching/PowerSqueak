@@ -1,10 +1,12 @@
 presentation loading
 loadLayoutsFrom: aDirectory
 	
-	| sortedDirectories |
-	sortedDirectories := self sortedSlideSubdirectories: aDirectory.
-	sortedDirectories do: [:each |
-		 | slide |
-		slide := self loadLayoutFromDirectory: aDirectory / each.
-		self errorReport at: each 
-			put: (self morphFilesIn: aDirectory) size - slide submorphs size].
+	| sortedDirectories layoutsPath |
+	layoutsPath := aDirectory / self layoutsDirectoryName.
+	layoutsPath exists ifTrue:
+		[sortedDirectories := self sortedSubdirectories: layoutsPath.
+		sortedDirectories do: [:each |
+			 | slide |
+			slide := self loadLayoutFromDirectory: layoutsPath / each.
+			self errorReport at: each 
+				put: (self morphFilesIn: layoutsPath / each) size - slide submorphs size]]
