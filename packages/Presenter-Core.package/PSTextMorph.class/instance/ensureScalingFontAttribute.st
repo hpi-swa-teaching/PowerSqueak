@@ -8,5 +8,6 @@ ensureScalingFontAttribute
 			ifNone: [(Array new: eachRun size + 1)
 				replaceFrom: 1 to: eachRun size with: eachRun;
 				at: eachRun size + 1 put: self createFontSizeAttribute;
-				yourself]
-	]
+				yourself]].
+	self textMorph paragraph composeAll.
+	self textMorph updateFromParagraph.
