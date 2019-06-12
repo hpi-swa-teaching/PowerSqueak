@@ -2,7 +2,7 @@ toolbuilder
 createButtonSpec: aDictionary with: aBuilder
 
 	^ aBuilder pluggableButtonSpec new
-		style: #none;
+		style: #simple;
 		model: (aDictionary at: #model ifAbsent: self);
 		frame: (aDictionary at: #frame);
 		name: (aDictionary at: #name ifAbsent: 'a Button');
