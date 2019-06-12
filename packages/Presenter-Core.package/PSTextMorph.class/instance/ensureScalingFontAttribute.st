@@ -9,5 +9,6 @@ ensureScalingFontAttribute
 				replaceFrom: 1 to: eachRun size with: eachRun;
 				at: eachRun size + 1 put: self createFontSizeAttribute;
 				yourself]].
+	"Recompose and update from paragraph to update the font size change in the view."
 	self textMorph paragraph composeAll.
 	self textMorph updateFromParagraph.
