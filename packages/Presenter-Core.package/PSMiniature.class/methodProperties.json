@@ -3,6 +3,7 @@
 		"forSlide:" : "mb 6/4/2019 15:45",
 		"hiddenSlideImage" : "mb 5/16/2019 16:25" },
 	"instance" : {
+		"acceptDroppingMorph:event:" : "VO 6/13/2019 18:48",
 		"click:" : "mb 6/6/2019 17:45",
 		"defaultActions" : "msob 6/6/2019 17:24",
 		"defaultWidth" : "LM 7/6/2018 13:51",
@@ -21,6 +22,7 @@
 		"highlightBorderWidth" : "mb 6/4/2019 15:54",
 		"initialize" : "mb 6/4/2019 15:54",
 		"isHighlighted" : "LB 6/29/2018 19:05",
+		"isPSMiniature" : "VO 6/13/2019 18:22",
 		"model" : "LB 6/29/2018 15:52",
 		"model:" : "LB 6/29/2018 15:52",
 		"mouseDown:" : "mb 6/6/2019 17:40",
@@ -37,4 +39,5 @@
 		"unHighlightBorderColor" : "mb 6/4/2019 15:23",
 		"unhideData" : "VO 5/29/2019 17:08",
 		"unhideSlide" : "mb 5/16/2019 16:15",
-		"updateImage" : "mb 5/15/2019 18:45" } }
+		"updateImage" : "mb 5/15/2019 18:45",
+		"wantsDroppedMorph:event:" : "VO 6/13/2019 18:22" } }
