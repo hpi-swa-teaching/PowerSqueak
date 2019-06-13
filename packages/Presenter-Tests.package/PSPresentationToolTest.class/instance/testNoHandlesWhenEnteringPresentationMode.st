@@ -1,7 +1,7 @@
 as yet unclassified
 testNoHandlesWhenEnteringPresentationMode
 
-	| amount |
+	| content |
+	content := self currentSlide addContent: Morph new.
 	self tool enablePresentationMode.
-	amount := self currentSlide submorphs count: [:each | each hasHandles equals: false].
-	self assert: amount equals: 0.
+	self deny: content hasHandles.

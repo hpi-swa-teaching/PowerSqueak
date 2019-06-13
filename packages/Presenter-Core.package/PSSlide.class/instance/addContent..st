@@ -6,4 +6,5 @@ addContent: aMorph
 	self addMorph: container fullFrame: (self layoutFrameFor: aMorph).
 	container notifySlideRescale: self extent.
 	container slideContainer: self owner.
-	self owner ifNotNil: [self owner updateSelection: container]
+	self owner ifNotNil: [self owner updateSelection: container].
+	^ container
