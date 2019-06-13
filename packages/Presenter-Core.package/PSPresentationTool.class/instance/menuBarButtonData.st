@@ -1,4 +1,12 @@
 toolbuilder buttons
 menuBarButtonData
 
-	^ self dropDownMenuButtonData , self topRightButtonData.
+	^ {
+		self fileButtonData.
+		self insertButtonData.
+		self slideButtonData.
+		self createSlideButtonData.
+		self snapButtonData.
+		self snapOptionsButtonData.
+		self presentationModeButtonData.
+	}

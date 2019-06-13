@@ -10,4 +10,6 @@ addPSTextMorphIn: aPSSlide at: aRectangle
 		topFraction: aRectangle top;
 		bottomFraction: aRectangle bottom.
 	textMorph setText: 'lorem Ipsum'.
+	"Select the whole text to allow the text size to be changed later by calling selectionFontSize:"
+	textMorph selectAll.
  	^ textMorph

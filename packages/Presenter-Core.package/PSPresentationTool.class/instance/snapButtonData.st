@@ -6,5 +6,5 @@ snapButtonData
 		#label -> 'Snap'.
 		#action -> #toggleMagneticRaster.
 		#color -> #snapButtonColor.
-		#frame ->  (0.75@0.0 corner: 0.85@1.0).
+		#frame ->  (0.72@0.0 corner: 0.82@1.0).
 		#help -> 'Toggle grid snapping'}

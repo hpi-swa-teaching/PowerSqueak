@@ -3,6 +3,7 @@ changeSnapSize
 
 	self 
 		askForInputWithQuestion: 'Choose your snap size between 0.01-0.5'
+		withInitial: self slideContainer snapSize asString
 		andDo: [:userInput | | number |
 			number := userInput asNumber.
 			(number inRangeOf: 0.01 and: 0.5) 
