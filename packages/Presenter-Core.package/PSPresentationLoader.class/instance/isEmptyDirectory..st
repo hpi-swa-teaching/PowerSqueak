@@ -1,4 +1,4 @@
 directory checking
 isEmptyDirectory: aDirectory
 
-	^ (aDirectory exists and: [aDirectory directoryNames isEmpty not]) not
+	^ aDirectory exists not or: [aDirectory directoryNames isEmpty]
