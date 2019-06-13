@@ -1,5 +1,5 @@
 toolbuilder
-styleMenuBar: aBuilder
+styleDropDownButtons: aBuilder
 	"Only for aesthetics, only works with Morphs!"
-	self menuBarButtonData do: [ :each |
+	self dropDownMenuButtonData do: [ :each |
 		(aBuilder widgetAt: (each at: #name)) borderWidth: 0]

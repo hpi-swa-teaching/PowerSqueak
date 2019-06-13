@@ -2,4 +2,4 @@ toolbuilder
 afterBuildWith: aBuilder
 
 	aBuilder class = MorphicToolBuilder
-		ifTrue: [self styleMenuBar: aBuilder]
+		ifTrue: [self styleDropDownButtons: aBuilder]
