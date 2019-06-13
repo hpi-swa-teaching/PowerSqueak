@@ -1,4 +1,4 @@
 slide management
 addSlide: aSlide
 
-	self addSlide: aSlide afterIndex: self currentSlideNumber.
+	^ self addSlide: aSlide afterIndex: self currentSlideNumber
