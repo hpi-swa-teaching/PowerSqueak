@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "PSMultipleSlidesTest",
+		"slide",
+		"miniature" ],
+	"name" : "PSDraggedOutMiniaturesTest",
 	"pools" : [
 		 ],
-	"super" : "PSPresentationToolTest",
+	"super" : "PSDragMiniaturesTest",
 	"type" : "normal" }
