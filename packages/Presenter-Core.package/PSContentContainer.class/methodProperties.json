@@ -2,6 +2,7 @@
 	"class" : {
 		"for:" : "LB 7/6/2018 18:09" },
 	"instance" : {
+		"abandon" : "mb 6/19/2019 17:44",
 		"actionForCorner:" : "LB 7/24/2018 13:51",
 		"addHandleAt:" : "LB 7/6/2018 18:07",
 		"addResizeHandles" : "jb 5/9/2019 12:10",

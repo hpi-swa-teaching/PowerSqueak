@@ -2,6 +2,7 @@ container tests
 testContainerResizingCorner: aSymbol
 	
 	| expectedBounds handlePosition |
+	self selectContainer.
 	handlePosition := (self container resizeHandles at: aSymbol) center.
 	expectedBounds := self morph bounds 
 		withSideOrCorner: aSymbol 
