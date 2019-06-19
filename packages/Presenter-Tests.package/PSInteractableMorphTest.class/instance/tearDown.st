@@ -1,5 +1,5 @@
 as yet unclassified
 tearDown
 
-	self morph abandon.
+	self morph owner abandon.
 	super tearDown
