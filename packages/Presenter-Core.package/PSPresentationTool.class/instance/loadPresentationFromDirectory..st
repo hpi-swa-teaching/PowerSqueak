@@ -6,5 +6,4 @@ loadPresentationFromDirectory: aDirectory
 	(loader loadPresentationFromDirectory: aDirectory)
 		ifNotNil: [:presentation |
 			self updatePresentation: presentation withErrorReport: loader errorReport]
-		ifNil: [UIManager default inform: self loadCorruptionMessage].
-	self presentation updateSlideContainer: self slideContainer.
+		ifNil: [UIManager default inform: self loadCorruptionMessage]

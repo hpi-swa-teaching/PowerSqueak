@@ -6,8 +6,8 @@ changeSnapSize
 		withInitial: self slideContainer snapSize asString
 		andDo: [:userInput | | number |
 			number := userInput asNumber.
-			(number inRangeOf: 0.01 and: 0.5) 
+			(number inRangeOf: self class minSnapSize and: self class maxSnapSize) 
 				ifTrue: [self slideContainer snapSize: number]
-				ifFalse: [self slideContainer snapSize: (number clampLow: 0.01 high: 0.5). self inform: 'I set the snap size to: ', self slideContainer snapSize asString]]
+				ifFalse: [self slideContainer snapSize: (number clampLow: self class minSnapSize high: self class minSnapSize). self inform: 'I set the snap size to: ', self slideContainer snapSize asString]]
 		onError: 'I can not understand what you said. 
 		Please try again.' 

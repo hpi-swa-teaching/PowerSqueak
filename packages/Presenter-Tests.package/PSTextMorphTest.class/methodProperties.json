@@ -6,6 +6,7 @@
 		"setUp" : "LB 6/1/2018 18:12",
 		"tearDown" : "LB 6/1/2018 18:21",
 		"testContextMenu" : "VO 5/23/2019 17:52",
+		"testEverythingIsSelectedOnTextMorphCreation" : "jb 6/19/2019 18:21",
 		"testFontColorDialog" : "VO 5/23/2019 16:40",
 		"testFontSizeDialog" : "VO 5/23/2019 16:40",
 		"testLocalFontColor" : "JZ 7/25/2018 11:41",
