@@ -5,5 +5,6 @@ openInsertMenu
 		{'Text field' . #newTextField}.
 		{'Image' . #newImageField}.
 		{'Shape' . #openShapeChooser}.
-		{'Slide Number' . #insertSlideNumber}
+		{'Slide Number' . #insertSlideNumber}.
+		{'Slide Numbers' . #insertSlideNumbers}
 	}

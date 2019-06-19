@@ -7,8 +7,7 @@
 	"commentStamp" : "LM 7/24/2018 17:46",
 	"instvars" : [
 		"resizeHandles",
-		"content",
-		"slideContainer" ],
+		"content" ],
 	"name" : "PSContentContainer",
 	"pools" : [
 		 ],
