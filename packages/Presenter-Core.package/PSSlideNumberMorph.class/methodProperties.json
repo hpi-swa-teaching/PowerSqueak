@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"defaultBasicTextSize" : "mb 6/20/2019 18:07",
 		"initialize" : "mb 6/19/2019 17:07",
-		"step" : "jb 6/13/2019 18:26",
-		"stepTime" : "mb 6/5/2019 17:39" } }
+		"numberOf:" : "mb 6/20/2019 19:53",
+		"step" : "mb 6/20/2019 19:53",
+		"stepTime" : "mb 6/20/2019 19:49" } }

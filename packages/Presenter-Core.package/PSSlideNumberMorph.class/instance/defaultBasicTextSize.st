@@ -1,0 +1,4 @@
+accessing
+defaultBasicTextSize
+
+	^ 6

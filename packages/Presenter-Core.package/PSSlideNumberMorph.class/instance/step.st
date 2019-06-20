@@ -3,4 +3,4 @@ step
 
 	| slide |
 	slide := self firstOwnerSuchThat: [:owner | owner isPSSlide].
-	slide ifNotNil: [self setText: slide slideNumber asString]
+	slide ifNotNil: [self setText: (self numberOf: slide)]
