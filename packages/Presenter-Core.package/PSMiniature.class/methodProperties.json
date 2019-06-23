@@ -4,6 +4,7 @@
 		"hiddenSlideImage" : "mb 5/16/2019 16:25" },
 	"instance" : {
 		"acceptDroppingMorph:event:" : "VO 6/19/2019 16:28",
+		"addHiddenSlideSymbol" : "mb 6/23/2019 12:41",
 		"click:" : "mb 6/6/2019 17:45",
 		"defaultActions" : "msob 6/6/2019 17:24",
 		"defaultWidth" : "LM 7/6/2018 13:51",
@@ -13,9 +14,8 @@
 		"duplicateCurrentSlideData" : "msob 6/6/2019 17:11",
 		"formSize" : "LB 7/6/2018 15:25",
 		"handlesMouseDown:" : "WoC 6/29/2018 15:33",
-		"hideButtonData" : "msob 6/6/2019 16:40",
-		"hideData" : "VO 5/29/2019 17:07",
-		"hideSlide" : "mb 5/16/2019 16:38",
+		"hideButtonData" : "mb 6/23/2019 12:28",
+		"hideSlide" : "mb 6/23/2019 12:41",
 		"highlight" : "mb 6/4/2019 15:31",
 		"highlightBorderColor" : "LB 7/5/2018 22:01",
 		"highlightBorderWidth" : "mb 6/4/2019 15:54",
@@ -36,7 +36,6 @@
 		"symbolForHiding:" : "kw 5/15/2019 17:35",
 		"unHighlight" : "mb 6/4/2019 15:30",
 		"unHighlightBorderColor" : "mb 6/4/2019 15:23",
-		"unhideData" : "VO 5/29/2019 17:08",
-		"unhideSlide" : "mb 5/16/2019 16:15",
+		"unhideSlide" : "mb 6/23/2019 12:42",
 		"updateImage" : "mb 5/15/2019 18:45",
 		"wantsDroppedMorph:event:" : "VO 6/19/2019 15:50" } }
