@@ -1,8 +1,8 @@
 accessing
 addHiddenSlideSymbol
 
-	self symbolForHiding: ((SketchMorph withForm: self class hiddenSlideImage) 
-			extent: self extent/2; 
-			center: self center; 
-			yourself).
-	self addMorph: self symbolForHiding.
+	self
+		hiddenSlideSymbol: (SketchMorph withForm: self class hiddenSlideImage);
+		updateHiddenSlideSymbolBounds;
+		addMorph: self hiddenSlideSymbol.
+	self hiddenSlideSymbol hideFull

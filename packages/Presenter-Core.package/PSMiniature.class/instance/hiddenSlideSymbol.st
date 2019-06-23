@@ -1,0 +1,4 @@
+accessing
+hiddenSlideSymbol
+
+	^ hiddenSlideSymbol

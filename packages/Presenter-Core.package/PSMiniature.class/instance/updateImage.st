@@ -1,5 +1,7 @@
 updating
 updateImage 
 
-	self newForm: (self slide imageForm scaledToSize: self formSize).
-	self borderWidth: self borderWidth
+	self
+		newForm: (self slide imageForm scaledToSize: self formSize);
+		borderWidth: self borderWidth;
+		updateHiddenSlideSymbolBounds

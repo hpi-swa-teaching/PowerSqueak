@@ -1,7 +1,5 @@
 accessing
 unhideSlide
 
-	self symbolForHiding ifNotNil:
-		[self symbolForHiding abandon. 
-		self symbolForHiding: nil].
+	self hiddenSlideSymbol hideFull.
 	self slide unhideSlide

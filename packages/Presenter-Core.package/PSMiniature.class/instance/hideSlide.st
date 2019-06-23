@@ -1,6 +1,5 @@
 accessing
 hideSlide
 
-	self symbolForHiding 
-		ifNil: [self addHiddenSlideSymbol].
+	self hiddenSlideSymbol showFull.
 	self slide hideSlide
