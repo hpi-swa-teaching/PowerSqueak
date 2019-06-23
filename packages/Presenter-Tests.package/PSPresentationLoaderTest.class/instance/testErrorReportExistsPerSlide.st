@@ -4,7 +4,7 @@ testErrorReportExistsPerSlide
 	| directory errorReport entries |
 	directory := self mockEmptyPresentationDirectory.
 	self loader loadPresentationFromDirectory: directory.
-	errorReport := self loader errorReport.
+	errorReport := self loader slidesErrorReport.
 	 
 	entries := (directory / self loader slidesDirectoryName) directoryNames asSet.
 	entries addAll: (directory / self loader layoutsDirectoryName) directoryNames asSet.
