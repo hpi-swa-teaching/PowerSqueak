@@ -8,4 +8,4 @@ saveLayoutsIn: aDirectory
 		| directoryName |
 		directoryName := PSPresentationLoader layoutDirectoryPrefix, key asString.
 		directory createDirectory: directoryName.
-		value saveInDirectory: directory / directoryName ]
+		value saveIn: directory / directoryName ]

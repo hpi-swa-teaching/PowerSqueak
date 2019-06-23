@@ -8,4 +8,4 @@ saveSlidesIn: aDirectory
 		| directoryName |
 		directoryName := PSPresentationLoader slideDirectoryPrefix, index asString.
 		directory createDirectory: directoryName.
-		each saveInDirectory: directory / directoryName ]
+		each saveIn: directory / directoryName ]
