@@ -1,4 +1,4 @@
-accessing
+context menu
 unhideSlide
 
 	self hiddenSlideSymbol hideFull.

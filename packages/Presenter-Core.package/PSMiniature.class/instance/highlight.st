@@ -1,4 +1,4 @@
-accessing
+updating
 highlight
 
 	self borderColor: self class highlightBorderColor.

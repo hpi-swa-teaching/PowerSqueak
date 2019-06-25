@@ -1,4 +1,4 @@
-as yet unclassified
+context menu
 defaultActions
 
 	^{ self hideButtonData . self deleteSlideData . self duplicateCurrentSlideData . self moveSlideData . self saveAsLayoutData}

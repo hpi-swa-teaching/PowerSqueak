@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"defaultWidth" : "VO 6/25/2019 17:52",
 		"forSlide:" : "mb 6/4/2019 15:45",
 		"hiddenSlideImage" : "mb 5/16/2019 16:25",
 		"highlightBorderColor" : "VO 6/25/2019 12:05",
@@ -10,12 +11,11 @@
 		"addHiddenSlideSymbol" : "JB 6/23/2019 18:28",
 		"click:" : "mb 6/6/2019 17:45",
 		"defaultActions" : "msob 6/6/2019 17:24",
-		"defaultWidth" : "LM 7/6/2018 13:51",
 		"deleteSlide" : "msob 6/6/2019 17:08",
 		"deleteSlideData" : "msob 6/6/2019 17:07",
 		"duplicateCurrentSlide" : "msob 6/6/2019 17:10",
 		"duplicateCurrentSlideData" : "msob 6/6/2019 17:11",
-		"formSize" : "LB 7/6/2018 15:25",
+		"formSize" : "VO 6/25/2019 17:52",
 		"handlesMouseDown:" : "WoC 6/29/2018 15:33",
 		"hiddenSlideSymbol" : "JB 6/23/2019 18:28",
 		"hiddenSlideSymbol:" : "JB 6/23/2019 18:28",

@@ -1,4 +1,4 @@
-as yet unclassified
+context menu
 duplicateCurrentSlideData
 
 	 ^ Dictionary withAll: {

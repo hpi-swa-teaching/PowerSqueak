@@ -1,4 +1,4 @@
-as yet unclassified
+context menu
 moveSlide 	
 	
 	self model openSlideMoveDialog

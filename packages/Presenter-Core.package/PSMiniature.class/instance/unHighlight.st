@@ -1,4 +1,4 @@
-accessing
+updating
 unHighlight
 
 	self isHighlighted ifTrue: [ self updateImage ].
