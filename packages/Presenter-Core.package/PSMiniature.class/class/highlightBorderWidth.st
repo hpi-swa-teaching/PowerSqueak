@@ -1,6 +1,4 @@
-accessing
+constants
 highlightBorderWidth
 
 	^ 5
-
-	

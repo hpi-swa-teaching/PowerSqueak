@@ -1,0 +1,4 @@
+constants
+highlightBorderColor
+
+	^ PSPresentationTool highlightColor

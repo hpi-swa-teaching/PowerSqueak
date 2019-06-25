@@ -2,5 +2,5 @@ initialization
 initializeBorder
 
 	self
-		borderWidth:  self highlightBorderWidth;
-		borderColor: self unHighlightBorderColor.
+		borderWidth:  self class highlightBorderWidth;
+		borderColor: self class unHighlightBorderColor.
