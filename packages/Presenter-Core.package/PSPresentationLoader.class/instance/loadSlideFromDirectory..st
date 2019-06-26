@@ -5,6 +5,6 @@ loadSlideFromDirectory: aDirectory
 	slide := self presentation createSlideBack.
 	self loadMorphsFromDirectory: aDirectory intoSlide: slide.
 	(aDirectory / 'metadata.dict') exists ifTrue:
-	[instanceVar := Object readFrom: (aDirectory readOnlyFileNamed: 'metadata.dict').
+	[instanceVar := (aDirectory readOnlyFileNamed: 'metadata.dict') fileInObjectAndCode.
 	self update:slide with: instanceVar.].
 	^ slide

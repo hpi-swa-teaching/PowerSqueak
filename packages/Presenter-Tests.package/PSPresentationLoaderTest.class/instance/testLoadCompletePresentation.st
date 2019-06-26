@@ -11,4 +11,5 @@ testLoadCompletePresentation
 		assert: presentation slides first submorphs size equals: 1;
 		assert: presentation slides second submorphs isEmpty;
 		assert: presentation slides third submorphs size equals: 2;
-		assert: presentation slideLayouts keys equals: {'Test'}
+		assert: presentation slideLayouts keys equals: {'Test'};
+		assert: presentation slides third isHidden
