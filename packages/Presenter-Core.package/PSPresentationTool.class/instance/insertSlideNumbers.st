@@ -1,5 +1,5 @@
 createSlideContent
 insertSlideNumbers
 
-	self presentation slides do: [:slide | self insertSlideNumberOn: slide]
+	self presentation slidesDo: [:slide | self insertSlideNumberOn: slide]
 	
