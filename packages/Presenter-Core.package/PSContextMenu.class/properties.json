@@ -6,9 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"menu",
-		"content",
-		"event" ],
+		 ],
 	"name" : "PSContextMenu",
 	"pools" : [
 		 ],
