@@ -5,4 +5,4 @@ addHiddenSlideSymbol
 		hiddenSlideSymbol: (SketchMorph withForm: self class hiddenSlideImage);
 		updateHiddenSlideSymbolBounds;
 		addMorph: self hiddenSlideSymbol.
-	self hiddenSlideSymbol hideFull
+	self hiddenSlideSymbol hide
