@@ -1,5 +1,5 @@
 context menu
 hideSlide
 
-	self hiddenSlideSymbol showFull.
+	self hiddenSlideSymbol show.
 	self slide hideSlide
