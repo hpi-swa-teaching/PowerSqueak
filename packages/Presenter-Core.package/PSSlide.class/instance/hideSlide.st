@@ -1,4 +1,4 @@
-as yet unclassified
+hiding
 hideSlide
 
 	self isHidden: true
