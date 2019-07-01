@@ -1,4 +1,4 @@
 accessing
-isHidden: anObject
+isHidden: aBoolean
 
-	isHidden := anObject
+	isHidden := aBoolean
