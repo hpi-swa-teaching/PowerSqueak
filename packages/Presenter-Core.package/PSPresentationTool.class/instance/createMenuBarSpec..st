@@ -1,5 +1,6 @@
 toolbuilder
 createMenuBarSpec: aBuilder 
+	
 	| panelSpec buttonData|
 	panelSpec := aBuilder pluggablePanelSpec new.
 	panelSpec
