@@ -1,4 +1,4 @@
-accessing
+selecting
 updateSelection: aPSContentContainer
 	
 	self removeSelection.

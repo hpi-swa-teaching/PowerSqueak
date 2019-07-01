@@ -1,4 +1,4 @@
-as yet unclassified
+selecting
 removeSelectionDuring: aBlock
 
 	| previousSelection |

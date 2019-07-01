@@ -1,4 +1,4 @@
-accessing
+selecting
 removeSelection
 	
 	self selection removeResizeHandles.

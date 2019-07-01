@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 isInteractive
 
 	 ^ self model isInteractive 
