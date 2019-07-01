@@ -1,4 +1,4 @@
-as yet unclassified
+coloring
 openColorDialogWith: aColor selecting: aSymbol on: aMorph
 
 	^ (NewColorPickerMorph 

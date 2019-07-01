@@ -1,4 +1,4 @@
-as yet unclassified
+submorphs-add/remove
 deleteContent
 	
 	self slideContainer ifNotNil: [self slideContainer removeSelection].

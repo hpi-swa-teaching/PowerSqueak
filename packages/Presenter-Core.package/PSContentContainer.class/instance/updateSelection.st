@@ -1,4 +1,4 @@
-as yet unclassified
+event handling
 updateSelection
 	
 	self slideContainer updateSelection: self

@@ -1,4 +1,4 @@
-as yet unclassified
+presentation mode
 isInteractive
 
 	 ^ (self slideContainer isInteractive and: [self slideContainer isInPresentationMode]) 
