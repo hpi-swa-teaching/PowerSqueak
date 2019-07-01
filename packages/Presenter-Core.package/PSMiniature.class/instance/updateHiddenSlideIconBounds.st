@@ -1,6 +1,6 @@
 updating
-updateHiddenSlideSymbolBounds
+updateHiddenSlideIconBounds
 	
-	self hiddenSlideSymbol
+	self hiddenSlideIcon
 		extent: self extent/2;
 		center: self center.

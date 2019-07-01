@@ -8,7 +8,7 @@
 	"instvars" : [
 		"slide",
 		"model",
-		"hiddenSlideSymbol" ],
+		"hiddenSlideIcon" ],
 	"name" : "PSMiniature",
 	"pools" : [
 		 ],

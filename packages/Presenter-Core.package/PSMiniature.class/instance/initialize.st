@@ -4,4 +4,4 @@ initialize
 	super initialize.
 	self
 		initializeBorder;
-		addHiddenSlideSymbol.
+		addHiddenSlideIcon.
