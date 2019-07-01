@@ -1,4 +1,4 @@
-as yet unclassified
+advanced menu bar
 showButtons: aCollection
 
 	self removeAllButtons.

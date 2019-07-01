@@ -1,4 +1,4 @@
-as yet unclassified
+advanced menu bar
 addButton: aSpecification
 
 	| button |

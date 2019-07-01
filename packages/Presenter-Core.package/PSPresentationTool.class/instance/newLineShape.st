@@ -1,4 +1,4 @@
-as yet unclassified
+shapes
 newLineShape
 	
 	LineMorph new
