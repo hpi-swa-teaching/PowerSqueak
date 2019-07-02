@@ -1,6 +1,6 @@
 slide management
-firstVisibleSlideInRange: aRange
+firstVisibleSlideInInterval: anInterval
 
-	^ aRange
+	^ anInterval
 		detect: [:counter | (self slideAt: counter) isHidden not]
 		ifNone: [self currentSlideNumber]
