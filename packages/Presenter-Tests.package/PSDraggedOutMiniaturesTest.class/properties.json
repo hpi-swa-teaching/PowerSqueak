@@ -11,5 +11,5 @@
 	"name" : "PSDraggedOutMiniaturesTest",
 	"pools" : [
 		 ],
-	"super" : "PSDragMiniaturesTest",
+	"super" : "PSPresentationToolTest",
 	"type" : "normal" }

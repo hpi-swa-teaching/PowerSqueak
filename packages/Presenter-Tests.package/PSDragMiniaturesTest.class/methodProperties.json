@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"allMiniatures" : "VO 6/19/2019 16:26",
-		"dragOutMiniature:" : "VO 6/19/2019 18:03",
-		"setUp" : "VO 6/19/2019 16:19",
-		"tearDown" : "VO 6/19/2019 16:20",
-		"testDraggingOutMiniatureRemovesSlide" : "VO 6/19/2019 17:12" } }

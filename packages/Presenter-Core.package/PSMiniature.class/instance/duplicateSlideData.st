@@ -1,8 +1,8 @@
 context menu
-duplicateCurrentSlideData
+duplicateSlideData
 
 	 ^ Dictionary withAll: {
 			#noButton -> true.
 			#contextMenuLabel -> 'Duplicate Slide'.
-			#action -> #duplicateCurrentSlide.
+			#action -> #duplicateSlide.
 			#model -> self}

@@ -1,4 +1,4 @@
 context menu
 deleteSlide 	
 	
-	self model deleteSlide 
+	self model deleteSlideAt: self slideNumber

@@ -2,9 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"dragOutMiniature:" : "VO 7/3/2019 15:46",
 		"miniature" : "VO 6/19/2019 17:24",
 		"miniature:" : "VO 6/19/2019 17:24",
-		"setUp" : "VO 6/19/2019 18:03",
+		"setUp" : "VO 7/3/2019 15:46",
 		"slide" : "VO 6/19/2019 17:24",
 		"slide:" : "VO 6/19/2019 17:24",
 		"tearDown" : "VO 6/19/2019 17:26",
@@ -13,4 +14,5 @@
 		"testDraggedOutMiniatureKeepsSlide" : "VO 6/19/2019 17:27",
 		"testDraggingInAfterMiniature" : "VO 6/19/2019 18:10",
 		"testDraggingInBeforeMiniature" : "VO 6/19/2019 18:09",
+		"testDraggingOutMiniatureRemovesSlide" : "VO 7/3/2019 15:50",
 		"testNoErrorWhenDroppingMiniatureOnDroppedMiniature" : "VO 6/20/2019 16:08" } }
