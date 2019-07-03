@@ -1,4 +1,4 @@
-as yet unclassified
+presentation mode tests
 testWhenAddingContentDuringPresentationItHasHandles
 	"We want to be able to reposition a morph during a presentation if necessary"
 	| content |

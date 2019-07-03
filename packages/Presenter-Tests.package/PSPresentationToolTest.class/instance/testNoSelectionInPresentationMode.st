@@ -1,4 +1,4 @@
-nil
+presentation mode tests
 testNoSelectionInPresentationMode
 
 	| morphy |
