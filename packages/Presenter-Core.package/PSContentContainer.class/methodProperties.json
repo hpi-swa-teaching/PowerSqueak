@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"borderWidth" : "mb 7/3/2019 16:55",
 		"for:" : "LB 7/6/2018 18:09" },
 	"instance" : {
 		"abandon" : "mb 6/19/2019 17:44",
@@ -19,7 +20,7 @@
 		"dragTopLeftEvent:" : "LB 7/24/2018 13:50",
 		"dragTopRightEvent:" : "LB 7/24/2018 13:50",
 		"duplicateData" : "VO 5/23/2019 17:39",
-		"extent:" : "WoC 7/24/2018 16:59",
+		"extent:" : "mb 7/3/2019 18:12",
 		"extentBottomLeft:" : "LB 7/6/2018 15:57",
 		"extentBottomRight:" : "LB 7/6/2018 15:57",
 		"extentTopLeft:" : "LB 7/6/2018 15:57",
@@ -40,7 +41,7 @@
 		"isMagnetic" : "LB 7/5/2018 21:38",
 		"magnetizeLayoutFractions:" : "LB 7/25/2018 11:59",
 		"menuBarItems" : "VO 5/23/2019 17:28",
-		"mouseDown:" : "VO 5/9/2019 17:08",
+		"mouseDown:" : "mb 7/3/2019 18:32",
 		"notifySlideRescale:" : "MK 7/24/2018 14:08",
 		"openColorDialogWith:selecting:" : "jb 5/15/2019 18:29",
 		"openColorDialogWith:selecting:on:" : "jb 5/15/2019 18:28",
@@ -50,13 +51,13 @@
 		"recolorData" : "VO 5/23/2019 17:02",
 		"removeResizeHandles" : "jb 5/9/2019 12:09",
 		"removedMorph:" : "LM 7/25/2018 13:00",
-		"resizeChild" : "LB 7/25/2018 11:58",
+		"resizeChild" : "mb 7/3/2019 16:54",
 		"resizeFractionsOf:" : "LB 7/25/2018 12:00",
 		"resizeHandleSize" : "MK 5/18/2018 19:13",
 		"resizeHandles" : "MK 5/18/2018 17:43",
 		"resizeHandles:" : "LB 7/6/2018 15:35",
 		"sendToBackData" : "VO 5/23/2019 17:04",
-		"setContent:" : "jb 5/8/2019 18:01",
+		"setContent:" : "mb 7/3/2019 17:17",
 		"slide" : "mb 6/19/2019 16:51",
 		"slideContainer" : "mb 6/19/2019 16:53",
 		"updateSelection" : "jb 5/8/2019 18:03" } }
