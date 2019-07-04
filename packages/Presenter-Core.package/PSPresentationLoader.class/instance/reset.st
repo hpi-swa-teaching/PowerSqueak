@@ -2,7 +2,6 @@ initialize-release
 reset
 
 	self 
-		errorReport: (Dictionary newFrom: 
-			{#slides -> Dictionary new. 
-			#files -> Dictionary new});		
+		fileErrors: Dictionary new;
+		slideErrors: Dictionary new;		
 		presentation: PSPresentation new.

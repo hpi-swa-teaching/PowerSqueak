@@ -1,4 +1,4 @@
-as yet unclassified
+error reporting
 completeErrorReport
 
-	^ self buildMorphErrorReportString , Character cr , self buildFileErrorReportString.
+	^ self buildSlidesErrorReportString , Character cr , self buildFileErrorReportString.
