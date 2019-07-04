@@ -1,6 +1,6 @@
 selecting
 removeSelection
 	
-	self selection removeResizeHandles.
+	self selection unselect.
 	self selection: PSNullContentContainer new.
 	self model removeSelection.

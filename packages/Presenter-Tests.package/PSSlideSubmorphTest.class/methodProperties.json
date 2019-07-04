@@ -15,6 +15,8 @@
 		"testContainerResizingAllCorners" : "MK 7/25/2018 11:52",
 		"testContainerResizingCorner:" : "mb 7/3/2019 17:44",
 		"testContextMenu" : "VO 5/23/2019 18:01",
+		"testCursorChangedOverAllHandles" : "mb 7/4/2019 19:51",
+		"testCursorChangedOverHandle:toCursor:" : "mb 7/4/2019 19:47",
 		"testDraggingOnBorder" : "mb 7/3/2019 18:37",
 		"testDuplicateChild" : "LM 7/25/2018 12:48",
 		"testGrabbing" : "LM 7/25/2018 12:51",
@@ -22,10 +24,10 @@
 		"testOnlyOneContainerHasHandles" : "jb 5/9/2019 12:12",
 		"testRemoveMorphAbandonsContainer" : "LM 7/25/2018 12:52",
 		"testResizeHandleMagnetic" : "mb 6/19/2019 17:58",
-		"testSelectByClicking" : "mb 6/19/2019 17:49",
+		"testSelectByClicking" : "mb 7/4/2019 19:59",
 		"testSlideContainerExtent" : "mb 7/3/2019 17:31",
 		"testSlideContainerPosition" : "mb 7/3/2019 17:29",
 		"testSubmorphRelativePositionOnResize" : "WoC 7/25/2018 12:37",
 		"testSubmorphRelativeSizeOnResize" : "WoC 7/25/2018 12:37",
 		"testSubmorphSideRatioOnResize" : "WoC 7/25/2018 12:37",
-		"testUnselectByClicking" : "VO 6/5/2019 18:27" } }
+		"testUnselectByClicking" : "mb 7/4/2019 20:00" } }
