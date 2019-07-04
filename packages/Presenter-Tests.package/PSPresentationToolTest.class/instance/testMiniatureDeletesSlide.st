@@ -1,9 +1,9 @@
 miniature view tests
-testMiniatureDeleteSlide
+testMiniatureDeletesSlide
 
 	| slide miniature |
 	slide := self createSlide.
 	miniature := self miniatureOf: slide.
 	
 	miniature deleteSlide.
-	self assert:((self window model presentation slides) includes: slide) equals: false
+	self deny:((self slides) includes: slide)
