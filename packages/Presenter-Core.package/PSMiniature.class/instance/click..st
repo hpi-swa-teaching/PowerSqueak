@@ -1,4 +1,4 @@
-event handling
+event-processing
 click: evt
 
 	evt redButtonPressed

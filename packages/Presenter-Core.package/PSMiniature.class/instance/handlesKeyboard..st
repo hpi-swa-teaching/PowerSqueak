@@ -1,4 +1,4 @@
 event-processing
-handlesMouseDown: evt
+handlesKeyboard: evt
 
 	^ true

@@ -1,4 +1,4 @@
-event handling
+event-processing
 startDrag: evt
 
 	evt hand grabMorph: self.

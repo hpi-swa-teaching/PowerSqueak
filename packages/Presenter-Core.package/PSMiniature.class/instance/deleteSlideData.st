@@ -3,6 +3,6 @@ deleteSlideData
 
 	 ^ Dictionary withAll: {
 			#noButton -> true.
-			#contextMenuLabel -> 'Delete'.
+			#contextMenuLabel -> 'Delete Slide'.
 			#action -> #deleteSlide.
 			#model -> self}
