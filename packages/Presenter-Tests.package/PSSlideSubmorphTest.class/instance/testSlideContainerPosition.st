@@ -1,4 +1,4 @@
 container tests
 testSlideContainerPosition
 
-	self assert: self container position equals: self morph position
+	self assert: self container center equals: self morph center

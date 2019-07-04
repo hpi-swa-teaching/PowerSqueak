@@ -6,6 +6,7 @@ testDuplicatedSlidesContent
 	slide addContent: (Morph new center: slide center).
 	self tool duplicateCurrentSlide.
 	duplicatedSlide := self slideAt: self currentSlideNumber +1.
+	slide fullBounds.
 	slide submorphs withIndexDo: [:each :index | 
 		self 
 			assert: each bounds 
