@@ -1,8 +1,8 @@
 slide miniatures
-updatePresentation: aPSPresentation withErrorReport: aDictionary
+updatePresentation: aPSPresentation withErrorReport: aString
 
 	self 
 		presentation: aPSPresentation;
 		selectSlideNumber: 1;
-		updateSlideMiniaturesCompletely;
-		showErrorReport: aDictionary	
+		updateSlideMiniaturesCompletely.
+	UIManager inform: aString

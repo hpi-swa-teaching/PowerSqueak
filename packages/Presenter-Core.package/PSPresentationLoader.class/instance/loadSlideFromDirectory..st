@@ -1,10 +1,9 @@
 slide loading
 loadSlideFromDirectory: aDirectory
 
-	| slide instanceVar|
+	| slide|
 	slide := self presentation createSlideBack.
+	self slideErrors at: aDirectory localName put: 0.
 	self loadMorphsFromDirectory: aDirectory intoSlide: slide.
-	(aDirectory / 'metadata.dict') exists ifTrue:
-	[instanceVar := (aDirectory readOnlyFileNamed: 'metadata.dict') fileInObjectAndCode.
-	self update:slide with: instanceVar.].
+	self loadMetadataFrom: aDirectory for: slide.
 	^ slide

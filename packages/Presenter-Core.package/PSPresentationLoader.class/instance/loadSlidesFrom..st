@@ -1,4 +1,4 @@
-presentation loading
+slide loading
 loadSlidesFrom: aDirectory
 	
 	| sortedDirectories slidesPath |
@@ -6,8 +6,5 @@ loadSlidesFrom: aDirectory
 	slidesPath exists ifTrue: 
 		[sortedDirectories := self sortedSubdirectories: slidesPath.
 		sortedDirectories do: [:each |
-			 | slide |
-			slide := self loadSlideFromDirectory: slidesPath / each.
-			self errorReport at: each 
-				put: (self morphFilesIn: slidesPath / each) size - slide submorphs size].
+			self loadSlideFromDirectory: slidesPath / each].
 		self presentation minimumSlideCount timesRepeat: [self presentation deleteSlideAt: 1]]

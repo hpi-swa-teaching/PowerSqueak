@@ -8,5 +8,5 @@ loadLayoutsFrom: aDirectory
 		sortedDirectories do: [:each |
 			 | slide |
 			slide := self loadLayoutFromDirectory: layoutsPath / each.
-			self errorReport at: each 
+			self slideErrors at: each 
 				put: (self morphFilesIn: layoutsPath / each) size - slide submorphs size]]
