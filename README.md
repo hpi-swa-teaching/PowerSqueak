@@ -53,7 +53,7 @@ During edit mode, you can the menu to save, load or export a presentation. You c
 You may also drop other Morphs onto slides, but be aware, that some features of those Morphs might not work as expected (scaling most of the time does not work correctly).
 
 For advanced features like deleting morphs or resizing text, right-click the Morph.\
-<img src="pictures/right-click.png" alt="Right-click example" width="400">
+<img src="pictures/right_click.png" alt="Right-click example" width="400">
 
 #### **Magnetic Raster**
 PowerSqueak supports a magnetic raster for easy layouting.
