@@ -17,6 +17,7 @@
 		"testContextMenu" : "VO 5/23/2019 18:01",
 		"testCursorChangedOverAllHandles" : "mb 7/4/2019 19:51",
 		"testCursorChangedOverHandle:toCursor:" : "mb 7/4/2019 19:47",
+		"testDeleteWhenNothingIsSelected" : "kw 7/10/2019 15:47",
 		"testDraggingOnBorder" : "mb 7/3/2019 18:37",
 		"testDuplicateChild" : "LM 7/25/2018 12:48",
 		"testGrabbing" : "LM 7/25/2018 12:51",
