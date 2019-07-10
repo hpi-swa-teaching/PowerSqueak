@@ -101,14 +101,16 @@ In the other image you can then load the presentation as usual in PowerSqueak.
 
 You may also export your presentation to a list of .png files, which will get exported into the ```PSPresentationsExports``` folder in your Squeak VMS directory
 
-### **List of shortcuts**
-#### **Global schortcuts**
+#### **List of shortcuts**
+### **Global schortcuts**
 | Key | Action|
 | ---- | ---- |
 | right arrow/arrow down/page down | next slide |
 | left arrow/arrow up/page up | previous slide |
 | Number keys | Jump to a slide number (0 = last slide) |
 | Cmd + t | Create a text field in hand |
+| delete | Delete slide (miniature needs to be selected) |
+| delete | Delete morph (morph needs to be selected and for deleting a text field, mouse needs to be outside of morph)
 
 ### **Edit mode shortcuts**
 | Key | Action |
