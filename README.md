@@ -49,15 +49,15 @@ To open PowerSqueak either
 	<img src="pictures/apps-drawer.png" alt="Open PowerSqueak in the Apps menu" width="250">
 
 ### **Edit mode**
-During edit mode, you can the menu to save, load or export a presentation. You can insert a text field, an image, a shape or slide numbers with the "insert" button. You can hide, delete, duplicate, move or save a slide as a layout with the "slide" button in the menu bar (see shortcuts). 
+During edit mode, you can use the menu to save, load or export a presentation. You can insert a text field, an image, a shape or slide numbers with the "insert" button. You can hide, delete, duplicate, move or save a slide as a layout with the "slide" button in the menu bar (see shortcuts). 
 You may also drop other Morphs onto slides, but be aware, that some features of those Morphs might not work as expected (scaling most of the time does not work correctly).
 
 For advanced features like deleting morphs or resizing text, right-click the Morph.\
-<img src="pictures/right_click.png" alt="Right-click example" width="400">
+<img src="pictures/right_click.PNG" alt="Right-click example" width="400">
 
 #### **Magnetic Raster**
 PowerSqueak supports a magnetic raster for easy layouting.
-If the magnetic raster is active, resizing a Morph will automatically smap the corners of the Morph to an imaginary raster.\
+If the magnetic raster is active, resizing a Morph will automatically snap the corners of the Morph to an imaginary raster.\
 To enable the magnetic raster click:\
 <img src="pictures/magnetic-raster.png" alt="How to enable magnetic raster" width=250>\
 The button will change color, to indicate, that the raster is active\
