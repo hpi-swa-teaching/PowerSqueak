@@ -64,7 +64,7 @@ You can select your snap size by clicking on the small arrow right next to the s
 
 
 #### **Menu-Bar**
-You can now use the features in the Menu bar to edit your text. 
+You can now use the features in the Menu bar to edit your text. \
 <img src="pictures/menu-bar.png" alt="Advanced Menu Bar" width = 400>
 
 ### **Presentation mode**
