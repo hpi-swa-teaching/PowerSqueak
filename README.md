@@ -1,4 +1,4 @@
-# **PowerSqueak** [![Build Status](https://travis-ci.org/hpi-swa-teaching/PowerSqueak.svg?branch=release)](https://travis-ci.org/hpi-swa-teaching/PowerSqueak)[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SWT18-Project-09/badge.svg?branch=release)](https://coveralls.io/github/hpi-swa-teaching/SWT18-Project-09?branch=release)
+# **PowerSqueak** [![Build Status](https://travis-ci.org/hpi-swa-teaching/PowerSqueak.svg?branch=SoSe19)](https://travis-ci.org/hpi-swa-teaching/PowerSqueak)[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SWT18-Project-09/badge.svg?branch=SoSe19)](https://coveralls.io/github/hpi-swa-teaching/SWT18-Project-09?branch=SoSe19)
 
 A presentation tool for the Squeak development platform
 
