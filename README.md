@@ -60,7 +60,7 @@ PowerSqueak supports a magnetic raster for easy layouting.
 If the magnetic raster is active, resizing a Morph will automatically snap the corners of the Morph to an imaginary raster.\
 To enable the magnetic raster click the button. It will change its color to show that it's activated. 
 You can select your snap size by clicking on the small arrow right next to the snap button.\
-<img src="pictures/snap.png" alt="How to enable magnetic raster" width=250>\
+<img src="pictures/snap.png" alt="How to enable magnetic raster" width=250>
 
 
 #### **Menu-Bar**
