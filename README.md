@@ -58,10 +58,14 @@ For advanced features like deleting morphs or resizing text, right-click the Mor
 #### **Magnetic Raster**
 PowerSqueak supports a magnetic raster for easy layouting.
 If the magnetic raster is active, resizing a Morph will automatically snap the corners of the Morph to an imaginary raster.\
-To enable the magnetic raster click:\
-<img src="pictures/magnetic-raster.png" alt="How to enable magnetic raster" width=250>\
-The button will change color, to indicate, that the raster is active\
-<img src="pictures/magnetic-raster-active.png" alt="Magnetic raster is enabled" width=250>
+To enable the magnetic raster click the button. It will change its color to show that it's activated. 
+You can select your snap size by clicking on the small arrow right next to the snap button.\
+<img src="pictures/snap.png" alt="How to enable magnetic raster" width=250>\
+
+
+#### **Menu-Bar**
+You can now use the features in the Menu bar to edit your text. 
+<img src="pictures/menu-bar.png" alt="Advanced Menu Bar" width = 400>
 
 ### **Presentation mode**
 To enter presentation mode, click the "Present" button.
