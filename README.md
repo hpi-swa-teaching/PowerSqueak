@@ -49,9 +49,7 @@ To open PowerSqueak either
 	<img src="pictures/apps-drawer.png" alt="Open PowerSqueak in the Apps menu" width="250">
 
 ### **Edit mode**
-During edit mode, you can use the buttons at the top to create and navigate slides.
-To create slides from templates or delete slides, use the "Slide" menu in the menu bar.
-To add slide elements like text or images, use the "Insert" menu to create a textfield/image in hand.
+During edit mode, you can the menu to save, load or export a presentation. You can insert a text field, an image, a shape or slide numbers with the "insert" button. You can hide, delete, duplicate, move or save a slide as a layout with the "slide" button in the menu bar (see shortcuts). 
 You may also drop other Morphs onto slides, but be aware, that some features of those Morphs might not work as expected (scaling most of the time does not work correctly).
 
 For advanced features like deleting morphs or resizing text, right-click the Morph.\
