@@ -18,7 +18,7 @@ Squeak 5.0 is officially unsupported (see [Travis-ci](https://travis-ci.org/hpi-
 * [Using PowerSqueak](https://github.com/hpi-swa-teaching/PowerSqueak#using-powersqueak)
 	* [Edit mode](https://github.com/hpi-swa-teaching/PowerSqueak#edit-mode)
 		* [Magnetic Raster](https://github.com/hpi-swa-teaching/PowerSqueak#magnetic-raster)
-		* [Menu Bar](https://github.com/hpi-swa-teaching/PowerSqueak#menu-bar)
+		* [Menu Bar](https://github.com/hpi-swa-teaching/PowerSqueak/tree/SoSe19#menu-bar)
 	* [Presentation mode](https://github.com/hpi-swa-teaching/PowerSqueak#presentation-mode)
 		* [Interactive/Non-Interactive mode](https://github.com/hpi-swa-teaching/PowerSqueak#interactivenon-interactive-mode)
 	* [saving and loading](https://github.com/hpi-swa-teaching/PowerSqueak#saving-and-loading)
