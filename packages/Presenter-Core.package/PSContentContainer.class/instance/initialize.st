@@ -5,5 +5,4 @@ initialize
 	self 
 		color: Color transparent;
 		resizeHandles: Dictionary new;
-		borderWidth: self class borderWidth;
-		borderColor: self class borderColor
+		borderWidth: self class borderWidth
