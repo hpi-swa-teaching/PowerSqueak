@@ -1,4 +1,4 @@
 as yet unclassified
 methodSelectorAndArguments
 	
-	^ 'stepIn: aSlide'
+	^ self selectedMethod format: (self methodArgumentsOf: self selectedMethod)

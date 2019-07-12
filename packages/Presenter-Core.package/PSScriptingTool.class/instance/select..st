@@ -3,4 +3,5 @@ select: aSymbol
 	
 	self 
 		selectedMethod: aSymbol;
-		updateCode.
+		updateCode;
+		changed: #methodSelectorAndArguments

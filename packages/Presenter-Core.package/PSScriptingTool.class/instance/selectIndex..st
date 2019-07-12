@@ -1,4 +1,5 @@
 accessing
 selectIndex: anInteger
 	
-	self select: (self scriptingAPIMethods at: anInteger)
+	self selectedIndex: anInteger.
+	self select: (self methodProperties keys at: anInteger)
