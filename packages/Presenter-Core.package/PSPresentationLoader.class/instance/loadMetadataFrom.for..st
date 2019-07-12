@@ -8,5 +8,5 @@ loadMetadataFrom: aDirectory for: aSlide
 				(aDirectory readOnlyFileNamed: 'metadata.dict') fileInObjectAndCode.
 		self update: aSlide with: instanceVarDict]
 			on: Error
-			do: [self fileErrors at: aDirectory localName put: 1]].
+			do: [self fileErrors at: aDirectory localName incrementBy: 1]].
 	 	
