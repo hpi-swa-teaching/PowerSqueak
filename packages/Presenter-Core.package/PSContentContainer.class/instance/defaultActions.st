@@ -7,4 +7,4 @@ defaultActions
 		self bringToFrontData.
 		self sendToBackData.
 		self duplicateData.
-		self setCustomStepData} asOrderedCollection
+		self openScriptingToolData} asOrderedCollection
