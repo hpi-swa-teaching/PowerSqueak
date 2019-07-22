@@ -7,5 +7,6 @@ createMethodSelectionSpec: aBuilder
 		setIndex: #selectIndex:;
 		getIndex: #selectedIndex;
 		name: #MethodList;
+		autoDeselect: false;
 		list: #scriptingAPIMethods;
 		yourself
