@@ -1,4 +1,4 @@
 scripting API
 openScriptingTool
 
-	PSScriptingTool openFor: self content
+	^ PSScriptingTool openFor: self content

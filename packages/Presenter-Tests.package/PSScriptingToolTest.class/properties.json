@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"morph",
-		"interacted",
-		"container" ],
-	"name" : "PSInteractableMorphTest",
+		"scriptingTool" ],
+	"name" : "PSScriptingToolTest",
 	"pools" : [
 		 ],
-	"super" : "PSOnSlideTest",
+	"super" : "PSInteractableMorphTest",
 	"type" : "normal" }
