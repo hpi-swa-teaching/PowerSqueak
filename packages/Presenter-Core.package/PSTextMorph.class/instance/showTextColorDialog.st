@@ -1,4 +1,4 @@
 styling
 showTextColorDialog
 
-	^ self openColorDialogWith: self selectionColor selecting: #selectionColor:
+	^ self owner openColorDialogWith: self selectionColor selecting: #selectionColor: on: self

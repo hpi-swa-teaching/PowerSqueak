@@ -13,9 +13,6 @@
 		"unHighlightColor" : "mb 6/4/2019 15:40" },
 	"instance" : {
 		"addButton:" : "VO 5/29/2019 17:57",
-		"addPSTextMorphIn:at:" : "MK 7/6/2018 17:07",
-		"addPSTextMorphIn:at:centeredWithSize:" : "MK 7/6/2018 15:40",
-		"addPSTextMorphIn:at:withSize:" : "MK 7/6/2018 15:40",
 		"addSlide:" : "jb 6/13/2019 18:45",
 		"addSlide:afterIndex:" : "mb 7/22/2019 11:44",
 		"advancedMenuBarButtons" : "VO 5/29/2019 17:52",
