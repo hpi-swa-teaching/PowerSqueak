@@ -2,7 +2,9 @@
 	"class" : {
 		"borderColor" : "mb 7/4/2019 16:27",
 		"borderWidth" : "mb 7/3/2019 16:55",
-		"for:" : "LB 7/6/2018 18:09" },
+		"for:" : "LB 7/6/2018 18:09",
+		"minimumExtent" : "mb 7/22/2019 12:00",
+		"minimumMorphExtent" : "mb 7/22/2019 11:59" },
 	"instance" : {
 		"abandon" : "mb 6/19/2019 17:44",
 		"actionForCorner:" : "LB 7/24/2018 13:51",
@@ -21,7 +23,7 @@
 		"dragTopLeftEvent:" : "LB 7/24/2018 13:50",
 		"dragTopRightEvent:" : "LB 7/24/2018 13:50",
 		"duplicateData" : "VO 5/23/2019 17:39",
-		"extent:" : "mb 7/3/2019 18:12",
+		"extent:" : "mb 7/22/2019 12:06",
 		"extentBottomLeft:" : "LB 7/6/2018 15:57",
 		"extentBottomRight:" : "LB 7/6/2018 15:57",
 		"extentTopLeft:" : "LB 7/6/2018 15:57",
