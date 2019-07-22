@@ -9,7 +9,8 @@
 		"receiver",
 		"code",
 		"selectedMethod",
-		"selectedIndex" ],
+		"selectedIndex",
+		"codePane" ],
 	"name" : "PSScriptingTool",
 	"pools" : [
 		 ],

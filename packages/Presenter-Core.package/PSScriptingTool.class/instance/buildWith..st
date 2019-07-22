@@ -6,4 +6,5 @@ buildWith: aBuilder
 	windowSpec := self createScriptingAPISpec: aBuilder.
 	window := aBuilder build: windowSpec.
 	self setAcceptAction: [:aText | self accept: aText] in: window.
+	self codePane: (aBuilder widgetAt: #CodePane). 
 	^ window
