@@ -8,5 +8,5 @@ buildWith: aBuilder
 	self createSlideContainerIn: (aBuilder widgetAt: #SlideViewport).		
 	self selectSlideNumber: 1.	
 	self afterBuildWith: aBuilder.	
-	self 	toolBuilder: aBuilder.
+	self toolBuilder: aBuilder.
 	^ window

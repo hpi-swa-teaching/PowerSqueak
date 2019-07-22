@@ -7,5 +7,4 @@ generateListFrom: aCollection
 			aDictionary at: #contextMenuLabel.
 			aDictionary at: #action.
 			aDictionary at: #help ifAbsent: ''} asArray].
-	
  	^ anotherCollection asArray

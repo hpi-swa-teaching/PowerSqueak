@@ -1,5 +1,6 @@
 toolbuilder
-createAdvancedMenuBarSpec: aBuilder 
+createAdvancedMenuBarSpec: aBuilder
+
 	| panelSpec |
 	panelSpec := aBuilder pluggablePanelSpec new.
 	panelSpec
@@ -7,5 +8,4 @@ createAdvancedMenuBarSpec: aBuilder
 		frame: (self barFrameFrom: self menuBarHeight height: self menuBarHeight);
 		name: #AdvancedMenuBar;
 		children: #advancedMenuBarButtons.
-			
 	^ panelSpec

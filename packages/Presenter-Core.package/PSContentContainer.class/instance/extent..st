@@ -8,4 +8,3 @@ extent: aPoint
 	self 
 		resizeChild;
 		placeHandles
-	 
