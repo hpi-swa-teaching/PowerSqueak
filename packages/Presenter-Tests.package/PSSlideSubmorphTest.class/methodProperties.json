@@ -11,6 +11,8 @@
 		"testAdvancedMenuBarHasAllTheButtons" : "mb 6/19/2019 17:46",
 		"testAdvancedMenuBarHasNoButtonsAfterUnselect" : "VO 5/29/2019 17:55",
 		"testAdvancedMenuBarHasNoButtonsDuringDrag" : "mb 6/19/2019 17:57",
+		"testChangeSnapSize" : "mb 7/22/2019 13:08",
+		"testChangeSnapSizeTo:" : "mb 7/22/2019 13:45",
 		"testColorDialog" : "VO 5/16/2019 16:27",
 		"testContainerResizingAllCorners" : "MK 7/25/2018 11:52",
 		"testContainerResizingCorner:" : "mb 7/3/2019 17:44",
