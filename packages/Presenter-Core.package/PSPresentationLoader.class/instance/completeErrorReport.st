@@ -1,4 +1,4 @@
 error reporting
 completeErrorReport
 
-	^ self buildSlidesErrorReportString , Character cr , self buildFileErrorReportString.
+	^ self buildSlidesErrorReportString , Character cr , self buildFileErrorReportString

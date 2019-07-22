@@ -1,4 +1,4 @@
 as yet unclassified
 filterErrorReport: aDictionary
 
-	^ aDictionary select: [:each | each > 0].
+	^ aDictionary select: [:each | each > 0]

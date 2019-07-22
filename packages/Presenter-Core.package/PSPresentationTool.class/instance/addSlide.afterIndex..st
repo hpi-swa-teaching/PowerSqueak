@@ -6,4 +6,4 @@ addSlide: aSlide afterIndex: anInteger
 		selectSlideNumber: anInteger + 1;
 		updateSlideMiniatures;
 		updateCurrentMiniature.
-	^ aSlide.
+	^ aSlide

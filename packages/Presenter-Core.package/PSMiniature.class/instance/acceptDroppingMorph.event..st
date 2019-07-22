@@ -7,5 +7,4 @@ acceptDroppingMorph: aMorph event: anEvent
 		ifFalse: [0].
 	self model addSlide: aMorph slide afterIndex: self slide slideNumber + insertOffset.
 	aMorph slide presentation: self slide presentation.
-	aMorph abandon.
-	
+	aMorph abandon

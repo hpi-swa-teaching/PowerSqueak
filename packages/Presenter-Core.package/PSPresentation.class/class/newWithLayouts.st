@@ -3,4 +3,4 @@ newWithLayouts
 	
 	^ self new
 		loadDefaultLayouts;
-		yourself.
+		yourself

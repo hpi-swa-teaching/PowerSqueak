@@ -1,4 +1,4 @@
 slide loading
 morphFilesIn: aDirectory
 	
-	 ^ aDirectory fileNames select: [:fileNames | fileNames endsWith: '.morph' ].
+	 ^ aDirectory fileNames select: [:fileNames | fileNames endsWith: '.morph' ]
