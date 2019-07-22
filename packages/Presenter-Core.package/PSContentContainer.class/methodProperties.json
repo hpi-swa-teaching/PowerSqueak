@@ -21,6 +21,7 @@
 		"dragTopLeftEvent:" : "LB 7/24/2018 13:50",
 		"dragTopRightEvent:" : "LB 7/24/2018 13:50",
 		"duplicateData" : "VO 5/23/2019 17:39",
+		"evaluateScript:withValue:" : "VO 7/22/2019 11:34",
 		"extent:" : "mb 7/3/2019 18:12",
 		"extentBottomLeft:" : "LB 7/6/2018 15:57",
 		"extentBottomRight:" : "LB 7/6/2018 15:57",
@@ -70,7 +71,9 @@
 		"setCursorFor:" : "mb 7/4/2019 18:35",
 		"slide" : "mb 6/19/2019 16:51",
 		"slideContainer" : "mb 6/19/2019 16:53",
-		"step" : "VO 7/10/2019 18:01",
+		"slideEntered" : "VO 7/22/2019 11:39",
+		"step" : "VO 7/22/2019 11:39",
 		"stepTime" : "VO 7/10/2019 13:41",
+		"tryEvaluatingScript:withValue:" : "VO 7/22/2019 11:38",
 		"unselect" : "mb 7/4/2019 16:38",
 		"updateSelection" : "jb 5/8/2019 18:03" } }

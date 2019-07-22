@@ -4,4 +4,4 @@ methodProperties
 	
 	^ Dictionary withAll: {
 		'stepIn: {1}' -> {{'aSlide'}. #customStep}.
-		'enter: {1}' -> {{'aSlide'}. #customEnter}}
+		'enter: {1}' -> {{'aSlide'}. #PSSlideEnter}}
