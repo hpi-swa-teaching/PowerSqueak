@@ -2,8 +2,7 @@ nil
 accept: aText
 
 	| blockText |
-	blockText := self convert: aText
-		toBlockWithArguments: (self argumentsOf: self selectedMethod).
+	blockText := self convertToBlockWithCurrentArguments: aText.
 	Compiler new 
 		compileNoPattern: blockText 
 		in: self receiver class 

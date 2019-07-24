@@ -1,4 +1,4 @@
 as yet unclassified
 currentMorphProperty
 	
-	^ self morphPropertyOf: self selectedMethod
+	^ self class morphPropertyOf: self selectedMethod
