@@ -1,13 +1,16 @@
 nil
 accept: aText
 
+	| blockText |
+	blockText := self convert: aText
+		toBlockWithArguments: (self argumentsOf: self selectedMethod).
 	Compiler new 
-		compileNoPattern: aText 
+		compileNoPattern: blockText 
 		in: self receiver class 
 		notifying: self codePane
 		ifFail: [^ self].
 	self receiver
 		setProperty: self currentMorphProperty
-		toValue: (self convert: aText toBlockWithArguments: (self argumentsOf: self selectedMethod)).
+		toValue: blockText.
 	self changed: #code
 	
