@@ -1,9 +1,5 @@
 styling
 selectionFontSize: aNumber
 
-	self selectionAddAttribute: 
-		(PSScalingFontAttribute 
-			styled: self class defaultTextStyle 
-			sized: aNumber 
-			scaledBy: self).
+	self selectionAddAttribute: (self fontSizeAttribute: aNumber).
 	self textMorph releaseParagraph

@@ -6,6 +6,6 @@ selectionAddAttribute: anAttribute onNoSelection: aBlock
 	interval := self textMorph editor selectionInterval.
 	interval size <= 0 
 		ifTrue: [interval := 1 to: self textMorph text size].
-	self textMorph text addAttribute: anAttribute from: interval first to: interval last.
+	self addAttribute: anAttribute toInterval: interval.
 	interval size = self textMorph text string size 
 		ifTrue: aBlock

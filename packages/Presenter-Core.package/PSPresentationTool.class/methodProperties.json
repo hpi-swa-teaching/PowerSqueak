@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"bigButtonSize" : "VO 5/16/2019 17:51",
+		"defaultSlideNumberSize" : "mb 7/24/2019 14:47",
 		"highlightColor" : "LB 7/5/2018 21:56",
 		"hugeButtonSize" : "jb 6/6/2019 17:45",
 		"initialize" : "LM 6/13/2018 13:54",
@@ -9,6 +10,7 @@
 		"open" : "rhi 6/6/2018 22:55",
 		"openIn:" : "LB 5/23/2018 16:11",
 		"registerInWorldMenu" : "LM 6/13/2018 12:19",
+		"slideNumberStep" : "mb 7/24/2019 14:18",
 		"smallButtonSize" : "VO 5/16/2019 17:51",
 		"unHighlightColor" : "mb 6/4/2019 15:40" },
 	"instance" : {
@@ -68,7 +70,7 @@
 		"insertButtonData" : "VO 5/23/2019 16:30",
 		"insertShapeNames" : "VO 4/25/2019 17:20",
 		"insertSlideNumber" : "mb 6/20/2019 17:54",
-		"insertSlideNumberOn:" : "mb 7/24/2019 12:25",
+		"insertSlideNumberOn:" : "mb 7/24/2019 14:51",
 		"insertSlideNumbers" : "VO 6/26/2019 17:43",
 		"isFullScreenMode" : "mb 5/8/2019 16:08",
 		"isFullScreenMode:" : "mb 5/8/2019 16:08",
