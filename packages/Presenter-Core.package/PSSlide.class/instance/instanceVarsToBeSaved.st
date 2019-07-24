@@ -1,4 +1,4 @@
 accessing
 instanceVarsToBeSaved
 
-	^OrderedCollection newFrom: {#isHidden}
+	^ {#isHidden} asOrderedCollection
