@@ -1,4 +1,4 @@
 as yet unclassified
 selectStepScript
 
-	self scriptingTool select: 'stepIn: {1}'
+	self scriptingTool select: self scriptingTool class stepInKey

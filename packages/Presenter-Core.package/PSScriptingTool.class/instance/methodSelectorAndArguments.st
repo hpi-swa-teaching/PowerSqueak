@@ -1,4 +1,4 @@
 as yet unclassified
 methodSelectorAndArguments
 	
-	^ self selectedMethod format: (self methodArgumentsOf: self selectedMethod)
+	^ self selectedMethod format: self currentMethodArguments.
