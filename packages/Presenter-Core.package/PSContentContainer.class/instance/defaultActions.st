@@ -6,4 +6,5 @@ defaultActions
 		self recolorData.
 		self bringToFrontData.
 		self sendToBackData.
-		self duplicateData.} asOrderedCollection
+		self duplicateData.
+		self openScriptingToolData} asOrderedCollection
