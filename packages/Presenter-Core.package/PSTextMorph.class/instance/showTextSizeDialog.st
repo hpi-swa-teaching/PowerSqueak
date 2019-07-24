@@ -3,7 +3,7 @@ showTextSizeDialog
 
 	| newSize |
 	newSize := UIManager default 
-		request: self fontSizeDialogText
+		request: self class fontSizeDialogText
 		initialAnswer: self selectionFontSize printString.
 	newSize ifEmpty: [^ self]. "Check for cancel"
 	[self selectionFontSize: newSize asNumber]

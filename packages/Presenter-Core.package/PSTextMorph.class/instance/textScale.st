@@ -1,4 +1,4 @@
 accessing
 textScale
 	
-	^ textScale ifNil: [self defaultTextScale]
+	^ textScale ifNil: [self class defaultTextScale]

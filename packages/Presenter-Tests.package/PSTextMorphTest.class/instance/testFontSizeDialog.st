@@ -4,4 +4,4 @@ testFontSizeDialog
 	self 
 		should: [self textField showTextSizeDialog] 
 		raise: ProvideAnswerNotification 
-		description: self textField fontSizeDialogText
+		description: PSTextMorph fontSizeDialogText

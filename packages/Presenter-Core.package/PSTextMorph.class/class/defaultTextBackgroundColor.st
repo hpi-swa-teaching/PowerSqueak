@@ -1,4 +1,4 @@
-accessing
+constants
 defaultTextBackgroundColor
 
 	^ Color transparent
