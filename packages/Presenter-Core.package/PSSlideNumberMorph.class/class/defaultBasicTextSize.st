@@ -1,4 +1,0 @@
-constants
-defaultBasicTextSize
-
-	^ 6

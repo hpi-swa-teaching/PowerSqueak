@@ -1,4 +1,4 @@
 as yet unclassified
 enterKey
 	
-	^ 'enter: {1}'
+	^ 'enter: {1}' asSymbol

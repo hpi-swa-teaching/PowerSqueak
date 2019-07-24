@@ -1,4 +1,4 @@
 as yet unclassified
 currentSlideNumberMorph
-
-		^ self tool currentSlide findDeeplyA: PSSlideNumberMorph
+	"We assume that there are no other PSTextMorphs in that Test"
+	^ self tool currentSlide findDeeplyA: PSTextMorph
