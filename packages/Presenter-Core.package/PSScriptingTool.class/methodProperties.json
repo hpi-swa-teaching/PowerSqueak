@@ -1,6 +1,5 @@
 {
 	"class" : {
-		"open" : "VO 7/10/2019 14:39",
 		"openFor:" : "VO 7/22/2019 14:47" },
 	"instance" : {
 		"accept:" : "VO 7/24/2019 12:16",
@@ -16,7 +15,6 @@
 		"createCodePaneSpec:" : "VO 7/10/2019 17:42",
 		"createMethodSelectionSpec:" : "VO 7/22/2019 12:46",
 		"createMethodSelectorAndArgumentsSpec:" : "VO 7/12/2019 15:54",
-		"createMethodSelectorSpec:" : "VO 7/10/2019 16:43",
 		"createScriptingAPISpec:" : "VO 7/22/2019 12:27",
 		"createWindowSpec:" : "VO 7/22/2019 12:24",
 		"currentMorphProperty" : "VO 7/22/2019 14:49",
