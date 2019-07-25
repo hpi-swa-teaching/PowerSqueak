@@ -7,6 +7,7 @@ Instance Variables
 	isInteractive:		<Boolean>
 	notification:		<PSFadingMessage>
 	previousOwner:		<Morph>
+	snapSize: 			<Number>
 
 currentSlide
 	- The slide currently displayed
@@ -19,3 +20,6 @@ notification
 
 previousOwner
 	- Saves the PSSlideContainer's owner when entering the presentation mode
+
+snapSize
+	- A value from 0 to 1 indicating the ratio in which the slide is divided into magnetic raster points
