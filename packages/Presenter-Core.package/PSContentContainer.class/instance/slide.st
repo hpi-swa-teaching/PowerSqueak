@@ -1,4 +1,4 @@
 accessing
 slide
 	
-	^ self firstOwnerSuchThat: [:owner | owner isPSSlide]
+	^ self firstOwnerSuchThat: [:each | each isPSSlide]
