@@ -1,10 +1,10 @@
 {
 	"class" : {
+		"defaultPadding" : "mb 7/25/2019 16:00",
 		"for:" : "LB 7/6/2018 18:05" },
 	"instance" : {
 		"content" : "WoC 6/15/2018 17:21",
 		"content:" : "LM 7/13/2018 14:19",
-		"defaultPadding" : "WoC 6/15/2018 17:31",
 		"initialize" : "LB 7/25/2018 12:12",
 		"remainingTime" : "LB 7/25/2018 12:12",
 		"remainingTime:" : "LB 7/25/2018 12:12",
@@ -13,4 +13,4 @@
 		"stepTime" : "LM 7/24/2018 15:44",
 		"totalVisibleTime" : "LM 7/13/2018 14:30",
 		"updateColor" : "LB 7/25/2018 12:12",
-		"withMessage:" : "MK 7/13/2018 18:02" } }
+		"withMessage:" : "mb 7/25/2019 16:01" } }
