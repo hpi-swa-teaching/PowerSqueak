@@ -1,4 +1,4 @@
-saving
+as yet unclassified
 clearSubdirectory: aString in: aDirectory
 
 	(aDirectory / aString) recursiveDelete.

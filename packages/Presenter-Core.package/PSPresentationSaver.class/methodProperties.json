@@ -2,11 +2,13 @@
 	"class" : {
 		"layoutDirectoryPrefix" : "VO 7/24/2019 15:08",
 		"layoutsDirectoryName" : "VO 7/24/2019 15:04",
+		"overwriteQuestion" : "VO 7/25/2019 12:23",
 		"slideDirectoryPrefix" : "VO 7/24/2019 15:08",
 		"slidesDirectoryName" : "VO 7/24/2019 14:58" },
 	"instance" : {
 		"askForPresentationDirectoryIn:" : "VO 7/24/2019 14:08",
 		"askForPresentationName" : "VO 7/24/2019 14:41",
+		"clearSubdirectory:in:" : "VO 7/25/2019 12:20",
 		"createDirectory:in:" : "VO 7/24/2019 14:48",
 		"defaultDirectory" : "VO 7/24/2019 14:02",
 		"defaultDirectoryName" : "VO 7/24/2019 14:02",
@@ -25,5 +27,6 @@
 		"saveSlides" : "VO 7/24/2019 15:11",
 		"saveSubmorphsOf:in:" : "VO 7/24/2019 15:00",
 		"slideDirectoryNameOf:" : "VO 7/24/2019 15:08",
+		"validateUsageOf:inDirectory:" : "VO 7/25/2019 12:23",
 		"warn:trueChoice:" : "VO 7/24/2019 14:40",
 		"warn:trueChoice:falseChoice:" : "VO 7/24/2019 14:40" } }
