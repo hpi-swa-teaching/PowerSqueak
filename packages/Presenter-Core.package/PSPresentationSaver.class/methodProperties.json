@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"defaultDirectoryName" : "VO 7/25/2019 14:24",
 		"layoutDirectoryPrefix" : "VO 7/24/2019 15:08",
 		"layoutsDirectoryName" : "VO 7/24/2019 15:04",
 		"overwriteQuestion" : "VO 7/25/2019 12:23",
@@ -11,8 +12,7 @@
 		"askForPresentationName" : "VO 7/24/2019 14:41",
 		"clearSubdirectory:in:" : "VO 7/25/2019 12:20",
 		"createDirectory:in:" : "VO 7/24/2019 14:48",
-		"defaultDirectory" : "VO 7/24/2019 14:02",
-		"defaultDirectoryName" : "VO 7/24/2019 14:02",
+		"defaultDirectory" : "VO 7/25/2019 14:25",
 		"layoutDirectoryNameOf:" : "VO 7/24/2019 15:23",
 		"presentation" : "VO 7/24/2019 14:01",
 		"presentation:" : "VO 7/24/2019 14:01",
