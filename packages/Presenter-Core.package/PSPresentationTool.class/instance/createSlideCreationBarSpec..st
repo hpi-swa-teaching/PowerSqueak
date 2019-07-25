@@ -11,9 +11,7 @@ createSlideCreationBarSpec: aBuilder
 	
 	buttonData := self slideCreationButtonData.
 	self setFrames: buttonData.
-	buttonData do: [:each| 
-		| button |
-		button := self createButtonSpec: each with: aBuilder.
-		panelSpec children add: button.].
+	panelSpec children addAll: (buttonData collect:
+		[:each | self createButtonSpec: each with: aBuilder]).
 	
 	^ panelSpec
