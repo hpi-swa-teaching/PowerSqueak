@@ -1,4 +1,4 @@
-as yet unclassified
+saving
 save: aPSPresentation
 
 	self new

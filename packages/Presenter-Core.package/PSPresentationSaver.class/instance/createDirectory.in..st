@@ -1,4 +1,4 @@
-as yet unclassified
+filesystem
 createDirectory: aString in: aFileDirectory
 
 	aFileDirectory createDirectory: aString.

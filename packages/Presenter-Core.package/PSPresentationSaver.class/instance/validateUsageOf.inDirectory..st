@@ -1,4 +1,4 @@
-as yet unclassified
+ui
 validateUsageOf: aString inDirectory: aFileDirectory 
 
 	self warn: PSPresentationSaver overwriteQuestion 

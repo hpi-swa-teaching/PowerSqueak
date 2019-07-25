@@ -1,4 +1,4 @@
-as yet unclassified
+saving
 saveSubmorphsOf: aSlide in: aDirectory.
 
 	aSlide allMorphsDo: [:each | each prepareToBeSaved].
