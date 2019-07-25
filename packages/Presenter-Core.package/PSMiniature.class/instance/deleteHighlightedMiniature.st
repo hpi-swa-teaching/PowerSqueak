@@ -1,4 +1,4 @@
-as yet unclassified
+context menu
 deleteHighlightedMiniature
 
 	self isHighlighted
