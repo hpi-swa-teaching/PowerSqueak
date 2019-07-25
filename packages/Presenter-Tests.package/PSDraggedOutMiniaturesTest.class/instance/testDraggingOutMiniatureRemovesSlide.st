@@ -2,6 +2,6 @@ as yet unclassified
 testDraggingOutMiniatureRemovesSlide
 
 	| theSlide |
-	theSlide := self slides at: 1.
+	theSlide := self slides first.
 	self dragOutMiniature: (self miniatureOf: theSlide).
 	self deny: (self slides includes: theSlide).

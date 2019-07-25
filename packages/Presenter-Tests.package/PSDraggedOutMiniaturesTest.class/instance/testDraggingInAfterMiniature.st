@@ -1,12 +1,9 @@
 as yet unclassified
 testDraggingInAfterMiniature
 
-	| firstSlide firstMiniature |
-	firstSlide := self slides at: 1.
-	firstMiniature := self miniatureOf: firstSlide.
+	| firstMiniature |
+	firstMiniature := self miniatureOf: self slides first.
 	self world doOneCycle.
-	self dragndrop: MouseEvent redButton
-		from: self miniature boundsInWorld center
-		to: (firstMiniature boundsInWorld center + (0@5)).
+	self dragInMiniature: self miniature after: firstMiniature.
 	
-	self assert: (self slides at: 2) equals: self slide.
+	self assert: self slides second equals: self slide.

@@ -1,4 +1,4 @@
 decaying
 isAbandoned: aMorph
 
-	^ aMorph owner = nil
+	^ aMorph owner isNil
