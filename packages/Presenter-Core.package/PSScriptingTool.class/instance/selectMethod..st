@@ -1,5 +1,5 @@
 accessing
-select: aSymbol
+selectMethod: aSymbol
 	
 	self 
 		selectedMethod: aSymbol;
