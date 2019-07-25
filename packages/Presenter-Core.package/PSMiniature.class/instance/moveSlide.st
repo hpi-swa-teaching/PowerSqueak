@@ -1,4 +1,4 @@
 context menu
 moveSlide 	
 	
-	self model openSlideMoveDialog
+	self model openSlideMoveDialogFor: self slide
