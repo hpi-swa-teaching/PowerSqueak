@@ -77,7 +77,6 @@
 		"testSlideCreationSelectsNewSlide" : "LM 7/25/2018 13:33",
 		"testSlideDeletionMovesSlideSelection" : "MK 7/25/2018 13:45",
 		"testSlideNavigationInPresentationMode" : "jb 7/25/2019 14:07",
-		"testSlideNumberLabelSelectsCorrectly" : "WoC 7/25/2018 13:08",
 		"testSlideRatioIsFixed" : "WoC 7/25/2018 13:56",
 		"testSlideResizeRegression" : "WoC 7/24/2018 17:29",
 		"testStayOnLastVisibleSlide" : "jb 7/25/2019 14:07",
