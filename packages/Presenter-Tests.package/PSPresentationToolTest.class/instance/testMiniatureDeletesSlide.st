@@ -6,4 +6,4 @@ testMiniatureDeletesSlide
 	miniature := self miniatureOf: slide.
 	
 	miniature deleteSlide.
-	self deny:((self slides) includes: slide)
+	self deny: (self slides includes: slide)
