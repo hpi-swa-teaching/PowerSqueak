@@ -1,4 +1,4 @@
 as yet unclassified
 invalidSyntaxScript
 
-	'self color:'
+	^ 'self color:'

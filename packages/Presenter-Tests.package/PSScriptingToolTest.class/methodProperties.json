@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"invalidSyntaxScript" : "VO 7/22/2019 14:29",
+		"invalidSyntaxScript" : "jb 7/25/2019 13:40",
 		"scriptingTool" : "VO 7/22/2019 14:19",
 		"scriptingTool:" : "VO 7/22/2019 14:19",
 		"selectSlideEnterScript" : "jb 7/25/2019 13:23",
@@ -11,7 +11,7 @@
 		"setUp" : "VO 7/22/2019 14:22",
 		"testCorrectSlidePassed" : "VO 7/24/2019 12:11",
 		"testCustomStepExecutesOnStep" : "VO 7/24/2019 12:03",
-		"testDenySavingInvalidSyntax" : "VO 7/24/2019 11:24",
+		"testDenySavingInvalidSyntax" : "jb 7/25/2019 13:36",
 		"testEnteringSlideExecutesScript" : "VO 7/24/2019 12:03",
 		"testLeavingSlideDoesntExecuteEnterScript" : "VO 7/24/2019 12:19",
 		"testScriptIsNotExecutedOnSave" : "VO 7/24/2019 12:03",
