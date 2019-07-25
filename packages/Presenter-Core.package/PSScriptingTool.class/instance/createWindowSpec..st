@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 createWindowSpec: aBuilder
 
 	^ aBuilder pluggableWindowSpec new

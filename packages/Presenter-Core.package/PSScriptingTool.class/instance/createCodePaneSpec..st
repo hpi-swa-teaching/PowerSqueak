@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 createCodePaneSpec: aBuilder
 
 	^ aBuilder pluggableCodePaneSpec new

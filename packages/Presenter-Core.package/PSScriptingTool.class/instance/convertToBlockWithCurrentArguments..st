@@ -1,4 +1,4 @@
-as yet unclassified
+string manipulation
 convertToBlockWithCurrentArguments: aText
 
 	^ self class

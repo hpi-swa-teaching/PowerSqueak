@@ -1,4 +1,4 @@
-nil
+toolbuilder
 createScriptingAPISpec: aBuilder
 
 	| windowSpec |

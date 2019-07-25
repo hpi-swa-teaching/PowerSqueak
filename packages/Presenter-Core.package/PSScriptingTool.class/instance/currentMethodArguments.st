@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 currentMethodArguments
 	
 	^ self class methodArgumentsOf: self selectedMethod

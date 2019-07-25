@@ -1,4 +1,4 @@
-nil
+toolbuilder
 buildWith: aBuilder
 
 	| window windowSpec |
