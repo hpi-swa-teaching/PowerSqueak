@@ -1,4 +1,4 @@
-as yet unclassified
+context menu
 addSubmorphContentMenuItemsOf: anObject
 
 	(anObject hasSubmorphWithProperty: #hasCustomActions)
