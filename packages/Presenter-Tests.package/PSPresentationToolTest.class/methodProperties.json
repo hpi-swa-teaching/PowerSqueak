@@ -27,7 +27,7 @@
 		"testBuildWith" : "WoC 7/24/2018 17:51",
 		"testCurrentMiniatureHighlighted" : "WoC 7/25/2018 13:52",
 		"testDefaultSlideCount" : "LM 7/25/2018 13:31",
-		"testDeleteFirstSlide" : "LM 7/25/2018 13:33",
+		"testDeleteFirstSlide" : "jb 7/25/2019 13:35",
 		"testDeletingMiniatureRemovesCorrespondingSlide" : "VO 7/3/2019 15:56",
 		"testDeletionDecreasesSlideCount" : "LM 7/25/2018 13:33",
 		"testDeletionRemovesSlide" : "LM 7/25/2018 13:34",
