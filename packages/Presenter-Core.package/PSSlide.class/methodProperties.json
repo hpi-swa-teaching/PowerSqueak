@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"newWith:" : "mb 6/5/2019 19:34" },
+		"newWith:" : "mb 6/5/2019 19:34",
+		"sideRatio" : "mb 7/25/2019 15:58" },
 	"instance" : {
 		"acceptDroppingMorph:event:" : "VO 6/19/2019 15:49",
 		"addContent:" : "mb 6/19/2019 16:36",
@@ -31,7 +32,6 @@
 		"resizeMorphHeightToFit:" : "jb 7/25/2019 15:15",
 		"resizeMorphToFit:" : "LB 5/18/2018 17:36",
 		"resizeMorphWidthToFit:" : "LM 5/18/2018 19:26",
-		"sideRatio" : "LB 7/6/2018 15:26",
 		"slideContainer" : "mb 6/19/2019 16:34",
 		"slideNumber" : "jb 7/25/2019 14:37",
 		"unhideSlide" : "kw 5/15/2019 15:42",
