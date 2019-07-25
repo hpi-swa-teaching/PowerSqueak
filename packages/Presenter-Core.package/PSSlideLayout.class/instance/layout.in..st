@@ -1,7 +1,7 @@
 layout
 layout: morph in: newBounds
 
-	| slide newExtent diffExtent proposedExtent |
+	| slide newExtent proposedExtent |
 	super layout: morph in: newBounds.
 
 	slide := morph firstSubmorph.
@@ -9,7 +9,6 @@ layout: morph in: newBounds
 	proposedExtent y / proposedExtent x > slide sideRatio
 		ifTrue: [newExtent := proposedExtent x @ (proposedExtent x * slide sideRatio)]
 		ifFalse: [newExtent := proposedExtent y / slide sideRatio @ proposedExtent y].
-	diffExtent := proposedExtent - newExtent.
 
 	slide 
 		extent: newExtent; 
