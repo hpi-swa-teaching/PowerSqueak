@@ -2,4 +2,6 @@ presentation serialization
 savePresentation
 
 	self slideContainer removeSelection.
-	PSPresentationSaver new save: self presentation
+	self 
+		warn: self class riskyOperationMessage 
+		trueChoise: [PSPresentationSaver save: self presentation]

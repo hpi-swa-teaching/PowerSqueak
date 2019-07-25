@@ -2,7 +2,7 @@ presentation serialization
 loadPresentation
 	
 	| presentations presentationName |
-	self warn: self riskyOperationMessage trueChoice: [] falseChoice: [ ^ self ].
+	self warn: self class riskyOperationMessage trueChoice: [] falseChoice: [ ^ self ].
 	presentations := self defaultDirectory directoryNames.
 	presentationName := UIManager default 
 							chooseFrom: presentations 

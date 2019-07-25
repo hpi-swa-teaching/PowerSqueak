@@ -4,4 +4,4 @@ testSavingShouldProvideWarning
 	self
 		should: [self tool savePresentation] 
 		raise: ProvideAnswerNotification 
-		description: self tool riskyOperationMessage.
+		description: self tool class riskyOperationMessage.
