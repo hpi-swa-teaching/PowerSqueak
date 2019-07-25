@@ -1,9 +1,14 @@
 {
 	"class" : {
+		"defaultDirectory" : "mb 7/25/2019 14:44",
+		"defaultDirectoryName" : "mb 7/25/2019 14:45",
 		"fileErrorReportString" : "VO 7/4/2019 17:20",
 		"filesLoadedSuccessfullyString" : "VO 7/4/2019 16:54",
 		"layoutDirectoryPrefix" : "JB 5/7/2019 21:51",
 		"layoutsDirectoryName" : "msob 4/30/2019 15:38",
+		"load" : "mb 7/25/2019 15:13",
+		"loadCorruptionMessage" : "mb 7/25/2019 14:57",
+		"loadQuestionMessage" : "mb 7/25/2019 14:51",
 		"metadataFileName" : "jb 7/25/2019 15:28",
 		"slideDirectoryPrefix" : "JB 5/7/2019 21:51",
 		"slideErrorReportString" : "VO 7/4/2019 17:29",
@@ -35,7 +40,7 @@
 		"loadMorphFromStream:testIn:" : "mb 6/12/2019 17:37",
 		"loadMorphInDirectory:fromFile:" : "jb 7/12/2019 15:44",
 		"loadMorphsFromDirectory:intoSlide:" : "jb 7/12/2019 15:43",
-		"loadPresentationFromDirectory:" : "mb 6/12/2019 18:10",
+		"loadPresentationFromDirectory:" : "mb 7/25/2019 15:32",
 		"loadSlideFromDirectory:" : "VO 7/4/2019 17:08",
 		"loadSlidesFrom:" : "VO 7/3/2019 17:52",
 		"morph:survivesOneCycleIn:" : "VO 7/22/2019 12:57",

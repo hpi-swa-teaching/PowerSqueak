@@ -1,4 +1,4 @@
-as yet unclassified
+method support
 methodProperties
 	"methodSelector -> {arguments . morphProperty} "
 	

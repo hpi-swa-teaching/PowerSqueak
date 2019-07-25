@@ -1,4 +1,4 @@
-as yet unclassified
+convenience
 morphPropertyOf: aSelector
 	
 	^ (self methodProperties at: aSelector) second
