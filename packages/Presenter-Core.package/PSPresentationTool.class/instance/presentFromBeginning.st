@@ -1,5 +1,5 @@
 menu bar
 presentFromBeginning
 	
-	self selectSlideNumber: 0.
+	self selectSlideNumber: 1.
 	self enablePresentationMode.
