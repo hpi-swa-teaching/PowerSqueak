@@ -5,7 +5,7 @@ initialize
 		presentation: PSPresentation newWithLayouts;
 		miniatures: Dictionary new;
 		advancedMenuBarButtons: OrderedCollection new;
-		currentSlideNumber: 0;
+		currentSlideNumber: 1;
 		snapActive: false;
 		presentationMode: false;
 		isInteractive: true
