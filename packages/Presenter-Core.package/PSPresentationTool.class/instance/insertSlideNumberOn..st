@@ -2,15 +2,12 @@ createSlideContent
 insertSlideNumberOn: aSlide
 
 	| slideNumberMorph |
-	slideNumberMorph := PSSlideNumberMorph new
-		setText: (self currentSlideNumber asString);
-		extent: aSlide extent / 12;
-		bottomRight: aSlide bottomRight - (aSlide extent / 50).
-	"slideNumberMorph := PSTextMorph new
-		setText: (self currentSlideNumber asString);
+	slideNumberMorph := PSTextMorph new
 		extent: aSlide extent / 12;
 		bottomRight: aSlide bottomRight;
+		changeFontSize: self class defaultSlideNumberSize;
 		selectFrom: 0 to: 0;
-		yourself."
+		yourself.
+	PSScriptingTool setStepIn: self class slideNumberStep for: slideNumberMorph.
 	aSlide addContent: slideNumberMorph
 	

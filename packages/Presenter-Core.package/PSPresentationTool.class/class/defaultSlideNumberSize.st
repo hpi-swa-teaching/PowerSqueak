@@ -1,0 +1,4 @@
+constants
+defaultSlideNumberSize
+
+	^ 6

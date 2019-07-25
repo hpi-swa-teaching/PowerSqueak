@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "PSSlideNumberMorph",
+		"presentation",
+		"presentationDirectory" ],
+	"name" : "PSPresentationSaver",
 	"pools" : [
 		 ],
-	"super" : "PSTextMorph",
+	"super" : "Object",
 	"type" : "normal" }

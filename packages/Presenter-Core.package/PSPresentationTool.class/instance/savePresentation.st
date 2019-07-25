@@ -2,4 +2,4 @@ presentation serialization
 savePresentation
 
 	self slideContainer removeSelection.
-	self presentation save
+	PSPresentationSaver new save: self presentation

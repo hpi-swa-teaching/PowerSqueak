@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"currentSlideNumberMorph" : "VO 6/6/2019 16:45",
+		"currentSlideNumberMorph" : "mb 7/24/2019 14:08",
 		"setUp" : "VO 6/6/2019 16:28",
-		"testSlideNumberDuplicationUpdatesSlideNumber" : "VO 7/3/2019 16:03" } }
+		"step" : "mb 7/24/2019 14:11",
+		"testSlideNumberDuplicationUpdatesSlideNumber" : "mb 7/24/2019 14:11" } }
