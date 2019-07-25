@@ -1,13 +1,10 @@
-testing
-filterEvent: evt for: aMorphOrNil
+events-processing
+filterEvent: anEvent for: aMorphOrNil
 	
 	self model isInteractive
 		ifFalse: [ | shortcuts |
-			shortcuts := evt commandKeyPressed
-				ifTrue: [self presentationCommandShortcuts]
-				ifFalse: [self presentationShortcuts].
-			(evt isKeyboard and: [evt isKeystroke])
-				ifTrue: [self in: shortcuts tryToEvaluate: evt].
-			 evt ignore].
-	
-	^ evt
+			shortcuts := self shortcutsFor: anEvent.
+			(anEvent isKeyboard and: [anEvent isKeystroke])
+				ifTrue: [self in: shortcuts tryToEvaluate: anEvent].
+			 anEvent ignore].
+	^ anEvent
