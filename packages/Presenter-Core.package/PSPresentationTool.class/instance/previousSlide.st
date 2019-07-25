@@ -1,4 +1,4 @@
 slide management
 previousSlide
 	
-	self selectSlideNumber: self previousVisibleSlideNumber
+	self selectSlideAt: self previousVisibleSlideNumber

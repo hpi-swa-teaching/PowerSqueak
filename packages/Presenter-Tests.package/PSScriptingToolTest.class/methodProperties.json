@@ -13,7 +13,7 @@
 		"testCustomStepExecutesOnStep" : "VO 7/24/2019 12:03",
 		"testDenySavingInvalidSyntax" : "jb 7/25/2019 13:36",
 		"testEnteringSlideExecutesScript" : "VO 7/24/2019 12:03",
-		"testLeavingSlideDoesntExecuteEnterScript" : "VO 7/24/2019 12:19",
+		"testLeavingSlideDoesntExecuteEnterScript" : "jb 7/25/2019 14:07",
 		"testScriptIsNotExecutedOnSave" : "VO 7/24/2019 12:03",
 		"testSwitchingToSlideExecutesEnterScript" : "VO 7/24/2019 12:03",
 		"testValidScriptIsSaved" : "VO 7/24/2019 11:22",

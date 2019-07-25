@@ -6,7 +6,7 @@ testMoveSlide
 	slide := self slides first.
 	
 	self 
-		selectSlideNumber: 1;
+		selectSlideAt: 1;
 		moveCurrentSlideTo: 3;
 		assert: (self slides indexOf: slide startingAt: 0) equals: 3.
 	

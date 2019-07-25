@@ -5,8 +5,8 @@ updateSlideMiniaturesCompletely
 	previousSelection := self currentSlideNumber.
 	self updateSlideMiniatures.
 	1 to: self slideCount do: [:index |
-		self selectSlideNumber: index.
+		self selectSlideAt: index.
 		self currentSlide redrawLater.
 		self currentSlide world displayWorldSafely.
 		self updateCurrentMiniature].
-	self selectSlideNumber: previousSelection
+	self selectSlideAt: previousSelection

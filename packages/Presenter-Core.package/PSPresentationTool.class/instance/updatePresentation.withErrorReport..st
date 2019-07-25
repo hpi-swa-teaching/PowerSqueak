@@ -3,6 +3,6 @@ updatePresentation: aPSPresentation withErrorReport: aString
 
 	self 
 		presentation: aPSPresentation;
-		selectSlideNumber: 1;
+		selectSlideAt: 1;
 		updateSlideMiniaturesCompletely.
 	UIManager inform: aString

@@ -3,5 +3,5 @@ moveSlide: aSlide to: aNumber
 
 	self presentation moveSlideAt: aSlide slideNumber to: aNumber.
     	self 
-		selectSlideNumber: aNumber;
+		selectSlideAt: aNumber;
 		updateSlideMiniatures
