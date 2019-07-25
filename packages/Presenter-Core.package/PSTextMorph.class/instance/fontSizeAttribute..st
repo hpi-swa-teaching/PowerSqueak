@@ -1,7 +1,7 @@
 styling
 fontSizeAttribute: aNumber
 
-	^ (PSScalingFontAttribute 
+	^ PSScalingFontAttribute 
 		styled: self class defaultTextStyle 
 		sized: aNumber 
-		scaledBy: self).
+		scaledBy: self
