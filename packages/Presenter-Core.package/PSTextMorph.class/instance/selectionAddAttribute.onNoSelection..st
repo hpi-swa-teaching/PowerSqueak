@@ -7,5 +7,5 @@ selectionAddAttribute: anAttribute onNoSelection: aBlock
 	interval size <= 0 
 		ifTrue: [interval := 1 to: self textMorph text size].
 	self addAttribute: anAttribute toInterval: interval.
-	interval size = self textMorph text string size 
+	interval size = self textMorph text size 
 		ifTrue: aBlock
