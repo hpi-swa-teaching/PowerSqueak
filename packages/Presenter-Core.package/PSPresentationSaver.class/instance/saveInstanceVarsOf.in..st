@@ -1,4 +1,4 @@
-as yet unclassified
+saving
 saveInstanceVarsOf: aSlide in: aDirectory
 
 	| instanceVars |

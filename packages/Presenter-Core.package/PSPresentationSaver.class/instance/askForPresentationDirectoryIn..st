@@ -1,4 +1,4 @@
-as yet unclassified
+ui
 askForPresentationDirectoryIn: aFileDirectory
 
 	| presentationName directory  |

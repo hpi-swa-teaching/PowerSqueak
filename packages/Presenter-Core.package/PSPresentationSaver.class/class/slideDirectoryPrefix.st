@@ -1,4 +1,4 @@
-as yet unclassified
+filesystem
 slideDirectoryPrefix
 	
 	^ PSPresentationLoader slideDirectoryPrefix

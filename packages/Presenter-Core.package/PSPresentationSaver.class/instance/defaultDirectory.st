@@ -1,6 +1,6 @@
-as yet unclassified
+filesystem
 defaultDirectory
 
-	^ (FileDirectory default / self defaultDirectoryName)
+	^ (FileDirectory default / self class defaultDirectoryName)
 		assureExistence;
 		yourself 

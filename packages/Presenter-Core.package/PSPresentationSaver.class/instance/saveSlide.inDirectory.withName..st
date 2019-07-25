@@ -1,4 +1,4 @@
-as yet unclassified
+saving
 saveSlide: aSlide inDirectory: parentDirectory withName: aString
 
 	| aDirectory |
