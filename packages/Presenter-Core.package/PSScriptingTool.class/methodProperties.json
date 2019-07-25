@@ -12,7 +12,7 @@
 		"stepInKey" : "jb 7/24/2019 13:55" },
 	"instance" : {
 		"accept:" : "jb 7/24/2019 13:40",
-		"buildWith:" : "jb 7/22/2019 15:19",
+		"buildWith:" : "VO 7/25/2019 14:05",
 		"code" : "VO 7/10/2019 17:41",
 		"code:" : "VO 7/10/2019 17:41",
 		"codePane" : "jb 7/22/2019 15:17",
@@ -23,7 +23,7 @@
 		"createCodePaneSpec:" : "VO 7/10/2019 17:42",
 		"createMethodSelectionSpec:" : "VO 7/22/2019 12:46",
 		"createMethodSelectorAndArgumentsSpec:" : "VO 7/12/2019 15:54",
-		"createScriptingAPISpec:" : "VO 7/22/2019 12:27",
+		"createScriptingToolSpec:" : "VO 7/25/2019 14:05",
 		"createWindowSpec:" : "VO 7/22/2019 12:24",
 		"currentMethodArguments" : "jb 7/24/2019 13:38",
 		"currentMorphProperty" : "jb 7/24/2019 13:37",

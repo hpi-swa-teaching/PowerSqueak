@@ -1,5 +1,5 @@
 toolbuilder
-createScriptingAPISpec: aBuilder
+createScriptingToolSpec: aBuilder
 
 	| windowSpec |
 	windowSpec := self createWindowSpec: aBuilder.
