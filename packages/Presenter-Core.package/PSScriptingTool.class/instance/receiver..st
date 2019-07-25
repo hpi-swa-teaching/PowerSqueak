@@ -1,4 +1,4 @@
 accessing
-receiver: anObject
+receiver: aMorph
 
-	receiver := anObject.
+	receiver := aMorph
