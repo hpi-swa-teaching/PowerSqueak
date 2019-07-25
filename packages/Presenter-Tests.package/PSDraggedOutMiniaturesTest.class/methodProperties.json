@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"dragInMiniature:after:" : "jb 7/25/2019 13:06",
+		"dragInMiniature:before:" : "jb 7/25/2019 13:07",
 		"dragOutMiniature:" : "VO 7/3/2019 15:46",
 		"miniature" : "VO 6/19/2019 17:24",
 		"miniature:" : "VO 6/19/2019 17:24",
@@ -12,8 +14,8 @@
 		"testDraggedOutMiniatureHasNoModel" : "VO 6/19/2019 17:29",
 		"testDraggedOutMiniatureHasNoPresentation" : "VO 6/19/2019 17:29",
 		"testDraggedOutMiniatureKeepsSlide" : "VO 6/19/2019 17:27",
-		"testDraggingInAfterMiniature" : "VO 6/19/2019 18:10",
-		"testDraggingInBeforeMiniature" : "VO 6/19/2019 18:09",
+		"testDraggingInAfterMiniature" : "jb 7/25/2019 13:07",
+		"testDraggingInBeforeMiniature" : "jb 7/25/2019 13:08",
 		"testDraggingOutMiniatureRemovesSlide" : "VO 7/3/2019 15:50",
 		"testMiniatureDoesntWantNonMiniature" : "VO 7/24/2019 13:34",
-		"testNoErrorWhenDroppingMiniatureOnDroppedMiniature" : "VO 6/20/2019 16:08" } }
+		"testNoErrorWhenDroppingMiniatureOnDroppedMiniature" : "jb 7/25/2019 13:09" } }
