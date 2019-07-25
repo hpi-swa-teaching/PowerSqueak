@@ -2,11 +2,7 @@ toolbuilder
 buildWith: aBuilder
 
 	| window windowSpec |
-	windowSpec := self createWindowSpec: aBuilder.
-	(self createAllSpecsWith: aBuilder) do: [:each | windowSpec children add: each].
+	windowSpec := self createPresentationToolSpec: aBuilder.
 	window := aBuilder build: windowSpec.
-	self createSlideContainerIn: (aBuilder widgetAt: #SlideViewport).		
-	self selectSlideNumber: 1.	
 	self afterBuildWith: aBuilder.	
-	self toolBuilder: aBuilder.
 	^ window
