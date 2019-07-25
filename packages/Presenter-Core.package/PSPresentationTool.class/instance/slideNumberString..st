@@ -4,5 +4,5 @@ slideNumberString: aText
 	| number prefix |
 	prefix := (aText asString subStrings: '/') at: 1 ifAbsent:[''].
 	number := prefix asInteger.
-	number ifNotNil: [self selectSlideNumber: number].
+	number ifNotNil: [self selectSlideAt: number].
 	self changed: #slideNumberString

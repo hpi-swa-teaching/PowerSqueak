@@ -4,5 +4,5 @@ testLeavingSlideDoesntExecuteEnterScript
 	self selectSlideEnterScript.
 	self setInteractScript.
 	self tool createSlide.
-	self tool selectSlideNumber: 2.
+	self tool selectSlideAt: 2.
 	self deny: self interacted.
