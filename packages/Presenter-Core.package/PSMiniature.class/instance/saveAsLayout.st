@@ -1,4 +1,4 @@
 initialization
 saveAsLayout	
 
-	self model openLayoutNameChooser
+	self model openLayoutNameChooserFor: self slide
