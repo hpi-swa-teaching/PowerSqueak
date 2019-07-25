@@ -1,10 +1,9 @@
 as yet unclassified
 testDraggingInBeforeMiniature
 
-	| firstSlide firstMiniature |
-	firstSlide := self slides at: 1.
-	firstMiniature := self miniatureOf: firstSlide.
+	| firstMiniature |
+	firstMiniature := self miniatureOf: self slides first.
 	self world doOneCycle.
 	self dragInMiniature: self miniature before: firstMiniature.
 	
-	self assert: (self slides at: 1) equals: self slide.
+	self assert: self slides first equals: self slide.

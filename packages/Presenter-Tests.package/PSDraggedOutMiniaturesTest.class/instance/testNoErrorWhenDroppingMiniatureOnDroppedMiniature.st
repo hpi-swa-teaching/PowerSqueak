@@ -2,7 +2,7 @@ as yet unclassified
 testNoErrorWhenDroppingMiniatureOnDroppedMiniature
 	
 	| anotherMiniature |
-	anotherMiniature := self miniatureOf: (self slides at:1). 
+	anotherMiniature := self miniatureOf: self slides first. 
 	self 
 		shouldnt:
 			[self dragInMiniature: anotherMiniature before: self miniature]
