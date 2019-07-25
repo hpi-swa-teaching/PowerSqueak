@@ -2,12 +2,7 @@ toolbuilder
 createSlideCreationBarSpec: aBuilder
 	
 	| panelSpec buttonData|
-	panelSpec := aBuilder pluggablePanelSpec new.
-	panelSpec
-		model: self;
-		frame: self slideCreationBarLayoutFrame;
-		name: #SlideCreationBar;
-		children: OrderedCollection new.
+	panelSpec := self createSlideCreationBarPanelSpec: aBuilder.
 	
 	buttonData := self slideCreationButtonData.
 	self setFrames: buttonData.
