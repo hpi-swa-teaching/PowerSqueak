@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newWithLayouts
 	
 	^ self new
