@@ -8,6 +8,9 @@ Instance Variables
 	presentation:		<PSPresentation>
 	presentationMode:		<Boolean>
 	slideContainer:		<PSSlideContainer>
+	snapActive: 	<Boolean>	
+	toolBuilder:	<ToolBuilder>
+	advancedMenuBarButtons: <Collection>
 
 isInteractive
 	- Shows whether the presentation is in interactive or noninteractive mode
@@ -26,3 +29,13 @@ presentationMode
 
 slideContainer
 	- The PSSlideContainer that contains and displays the currently selected slide
+
+snapActive
+	- Indicates whether snap is active
+
+toolBuilder
+	- The toolBuilder that was used to create this PowerSqueak, needed to create
+		the advancedMenuBarButtons
+	
+advancedMenuBarButtons
+	- All buttons currently in the advancedMenuBar
