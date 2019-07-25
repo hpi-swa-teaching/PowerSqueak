@@ -1,5 +1,5 @@
 filedirectory compatibility
 readOnlyFileNamed: aLocalName
 
-	self assert: (self / aLocalName) exists.
+	self checkExistance: (self / aLocalName).
 	^ (self / aLocalName) contents
