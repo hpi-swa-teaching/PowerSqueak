@@ -17,8 +17,8 @@ Squeak 5.0 is officially unsupported (see [Travis-ci](https://travis-ci.org/hpi-
 * [Build status](https://github.com/hpi-swa-teaching/PowerSqueak#build-status)
 * [Using PowerSqueak](https://github.com/hpi-swa-teaching/PowerSqueak#using-powersqueak)
 	* [Edit mode](https://github.com/hpi-swa-teaching/PowerSqueak#edit-mode)
-		* [Magnetic Raster](https://github.com/hpi-swa-teaching/PowerSqueak#magnetic-raster)
-		* [Menu Bar](https://github.com/hpi-swa-teaching/PowerSqueak/tree/SoSe19#menu-bar)
+		* [Snapping Raster](https://github.com/hpi-swa-teaching/PowerSqueak#snapping-raster)
+		* [Drag & Drop](https://github.com/hpi-swa-teaching/PowerSqueak#drag-&-drop)
 	* [Presentation mode](https://github.com/hpi-swa-teaching/PowerSqueak#presentation-mode)
 		* [Interactive/Non-Interactive mode](https://github.com/hpi-swa-teaching/PowerSqueak#interactivenon-interactive-mode)
 	* [saving and loading](https://github.com/hpi-swa-teaching/PowerSqueak#saving-and-loading)
@@ -56,17 +56,18 @@ You may also drop other Morphs onto slides, but be aware, that some features of 
 For advanced features like deleting morphs or resizing text, right-click the Morph.\
 <img src="pictures/right_click.PNG" alt="Right-click example" width="400">
 
-#### **Magnetic Raster**
-PowerSqueak supports a magnetic raster for easy layouting.
-If the magnetic raster is active, resizing a Morph will automatically snap the corners of the Morph to an imaginary raster.\
-To enable the magnetic raster click the button. It will change its color to show that it's activated. 
-You can select your snap size by clicking on the small arrow right next to the snap button.\
-<img src="pictures/snap.png" alt="How to enable magnetic raster" width=250>
-
-
-#### **Menu-Bar**
 You can now use the features in the Menu bar to edit your text. \
 <img src="pictures/menu-bar.png" alt="Advanced Menu Bar" width = 400>
+
+#### **Snapping Raster**
+PowerSqueak supports a snapping raster for easy layouting.
+If the snapping raster is active, resizing a Morph will automatically snap the corners of the Morph to an imaginary raster.\
+To enable the snapping raster click the button. It will change its color to show that it's activated. 
+You can select your snap size by clicking on the small arrow right next to the snap button.\
+<img src="pictures/snap.png" alt="How to enable raster" width=250>
+
+#### **Drag & Drop**
+You can drag a miniature slide with the left mouseclick and drop it anywhere. If you want to change the position of a miniature, drag the miniature and drop it on the lower half of the above slide. 
 
 ### **Presentation mode**
 To enter presentation mode, click the "Present" button.
@@ -125,3 +126,7 @@ You may also export your presentation to a list of .png files, which will get ex
 | --- | --- |
 | i | (de-)activate interactivity and (un-)hide cursor |
 | Esc | Leave presentation mode |
+
+Credits:
+  * Team 2018: Leon Bein, Tom Braun, Maximilian König, Jonas Zimmermann, Leon Matthes
+  * Team 2019: Mark Bader, Vincent Opitz, Julian Berger, Katharina Wille, Mona Sobhani 
