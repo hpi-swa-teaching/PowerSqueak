@@ -1,4 +1,4 @@
-as yet unclassified
+selection tests
 testNothingIsDeletedWhenNothingIsSelected
 
 	| submorphs |
