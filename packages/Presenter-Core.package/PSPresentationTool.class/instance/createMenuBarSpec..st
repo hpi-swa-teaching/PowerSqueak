@@ -1,12 +1,8 @@
 toolbuilder
 createMenuBarSpec: aBuilder 
 	
-	| panelSpec buttonData|
+	| panelSpec|
 	panelSpec := self createMenuBarPanelSpec: aBuilder.
-	
-	buttonData := self menuBarButtonData.
-	self setFrames: buttonData.
-	panelSpec children addAll: (buttonData collect:
-		[:each | self createButtonSpec: each with: aBuilder]).
-	
+	panelSpec children addAll:
+		(self createButtonSpecs: self menuBarButtonData with: aBuilder).
 	^ panelSpec
