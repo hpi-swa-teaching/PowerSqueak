@@ -1,5 +1,5 @@
 slide management
-toggleMagneticRaster
+toggleSnap
 
 	self snapActive: self snapActive not.
 	self changed: #snapButtonColor
