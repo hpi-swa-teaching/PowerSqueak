@@ -9,6 +9,7 @@
 		"slideNumberMorphNumber" : "jb 7/26/2019 13:57",
 		"slideNumberOf:" : "jb 7/26/2019 13:57",
 		"step" : "jb 7/26/2019 14:00",
+		"testInsertSlideNumberAddsSlideNumbersToAllSlides" : "jb 7/26/2019 15:11",
 		"testSlideNumberDecreasesWhenSlideBeforeCurrentSlideIsDeleted" : "jb 7/26/2019 14:07",
 		"testSlideNumberDoesntChangeWhenNewSlideIsCreatedAfterCurrentSlide" : "jb 7/26/2019 14:11",
 		"testSlideNumberDuplicationUpdatesSlideNumber" : "jb 7/26/2019 14:01",
