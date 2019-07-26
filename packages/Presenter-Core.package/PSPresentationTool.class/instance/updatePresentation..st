@@ -3,5 +3,5 @@ updatePresentation: aPSPresentation
 
 	self 
 		presentation: aPSPresentation;
-		selectSlideNumber: 1;
+		selectSlideAt: 1;
 		updateSlideMiniaturesCompletely
