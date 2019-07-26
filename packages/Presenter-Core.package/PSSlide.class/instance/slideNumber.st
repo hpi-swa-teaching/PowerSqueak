@@ -1,4 +1,4 @@
 accessing
 slideNumber
 	
-	^ self presentation slides indexOf: self
+	^ self presentation indexOf: self

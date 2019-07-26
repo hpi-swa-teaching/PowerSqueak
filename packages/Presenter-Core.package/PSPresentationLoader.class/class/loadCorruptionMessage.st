@@ -1,4 +1,4 @@
-accessing
+constants
 loadCorruptionMessage
 
 	^ 'I could not load the presentation. 

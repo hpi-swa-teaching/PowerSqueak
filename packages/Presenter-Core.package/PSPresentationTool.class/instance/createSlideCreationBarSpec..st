@@ -2,18 +2,11 @@ toolbuilder
 createSlideCreationBarSpec: aBuilder
 	
 	| panelSpec buttonData|
-	panelSpec := aBuilder pluggablePanelSpec new.
-	panelSpec
-		model: self;
-		frame: self slideCreationBarLayoutFrame;
-		name: #SlideCreationBar;
-		children: OrderedCollection new.
+	panelSpec := self createSlideCreationBarPanelSpec: aBuilder.
 	
 	buttonData := self slideCreationButtonData.
 	self setFrames: buttonData.
-	buttonData do: [:each| 
-		| button |
-		button := self createButtonSpec: each with: aBuilder.
-		panelSpec children add: button.].
+	panelSpec children addAll: (buttonData collect:
+		[:each | self createButtonSpec: each with: aBuilder]).
 	
 	^ panelSpec

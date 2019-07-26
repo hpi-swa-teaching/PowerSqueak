@@ -3,7 +3,7 @@ testCanLoadCompletelyEmptyPresentation
 
 	| directory errorReport |
 	directory := self mockCompletelyEmptyPresentationDirectory.
-	self loader loadPresentationFromDirectory: directory.
+	[self loader loadPresentationFromDirectory: directory] valueSupplyingAnswer: true.
 	errorReport := self loader slideErrors.
 	self
 		assert: (errorReport values select: [:each | each ~= 0]) isEmpty

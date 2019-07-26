@@ -1,4 +1,4 @@
 string manipulation
 methodSelectorAndArguments
 	
-	^ self selectedMethod asString format: self currentMethodArguments.
+	^ self selectedMethod asString format: self currentMethodArguments
