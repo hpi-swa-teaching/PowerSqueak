@@ -10,5 +10,9 @@
 		"submorphs" : "WoC 7/24/2018 17:55",
 		"tearDown" : "VO 5/15/2019 18:01",
 		"testAcceptDropImageFile" : "LM 7/25/2018 12:27",
+		"testCreatingArrowPutsMorphInHand" : "jb 7/26/2019 15:22",
+		"testCreatingCirclePutsMorphInHand" : "jb 7/26/2019 15:23",
+		"testCreatingLinePutsMorphInHand" : "jb 7/26/2019 15:23",
+		"testCreatingRectanglePutsMorphInHand" : "jb 7/26/2019 15:24",
 		"testTextFieldCreatedOnDoubleClick" : "WoC 7/25/2018 13:49",
 		"tool" : "VO 5/29/2019 16:18" } }
