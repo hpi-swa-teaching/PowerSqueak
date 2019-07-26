@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 validScript
 
 	^ 'self color: Color random'

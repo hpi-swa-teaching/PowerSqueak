@@ -1,4 +1,4 @@
-as yet unclassified
+scripting
 setInteractScript
 
 	self scriptingTool accept: 'self doButtonAction'
