@@ -3,7 +3,7 @@ insertSlideNumberOn: aSlide
 
 	| slideNumberMorph |
 	slideNumberMorph := PSTextMorph new
-		extent: aSlide extent / 12;
+		extent: aSlide extent * self class slideNumberScale;
 		bottomRight: aSlide bottomRight;
 		changeFontSize: self class defaultSlideNumberSize;
 		selectFrom: 0 to: 0;
