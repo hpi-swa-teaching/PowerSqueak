@@ -1,6 +1,6 @@
 ui
 validateUsageOf: aString inDirectory: aFileDirectory 
 
-	self warn: PSPresentationSaver overwriteQuestion 
+	self warn: self class overwriteQuestion 
 			trueChoice: [^ self clearSubdirectory: aString in: aFileDirectory] 
 			falseChoice: [^ self askForPresentationDirectoryIn: aFileDirectory]

@@ -2,5 +2,5 @@ toolbuilder
 snapButtonColor
 
 	^ self snapActive 
-		ifTrue: [PSPresentationTool highlightColor]
+		ifTrue: [self class highlightColor]
 		ifFalse: [Color transparent]
