@@ -2,10 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
+		"createSlideAfterIndex:" : "jb 7/26/2019 14:14",
 		"setUp" : "jb 7/26/2019 13:54",
 		"slideNumberMorph" : "jb 7/26/2019 13:54",
 		"slideNumberMorph:" : "jb 7/26/2019 13:54",
 		"slideNumberMorphNumber" : "jb 7/26/2019 13:57",
 		"slideNumberOf:" : "jb 7/26/2019 13:57",
 		"step" : "jb 7/26/2019 14:00",
-		"testSlideNumberDuplicationUpdatesSlideNumber" : "jb 7/26/2019 14:01" } }
+		"testSlideNumberDecreasesWhenSlideBeforeCurrentSlideIsDeleted" : "jb 7/26/2019 14:07",
+		"testSlideNumberDoesntChangeWhenNewSlideIsCreatedAfterCurrentSlide" : "jb 7/26/2019 14:11",
+		"testSlideNumberDuplicationUpdatesSlideNumber" : "jb 7/26/2019 14:01",
+		"testSlideNumberIncreasesWhenNewSlideIsCreatedBeforeCurrentSlide" : "jb 7/26/2019 14:09" } }
