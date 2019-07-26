@@ -1,4 +1,4 @@
-decaying
+decaying tests
 isAbandoned: aMorph
 
-	^ aMorph owner = nil
+	^ aMorph owner isNil

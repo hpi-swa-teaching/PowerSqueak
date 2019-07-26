@@ -4,12 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "LM 7/24/2018 17:57",
+	"commentStamp" : "VO 7/25/2019 15:18",
 	"instvars" : [
 		"currentSlide",
 		"previousOwner",
-		"isInteractive",
-		"notification" ],
+		"notification",
+		"selection",
+		"snapSize" ],
 	"name" : "PSSlideContainer",
 	"pools" : [
 		 ],

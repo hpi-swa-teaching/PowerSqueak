@@ -1,0 +1,4 @@
+constants
+unHighlightBorderColor
+
+	^ PSPresentationTool unHighlightColor 

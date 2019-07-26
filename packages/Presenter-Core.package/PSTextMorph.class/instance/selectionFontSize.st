@@ -2,5 +2,5 @@ styling
 selectionFontSize
 
 	^ (self selectionAttribute: PSScalingFontAttribute)
-		ifNil: [self defaultBasicTextSize]
+		ifNil: [self class defaultBasicTextSize]
 		ifNotNil: [:fontAttribute | fontAttribute basicTextSize]

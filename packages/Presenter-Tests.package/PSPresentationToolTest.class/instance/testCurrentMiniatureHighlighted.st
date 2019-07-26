@@ -3,5 +3,5 @@ testCurrentMiniatureHighlighted
 
 	5 timesRepeat: [self createSlide].
 	self 
-		selectSlideNumber: 5;
+		selectSlideAt: 5;
 		assert: self tool currentMiniature isHighlighted

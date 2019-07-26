@@ -4,9 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "LM 7/24/2018 17:50",
+	"commentStamp" : "VO 7/25/2019 15:08",
 	"instvars" : [
-		"errorReport",
+		"fileErrors",
+		"slideErrors",
 		"presentation",
 		"world" ],
 	"name" : "PSPresentationLoader",

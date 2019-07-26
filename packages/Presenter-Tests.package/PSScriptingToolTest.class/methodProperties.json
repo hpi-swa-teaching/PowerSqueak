@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"invalidSyntaxScript" : "jb 7/25/2019 13:40",
+		"scriptingTool" : "VO 7/22/2019 14:19",
+		"scriptingTool:" : "VO 7/22/2019 14:19",
+		"selectSlideEnterScript" : "jb 7/25/2019 13:23",
+		"selectStepScript" : "jb 7/25/2019 13:23",
+		"setInteractScript" : "VO 7/24/2019 12:03",
+		"setUp" : "VO 7/22/2019 14:22",
+		"testCorrectSlidePassed" : "VO 7/24/2019 12:11",
+		"testCustomStepExecutesOnStep" : "VO 7/24/2019 12:03",
+		"testDenySavingInvalidSyntax" : "jb 7/25/2019 13:36",
+		"testEnteringSlideExecutesScript" : "VO 7/24/2019 12:03",
+		"testLeavingSlideDoesntExecuteEnterScript" : "jb 7/25/2019 14:07",
+		"testScriptIsNotExecutedOnSave" : "VO 7/24/2019 12:03",
+		"testSwitchingToSlideExecutesEnterScript" : "VO 7/24/2019 12:03",
+		"testValidScriptIsSaved" : "VO 7/24/2019 11:22",
+		"validScript" : "VO 7/24/2019 11:20" } }

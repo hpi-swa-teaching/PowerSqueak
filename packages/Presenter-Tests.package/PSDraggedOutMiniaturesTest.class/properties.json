@@ -1,0 +1,15 @@
+{
+	"category" : "Presenter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"slide",
+		"miniature" ],
+	"name" : "PSDraggedOutMiniaturesTest",
+	"pools" : [
+		 ],
+	"super" : "PSPresentationToolTest",
+	"type" : "normal" }

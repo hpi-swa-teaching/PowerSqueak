@@ -3,5 +3,8 @@ openInsertMenu
 
 	self openMenuWith: {
 		{'Text field' . #newTextField}.
-		{'Image' . #newImageField}
+		{'Image' . #newImageField}.
+		{'Shape' . #openShapeChooser}.
+		{'Slide Number' . #insertSlideNumber}.
+		{'Slide Numbers' . #insertSlideNumbers}
 	}

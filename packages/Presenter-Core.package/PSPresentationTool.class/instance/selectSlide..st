@@ -1,4 +1,4 @@
 slide management
 selectSlide: aSlide
 
-	self selectSlideNumber: (self presentation indexOf: aSlide)
+	self selectSlideAt: aSlide slideNumber

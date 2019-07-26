@@ -1,0 +1,4 @@
+testing
+isPSSlide
+
+	^ true

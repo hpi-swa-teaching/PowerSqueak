@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PSMockDictionary",
+	"pools" : [
+		 ],
+	"super" : "Dictionary",
+	"type" : "normal" }

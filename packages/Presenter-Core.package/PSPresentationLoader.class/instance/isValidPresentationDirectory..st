@@ -1,9 +1,5 @@
 directory checking
 isValidPresentationDirectory: aDirectory
 
-	| slidesDirectory |
-	slidesDirectory := aDirectory / self slidesDirectoryName.
-	^ slidesDirectory exists
-		and: [slidesDirectory directoryNames isEmpty not]
-		and: [slidesDirectory directoryNames allSatisfy:  [:each | 
-				self checkSlideDirectory: slidesDirectory / each]]
+	^ (self isValidContentDirectory: aDirectory / self slidesDirectoryName namesSatisfy: [:each | self checkSlideDirectoryName: each]) and:
+		(self isValidContentDirectory: aDirectory / self layoutsDirectoryName namesSatisfy: [:each | self checkLayoutDirectoryName: each])

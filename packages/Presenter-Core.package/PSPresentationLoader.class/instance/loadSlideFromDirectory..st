@@ -1,10 +1,9 @@
 slide loading
 loadSlideFromDirectory: aDirectory
 
-	| slide sortedMorphFiles |
-	slide := self presentation createSlideBack.
-	sortedMorphFiles := self sortedMorphFiles: aDirectory fileNames.
-	sortedMorphFiles do: [:each |
-		(self loadMorphInDirectory: aDirectory fromFile: each)
-			ifNotNil: [:morph | slide addMorphBack: morph]].
+	| slide|
+	slide := PSSlide new.
+	self slideErrors at: aDirectory localName put: 0.
+	self loadMorphsFromDirectory: aDirectory intoSlide: slide.
+	self loadMetadataFrom: aDirectory for: slide.
 	^ slide

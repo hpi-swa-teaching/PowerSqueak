@@ -1,0 +1,4 @@
+constants
+defaultTextBackgroundColor
+
+	^ Color transparent

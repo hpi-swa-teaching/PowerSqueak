@@ -1,0 +1,4 @@
+initialize-release
+initializeAdvancedMenuBar
+
+	self advancedMenuBarButtons: OrderedCollection new

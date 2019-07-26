@@ -1,4 +1,4 @@
-presentation loading
+loading
 morphLoadingStreamFor: aByteArray
 
 	^ (MultiByteBinaryOrTextStream with: aByteArray) 

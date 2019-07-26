@@ -2,5 +2,5 @@ context menu tests
 testContextMenu
 
 	self 
-		assertContextMenuContent: self textField 
-		equals: (self textField owner defaultContextMenuContent, self textField customContextMenuContent)
+		assertContextMenuContent: self textField owner
+		equals: (PSContextMenu generateListFrom: self textField owner defaultActions, self textField customActions)

@@ -1,7 +1,6 @@
 layouts
 openSlideLayoutChooser
-
-	(UIManager default
-		chooseFrom: self slideLayoutNames keys
-		values: self slideLayoutNames values
-		title: 'Choose a predefined layout') value
+	
+	self presentation slideLayouts
+		ifEmpty: [self showNoLayoutsDialog]
+		ifNotEmpty: [self openSlideLayoutChooserUnchecked]

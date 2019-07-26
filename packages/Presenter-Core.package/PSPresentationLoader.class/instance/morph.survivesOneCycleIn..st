@@ -5,7 +5,8 @@ morph: aMorph survivesOneCycleIn: aWorld
 	| debuggersBefore newDebuggers |
 	debuggersBefore := Debugger allInstances.
 	aMorph openInWorld: aWorld.
-	[aWorld doOneCycle]
+	[aWorld doOneCycle.
+	aMorph step]
 		on: Error
 		do: [^false].
 	newDebuggers := Debugger allInstances difference: debuggersBefore.

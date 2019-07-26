@@ -4,6 +4,6 @@ deleteSlideAt: anIndex
 	| deletedSlide |
 	deletedSlide :=  self presentation deleteSlideAt: anIndex.
 	self currentSlideNumber >= anIndex 
-		ifTrue: [self selectSlideNumber: (self currentSlideNumber - 1 max: self minimumSlideCount)].
+		ifTrue: [self selectSlideAt: (self currentSlideNumber - 1 max: self class minimumSlideCount)].
 	self miniatures removeKey: deletedSlide ifAbsent: [].
 	self updateSlideMiniatures

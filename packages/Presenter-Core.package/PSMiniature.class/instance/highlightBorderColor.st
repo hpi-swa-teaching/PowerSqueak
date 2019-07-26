@@ -1,4 +1,0 @@
-accessing
-highlightBorderColor
-
-	^ PSPresentationTool highlightColor 

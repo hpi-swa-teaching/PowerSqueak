@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "VO 7/26/2019 11:08",
+	"instvars" : [
+		 ],
+	"name" : "PSContextMenu",
+	"pools" : [
+		 ],
+	"super" : "MenuMorph",
+	"type" : "normal" }

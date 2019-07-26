@@ -1,0 +1,15 @@
+{
+	"category" : "Presenter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"saver",
+		"presentation" ],
+	"name" : "PSPresentationSaverTest",
+	"pools" : [
+		 ],
+	"super" : "PSUITestCase",
+	"type" : "normal" }

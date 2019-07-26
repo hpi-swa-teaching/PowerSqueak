@@ -1,5 +1,5 @@
 contentHandling
 layoutFractionsOf: aPoint
 
-	^ aPoint - self position / self extent
+	^ (aPoint - self position) / self extent
 	

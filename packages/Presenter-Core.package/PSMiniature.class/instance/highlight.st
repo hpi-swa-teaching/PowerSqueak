@@ -1,5 +1,5 @@
-accessing
+updating
 highlight
 
-	self borderColor: self highlightBorderColor.
+	self borderColor: self class highlightBorderColor.
 	self updateImage 

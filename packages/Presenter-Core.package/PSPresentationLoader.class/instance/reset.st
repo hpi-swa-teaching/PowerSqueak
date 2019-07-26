@@ -2,5 +2,6 @@ initialize-release
 reset
 
 	self 
-		errorReport: Dictionary new;
-		presentation: PSPresentation new
+		fileErrors: Dictionary new;
+		slideErrors: Dictionary new;		
+		presentation: PSPresentation new.

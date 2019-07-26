@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"scriptingTool" ],
+	"name" : "PSScriptingToolTest",
+	"pools" : [
+		 ],
+	"super" : "PSInteractableMorphTest",
+	"type" : "normal" }

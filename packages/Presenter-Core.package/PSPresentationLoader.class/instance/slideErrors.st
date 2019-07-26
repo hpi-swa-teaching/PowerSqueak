@@ -1,0 +1,4 @@
+accessing
+slideErrors
+
+	^ slideErrors

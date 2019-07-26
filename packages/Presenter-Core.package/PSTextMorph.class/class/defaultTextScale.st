@@ -1,0 +1,4 @@
+constants
+defaultTextScale
+
+	^ 1

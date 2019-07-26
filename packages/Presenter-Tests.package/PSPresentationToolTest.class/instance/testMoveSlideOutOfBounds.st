@@ -6,7 +6,7 @@ testMoveSlideOutOfBounds
 	slide := self slides first.
 	
 	self 
-		selectSlideNumber: 1;
+		selectSlideAt: 1;
 		moveCurrentSlideTo: 100;  	"no slide with number 100 exists"
 		assert: (self slides indexOf: slide startingAt: 0) equals: 5.
 	

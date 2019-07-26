@@ -1,0 +1,4 @@
+constants
+minimumSlideCount
+
+	^ 1

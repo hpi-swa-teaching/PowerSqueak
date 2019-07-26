@@ -1,0 +1,4 @@
+constants
+instanceVarsToBeSaved
+
+	^ {#isHidden} asOrderedCollection

@@ -2,4 +2,5 @@ initialize-release
 initialize
 
 	super initialize.
-	self initializeStyle
+	self initializeStyle.
+	self selection: PSNullContentContainer new.
