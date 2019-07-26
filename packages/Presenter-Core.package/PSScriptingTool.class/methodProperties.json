@@ -12,7 +12,7 @@
 		"stepInArguments" : "mb 7/24/2019 14:17",
 		"stepInKey" : "jb 7/24/2019 13:55" },
 	"instance" : {
-		"accept:" : "jb 7/25/2019 15:43",
+		"accept:" : "jb 7/26/2019 12:03",
 		"afterBuildWith:" : "jb 7/25/2019 14:14",
 		"buildWith:" : "jb 7/25/2019 14:14",
 		"canCompile:" : "jb 7/25/2019 15:43",
@@ -40,4 +40,5 @@
 		"selectedIndex:" : "VO 7/22/2019 12:38",
 		"selectedMethod" : "VO 7/10/2019 17:36",
 		"selectedMethod:" : "VO 7/10/2019 17:36",
+		"setCurrentMorphPropertyTo:" : "jb 7/26/2019 12:03",
 		"updateCode" : "VO 7/10/2019 18:24" } }
