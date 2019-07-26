@@ -1,4 +1,4 @@
 convenience
 step
 
-	self currentSlideNumberMorph owner step
+	self slideNumberMorph owner step

@@ -9,5 +9,6 @@ insertSlideNumberOn: aSlide
 		selectFrom: 0 to: 0;
 		yourself.
 	PSScriptingTool setStepIn: self class slideNumberStep for: slideNumberMorph.
-	aSlide addContent: slideNumberMorph
+	aSlide addContent: slideNumberMorph.
+	^ slideNumberMorph
 	
