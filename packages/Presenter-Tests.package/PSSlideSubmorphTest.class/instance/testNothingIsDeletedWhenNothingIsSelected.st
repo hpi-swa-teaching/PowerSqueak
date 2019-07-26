@@ -1,5 +1,5 @@
 selection tests
-testDeleteWhenNothingIsSelected
+testNothingIsDeletedWhenNothingIsSelected
 
 	| submorphs |
 	submorphs := self slide submorphs.
