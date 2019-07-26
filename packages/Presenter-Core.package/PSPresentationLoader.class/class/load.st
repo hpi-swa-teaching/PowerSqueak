@@ -7,4 +7,6 @@ load
 							chooseFrom: presentations 
 							values: presentations 
 							title: self loadQuestionMessage.
-	presentationName ifNotNil: [^ self new loadPresentationFromDirectory: self defaultDirectory / presentationName]
+	presentationName 
+		ifNil: [^ nil]
+		ifNotNil: [^ self new loadPresentationFromDirectory: self defaultDirectory / presentationName]
