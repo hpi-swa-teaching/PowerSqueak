@@ -1,8 +1,6 @@
 presentation serialization
 loadPresentation
 	
-	| presentation |
 	self warn: self class riskyOperationMessage trueChoice: [] falseChoice: [^ self].
-	presentation := PSPresentationLoader load.
-	presentation
+	PSPresentationLoader load
 		ifNotNil:  [:aPresentation | self updatePresentation: aPresentation]
