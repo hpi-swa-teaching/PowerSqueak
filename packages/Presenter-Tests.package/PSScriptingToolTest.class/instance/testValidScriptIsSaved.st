@@ -1,4 +1,4 @@
-as yet unclassified
+script saving tests
 testValidScriptIsSaved
 
 	self scriptingTool accept: self validScript.

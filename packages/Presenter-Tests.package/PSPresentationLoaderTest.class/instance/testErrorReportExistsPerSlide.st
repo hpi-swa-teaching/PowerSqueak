@@ -1,4 +1,4 @@
-presentation loading
+presentation loading tests
 testErrorReportExistsPerSlide
 
 	| directory errorReport entries |

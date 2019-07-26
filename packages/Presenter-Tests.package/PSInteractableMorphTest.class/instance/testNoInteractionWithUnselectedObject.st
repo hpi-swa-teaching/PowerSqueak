@@ -1,4 +1,4 @@
-as yet unclassified
+interaction tests
 testNoInteractionWithUnselectedObject
 	
 	self slideContainer removeSelection.

@@ -1,4 +1,4 @@
-as yet unclassified
+script execution tests
 testCorrectSlidePassed
 
 	| slideHash |

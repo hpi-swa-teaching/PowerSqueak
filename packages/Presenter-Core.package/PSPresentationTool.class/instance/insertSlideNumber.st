@@ -1,5 +1,5 @@
 createSlideContent
 insertSlideNumber
 
-	self insertSlideNumberOn: self currentSlide
+	^ self insertSlideNumberOn: self currentSlide
 	

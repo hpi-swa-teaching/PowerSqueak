@@ -1,10 +1,11 @@
-as yet unclassified
+slide number tests
 testSlideNumberDuplicationUpdatesSlideNumber
 
-	| previousSlideNumber |
-	previousSlideNumber := self currentSlideNumberMorph text string asInteger.
+	| previousSlideNumber container |
+	previousSlideNumber := self slideNumberMorphNumber.
 	self tool duplicateCurrentSlide.
 	self tool nextSlide.
-	self step.
-	self assert: self currentSlideNumberMorph text string asInteger equals: previousSlideNumber + 1
+	container := self tool currentSlide firstSubmorph.
+	container step.
+	self assert: (self slideNumberOf: container content) equals: previousSlideNumber + 1
 	
