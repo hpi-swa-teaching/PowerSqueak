@@ -6,10 +6,8 @@ hideButtonData
 	
 	self slide isHidden 
 		ifTrue:
-			[dict at: #contextMenuLabel put: 'Unhide'.
-			dict at: #action put: #unhideSlide]
+			[dict addAll: {#contextMenuLabel -> 'Unhide'. #action -> #unhideSlide}]
 		 ifFalse:
-			[dict at: #contextMenuLabel put: 'Hide'.
-			dict at: #action put: #hideSlide].
+			[dict addAll: {#contextMenuLabel -> 'Hide'. #action -> #hideSlide}].
 			
 	^ dict
