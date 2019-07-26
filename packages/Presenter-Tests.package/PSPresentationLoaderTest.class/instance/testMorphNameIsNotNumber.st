@@ -1,4 +1,4 @@
-directory checking
+directory checking tests
 testMorphNameIsNotNumber
 
 	| presentationDirectory |

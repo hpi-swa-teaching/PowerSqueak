@@ -1,4 +1,4 @@
-presentation loading
+presentation loading tests
 testCanLoadCompletelyEmptyPresentation
 
 	| directory errorReport |
