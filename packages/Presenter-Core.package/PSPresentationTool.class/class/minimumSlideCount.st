@@ -1,4 +1,4 @@
-slide management
+constants
 minimumSlideCount
 
 	^ 1
