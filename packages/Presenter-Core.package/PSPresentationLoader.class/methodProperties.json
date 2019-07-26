@@ -40,7 +40,7 @@
 		"loadMetadataFrom:for:" : "jb 7/25/2019 15:32",
 		"loadMorphFromStream:" : "LM 7/24/2018 15:22",
 		"loadMorphFromStream:testIn:" : "mb 6/12/2019 17:37",
-		"loadMorphInDirectory:fromFile:" : "jb 7/12/2019 15:44",
+		"loadMorphInDirectory:fromFile:" : "mb 7/26/2019 16:05",
 		"loadMorphsFromDirectory:intoSlide:" : "jb 7/12/2019 15:43",
 		"loadPresentationFromDirectory:" : "jb 7/26/2019 14:35",
 		"loadSlideFromDirectory:" : "jb 7/26/2019 14:26",

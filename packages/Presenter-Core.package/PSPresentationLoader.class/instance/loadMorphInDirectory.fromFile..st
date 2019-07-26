@@ -3,5 +3,7 @@ loadMorphInDirectory: aFileDirectory fromFile: aFileName
 
 	| morph |
 	morph := self loadMorphFromStream: (aFileDirectory readOnlyFileNamed: aFileName).
-	morph ifNil: [self slideErrors at: aFileDirectory localName incrementBy: 1].
+	morph ifNil: [ | previousErrors |
+		previousErrors := self slideErrors at: aFileDirectory localName.
+		self slideErrors at: aFileDirectory localName put: previousErrors + 1].
 	^ morph
