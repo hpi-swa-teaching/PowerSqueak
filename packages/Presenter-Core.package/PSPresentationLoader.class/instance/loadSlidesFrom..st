@@ -7,4 +7,4 @@ loadSlidesFrom: aDirectory
 		[sortedDirectories := self sortedSubdirectories: slidesPath.
 		sortedDirectories do: [:each |
 			self loadSlideFromDirectory: slidesPath / each].
-		self presentation minimumSlideCount timesRepeat: [self presentation deleteSlideAt: 1]]
+		self presentation class minimumSlideCount timesRepeat: [self presentation deleteSlideAt: 1]]

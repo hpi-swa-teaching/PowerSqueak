@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"instanceVarsToBeSaved" : "mb 7/26/2019 11:32",
 		"newWith:" : "mb 6/5/2019 19:34",
 		"sideRatio" : "mb 7/25/2019 15:58" },
 	"instance" : {
@@ -15,7 +16,6 @@
 		"handlesMouseDown:" : "WoC 5/22/2018 19:23",
 		"hideSlide" : "kw 5/15/2019 15:41",
 		"initialize" : "kw 5/15/2019 16:06",
-		"instanceVarsToBeSaved" : "VO 7/24/2019 15:21",
 		"isHidden" : "kw 5/15/2019 15:41",
 		"isHidden:" : "VO 7/1/2019 16:12",
 		"isImageFileName:" : "WoC 7/24/2018 15:00",

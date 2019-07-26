@@ -2,5 +2,5 @@ slide management
 clampSlideNumber: aNumber
 
 	^ aNumber 
-			clampLow: self minimumSlideCount
+			clampLow: self class minimumSlideCount
 			high: self slideCount
