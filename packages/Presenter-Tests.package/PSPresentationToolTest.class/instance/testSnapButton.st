@@ -1,5 +1,5 @@
 button tests
-testMagneticRasterButton
+testSnapButton
 
 	| button modeBefore |
 	button := self window allMorphs detect: 
