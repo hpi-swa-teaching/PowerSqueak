@@ -3,6 +3,6 @@ createDirectoryStructure: anAssociation
 
 	| directory |
 	directory := self named: anAssociation key.
-	anAssociation value do: [:each |
-		directory subdirectories add: (self from: each) ].
+	directory subdirectories addAll:
+		(anAssociation value collect: [:each | self from: each]).
 	^ directory
