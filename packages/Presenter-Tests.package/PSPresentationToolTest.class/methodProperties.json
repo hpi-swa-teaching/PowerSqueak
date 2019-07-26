@@ -59,6 +59,7 @@
 		"testMiniatureSelects" : "WoC 7/25/2018 13:53",
 		"testMiniatureUnhide" : "mb 5/16/2019 13:38",
 		"testMoveSlide" : "jb 7/25/2019 14:07",
+		"testMoveSlideFromMiniatureMethodMovesSlide" : "jb 7/26/2019 15:37",
 		"testMoveSlideOutOfBounds" : "jb 7/25/2019 14:07",
 		"testMovedSlideStayCurrentSlide" : "jb 7/25/2019 14:07",
 		"testNextSlide" : "jb 7/25/2019 14:07",
