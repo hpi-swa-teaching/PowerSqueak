@@ -1,5 +1,5 @@
 as yet unclassified
-testDeleteWhenNothingIsSelected
+testNothingIsDeletedWhenNothingIsSelected
 
 	| submorphs |
 	submorphs := self slide submorphs.
