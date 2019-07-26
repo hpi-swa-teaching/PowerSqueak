@@ -1,4 +1,4 @@
-as yet unclassified
+selection tests
 testUnselectByClicking
 
 	self click: MouseEvent redButton at: (self morph leftCenter - (1@1)).

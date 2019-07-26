@@ -1,4 +1,4 @@
-as yet unclassified
+selection tests
 testSelectByClicking
 	
 	self click: MouseEvent redButton at: (self morph boundsInWorld center).
