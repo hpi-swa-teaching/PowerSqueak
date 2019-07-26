@@ -1,4 +1,4 @@
 accessing
-slideLayouts: anObject
+slideLayouts: aDictionary
 
-	slideLayouts := anObject
+	slideLayouts := aDictionary

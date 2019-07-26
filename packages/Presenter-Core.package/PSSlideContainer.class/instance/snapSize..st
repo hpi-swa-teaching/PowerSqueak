@@ -1,4 +1,4 @@
 accessing
-snapSize: anObject
+snapSize: aNumber
 
-	snapSize := anObject
+	snapSize := aNumber

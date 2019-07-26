@@ -1,4 +1,4 @@
-accessing
+constants
 instanceVarsToBeSaved
 
 	^ {#isHidden} asOrderedCollection
