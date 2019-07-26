@@ -1,12 +1,8 @@
 toolbuilder
 createSlideCreationBarSpec: aBuilder
 	
-	| panelSpec buttonData|
+	| panelSpec|
 	panelSpec := self createSlideCreationBarPanelSpec: aBuilder.
-	
-	buttonData := self slideCreationButtonData.
-	self setFrames: buttonData.
-	panelSpec children addAll: (buttonData collect:
-		[:each | self createButtonSpec: each with: aBuilder]).
-	
+	panelSpec children addAll: 
+		(self createButtonSpecs: self slideCreationButtonData with: aBuilder).
 	^ panelSpec
