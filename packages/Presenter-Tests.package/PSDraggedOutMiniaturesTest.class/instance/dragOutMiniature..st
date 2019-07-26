@@ -1,4 +1,4 @@
-as yet unclassified
+dragging
 dragOutMiniature: aMiniature
 
 	self dragndrop: MouseEvent redButton

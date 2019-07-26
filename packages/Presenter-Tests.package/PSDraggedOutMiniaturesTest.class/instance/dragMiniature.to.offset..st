@@ -1,4 +1,4 @@
-as yet unclassified
+dragging
 dragMiniature: aMiniature to: anotherMiniature offset: aPoint
 
 	self dragndrop: MouseEvent redButton

@@ -1,4 +1,4 @@
-as yet unclassified
+dragging in tests
 testDraggingInBeforeMiniature
 
 	| firstMiniature |

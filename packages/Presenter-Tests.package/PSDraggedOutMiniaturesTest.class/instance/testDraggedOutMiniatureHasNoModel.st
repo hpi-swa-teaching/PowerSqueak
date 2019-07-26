@@ -1,4 +1,4 @@
-as yet unclassified
+dragging out tests
 testDraggedOutMiniatureHasNoModel
 
 	self assert: self miniature model equals: nil.
