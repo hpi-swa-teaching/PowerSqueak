@@ -1,4 +1,4 @@
-as yet unclassified
+instance variable test
 testInstanceVariablesCollectionIsComplete
 
 	| aDictionary |
