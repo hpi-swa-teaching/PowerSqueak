@@ -1,6 +1,10 @@
 instance creation
 forSlide: aPSSlide
 
-	^ self new 
+	| miniature |
+	miniature := self new 
 		slide: aPSSlide;
-		yourself
+		yourself.
+	aPSSlide isHidden
+		ifTrue: [miniature hideSlide].
+	^ miniature

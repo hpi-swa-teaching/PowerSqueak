@@ -3,13 +3,13 @@ testSelectSlideClamps
 
 	self 
 		createSlide;
-		selectSlideNumber: 3;
+		selectSlideAt: 3;
 		assert: self currentSlide = self slides last.
 	
 	self 
-		selectSlideNumber: 0;
+		selectSlideAt: 0;
 		assert: self currentSlide = self slides first.
 	
 	self 
-		selectSlideNumber: -1;
+		selectSlideAt: -1;
 		assert: self currentSlide = self slides first.

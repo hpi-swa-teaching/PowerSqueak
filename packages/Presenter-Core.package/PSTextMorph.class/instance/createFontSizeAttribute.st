@@ -3,5 +3,5 @@ createFontSizeAttribute
 
 	 ^ PSScalingFontAttribute 
 		styled: self class defaultTextStyle  
-		sized: self defaultBasicTextSize 
+		sized: self class defaultBasicTextSize 
 		scaledBy: self

@@ -1,4 +1,0 @@
-accessing
-minimumSlideCount
-
-	^ 1

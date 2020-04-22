@@ -1,4 +1,0 @@
-accessing
-defaultTextScale
-
-	^ 1

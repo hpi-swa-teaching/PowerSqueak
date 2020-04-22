@@ -1,0 +1,4 @@
+constants
+defaultDirectory
+
+	^ PSPresentationLoader defaultDirectory

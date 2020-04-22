@@ -1,6 +1,6 @@
 event handling
-mouseDown: evt 
-
-	self ifAnyHandleContains: evt position 
-		do: [:handle | ^ evt hand newMouseFocus: handle]. 
-	evt hand grabMorph: self content
+mouseDown: anEvent
+	
+	self ifAnyHandleContains: anEvent position 
+		do: [:handle | ^ anEvent hand newMouseFocus: handle]. 
+	anEvent hand grabMorph: self content

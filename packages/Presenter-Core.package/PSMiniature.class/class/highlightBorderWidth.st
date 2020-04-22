@@ -1,0 +1,4 @@
+constants
+highlightBorderWidth
+
+	^ 5

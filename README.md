@@ -4,6 +4,7 @@ A presentation tool for the Squeak development platform
 
 Supported platforms:
 * Squeak 5.1
+* Squeak 5.2
 
 Squeak 6.0/Trunk is also a target plattform, but due to the fast changing nature of Trunk, certain versions of Squeak Trunk may not work.
 Please check [Travis-ci](https://travis-ci.org/hpi-swa-teaching/PowerSqueak) for the current build status.
@@ -16,7 +17,8 @@ Squeak 5.0 is officially unsupported (see [Travis-ci](https://travis-ci.org/hpi-
 * [Build status](https://github.com/hpi-swa-teaching/PowerSqueak#build-status)
 * [Using PowerSqueak](https://github.com/hpi-swa-teaching/PowerSqueak#using-powersqueak)
 	* [Edit mode](https://github.com/hpi-swa-teaching/PowerSqueak#edit-mode)
-		* [Magnetic Raster](https://github.com/hpi-swa-teaching/PowerSqueak#magnetic-raster)
+		* [Snapping Raster](https://github.com/hpi-swa-teaching/PowerSqueak#snapping-raster)
+		* [Drag & Drop](https://github.com/hpi-swa-teaching/PowerSqueak#drag-&-drop)
 	* [Presentation mode](https://github.com/hpi-swa-teaching/PowerSqueak#presentation-mode)
 		* [Interactive/Non-Interactive mode](https://github.com/hpi-swa-teaching/PowerSqueak#interactivenon-interactive-mode)
 	* [saving and loading](https://github.com/hpi-swa-teaching/PowerSqueak#saving-and-loading)
@@ -48,21 +50,24 @@ To open PowerSqueak either
 	<img src="pictures/apps-drawer.png" alt="Open PowerSqueak in the Apps menu" width="250">
 
 ### **Edit mode**
-During edit mode, you can use the buttons at the top to create and navigate slides.
-To create slides from templates or delete slides, use the "Slide" menu in the menu bar.
-To add slide elements like text or images, use the "Insert" menu to create a textfield/image in hand.
+During edit mode, you can use the menu to save, load or export a presentation. You can insert a text field, an image, a shape or slide numbers with the "insert" button. You can hide, delete, duplicate, move or save a slide as a layout with the "slide" button in the menu bar (see shortcuts). 
 You may also drop other Morphs onto slides, but be aware, that some features of those Morphs might not work as expected (scaling most of the time does not work correctly).
 
 For advanced features like deleting morphs or resizing text, right-click the Morph.\
-<img src="pictures/right-click.png" alt="Right-click example" width="400">
+<img src="pictures/right_click.PNG" alt="Right-click example" width="400">
 
-#### **Magnetic Raster**
-PowerSqueak supports a magnetic raster for easy layouting.
-If the magnetic raster is active, resizing a Morph will automatically smap the corners of the Morph to an imaginary raster.\
-To enable the magnetic raster click:\
-<img src="pictures/magnetic-raster.png" alt="How to enable magnetic raster" width=250>\
-The button will change color, to indicate, that the raster is active\
-<img src="pictures/magnetic-raster-active.png" alt="Magnetic raster is enabled" width=250>
+You can now use the features in the Menu bar to edit your text. \
+<img src="pictures/menu-bar.png" alt="Advanced Menu Bar" width = 400>
+
+#### **Snapping Raster**
+PowerSqueak supports a snapping raster for easy layouting.
+If the snapping raster is active, resizing a Morph will automatically snap the corners of the Morph to an imaginary raster.\
+To enable the snapping raster click the button. It will change its color to show that it's activated. 
+You can select your snap size by clicking on the small arrow right next to the snap button.\
+<img src="pictures/snap.png" alt="How to enable raster" width=250>
+
+#### **Drag & Drop**
+You can drag a miniature slide with the left mouseclick and drop it anywhere. If you want to change the position of a miniature, drag the miniature and drop it on the lower half of the above slide. 
 
 ### **Presentation mode**
 To enter presentation mode, click the "Present" button.
@@ -100,14 +105,16 @@ In the other image you can then load the presentation as usual in PowerSqueak.
 
 You may also export your presentation to a list of .png files, which will get exported into the ```PSPresentationsExports``` folder in your Squeak VMS directory
 
-### **List of shortcuts**
-#### **Global schortcuts**
+#### **List of shortcuts**
+### **Global schortcuts**
 | Key | Action|
 | ---- | ---- |
 | right arrow/arrow down/page down | next slide |
 | left arrow/arrow up/page up | previous slide |
 | Number keys | Jump to a slide number (0 = last slide) |
 | Cmd + t | Create a text field in hand |
+| delete | Delete slide (miniature needs to be selected) |
+| delete | Delete morph (morph needs to be selected and for deleting a text field, mouse needs to be outside of morph)
 
 ### **Edit mode shortcuts**
 | Key | Action |
@@ -119,3 +126,7 @@ You may also export your presentation to a list of .png files, which will get ex
 | --- | --- |
 | i | (de-)activate interactivity and (un-)hide cursor |
 | Esc | Leave presentation mode |
+
+Credits:
+  * Team 2018: Leon Bein, Tom Braun, Maximilian König, Jonas Zimmermann, Leon Matthes
+  * Team 2019: Mark Bader, Vincent Opitz, Julian Berger, Katharina Wille, Mona Sobhani 

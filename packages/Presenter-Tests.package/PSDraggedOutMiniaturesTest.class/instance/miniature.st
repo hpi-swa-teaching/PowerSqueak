@@ -1,0 +1,4 @@
+accessing
+miniature
+
+	^ miniature

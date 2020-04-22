@@ -1,5 +1,5 @@
-accessing
+updating
 unHighlight
 
 	self isHighlighted ifTrue: [ self updateImage ].
-	self borderColor: Color transparent
+	self borderColor: self class unHighlightBorderColor.

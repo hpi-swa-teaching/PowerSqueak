@@ -1,4 +1,0 @@
-accessing
-defaultWidth
-
-	^ 80

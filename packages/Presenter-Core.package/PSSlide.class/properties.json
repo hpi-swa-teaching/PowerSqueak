@@ -4,9 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "LM 7/24/2018 17:55",
+	"commentStamp" : "VO 7/25/2019 15:14",
 	"instvars" : [
-		 ],
+		"isHidden",
+		"presentation" ],
 	"name" : "PSSlide",
 	"pools" : [
 		 ],

@@ -1,0 +1,4 @@
+filesystem
+slidesDirectoryName
+	
+	^ PSPresentationLoader slidesDirectoryName

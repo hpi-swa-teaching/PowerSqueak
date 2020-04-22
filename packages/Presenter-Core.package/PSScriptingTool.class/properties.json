@@ -1,0 +1,18 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "VO 7/25/2019 15:49",
+	"instvars" : [
+		"receiver",
+		"code",
+		"selectedMethod",
+		"selectedIndex",
+		"codePane" ],
+	"name" : "PSScriptingTool",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

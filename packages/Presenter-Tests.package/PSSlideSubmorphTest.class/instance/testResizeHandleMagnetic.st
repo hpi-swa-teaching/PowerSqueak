@@ -2,7 +2,8 @@ container tests
 testResizeHandleMagnetic
 	
 	| bottomRightFractions | 
-	self slide model magneticRasterActive: true.
+	self tool snapActive: true.
+	self selectContainer.
 	self 
 		dragndrop: MouseEvent redButton 
 		from: self morph bottomRight 

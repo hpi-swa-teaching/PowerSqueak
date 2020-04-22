@@ -1,4 +1,9 @@
-event handling
+event-processing
 mouseDown: evt
 
-	self model selectSlide: self slide
+	evt hand
+		waitForClicksOrDrag: self
+		event: evt
+		selectors: #(#click: #doubleClick: #doubleClickTimeout: #startDrag:)
+		threshold: HandMorph dragThreshold
+	

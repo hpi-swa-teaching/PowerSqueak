@@ -1,9 +1,10 @@
 geometry
 extent: aPoint
 
-	(self extent closeTo: aPoint) ifTrue: [^ self].
-	super extent: aPoint.
+	| clampedExtent |
+	clampedExtent := aPoint max: self class minimumExtent.
+	(self extent closeTo: clampedExtent) ifTrue: [^ self].
+	super extent: clampedExtent.
 	self 
 		resizeChild;
 		placeHandles
-	 

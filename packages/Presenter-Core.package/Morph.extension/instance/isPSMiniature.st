@@ -1,0 +1,4 @@
+*Presenter-Core
+isPSMiniature
+
+	 ^ false

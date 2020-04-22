@@ -7,5 +7,4 @@ addResizeHandles
 			addHandleAt: #topRight;
 			addHandleAt: #bottomRight;
 			addHandleAt: #bottomLeft;
-			placeHandles;
-			hasHandles: true]
+			placeHandles]

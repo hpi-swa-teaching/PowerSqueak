@@ -1,4 +1,4 @@
 accessing
 isHighlighted
 
-	^ self borderColor = self highlightBorderColor
+	^ self borderColor = self class highlightBorderColor

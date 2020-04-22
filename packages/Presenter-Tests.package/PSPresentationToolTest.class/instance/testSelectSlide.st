@@ -3,9 +3,9 @@ testSelectSlide
 
 	self 
 		createSlide;
-		selectSlideNumber: 1;
+		selectSlideAt: 1;
 		assert: self currentSlide = self slides first.
 	
 	self 
-		selectSlideNumber: 2;
+		selectSlideAt: 2;
 		assert: self currentSlide = self slides second

@@ -1,0 +1,3 @@
+accessing
+isFullScreenMode
+	^ isFullScreenMode

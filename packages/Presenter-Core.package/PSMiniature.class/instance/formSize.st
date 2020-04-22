@@ -1,4 +1,4 @@
 accessing
 formSize
 
- 	^ self defaultWidth @ (self defaultWidth * self slide sideRatio)
+ 	^ self class defaultWidth @ (self class defaultWidth * self slide class sideRatio)

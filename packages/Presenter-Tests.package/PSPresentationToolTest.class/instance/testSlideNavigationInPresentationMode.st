@@ -3,10 +3,10 @@ testSlideNavigationInPresentationMode
 
 	self 
 		createSlide;
-		selectSlideNumber: 1;
+		selectSlideAt: 1;
 		enablePresentationMode.
 		
 	self 
 		assert: self slideContainer currentSlide equals: self currentSlide;
-		selectSlideNumber: 2;
+		selectSlideAt: 2;
 		assert: self slideContainer currentSlide equals: self currentSlide

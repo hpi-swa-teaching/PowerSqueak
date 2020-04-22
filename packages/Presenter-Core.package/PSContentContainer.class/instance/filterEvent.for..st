@@ -1,9 +1,8 @@
 event handling
-filterEvent: evt for: aMorphOrNil
+filterEvent: anEvent for: aMorphOrNil
 	
-	(self containsPoint: evt position) ifTrue: [
-		evt isMouseDown ifTrue: [
-			evt yellowButtonPressed ifTrue: [
-				self invokeContextMenu.
-				evt ignore]]].
-	^ evt
+	(self containsPoint: anEvent position) ifTrue: [
+		anEvent isMouseDown ifTrue: [
+			anEvent yellowButtonPressed ifTrue: [self handleYellowButton: anEvent].
+			anEvent redButtonPressed ifTrue:[self handleRedButton: anEvent]]].
+	^ anEvent

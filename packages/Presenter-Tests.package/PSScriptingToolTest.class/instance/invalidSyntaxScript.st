@@ -1,0 +1,4 @@
+accessing
+invalidSyntaxScript
+
+	^ 'self color:'

@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "VO 7/25/2019 14:52",
+	"instvars" : [
+		 ],
+	"name" : "PSNullContentContainer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

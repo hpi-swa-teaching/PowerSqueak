@@ -6,4 +6,5 @@ initialize
 		initializeTextAttribute;
 		initializeProperties;
 		initializeStyle.
-	self textMorph releaseParagraph
+	self textMorph releaseParagraph.
+	self selectAll.

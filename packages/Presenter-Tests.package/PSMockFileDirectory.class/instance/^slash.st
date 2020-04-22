@@ -3,6 +3,6 @@ filedirectory compatibility
 
 	^ self subdirectories 
 		detect: [:each | each name = aString]
-		ifNone: [(PSMockFileDirectory named: aString)
+		ifNone: [(self class named: aString)
 						exists: false;
 						yourself]

@@ -1,4 +1,4 @@
-decaying
+decaying tests
 testNotDecaysBeforeFadingTime
 
 	self stepCount - 1 
