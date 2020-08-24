@@ -1,0 +1,4 @@
+systemwindow-compatibility
+isActive
+
+	^ false

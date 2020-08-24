@@ -6,12 +6,13 @@ os:
   - osx
 
 smalltalk:
-  - Squeak-5.0
-  - Squeak-5.1
-  - Squeak-5.2
-  - Squeak-trunk
+  - Squeak32-5.0
+  - Squeak32-5.1
+  - Squeak64-5.2
+  - Squeak64-5.3
+  - Squeak64-trunk
 
 matrix:
   allow_failures:
-    - smalltalk: Squeak-5.0
-    - smalltalk: Squeak-trunk
+    - smalltalk: Squeak32-5.0
+    - smalltalk: Squeak64-trunk

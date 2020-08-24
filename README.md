@@ -5,6 +5,7 @@ A presentation tool for the Squeak development platform
 Supported platforms:
 * Squeak 5.1
 * Squeak 5.2
+* Squeak 5.3
 
 Squeak 6.0/Trunk is also a target plattform, but due to the fast changing nature of Trunk, certain versions of Squeak Trunk may not work.
 Please check [Travis-ci](https://travis-ci.org/hpi-swa-teaching/PowerSqueak) for the current build status.
@@ -27,7 +28,7 @@ Squeak 5.0 is officially unsupported (see [Travis-ci](https://travis-ci.org/hpi-
 ## **Installation Instructions**
 For easy installation, please first install [Metacello](https://github.com/Metacello/metacello).
 
-Then run the following code in your Squeak 5.1/6.0(trunk) image:
+Then run the following code in your Squeak image:
 ``` smalltalk
 Metacello new
 	baseline: 'Presenter';
@@ -45,7 +46,7 @@ Alternatively, download the .sar file from the [latest release](https://github.c
 
 ## **Using PowerSqueak**
 To open PowerSqueak either
-*	run: ``` PSPresentationTool open. ```
+*	run: `PSPresentationTool open. `
 *	click PowerSqueak in the "Apps" drop-down-menu\
 	<img src="pictures/apps-drawer.png" alt="Open PowerSqueak in the Apps menu" width="250">
 
@@ -94,8 +95,8 @@ Leaving the presentation mode also enables interactivity and unhides the cursor.
 PowerSqueak can save and load presentations to/from the file system.
 
 Use the corresponding save/load buttons in the "File" menu to save/load the presentation.
-If you want to view the saved files, go to the ```PSPresentation``` directory in your Squeak VMs directory.
-You can share presentations by copying any presentation in the ```PSPresentation``` directory into the ```PSPresentation``` directory of another image.
+If you want to view the saved files, go to the `PSPresentation` directory in your Squeak VMs directory.
+You can share presentations by copying any presentation in the `PSPresentation` directory into the `PSPresentation` directory of another image.
 In the other image you can then load the presentation as usual in PowerSqueak.
 
 ``` diff
@@ -103,7 +104,7 @@ In the other image you can then load the presentation as usual in PowerSqueak.
 - It is recommended, that you save your image before every save/load operation in PowerSqueak
 ```
 
-You may also export your presentation to a list of .png files, which will get exported into the ```PSPresentationsExports``` folder in your Squeak VMS directory
+You may also export your presentation to a list of .png files, which will get exported into the `PSPresentationsExports` folder in your Squeak VMS directory
 
 #### **List of shortcuts**
 ### **Global schortcuts**
