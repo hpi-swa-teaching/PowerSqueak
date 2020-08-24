@@ -1,6 +1,6 @@
 OrderedDictionary {
-	'packages\/BaselineOfPresenter.package' : #SquotCypressCodeSerializer,
-	'packages\/Presenter-Core.package' : #SquotCypressCodeSerializer,
-	'packages\/Presenter-Tests.package' : #SquotCypressCodeSerializer,
-	'packages\/Presenter-Compatibility-Tests.package' : #SquotCypressCodeSerializer
+	'packages/BaselineOfPresenter.package' : #SquotCypressCodeSerializer,
+	'packages/Presenter-Core.package' : #SquotCypressCodeSerializer,
+	'packages/Presenter-Tests.package' : #SquotCypressCodeSerializer,
+	'packages/Presenter-Compatibility-Tests.package' : #SquotCypressCodeSerializer
 }

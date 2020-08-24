@@ -2,4 +2,4 @@ styling
 changeFontSize: aNumber
 
 	self addAttribute: (self fontSizeAttribute: aNumber).
-	self textMorph releaseParagraph
+	self relayoutText.
