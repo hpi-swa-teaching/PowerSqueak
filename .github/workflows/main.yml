@@ -11,7 +11,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        smalltalk: [ Squeak64-trunk, Pharo64-stable ]
+        smalltalk: [ Squeak64-trunk, Squeak64-5.3 ]
         os: [ubuntu-latest]
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
@@ -20,15 +20,18 @@ jobs:
       - uses: hpi-swa/setup-smalltalkCI@1.1.0
         with:
           smalltalk-version: ${{matrix.smalltalk}}
-          #smalltalkCI-source: 'MrModder/smalltalkCI'
-          #smalltalkCI-branch: 'lcov'
+          smalltalkCI-source: 'MrModder/smalltalkCI'
+          smalltalkCI-branch: 'lcov'
       - run: smalltalkci -s ${{ matrix.smalltalk }}
         shell: bash
         timeout-minutes: 15
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
       - name: Copy lcov output
         run: |
           ls ${SMALLTALK_CI_BUILD}
+          ls .
           mkdir coverage
           cp ${SMALLTALK_CI_BUILD}/lcov.info coverage
         
