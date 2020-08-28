@@ -33,12 +33,15 @@ jobs:
           # Smalltalk image selection (see smalltalkCI's list of supported images)
           smalltalk-version: ${{matrix.smalltalk}}
           # GitHub slug of the smalltalkCI source repository
-          smalltalkCI-source: MrModder/smalltalkCI
+          smalltalkCI-source: 'MrModder/smalltalkCI'
           # Branch or tag to use from smalltalkCI repository
-          smalltalkCI-branch: lcov
+          smalltalkCI-branch: 'lcov'
+      - run: smalltalkci -s ${{ matrix.smalltalk }}
+        shell: bash
+        timeout-minutes: 15
           
       # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Copy lcov output
         run: |
           ls ${SMALLTALK_CI_BUILD}
           mkdir coverage
@@ -56,12 +59,6 @@ jobs:
           # Set to true if you are running parallel jobs, then use "parallel_finished: true" for the last action.
           parallel: true
           flag-name: run-${{matrix.smalltalk}}
-
-
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
 
       
 
