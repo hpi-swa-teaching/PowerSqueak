@@ -30,10 +30,7 @@ jobs:
           
       - name: Copy lcov output
         run: |
-          ls ${SMALLTALK_CI_BUILD}
-          ls .
-          mkdir coverage
-          cp ${SMALLTALK_CI_BUILD}/lcov.info coverage
+          ls -a .
         
       - name: Coveralls GitHub Action
         uses: coverallsapp/github-action@v1.1.1
@@ -41,7 +38,7 @@ jobs:
           # 
           github-token: ${{ secrets.GITHUB_TOKEN }}
           # Path to lcov file
-          # path-to-lcov: ${SMALLTALK_CI_BUILD}/lcov.info
+          path-to-lcov: .smalltalkCI/_builds/lcov.info
           parallel: true
           flag-name: run-${{matrix.smalltalk}}
 
