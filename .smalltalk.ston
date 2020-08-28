@@ -10,7 +10,8 @@ SmalltalkCISpec {
   
   #testing: {
      #coverage: {
-      #packages: [ 'Presenter-Core' ]
+      #packages: [ 'Presenter-Core' ],
+      #format: #lcov
      }
    }
 }
