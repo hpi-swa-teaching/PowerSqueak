@@ -28,9 +28,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
-      - name: Copy lcov output
-        run: |
-          ls -a .
+      - run: ls -a .
+      - run: pwd
         
       - name: Coveralls GitHub Action
         uses: coverallsapp/github-action@v1.1.1
@@ -38,7 +37,7 @@ jobs:
           # 
           github-token: ${{ secrets.GITHUB_TOKEN }}
           # Path to lcov file
-          path-to-lcov: .smalltalkCI/_builds/lcov.info
+          path-to-lcov: /home/runner/.smalltalkCI/_builds/lcov.info
           parallel: true
           flag-name: run-${{matrix.smalltalk}}
 
