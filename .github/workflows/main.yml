@@ -1,0 +1,76 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Smalltalk-CI
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [ smalltalkci-beta ]
+  pull_request:
+    branches: [ smalltalkci-beta ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  test:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        smalltalk: [ Squeak64-trunk, Pharo64-stable ]
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: ${{ matrix.smalltalk }}
+        # You may pin to the exact commit or the version.
+        # uses: hpi-swa/setup-smalltalkCI@0cb033f4796a2321b2b132f2883125fc72f9e4cc
+        uses: hpi-swa/setup-smalltalkCI@1.1.0
+        with:
+          # Smalltalk image selection (see smalltalkCI's list of supported images)
+          smalltalk-version: ${{matrix.smalltalk}}
+          # GitHub slug of the smalltalkCI source repository
+          smalltalkCI-source: MrModder/smalltalkCI
+          # Branch or tag to use from smalltalkCI repository
+          smalltalkCI-branch: lcov
+          
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          ls ${SMALLTALK_CI_BUILD}
+          mkdir coverage
+          cp ${SMALLTALK_CI_BUILD}/lcov.info coverage
+        
+      - name: Coveralls GitHub Action
+        # You may pin to the exact commit or the version.
+        # uses: coverallsapp/github-action@348853a262cc37fa2f8abe2827729d193cbb00dc
+        uses: coverallsapp/github-action@v1.1.1
+        with:
+          # 
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          # Path to lcov file
+          path-to-lcov: ${SMALLTALK_CI_BUILD}/lcov.info
+          # Set to true if you are running parallel jobs, then use "parallel_finished: true" for the last action.
+          parallel: true
+          flag-name: run-${{matrix.smalltalk}}
+
+
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      
+
+  finish:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+    - name: Coveralls Finished
+      uses: coverallsapp/github-action@master
+      with:
+        github-token: ${{ secrets.github_token }}
+        parallel-finished: true
