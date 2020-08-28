@@ -17,12 +17,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: ${{ matrix.smalltalk }}
-        uses: hpi-swa/setup-smalltalkCI@1.1.0
+      - uses: hpi-swa/setup-smalltalkCI@1.1.0
         with:
           smalltalk-version: ${{matrix.smalltalk}}
-          smalltalkCI-source: 'MrModder/smalltalkCI'
-          smalltalkCI-branch: 'lcov'
+          #smalltalkCI-source: 'MrModder/smalltalkCI'
+          #smalltalkCI-branch: 'lcov'
       - run: smalltalkci -s ${{ matrix.smalltalk }}
         shell: bash
         timeout-minutes: 15
