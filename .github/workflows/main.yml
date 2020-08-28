@@ -27,9 +27,6 @@ jobs:
         timeout-minutes: 15
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-      - run: ls -a .
-      - run: pwd
         
       - name: Coveralls GitHub Action
         uses: coverallsapp/github-action@v1.1.1
