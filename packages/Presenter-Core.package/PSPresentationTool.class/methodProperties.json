@@ -47,7 +47,7 @@
 		"createSlideCreationBarSpec:" : "jb 7/26/2019 11:38",
 		"createSlideFromLayout:" : "mb 6/19/2019 16:37",
 		"createSlideViewportSpec:" : "LM 7/6/2018 17:58",
-		"createWindowSpec:" : "LM 7/6/2018 17:56",
+		"createWindowSpec:" : "LM 7/31/2023 17:04",
 		"currentMiniature" : "LB 6/29/2018 17:28",
 		"currentSlide" : "LM 7/13/2018 18:12",
 		"currentSlideNumber" : "LM 5/6/2018 15:15",
@@ -59,6 +59,7 @@
 		"dropDownMenuButtonData" : "jb 6/6/2019 17:23",
 		"duplicateCurrentSlide" : "VO 7/3/2019 16:07",
 		"duplicateSlide:" : "VO 7/3/2019 16:06",
+		"editName" : "LM 7/31/2023 17:10",
 		"enableNonInteractiveMode" : "LB 7/6/2018 17:24",
 		"enablePresentationMode" : "VO 5/15/2019 19:17",
 		"enterFullScreen" : "mb 5/8/2019 16:09",
@@ -102,7 +103,7 @@
 		"newTextField" : "LB 5/25/2018 16:43",
 		"nextSlide" : "jb 7/25/2019 14:07",
 		"nextVisibleSlideNumber" : "VO 7/2/2019 09:15",
-		"openFileMenu" : "mb 7/3/2019 16:17",
+		"openFileMenu" : "LM 7/31/2023 17:06",
 		"openImageField:" : "LB 5/18/2018 17:35",
 		"openInsertMenu" : "mb 6/19/2019 16:25",
 		"openLayoutNameChooserFor:" : "jb 7/25/2019 12:24",
@@ -168,4 +169,5 @@
 		"viewPortLayoutFrame" : "VO 7/25/2019 12:25",
 		"wantsSteps" : "LB 6/29/2018 17:04",
 		"warn:trueChoice:falseChoice:" : "mb 7/25/2019 13:37",
-		"warn:trueChoise:" : "mb 7/25/2019 13:23" } }
+		"warn:trueChoise:" : "mb 7/25/2019 13:23",
+		"windowTitle" : "LM 7/31/2023 17:02" } }

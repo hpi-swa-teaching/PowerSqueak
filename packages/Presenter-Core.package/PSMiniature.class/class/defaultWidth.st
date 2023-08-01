@@ -1,4 +1,4 @@
 constants
 defaultWidth
 
-	^ 80
+	^ 100 * RealEstateAgent scaleFactor

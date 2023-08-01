@@ -5,6 +5,6 @@ initialize
 	self 
 		initializeTextAttribute;
 		initializeProperties;
-		initializeStyle.
+		applyUserInterfaceTheme.
 	self textMorph releaseParagraph.
 	self selectAll.
