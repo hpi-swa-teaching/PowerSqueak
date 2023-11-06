@@ -7,4 +7,5 @@ defaultActions
 		self bringToFrontData.
 		self sendToBackData.
 		self duplicateData.
+		self inspectContentData.
 		self openScriptingToolData} asOrderedCollection
