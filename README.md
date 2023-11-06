@@ -7,8 +7,18 @@ Supported platforms:
 * Squeak 5.2
 * Squeak 5.3
 
-Squeak 6.0/Trunk is also a target plattform, but due to the fast changing nature of Trunk, certain versions of Squeak Trunk may not work.
-Please check [Travis-ci](https://travis-ci.org/hpi-swa-teaching/PowerSqueak) for the current build status.
+Squeak 6.0 is unofficially supported as well.
+For Squeak 6.0, please install from the `master` branch like this:
+
+``` Smalltalk
+Metacello new
+	baseline: 'Presenter';
+	repository: 'github://hpi-swa-teaching/PowerSqueak:master/packages';
+	get;
+	load.
+```
+
+Squeak Trunk is also a target plattform, but due to the fast changing nature of Trunk, certain versions of Squeak Trunk may not work.
 
 Squeak 5.0 is officially unsupported (see [Travis-ci](https://travis-ci.org/hpi-swa-teaching/PowerSqueak)).
 
@@ -29,14 +39,26 @@ Squeak 5.0 is officially unsupported (see [Travis-ci](https://travis-ci.org/hpi-
 For easy installation, please first install [Metacello](https://github.com/Metacello/metacello).
 
 Then run the following code in your Squeak image:
+
+For Squeak 5:
 ``` smalltalk
 Metacello new
 	baseline: 'Presenter';
 	repository: 'github://hpi-swa-teaching/PowerSqueak:release/packages';
+	get;
 	load.
 ```
 
-Alternatively, download the .sar file from the [latest release](https://github.com/hpi-swa-teaching/PowerSqueak/releases/latest) and install it into your Squeak image via drag and drop.
+For Squeak 6:
+``` smalltalk
+Metacello new
+	baseline: 'Presenter';
+	repository: 'github://hpi-swa-teaching/PowerSqueak:master/packages';
+	get;
+	load.
+```
+
+Alternatively, download the .sar file from the [latest release](https://github.com/hpi-swa-teaching/PowerSqueak/releases/latest) and install it into your Squeak image via drag and drop (Squeak 5 only).
 
 ## **Build status**
 | [Release](https://github.com/hpi-swa-teaching/PowerSqueak/releases/latest) | master
@@ -90,6 +112,10 @@ By pressing "i" during presentation mode, you can disable/enable interactivity a
 This mode is added to avoid the visual clutter of the cursor and to keep text on slides from grabbing the keyboard input, which prevents you from changing slides.
 
 Leaving the presentation mode also enables interactivity and unhides the cursor.
+
+Play around with the two modes a bit. Interactive mode is a great advantage of using PowerSqueak and allows you to hold extra-ordinary interactive presentations.
+You can add notes and incorporate feedback on the fly, show demos on the slides directly and generally interact with your audience in a very different way.
+So try to take a few minutes when preparing your presentation to reflect on this cool new ability and see how you can use this cool new tool to create an even better presentation.
 
 ### **Saving and loading**
 PowerSqueak can save and load presentations to/from the file system.
