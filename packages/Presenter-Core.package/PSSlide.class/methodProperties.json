@@ -6,6 +6,7 @@
 	"instance" : {
 		"acceptDroppingMorph:event:" : "VO 6/19/2019 15:49",
 		"addContent:" : "mb 6/19/2019 16:36",
+		"applyUserInterfaceTheme" : "LM 8/1/2023 10:25",
 		"changed" : "LB 6/29/2018 16:57",
 		"doubleClick:" : "WoC 7/24/2018 14:59",
 		"duplicate" : "mb 6/6/2019 16:27",
@@ -15,7 +16,7 @@
 		"handleDroppedItem:event:" : "WoC 7/24/2018 15:05",
 		"handlesMouseDown:" : "WoC 5/22/2018 19:23",
 		"hideSlide" : "kw 5/15/2019 15:41",
-		"initialize" : "kw 5/15/2019 16:06",
+		"initialize" : "LM 8/1/2023 10:04",
 		"isHidden" : "kw 5/15/2019 15:41",
 		"isHidden:" : "VO 7/1/2019 16:12",
 		"isImageFileName:" : "WoC 7/24/2018 15:00",

@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	self
-		color: Color white;
+		applyUserInterfaceTheme;
 		borderColor: nil;
 		isHidden: false;
 		layoutPolicy: ProportionalLayout new;

@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "VO 7/25/2019 15:04",
 	"instvars" : [
+		"name",
 		"slides",
 		"slideLayouts" ],
 	"name" : "PSPresentation",
