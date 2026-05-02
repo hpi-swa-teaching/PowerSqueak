@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"minimumLayoutCount" : "rc 5/2/2026 12:00",
 		"minimumSlideCount" : "mb 7/26/2019 11:09",
 		"newWithLayouts" : "mb 7/22/2019 11:43" },
 	"instance" : {
@@ -17,6 +18,7 @@
 		"createTitleAndTwoContentsSlide" : "jb 7/25/2019 15:25",
 		"createTitleSlide" : "mb 6/5/2019 20:05",
 		"deleteSlideAt:" : "mb 7/26/2019 11:11",
+		"hasMinimumLayouts" : "rc 5/2/2026 12:00",
 		"indexOf:" : "LM 7/13/2018 17:55",
 		"initialize" : "mb 7/26/2019 11:11",
 		"loadDefaultLayouts" : "msob 4/30/2019 16:25",
@@ -24,6 +26,7 @@
 		"name" : "LM 8/1/2023 10:59",
 		"name:" : "LM 7/31/2023 17:02",
 		"printOn:" : "LM 11/6/2023 18:32",
+		"removeLayoutNamed:" : "rc 5/2/2026 12:00",
 		"slideAt:" : "LM 7/13/2018 18:11",
 		"slideCount" : "LM 7/13/2018 17:34",
 		"slideLayouts" : "mb 4/25/2019 16:57",
