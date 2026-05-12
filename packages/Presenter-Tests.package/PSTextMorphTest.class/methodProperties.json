@@ -5,6 +5,7 @@
 		"defaultText" : "LB 6/1/2018 18:09",
 		"setUp" : "LB 6/1/2018 18:12",
 		"tearDown" : "LB 6/1/2018 18:21",
+		"testCombinedEmphasis" : "jw 5/13/2026 01:09",
 		"testContextMenu" : "VO 5/23/2019 17:52",
 		"testEverythingIsSelectedOnTextMorphCreation" : "jb 6/19/2019 18:21",
 		"testFontColorDialog" : "VO 5/23/2019 16:40",
@@ -13,5 +14,8 @@
 		"testLocalFontSize" : "JZ 7/25/2018 11:47",
 		"testSameScalingFontAttributesHaveSameHash" : "VO 7/26/2019 12:00",
 		"testTextFieldRescale" : "WoC 7/25/2018 12:09",
+		"testToggleBold" : "jw 5/13/2026 01:08",
+		"testToggleItalic" : "jw 5/13/2026 01:08",
+		"testToggleUnderline" : "jw 5/13/2026 01:08",
 		"textField" : "LB 6/1/2018 18:21",
 		"textField:" : "MK 7/13/2018 18:11" } }
