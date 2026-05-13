@@ -1,4 +1,4 @@
 styling
 centerText
 
-	self textMorph centered
+	self alignCenter
