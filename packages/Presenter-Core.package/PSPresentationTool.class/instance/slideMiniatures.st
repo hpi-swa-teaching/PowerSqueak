@@ -1,4 +1,11 @@
 slide miniatures
 slideMiniatures
 
-	^ self presentation slidesCollect: [:each | self miniatureOf: each]
+	| miniatures |
+	miniatures := OrderedCollection new.
+	self presentation slidesDo: [:slide |
+		(self presentation sectionStartingAt: slide)
+			ifNotNil: [:section |
+				miniatures add: (PSSectionHeader forSection: section)].
+		miniatures add: (self miniatureOf: slide)].
+	^ miniatures

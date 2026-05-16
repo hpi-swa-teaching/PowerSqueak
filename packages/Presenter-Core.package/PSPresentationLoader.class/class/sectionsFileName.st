@@ -1,0 +1,4 @@
+constants
+sectionsFileName
+
+	^ 'sections.dict'
