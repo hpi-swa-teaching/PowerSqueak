@@ -104,6 +104,8 @@ To control your presentation during presentation mode, use:
 | left arrow/arrow up/page up | previous slide |
 | Number keys | Jump to a slide number (0 = last slide) |
 | i | (de-)activate interactivity and (un-)hide cursor |
+| n | next section |
+| p | previous section |
 
 Because PowerSqueak supports slide selection with both arrow and page keys, most wireless presenters will work correctly with PowerSqueak, but pressing the present button on your presenter will not work, as the Squeak VM does not support function keys.
 
@@ -153,6 +155,8 @@ You may also export your presentation to a list of .png files, which will get ex
 | --- | --- |
 | i | (de-)activate interactivity and (un-)hide cursor |
 | Esc | Leave presentation mode |
+| n | next section |
+| p | previous section |
 
 Credits:
   * Team 2018: Leon Bein, Tom Braun, Maximilian König, Jonas Zimmermann, Leon Matthes

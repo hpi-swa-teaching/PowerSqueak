@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "sg 5/16/2026 12:00",
+	"instvars" : [
+		"sectionName" ],
+	"name" : "PSSlideSectionHeader",
+	"pools" : [
+		 ],
+	"super" : "StringMorph",
+	"type" : "normal" }

@@ -6,5 +6,6 @@ loadPresentationFromDirectory: aDirectory
 		addSlidesFrom: aDirectory;
 		addLayoutsFrom: aDirectory;
 		removeOldSlides;
+		loadPresentationMetadataFrom: aDirectory;
 		showErrorReport.
 	^ self presentation

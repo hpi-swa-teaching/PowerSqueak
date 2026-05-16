@@ -6,9 +6,13 @@ For loading a PSPresentation use a PSPresentationLoader.
 Instance Variables
 	slides:		<OrderedCollection>
 	slideLayouts: <Dictionary>
+	sections:	<Dictionary>
 
 slides
 	- The list of slides to manage
 	
 slideLayouts
 	- Keeps the name of a layout mapped to the layout's slide
+
+sections
+	- Keeps section start slide indexes mapped to section names

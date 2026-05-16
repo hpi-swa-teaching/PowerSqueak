@@ -43,6 +43,7 @@
 		"loadMorphInDirectory:fromFile:" : "mb 7/26/2019 16:05",
 		"loadMorphsFromDirectory:intoSlide:" : "jb 7/12/2019 15:43",
 		"loadPresentationFromDirectory:" : "jb 7/26/2019 14:35",
+		"loadPresentationMetadataFrom:" : "sg 5/16/2026 12:00",
 		"loadSlideFromDirectory:" : "jb 7/26/2019 14:26",
 		"morph:survivesOneCycleIn:" : "VO 7/22/2019 12:57",
 		"morphFilesIn:" : "mb 7/22/2019 11:44",
