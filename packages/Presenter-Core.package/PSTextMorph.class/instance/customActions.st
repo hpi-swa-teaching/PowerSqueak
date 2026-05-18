@@ -5,4 +5,8 @@ customActions
 		self changeTextColorData.
 		self boldData.
 		self italicData.
-		self underlineData}
+		self underlineData.
+		self alignLeftData.
+		self alignCenterData.
+		self alignRightData}
+		
