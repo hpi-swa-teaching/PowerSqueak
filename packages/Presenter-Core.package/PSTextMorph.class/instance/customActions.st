@@ -3,6 +3,6 @@ customActions
 
 	 ^ {self changeTextSizeData.
 		self changeTextColorData.
-		self alignLeftData.
-		self alignCenterData.
-		self alignRightData}
+		self boldData.
+		self italicData.
+		self underlineData}

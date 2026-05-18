@@ -44,6 +44,7 @@
 		"testDuplicatedSlidesContent" : "mb 7/3/2019 17:49",
 		"testDuplicatingMiniatureDuplicatesCorrespondingSlide" : "mb 7/3/2019 17:48",
 		"testEnterNonInteractiveMode" : "VO 5/9/2019 16:53",
+		"testFramesInsideWindow" : "JEG 5/18/2026 23:49",
 		"testFullScreenOff" : "mb 5/8/2019 16:23",
 		"testFullScreenOn" : "VO 5/9/2019 16:09",
 		"testInvalidAnswerDoesntChangeSnapSize:" : "VO 7/26/2019 12:49",
