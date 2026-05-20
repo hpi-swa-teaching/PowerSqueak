@@ -1,0 +1,4 @@
+testing
+isPSSectionHeader
+
+	^ true

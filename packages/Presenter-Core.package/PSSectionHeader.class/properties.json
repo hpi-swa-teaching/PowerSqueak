@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mv 5/16/2026 17:00",
+	"instvars" : [
+		"section" ],
+	"name" : "PSSectionHeader",
+	"pools" : [
+		 ],
+	"super" : "StringMorph",
+	"type" : "normal" }

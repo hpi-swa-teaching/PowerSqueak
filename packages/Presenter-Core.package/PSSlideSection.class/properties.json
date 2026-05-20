@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "VO 7/25/2019 15:04",
+	"commentStamp" : "mv 5/16/2026 17:00",
 	"instvars" : [
 		"name",
-		"slides",
-		"slideLayouts",
-		"sections" ],
-	"name" : "PSPresentation",
+		"firstSlide" ],
+	"name" : "PSSlideSection",
 	"pools" : [
 		 ],
 	"super" : "Object",
