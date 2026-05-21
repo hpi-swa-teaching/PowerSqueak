@@ -1,0 +1,4 @@
+constants
+accentColor
+
+	^ PSPresentationTool highlightColor

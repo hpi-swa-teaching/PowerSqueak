@@ -3,5 +3,7 @@ initialize
 
 	super initialize.
 	self
-		emphasis: 1;
-		hResizing: #spaceFill
+		hResizing: #spaceFill;
+		vResizing: #rigid;
+		height: self class headerHeight;
+		color: Color transparent

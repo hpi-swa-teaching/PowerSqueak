@@ -1,0 +1,4 @@
+constants
+accentWidth
+
+	^ 4

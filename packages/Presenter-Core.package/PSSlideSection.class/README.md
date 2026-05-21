@@ -3,3 +3,5 @@ A PSSlideSection is a named group of slides that follow each other in a PSPresen
 Instance Variables
 	name		the name shown to the user (a String)
 	firstSlide	the slide where the section begins (a PSSlide)
+	level		the nesting depth of the section (an Integer, 1 = top level)
+	collapsed	whether the section is collapsed in the sidebar (a Boolean)

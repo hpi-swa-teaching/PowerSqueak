@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "mv 5/16/2026 17:00",
 	"instvars" : [
-		"section" ],
+		"section",
+		"tool" ],
 	"name" : "PSSectionHeader",
 	"pools" : [
 		 ],
-	"super" : "StringMorph",
+	"super" : "Morph",
 	"type" : "normal" }
