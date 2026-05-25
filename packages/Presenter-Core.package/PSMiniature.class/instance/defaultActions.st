@@ -19,6 +19,10 @@ defaultActions
 			(self model presentation canIndentSection: section)
 				ifTrue: [actions add: self indentSectionData].
 			(self model presentation canOutdentSection: section)
-				ifTrue: [actions add: self outdentSectionData]]
+				ifTrue: [actions add: self outdentSectionData].
+			(self model presentation canMoveSectionAnchorUp: section)
+				ifTrue: [actions add: self moveSectionUpData].
+			(self model presentation canMoveSectionAnchorDown: section)
+				ifTrue: [actions add: self moveSectionDownData]]
 		ifFalse: [actions add: self addSectionData].
 	^ actions
