@@ -6,4 +6,5 @@ sectionData
 			{each name.
 			self presentation indexOf: each firstSlide.
 			each level.
-			each isCollapsed}]
+			each isCollapsed.
+			each lastSlide ifNotNil: [:s | self presentation indexOf: s]}]

@@ -1,7 +1,7 @@
 section collapse tests
 testCollapsedTopmostSectionRespondsToContextMenu
 
-	| section header yellowDown menuMorphs |
+	| section header yellowClick menuMorphs |
 	self createSlide.
 	self presentation addSectionNamed: 'Top' firstSlide: (self presentation slideAt: 1).
 	section := self presentation sectionNamed: 'Top'.
@@ -11,14 +11,14 @@ testCollapsedTopmostSectionRespondsToContextMenu
 	header := self tool slideMiniatures
 		detect: [:each | each isPSSectionHeader]
 		ifNone: [self error: 'no header rendered for collapsed topmost section'].
-	yellowDown := MouseButtonEvent new
+	yellowClick := MouseButtonEvent new
 		setType: #mouseDown
 		position: 0 @ 0
 		which: 2r000
 		buttons: 2
 		hand: self hand
 		stamp: Time millisecondClockValue.
-	header mouseDown: yellowDown.
+	header click: yellowClick.
 	self world doOneCycle.
 	menuMorphs := self world submorphs
 		select: [:each | each isKindOf: MenuMorph].

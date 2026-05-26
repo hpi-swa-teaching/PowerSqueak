@@ -9,7 +9,8 @@
 		"name",
 		"firstSlide",
 		"level",
-		"collapsed" ],
+		"collapsed",
+		"lastSlide" ],
 	"name" : "PSSlideSection",
 	"pools" : [
 		 ],

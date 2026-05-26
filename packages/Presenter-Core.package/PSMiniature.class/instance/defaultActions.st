@@ -27,5 +27,7 @@ defaultActions
 		ifFalse: [
 			actions add: self addSectionData.
 			(self model presentation sectionOfSlideAt: self slideNumber) ifNotNil: [
-				actions add: self addSubSectionData]].
+				actions
+					add: self addSubSectionData;
+					add: self moveOutOfSectionData]].
 	^ actions

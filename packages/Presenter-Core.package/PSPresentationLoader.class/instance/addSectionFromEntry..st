@@ -1,22 +1,29 @@
 slide loading
 addSectionFromEntry: anEntry
 
-	| name index level collapsed slide |
+	| name index level collapsed lastIndex slide |
 	(anEntry isKindOf: Association)
 		ifTrue: [
 			name := anEntry key.
 			index := anEntry value.
 			level := 1.
-			collapsed := false]
+			collapsed := false.
+			lastIndex := nil]
 		ifFalse: [
 			name := anEntry first.
 			index := anEntry second.
 			level := anEntry size >= 3 ifTrue: [anEntry third] ifFalse: [1].
-			collapsed := anEntry size >= 4 ifTrue: [anEntry fourth] ifFalse: [false]].
+			collapsed := anEntry size >= 4 ifTrue: [anEntry fourth] ifFalse: [false].
+			lastIndex := anEntry size >= 5 ifTrue: [anEntry fifth] ifFalse: [nil]].
 	slide := self presentation slides at: index ifAbsent: [^ self].
-	[self presentation addSectionNamed: name firstSlide: slide.
-	(self presentation sectionStartingAt: slide)
+	[ | section |
+	self presentation addSectionNamed: name firstSlide: slide.
+	section := self presentation sectionStartingAt: slide.
+	section
 		level: level;
-		collapsed: collapsed]
+		collapsed: collapsed.
+	lastIndex ifNotNil: [:i |
+		(self presentation slides at: i ifAbsent: [nil])
+			ifNotNil: [:s | section lastSlide: s]]]
 		on: Error
 		do: [:anError | nil]

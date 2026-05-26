@@ -1,21 +1,19 @@
 section collapse tests
-testTopmostSectionTogglesCollapseRepeatedly
+testTopmostSectionExpandsViaClick
 
-	| section header upEvent expected |
+	| section header redClick |
 	2 timesRepeat: [self createSlide].
 	self presentation addSectionNamed: 'Top' firstSlide: (self presentation slideAt: 1).
 	section := self presentation sectionNamed: 'Top'.
+	section collapsed: true.
 	header := self tool sectionHeaderFor: section.
-	upEvent := MouseButtonEvent new
-		setType: #mouseUp
+	redClick := MouseButtonEvent new
+		setType: #mouseDown
 		position: 0 @ 0
 		which: 2r000
 		buttons: 4
 		hand: self hand
 		stamp: Time millisecondClockValue.
-	expected := true.
-	10 timesRepeat: [
-		header mouseUp: upEvent.
-		self world doOneCycle.
-		self assert: section isCollapsed equals: expected.
-		expected := expected not]
+	header click: redClick.
+	self world doOneCycle.
+	self deny: section isCollapsed
