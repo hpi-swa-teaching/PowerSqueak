@@ -1,0 +1,4 @@
+constants
+defaultColor
+
+	^ PSPresentationTool highlightColor

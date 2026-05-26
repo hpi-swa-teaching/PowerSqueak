@@ -1,5 +1,4 @@
 context menu
 toggleCollapse
 
-	self section toggleCollapsed.
-	self tool updateSlideMiniatures
+	self tool deferredUpdateAfter: [self section toggleCollapsed]

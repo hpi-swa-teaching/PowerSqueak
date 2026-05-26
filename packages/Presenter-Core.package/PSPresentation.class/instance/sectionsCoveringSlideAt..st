@@ -3,8 +3,13 @@ sectionsCoveringSlideAt: anIndex
 
 	| stack |
 	stack := OrderedCollection new.
-	self sortedSections do: [:each |
-		(self indexOf: each firstSlide) <= anIndex
+	self sortedSections do: [:each | | anchorIndex lastIndex |
+		anchorIndex := self indexOf: each firstSlide.
+		lastIndex := each lastSlide
+			ifNil: [nil]
+			ifNotNil: [:s | self indexOf: s].
+		((anchorIndex <= anIndex)
+			and: [lastIndex isNil or: [lastIndex >= anIndex]])
 			ifTrue: [
 				[stack notEmpty and: [stack last level >= each level]]
 					whileTrue: [stack removeLast].

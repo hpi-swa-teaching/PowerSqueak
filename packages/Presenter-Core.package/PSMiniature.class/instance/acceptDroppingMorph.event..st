@@ -1,10 +1,14 @@
 layout
 acceptDroppingMorph: aMorph event: anEvent
-	
-	| insertOffset |
-	insertOffset := (anEvent position y < self center y)
-		ifTrue: [-1]
-		ifFalse: [0].
-	self model addSlide: aMorph slide afterIndex: self slide slideNumber + insertOffset.
-	aMorph slide presentation: self slide presentation.
-	aMorph abandon
+
+	| presentation oldIndex destination |
+	presentation := self model presentation.
+	oldIndex := presentation indexOf: aMorph slide.
+	(oldIndex = 0 or: [aMorph slide == self slide])
+		ifTrue: [^ self model cancelDrag].
+	destination := anEvent position y < self center y
+		ifTrue: [self slide slideNumber]
+		ifFalse: [self slide slideNumber + 1].
+	oldIndex < destination ifTrue: [destination := destination - 1].
+	presentation moveSlideAt: oldIndex to: destination.
+	self model cancelDrag

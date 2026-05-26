@@ -1,0 +1,16 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mv 5/26/2026 14:00",
+	"instvars" : [
+		"insertionIndex",
+		"indent",
+		"targetSection" ],
+	"name" : "PSDropSlot",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

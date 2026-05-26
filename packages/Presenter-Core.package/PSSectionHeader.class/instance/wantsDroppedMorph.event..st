@@ -1,4 +1,4 @@
 dropping/grabbing
 wantsDroppedMorph: aMorph event: anEvent
 
-	^ false
+	^ aMorph isPSMiniature and: [self tool notNil]

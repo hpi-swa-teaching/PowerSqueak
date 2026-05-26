@@ -1,0 +1,4 @@
+constants
+defaultThickness
+
+	^ 3
