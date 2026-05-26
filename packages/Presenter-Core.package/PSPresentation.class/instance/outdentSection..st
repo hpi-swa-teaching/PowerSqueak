@@ -1,5 +1,10 @@
 collection behaviour
 outdentSection: aPSSlideSection
 
-	aPSSlideSection level: (aPSSlideSection level - 1 max: 1).
+	| affected |
+	affected := OrderedCollection new
+		add: aPSSlideSection;
+		addAll: (self descendantSectionsOf: aPSSlideSection);
+		yourself.
+	affected do: [:each | each level: (each level - 1 max: 1)].
 	self normalizeSectionLevels

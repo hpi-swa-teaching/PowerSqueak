@@ -1,7 +1,7 @@
-section collapse tests
-testCollapsedParentLabelShowsNestedCount
+section header tests
+testSectionHeaderLabelOmitsNestedSuffix
 
-	| parent header |
+	| parent header label |
 	2 timesRepeat: [self createSlide].
 	self presentation
 		addSectionNamed: 'Parent' firstSlide: (self presentation slideAt: 1);
@@ -10,4 +10,7 @@ testCollapsedParentLabelShowsNestedCount
 	parent := self presentation sectionNamed: 'Parent'.
 	parent collapsed: true.
 	header := PSSectionHeader forSection: parent tool: self tool.
-	self assert: (header labelText includesSubstring: 'nested')
+	label := header labelText.
+	self
+		assert: (label includesSubstring: '(3)');
+		deny: (label includesSubstring: 'nested')

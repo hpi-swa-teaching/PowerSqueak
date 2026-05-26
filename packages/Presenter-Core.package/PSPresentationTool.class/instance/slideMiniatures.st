@@ -10,6 +10,7 @@ slideMiniatures
 		section := self presentation sectionStartingAt: slide.
 		(section notNil and: [(self presentation isSectionHidden: section) not])
 			ifTrue: [result add: (self sectionHeaderFor: section)].
-		(self presentation isSlideHiddenByCollapseAt: index)
-			ifFalse: [result add: (self miniatureRowFor: slide at: index)]].
+		((self presentation isSlideHiddenByCollapseAt: index) not
+			and: [(self isDraggingSlide: slide) not])
+			ifTrue: [result add: (self miniatureRowFor: slide at: index)]].
 	^ result
