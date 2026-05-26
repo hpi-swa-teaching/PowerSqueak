@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"defaultColor" : "mv 5/26/2026 14:00",
+		"defaultThickness" : "mv 5/26/2026 14:00" },
+	"instance" : {
+		"drawOn:" : "mv 5/26/2026 14:00",
+		"indent" : "mv 5/26/2026 14:00",
+		"indent:" : "mv 5/26/2026 14:00",
+		"initialize" : "mv 5/26/2026 14:00",
+		"isPSDropIndicator" : "mv 5/26/2026 14:00" } }
