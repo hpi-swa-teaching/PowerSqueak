@@ -1,5 +1,5 @@
 section collapse tests
-testSectionHeaderIsCachedAcrossRenders
+testFreshSectionHeaderEachRender
 
 	| section first second |
 	self createSlide.
@@ -7,4 +7,4 @@ testSectionHeaderIsCachedAcrossRenders
 	section := self presentation sectionNamed: 'X'.
 	first := self tool sectionHeaderFor: section.
 	second := self tool sectionHeaderFor: section.
-	self assert: first == second
+	self deny: first == second
