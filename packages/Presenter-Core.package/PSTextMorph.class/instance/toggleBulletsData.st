@@ -4,6 +4,6 @@ toggleBulletsData
 	^ Dictionary withAll: {
 		#contextMenuLabel -> 'Toggle bullet list (-)'.
 		#action -> #toggleBulletsOnSelection.
-		#help -> 'Wandelt die ausgewählten Zeilen in eine Aufzählung um oder entfernt die Bullets wieder.'.
+		#help -> 'Turns the selected lines into a bullet list or removes the bullets again.'.
 		#noButton -> true.
 		#model -> self}
