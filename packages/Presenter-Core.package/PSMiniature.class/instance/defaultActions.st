@@ -24,5 +24,8 @@ defaultActions
 				ifTrue: [actions add: self moveSectionUpData].
 			(self model presentation canMoveSectionAnchorDown: section)
 				ifTrue: [actions add: self moveSectionDownData]]
-		ifFalse: [actions add: self addSectionData].
+		ifFalse: [
+			actions add: self addSectionData.
+			(self model presentation sectionOfSlideAt: self slideNumber) ifNotNil: [
+				actions add: self addSubSectionData]].
 	^ actions

@@ -1,7 +1,8 @@
 initialize-release
 initializeSlides
 
-	self 
+	self
 		presentation: PSPresentation newWithLayouts;
 		miniatures: Dictionary new;
+		sectionHeaders: Dictionary new;
 		currentSlideNumber: 1

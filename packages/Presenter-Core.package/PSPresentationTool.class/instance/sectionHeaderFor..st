@@ -1,4 +1,6 @@
 slide miniatures
 sectionHeaderFor: aPSSlideSection
 
-	^ PSSectionHeader forSection: aPSSlideSection tool: self
+	^ self sectionHeaders
+		at: aPSSlideSection
+		ifAbsentPut: [PSSectionHeader forSection: aPSSlideSection tool: self]

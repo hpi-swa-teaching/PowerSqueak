@@ -5,17 +5,12 @@ acceptDroppingMorph: aMorph event: anEvent
 	presentation := self tool presentation.
 	droppedSlide := aMorph slide.
 	oldIndex := presentation indexOf: droppedSlide.
-	oldIndex = 0 ifTrue: [
-		self tool cancelDrag.
-		^ aMorph abandon].
+	oldIndex = 0 ifTrue: [^ self].
 	anchorIndex := presentation indexOf: self section firstSlide.
-	oldIndex = anchorIndex ifTrue: [
-		self tool cancelDrag.
-		^ aMorph abandon].
+	oldIndex = anchorIndex ifTrue: [^ self].
 	targetIndex := oldIndex < anchorIndex
 		ifTrue: [anchorIndex - 1]
 		ifFalse: [anchorIndex].
 	presentation moveSlideAt: oldIndex to: targetIndex.
 	presentation setFirstSlideOfSection: self section to: droppedSlide.
-	self tool cancelDrag.
-	aMorph abandon
+	self tool updateSlideMiniatures

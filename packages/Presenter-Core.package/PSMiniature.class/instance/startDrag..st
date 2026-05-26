@@ -1,6 +1,9 @@
 event-processing
 startDrag: evt
 
-	self model ifNil: [^ self].
-	self model beginDraggingSlide: self slide.
-	evt hand grabMorph: self copy
+	evt hand grabMorph: self.
+	self model ifNotNil:
+		[self model deleteSlideAt: self slide slideNumber.
+		self model: nil].
+	self slide presentation: nil
+	
