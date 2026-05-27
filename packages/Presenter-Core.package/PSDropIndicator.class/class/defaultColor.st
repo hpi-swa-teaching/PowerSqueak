@@ -1,4 +1,0 @@
-constants
-defaultColor
-
-	^ PSPresentationTool highlightColor

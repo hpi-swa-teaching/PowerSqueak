@@ -67,8 +67,6 @@
 		"testDirectChildSectionsExcludesGrandchildren" : "mv 5/25/2026 18:00",
 		"testDraggingFirstSlideDoesNotCreatePlaceholder" : "mv 5/26/2026 22:00",
 		"testDropOnSectionHeaderReanchorsSection" : "mv 5/26/2026 14:00",
-		"testDropSlotsWithDifferentIndentAreNotEqual" : "mv 5/26/2026 14:00",
-		"testDropSlotsWithSameFieldsAreEqual" : "mv 5/26/2026 14:00",
 		"testDuplicateLayoutNameIsRejectedOnCreate" : "rc 5/2/2026 12:00",
 		"testDuplicateLayoutNamesAreRejectedOnRename" : "rc 5/2/2026 16:30",
 		"testDuplicateSectionNameIsRejectedOnCreate" : "mv 5/16/2026 17:00",
