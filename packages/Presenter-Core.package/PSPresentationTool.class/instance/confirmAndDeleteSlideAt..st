@@ -2,7 +2,8 @@ slide management
 confirmAndDeleteSlideAt: anIndex
 
 	| slide section choice |
-	slide := self presentation slideAt: anIndex ifAbsent: [^ self].
+	(anIndex between: 1 and: self presentation slideCount) ifFalse: [^ self].
+	slide := self presentation slideAt: anIndex.
 	section := self presentation sectionStartingAt: slide.
 	section ifNil: [^ self deleteSlideAt: anIndex].
 	choice := UIManager default
