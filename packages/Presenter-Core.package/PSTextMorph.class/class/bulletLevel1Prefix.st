@@ -1,0 +1,4 @@
+constants
+bulletLevel1Prefix
+
+	^ '- '
