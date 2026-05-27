@@ -1,4 +1,0 @@
-*Presenter-Core
-isPSDropIndicator
-
-	^ false

@@ -52,8 +52,6 @@
 		"testDirectChildSectionsExcludesGrandchildren" : "mv 5/25/2026 18:00",
 		"testDraggingFirstSlideDoesNotCreatePlaceholder" : "mv 5/26/2026 22:00",
 		"testDropOnSectionHeaderReanchorsSection" : "mv 5/26/2026 14:00",
-		"testDropSlotsWithDifferentIndentAreNotEqual" : "mv 5/26/2026 14:00",
-		"testDropSlotsWithSameFieldsAreEqual" : "mv 5/26/2026 14:00",
 		"testDeleteAnchorWithCancelChoiceKeepsEverything" : "mv 5/26/2026 14:00",
 		"testDeleteAnchorWithCascadeChoiceRemovesSectionAndSlides" : "mv 5/26/2026 14:00",
 		"testDeleteAnchorWithReanchorChoiceMovesSectionToNext" : "mv 5/26/2026 14:00",
