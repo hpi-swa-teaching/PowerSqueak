@@ -6,4 +6,5 @@ named: aString firstSlide: aPSSlide
 		firstSlide: aPSSlide;
 		level: 1;
 		collapsed: false;
+		lastSlide: nil;
 		yourself

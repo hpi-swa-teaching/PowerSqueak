@@ -15,7 +15,8 @@
 		"isInteractive",
 		"isFullScreenMode",
 		"toolBuilder",
-		"snapActive" ],
+		"snapActive",
+		"draggedSlide" ],
 	"name" : "PSPresentationTool",
 	"pools" : [
 		 ],
