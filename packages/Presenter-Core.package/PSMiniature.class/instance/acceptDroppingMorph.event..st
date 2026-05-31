@@ -10,5 +10,7 @@ acceptDroppingMorph: aMorph event: anEvent
 		ifTrue: [self slide slideNumber]
 		ifFalse: [self slide slideNumber + 1].
 	oldIndex < destination ifTrue: [destination := destination - 1].
-	presentation moveSlideAt: oldIndex to: destination.
+	presentation
+		moveSlideAt: oldIndex
+		to: destination.
 	self model cancelDrag
