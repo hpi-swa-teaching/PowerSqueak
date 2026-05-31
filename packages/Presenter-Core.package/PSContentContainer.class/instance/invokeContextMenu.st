@@ -1,4 +1,4 @@
-event handling
+scripting API
 invokeContextMenu
 
 	PSContextMenu newWith: self

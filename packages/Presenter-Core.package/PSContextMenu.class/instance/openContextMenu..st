@@ -2,5 +2,5 @@ context menu
 openContextMenu: anObject
 
 	self
-		setInvokingView: anObject;
-		popUpEvent: anObject activeHand lastEvent in: anObject activeHand world
+		openContextMenu: anObject
+		event: anObject world firstHand lastEvent

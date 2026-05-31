@@ -1,8 +1,10 @@
 {
 	"class" : {
 		"generateListFrom:" : "VO 7/26/2019 11:06",
-		"newWith:" : "VO 5/23/2019 17:38" },
+		"newWith:" : "Sebastian Hahn 5/31/2026 19:55",
+		"newWith:event:" : "Sebastian Hahn 5/31/2026 19:55" },
 	"instance" : {
 		"addDictionaries:" : "VO 5/23/2019 17:51",
 		"addSubmorphContentMenuItemsOf:" : "VO 5/23/2019 17:56",
-		"openContextMenu:" : "Sebastian Hahn 5/31/2026 16:42" } }
+		"openContextMenu:" : "Sebastian Hahn 5/31/2026 19:55",
+		"openContextMenu:event:" : "Sebastian Hahn 5/31/2026 19:56" } }

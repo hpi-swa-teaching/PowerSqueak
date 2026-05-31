@@ -1,10 +1,6 @@
 instance creation
 newWith: anObject
 
-	^ self new
-		defaultTarget: anObject;
-		addDictionaries: anObject defaultActions;
-		addSubmorphContentMenuItemsOf: anObject;
-		openContextMenu: anObject;
-		yourself
-		
+	^ self
+		newWith: anObject
+		event: anObject world firstHand lastEvent

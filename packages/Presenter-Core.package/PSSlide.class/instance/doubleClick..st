@@ -1,5 +1,7 @@
 event handling
-doubleClick: evt
+doubleClick: anEvent
 
-	evt redButtonPressed 
-		ifTrue: [self addContent: (PSTextMorph new center: evt position)]
+	anEvent redButtonPressed ifTrue: [
+		self addContent: (PSTextMorph new
+			center: anEvent position;
+			yourself)]

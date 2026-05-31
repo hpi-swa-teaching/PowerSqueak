@@ -1,8 +1,7 @@
 event-processing
-click: evt
+click: anEvent
 
-	evt redButtonPressed
+	anEvent redButtonPressed
 		ifTrue: [self model ifNotNil: [self model selectSlide: self slide]].
-	evt yellowButtonPressed 
-		ifTrue: [self model ifNotNil: [PSContextMenu newWith: self]]
-	
+	anEvent yellowButtonPressed
+		ifTrue: [self model ifNotNil: [PSContextMenu newWith: self event: anEvent]]
