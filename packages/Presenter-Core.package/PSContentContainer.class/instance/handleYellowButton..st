@@ -1,5 +1,5 @@
 event handling
-handleYellowButton: anEvent
+handleYellowButton: evt
 
-	self invokeContextMenu: anEvent.
-	anEvent ignore
+	self invokeContextMenu.
+	evt ignore
