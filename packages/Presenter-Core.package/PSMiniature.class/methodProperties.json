@@ -54,7 +54,7 @@
 		"moveSlideData" : "msob 6/6/2019 17:16",
 		"outdentSection" : "mv 5/16/2026 17:30",
 		"outdentSectionData" : "mv 5/16/2026 17:30",
-		"rejectDropMorphEvent:" : "Sebastian Hahn 5/31/2026 16:51",
+		"rejectDropMorphEvent:" : "rc 6/1/2026 12:00",
 		"renameLayout" : "rc 5/2/2026 16:30",
 		"renameLayoutData" : "rc 5/2/2026 16:30",
 		"renameSection" : "mv 5/16/2026 17:00",
@@ -64,11 +64,12 @@
 		"slide" : "WoC 6/29/2018 15:19",
 		"slide:" : "LB 7/25/2018 12:03",
 		"slideNumber" : "VO 7/3/2019 15:43",
-		"startDrag:" : "mv 5/27/2026 09:00",
+		"startDrag:" : "rc 6/1/2026 12:00",
 		"tabIndent" : "mv 5/26/2026 18:00",
 		"tabOutdent" : "mv 5/26/2026 18:00",
 		"unHighlight" : "VO 6/25/2019 12:07",
 		"unhideSlide" : "VO 7/1/2019 12:14",
 		"updateHiddenSlideIconBounds" : "VO 7/1/2019 12:15",
 		"updateImage" : "VO 7/1/2019 12:15",
-		"wantsDroppedMorph:event:" : "VO 6/19/2019 15:50" } }
+		"wantsDroppedMorph:event:" : "VO 6/19/2019 15:50",
+		"wantsToBeDroppedInto:" : "rc 6/1/2026 12:00" } }

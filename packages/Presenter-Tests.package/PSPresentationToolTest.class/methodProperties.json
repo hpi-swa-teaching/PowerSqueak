@@ -40,7 +40,7 @@
 		"testCollapsedSectionDoesNotHideOwnHeader" : "mv 5/16/2026 17:30",
 		"testCollapsedSectionHidesItsSlides" : "mv 5/16/2026 17:30",
 		"testCollapsedStateSurvivesSaveLoad" : "mv 5/26/2026 14:00",
-		"testCollapsedTopmostSectionRespondsToContextMenu" : "mv 5/27/2026 09:00",
+		"testCollapsedTopmostSectionRespondsToContextMenu" : "rc 6/1/2026 12:00",
 		"testCoveringSectionsReturnNestingChain" : "mv 5/16/2026 17:30",
 		"testCreateSubSectionNestsUnderCurrent" : "mv 5/26/2026 18:00",
 		"testCreatedSectionHasGivenName" : "mv 5/16/2026 17:00",
