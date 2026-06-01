@@ -2,13 +2,7 @@ morph loading
 loadMorphFromStream: aStream testIn: aWorld
 
 	| morph |
-	[[morph := aStream fileInObjectAndCode]
-		on: MessageNotUnderstood
-		do: [:error |
-			(error receiver isNil
-				and: [error message selector = #localBoundsToGlobal:])
-				ifTrue: [error resume: error message arguments first]
-				ifFalse: [error pass]]]
+	[morph := aStream fileInObjectAndCode]
 		on: Error
 		do: [:error |
 			morph := self abandonMorph: morph].
