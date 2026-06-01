@@ -4,5 +4,7 @@ filterEvent: anEvent for: aMorphOrNil
 	(self containsPoint: anEvent position) ifTrue: [
 		anEvent isMouseDown ifTrue: [
 			anEvent yellowButtonPressed ifTrue: [self handleYellowButton: anEvent].
-			anEvent redButtonPressed ifTrue:[self handleRedButton: anEvent]]].
+			anEvent redButtonPressed ifTrue:[self handleRedButton: anEvent]].
+		anEvent type = #mouseUp ifTrue: [
+			self isInteractive ifFalse: [anEvent ignore]]].
 	^ anEvent

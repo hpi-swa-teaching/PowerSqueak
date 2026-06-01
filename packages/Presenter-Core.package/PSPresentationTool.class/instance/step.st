@@ -1,4 +1,5 @@
 stepping and presenter
 step
 
-	self updateCurrentMiniature
+	self updateCurrentMiniature.
+	self checkDragCancellation

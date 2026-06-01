@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"forMiniature:indent:" : "mv 5/16/2026 17:30" },
+	"instance" : {
+		"acceptDroppingMorph:event:" : "mv 5/16/2026 17:30",
+		"addIndentSpacer:" : "mv 5/16/2026 17:30",
+		"initialize" : "mv 5/16/2026 17:30",
+		"miniature" : "mv 5/16/2026 17:30",
+		"miniature:" : "mv 5/16/2026 17:30",
+		"wantsDroppedMorph:event:" : "mv 5/16/2026 17:30" } }

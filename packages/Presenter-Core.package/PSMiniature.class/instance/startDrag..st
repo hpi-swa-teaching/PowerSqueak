@@ -1,9 +1,9 @@
 event-processing
-startDrag: evt
+startDrag: anEvent
 
-	evt hand grabMorph: self.
-	self model ifNotNil:
-		[self model deleteSlideAt: self slide slideNumber.
-		self model: nil].
-	self slide presentation: nil
-	
+	| worldPosition |
+	self slide ifNil: [^ self].
+	worldPosition := self positionInWorld.
+	self model ifNotNil: [:aModel | aModel beginDraggingSlide: self slide].
+	anEvent hand grabMorph: self.
+	self position: worldPosition

@@ -1,0 +1,18 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mv 5/16/2026 17:00",
+	"instvars" : [
+		"name",
+		"firstSlide",
+		"level",
+		"collapsed",
+		"lastSlide" ],
+	"name" : "PSSlideSection",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

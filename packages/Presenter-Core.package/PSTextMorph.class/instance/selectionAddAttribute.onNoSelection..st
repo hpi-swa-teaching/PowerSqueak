@@ -1,6 +1,6 @@
 styling
 selectionAddAttribute: anAttribute onNoSelection: aBlock
-	"This is an adapted copy of TextMorph#selectionColor:, as it is not supported on all Versions of Squeak and we needed similar methods for other attributes."
+	"Adapted from TextMorph>>selectionColor:, which is not available on all Squeak versions."
 	
 	| interval |
 	interval := self textMorph editor selectionInterval.

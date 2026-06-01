@@ -7,6 +7,7 @@
 		"metadataFileName" : "VO 7/26/2019 15:34",
 		"overwriteQuestion" : "VO 7/25/2019 12:23",
 		"save:" : "mb 7/25/2019 13:30",
+		"sectionsFileName" : "mv 5/16/2026 17:00",
 		"slideDirectoryPrefix" : "VO 7/24/2019 15:08",
 		"slidesDirectoryName" : "VO 7/24/2019 14:58" },
 	"instance" : {
@@ -20,12 +21,14 @@
 		"presentation:" : "VO 7/24/2019 14:01",
 		"presentationDirectory" : "VO 7/24/2019 14:07",
 		"presentationDirectory:" : "VO 7/24/2019 14:07",
-		"save:" : "mb 7/25/2019 14:47",
+		"save:" : "mv 5/16/2026 17:00",
 		"saveInstanceVarsOf:in:" : "VO 7/26/2019 14:50",
 		"saveLayouts" : "VO 7/24/2019 15:19",
+		"saveSections" : "mv 5/16/2026 17:00",
 		"saveSlide:inDirectory:withName:" : "VO 7/24/2019 15:18",
 		"saveSlides" : "VO 7/24/2019 15:11",
 		"saveSubmorphsOf:in:" : "VO 7/24/2019 15:00",
+		"sectionData" : "mv 5/27/2026 09:00",
 		"slideDirectoryNameOf:" : "VO 7/24/2019 15:08",
 		"validateUsageOf:inDirectory:" : "mb 7/26/2019 11:30",
 		"warn:trueChoice:falseChoice:" : "VO 7/24/2019 14:40" } }
