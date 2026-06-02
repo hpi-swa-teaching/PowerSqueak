@@ -1,10 +1,17 @@
 error reporting
 buildSlidesErrorReportString
-	
-	| wronglyLoadedSlides |
+
+	| wronglyLoadedSlides report |
 	wronglyLoadedSlides := self filterErrorReport: self slideErrors.
-	(wronglyLoadedSlides) isEmpty
-	ifTrue: [^ self class slidesLoadedSuccessfullyString]
-	ifFalse: 	[^ self formatErrorReports: wronglyLoadedSlides 
-								withString: self class slideErrorReportString].
-	
+	(wronglyLoadedSlides isEmpty and: [
+		(self filterErrorReport: self missingMorphErrors) isEmpty])
+			ifTrue: [^ self class slidesLoadedSuccessfullyString].
+	report := ''.
+	wronglyLoadedSlides associationsDo: [:association |
+		report := report ,
+			(association value = 1
+				ifTrue: ['{1}: 1 morph file could not be loaded. \' withCRs
+					format: {association key}]
+				ifFalse: ['{1}: {2} morph files could not be loaded. \' withCRs
+					format: {association key. association value}])].
+	^ report
