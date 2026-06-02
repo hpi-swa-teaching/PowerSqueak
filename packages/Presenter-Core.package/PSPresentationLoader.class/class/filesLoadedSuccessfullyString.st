@@ -1,4 +1,4 @@
 constants
 filesLoadedSuccessfullyString
 
-	^ ' I loaded all additional files correctly.'
+	^ 'I loaded all additional files correctly.'

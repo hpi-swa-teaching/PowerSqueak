@@ -3,13 +3,21 @@ A PSPresentationLoader loads a PSPresentation from a given file directory. For t
 Instance Variables
 	fileErrors:		<Dictionary>
 	slideErrors: 	<Dictionary>
-	presentation:		<PSPresentation>
+	missingMorphErrors:		<Dictionary>
+	layoutsDirectoryMissing:	<Boolean>
+	presentation:		            <PSPresentation>
 
 fileErrors:
 	- Dictionary containing the number of files that could not be loaded per slide
 
 slideReport
 	- Dictionary containing the number of morphs per slide that could not be loaded
+	
+missingMorphErrors
+	- Dictionary containing the number of expected morph files per slide or layout that are missing from the file directory
+
+layoutsDirectoryMissing
+	- Indicates whether the layouts directory is missing
 
 presentation
 	- The presentation the loader is loading
