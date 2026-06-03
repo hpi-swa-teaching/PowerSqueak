@@ -32,6 +32,7 @@
 		"testMorphLoadIsValid" : "LM 7/25/2018 13:14",
 		"testMorphNameIsNotNumber" : "LB 7/24/2018 17:39",
 		"testMorphNameIsNumber" : "VO 5/2/2019 13:54",
+		"testSlideColorIsLoaded" : "JEG 6/3/2026 19:05",
 		"testSortMorphFiles" : "VO 5/29/2019 17:22",
 		"testValidSlideDirectoryNames" : "VO 6/13/2019 17:12",
 		"validMorphFileData" : "VO 7/22/2019 13:51" } }
