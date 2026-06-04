@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"container" : "mv 6/4/2026 14:20",
+		"container:" : "mv 6/4/2026 14:20",
+		"setUp" : "mv 6/4/2026 14:20",
+		"testHideTimerRemovesTimer" : "mv 6/4/2026 14:24",
+		"testShowTimerDisplaysTimer" : "mv 6/4/2026 14:22",
+		"testTogglePauseTimerTogglesPausedState" : "mv 6/4/2026 14:28",
+		"testToggleTimerTogglesPresence" : "mv 6/4/2026 14:26" } }

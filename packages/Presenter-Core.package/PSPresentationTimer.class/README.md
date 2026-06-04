@@ -1,0 +1,1 @@
+A PSPresentationTimer is an LED stopwatch shown in the presentation mode to display the elapsed presentation time. It reuses LedTimerMorph for the timing and renders the elapsed seconds as minutes and seconds on a four-digit LED display (MMSS).
