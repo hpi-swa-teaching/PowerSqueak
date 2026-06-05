@@ -8,5 +8,7 @@ customActions
 		self underlineData.
 		self alignLeftData.
 		self alignCenterData.
-		self alignRightData}
-		
+		self alignRightData.
+		self toggleBulletsData.
+		self indentBulletsData.
+		self outdentBulletsData}

@@ -1,7 +1,8 @@
 saving
 saveInstanceVarsOf: aSlide in: aDirectory
 
-	(self createInstanceVarDictionaryOf: aSlide)
-		saveOnFileNamed: (aDirectory / self class metadataFileName) fullName.
-	
-	
+	| metadata |
+	metadata := self createInstanceVarDictionaryOf: aSlide.
+	metadata at: #expectedMorphCount put: aSlide submorphs size.
+	metadata saveOnFileNamed:
+		(aDirectory / self class metadataFileName) fullName

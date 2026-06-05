@@ -8,7 +8,9 @@ testToggleBold
 	self textField textMorph selectFrom: 1 to: textLength.
 	self textField toggleBold.
 	self textField textMorph selectFrom: 1 to: textLength.
-	self assert: self textField selectionEmphasisCode equals: TextEmphasis bold emphasisCode.
+	self
+		assert: self textField selectionEmphasisCode
+		equals: TextEmphasis bold emphasisCode.
 	self textField textMorph selectFrom: 1 to: textLength.
 	self textField toggleBold.
 	self textField textMorph selectFrom: 1 to: textLength.

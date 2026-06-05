@@ -1,4 +1,4 @@
 systemwindow-compatibility
 isSystemWindow 
-	"this method is needed in order to keep the presentation on top if a system window is closed"
+	"Keeps the presentation on top when a system window is closed."
 	^ true

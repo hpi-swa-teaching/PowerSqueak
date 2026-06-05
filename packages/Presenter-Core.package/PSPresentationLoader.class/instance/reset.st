@@ -1,7 +1,9 @@
 initialize-release
 reset
 
-	self 
+	self
 		fileErrors: Dictionary new;
-		slideErrors: Dictionary new;		
-		presentation: PSPresentation new.
+		slideErrors: Dictionary new;
+		missingMorphErrors: Dictionary new;
+		layoutsDirectoryMissing: false;
+		presentation: PSPresentation new

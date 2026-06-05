@@ -1,6 +1,6 @@
 styling
 selectionAttribute: anAttributeClass
-	"This is an adapted copy of TextMorph#selectionColor, as it is not supported on all Versions of Squeak, and we needed similar methods for different attributes"
+	"Adapted from TextMorph>>selectionColor, which is not available on all Squeak versions."
 	
 	| index attributes fontAttribute |
 	index := self textMorph editor startBlock stringIndex ifNil: [1].

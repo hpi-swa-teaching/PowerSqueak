@@ -1,9 +1,13 @@
 error reporting
 buildFileErrorReportString
-	
-	| wronglyLoadedFiles |
-	wronglyLoadedFiles := self filterErrorReport: self fileErrors.
+
+	| wronglyLoadedFiles report |
+	wronglyLoadedFiles := self filterErrorReport: self fileErrors. 
 	wronglyLoadedFiles isEmpty
-		ifTrue: [^ self class filesLoadedSuccessfullyString]
-		ifFalse: [^ self formatErrorReports: wronglyLoadedFiles 
-								withString: self class fileErrorReportString]
+		ifTrue: [^ self class filesLoadedSuccessfullyString]. 
+	report := ''.
+	wronglyLoadedFiles associationsDo: [:association |
+		report := report ,
+			('{1}: metadata.dict is missing or corrupted. Default values were used. \' withCRs
+				format: {association key})].
+	^ report

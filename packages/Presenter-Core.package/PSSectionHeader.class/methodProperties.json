@@ -1,11 +1,13 @@
 {
 	"class" : {
 		"accentColor" : "mv 5/16/2026 17:30",
+		"accentGap" : "mv 5/16/2026 17:30",
 		"accentWidth" : "mv 5/16/2026 17:30",
 		"backgroundColorForLevel:" : "mv 5/16/2026 17:30",
 		"forSection:tool:" : "mv 5/16/2026 17:30",
 		"headerHeight" : "mv 5/16/2026 17:30",
 		"indentStep" : "mv 5/16/2026 17:30",
+		"labelGap" : "mv 5/16/2026 17:30",
 		"textColor" : "mv 5/16/2026 17:30",
 		"textFont" : "mv 5/16/2026 17:30",
 		"triangleColor" : "mv 5/16/2026 17:30",
