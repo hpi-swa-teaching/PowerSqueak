@@ -1,4 +1,4 @@
-as yet unclassified
+editor access
 textEdited: aText
 	| styled textSize |
 	

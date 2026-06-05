@@ -1,0 +1,16 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"action",
+		"hovered",
+		"fontSize" ],
+	"name" : "PSRunButton",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

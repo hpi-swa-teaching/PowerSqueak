@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"button" : "TK 6/4/2026 22:09",
+		"button:" : "TK 6/4/2026 22:09",
+		"setUp" : "TK 6/4/2026 22:11",
+		"tearDown" : "TK 6/4/2026 22:11",
+		"testActionIsExecutedOnEachMouseDown" : "TK 6/4/2026 22:19",
+		"testActionIsExecutedOnMouseDown" : "TK 6/4/2026 22:18",
+		"testExtentScalesWithFontSize" : "TK 6/4/2026 22:14",
+		"testHandlesMouseDown" : "TK 6/4/2026 22:17",
+		"testHandlesMouseOver" : "TK 6/4/2026 22:18",
+		"testHoveredFalseByDefault" : "TK 6/4/2026 22:15",
+		"testInitialExtentIsSquare" : "TK 6/4/2026 22:12",
+		"testMouseEnterSetsHoveredTrue" : "TK 6/4/2026 22:15",
+		"testMouseLeaveSetsHoveredFalse" : "TK 6/4/2026 22:17" } }
