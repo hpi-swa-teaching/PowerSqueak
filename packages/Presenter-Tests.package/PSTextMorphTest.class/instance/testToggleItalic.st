@@ -8,9 +8,7 @@ testToggleItalic
 	self textField textMorph selectFrom: 1 to: textLength.
 	self textField toggleItalic.
 	self textField textMorph selectFrom: 1 to: textLength.
-	self
-		assert: self textField selectionEmphasisCode
-		equals: TextEmphasis italic emphasisCode.
+	self assert: self textField selectionEmphasisCode equals: TextEmphasis italic emphasisCode.
 	self textField textMorph selectFrom: 1 to: textLength.
 	self textField toggleItalic.
 	self textField textMorph selectFrom: 1 to: textLength.

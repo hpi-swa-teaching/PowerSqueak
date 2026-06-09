@@ -6,4 +6,5 @@ indentSection: aPSSlideSection
 		add: aPSSlideSection;
 		addAll: (self descendantSectionsOf: aPSSlideSection);
 		yourself.
-	affected do: [:each | each level: each level + 1]
+	affected do: [:each | each level: each level + 1].
+	self normalizeSectionLevels

@@ -1,4 +1,5 @@
 shapes
 newRectangleShape
 
-	self openMorphInHand: RectangleMorph new
+	RectangleMorph new
+		openInHand.

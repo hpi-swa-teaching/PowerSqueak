@@ -8,9 +8,7 @@ testToggleUnderline
 	self textField textMorph selectFrom: 1 to: textLength.
 	self textField toggleUnderline.
 	self textField textMorph selectFrom: 1 to: textLength.
-	self
-		assert: self textField selectionEmphasisCode
-		equals: TextEmphasis underlined emphasisCode.
+	self assert: self textField selectionEmphasisCode equals: TextEmphasis underlined emphasisCode.
 	self textField textMorph selectFrom: 1 to: textLength.
 	self textField toggleUnderline.
 	self textField textMorph selectFrom: 1 to: textLength.

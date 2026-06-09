@@ -1,7 +1,7 @@
-A PSSlideSection is a named group of consecutive slides in a PSPresentation. A section begins at its first slide and runs until the next section begins.
+A PSSlideSection is a named group of slides that follow each other in a PSPresentation. Each section begins at one slide, its first slide. A slide belongs to a section when that section begins at the same slide or an earlier one, and no other section begins in between.
 
 Instance Variables
 	name		the name shown to the user (a String)
 	firstSlide	the slide where the section begins (a PSSlide)
-	level		the nesting depth, 1 = top level (an Integer)
+	level		the nesting depth of the section (an Integer, 1 = top level)
 	collapsed	whether the section is collapsed in the sidebar (a Boolean)

@@ -7,7 +7,7 @@ sectionsCoveringSlideAt: anIndex
 		anchorIndex := self indexOf: each firstSlide.
 		lastIndex := each lastSlide
 			ifNil: [nil]
-			ifNotNil: [:aSlide | self indexOf: aSlide].
+			ifNotNil: [:s | self indexOf: s].
 		((anchorIndex <= anIndex)
 			and: [lastIndex isNil or: [lastIndex >= anIndex]])
 			ifTrue: [

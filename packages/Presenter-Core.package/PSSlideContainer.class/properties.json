@@ -10,9 +10,7 @@
 		"previousOwner",
 		"notification",
 		"selection",
-		"snapSize",
-		"timer",
-		"timerPaused" ],
+		"snapSize" ],
 	"name" : "PSSlideContainer",
 	"pools" : [
 		 ],

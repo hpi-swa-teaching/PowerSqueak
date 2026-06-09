@@ -3,8 +3,7 @@ disablePresentationMode
 
 	self ensurePreviousOwnerIsNotSubmorph.
 	self previousOwner addMorph: self.
-	self
-		hideTimer;
+	self 
 		color: self defaultColor;
 		deleteNotification;
 		stopStepping

@@ -7,5 +7,5 @@ testMiniatureChangesIfSlideChanges
 	oldMiniatureForm := miniature form.
 	
 	slide addContent: (Morph new center: slide center).
-	self tool step.		"step directly instead of waiting for the stepping tool"
+	self tool step.		"the tool is stepping but we do not want to wait here"
 	self deny: oldMiniatureForm = miniature form

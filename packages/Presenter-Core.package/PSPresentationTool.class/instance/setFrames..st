@@ -11,7 +11,7 @@ setFrames: aCollection
 		ifTrue: [1 / totalWidth]
 		ifFalse: [1].
 
-	specsWithSize inject: 0 @ 0 into: [:aPoint :each |
+	specsWithSize inject: 0@0 into: [:aPoint  :each|
 		| actualSize |
 		actualSize := self class perform: (each at: #size).
 		actualSize := (actualSize x * scale) @ actualSize y.

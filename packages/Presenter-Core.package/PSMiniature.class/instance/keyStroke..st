@@ -1,9 +1,9 @@
 event-processing
-keyStroke: anEvent
+keyStroke: evt
 
-	anEvent isKeyboard ifFalse: [^ self].
-	anEvent keyCharacter = Character tab ifTrue: [
-		anEvent shiftPressed
+	evt isKeyboard ifFalse: [^ self].
+	evt keyCharacter = Character tab ifTrue: [
+		evt shiftPressed
 			ifTrue: [^ self tabOutdent]
 			ifFalse: [^ self tabIndent]].
-	(self miniatureShortcuts at: anEvent keyCharacter ifAbsent: []) value
+	(self miniatureShortcuts at: evt keyCharacter ifAbsent: []) value

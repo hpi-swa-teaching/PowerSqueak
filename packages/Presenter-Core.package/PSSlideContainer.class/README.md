@@ -8,8 +8,6 @@ Instance Variables
 	notification:		<PSFadingMessage>
 	previousOwner:		<Morph>
 	snapSize: 			<Number>
-	timer:				<PSPresentationTimer>
-	timerPaused:		<Boolean>
 
 currentSlide
 	- The slide currently displayed
@@ -25,9 +23,3 @@ previousOwner
 
 snapSize
 	- A value from 0 to 1 indicating the ratio in which the slide is divided into magnetic raster points
-
-timer
-	- The PSPresentationTimer shown during the presentation mode, or nil when the timer is turned off
-
-timerPaused
-	- Shows whether the timer is currently paused

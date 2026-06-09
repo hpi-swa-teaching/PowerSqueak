@@ -1,4 +1,5 @@
 shapes
 newLineShape
 	
-	self openMorphInHand: LineMorph new
+	LineMorph new
+		openInHand.

@@ -1,6 +1,7 @@
 morph loading
 morph: aMorph survivesOneCycleIn: aWorld
-	"A loaded morph can throw on every world cycle and crash the image. doOneCycle swallows such errors into debuggers, so detect failure by diffing the open debuggers."
+	"Some morphs may be loaded successfully but throw errors every world cycle therefore crashing the image."
+	"World doOneCycle consumes all errors and opens the corresponding debuggers. Therefore we cannot do normal error checking but we can compare the debuggers."
 	| debuggersBefore newDebuggers |
 	debuggersBefore := Debugger allInstances.
 	aMorph openInWorld: aWorld.

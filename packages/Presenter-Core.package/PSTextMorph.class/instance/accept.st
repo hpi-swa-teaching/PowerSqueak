@@ -1,4 +1,4 @@
 menu commands
 accept
 
-	"Overridden to stop the text being cleared when the TextMorph is saved."
+	"overwritten in order to disable the unwanted behavior of the text getting cleared, whenever the TextMorph is saved"
