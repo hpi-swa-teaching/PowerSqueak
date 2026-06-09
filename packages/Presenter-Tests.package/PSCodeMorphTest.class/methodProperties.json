@@ -1,0 +1,27 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"codeMorph" : "TK 6/9/2026 16:00",
+		"codeMorph:" : "TK 6/9/2026 16:00",
+		"defaultCode" : "TK 6/9/2026 16:00",
+		"setUp" : "TK 6/9/2026 16:00",
+		"tearDown" : "TK 6/9/2026 16:00",
+		"testChangeFontSizeUpdatesRunButtonFontSize" : "TK 6/9/2026 16:00",
+		"testExecuteCodeErrorWithMessageShowsMessageText" : "TK 6/9/2026 16:00",
+		"testExecuteCodeEvaluatesExpression" : "TK 6/9/2026 16:01",
+		"testExecuteCodeWithErrorDoesNotRaise" : "TK 6/9/2026 16:01",
+		"testExecuteCodeWithZeroDivideShowsZeroDivide" : "TK 6/9/2026 16:01",
+		"testRescaleUpdatesRunButtonFontSize" : "TK 6/9/2026 16:01",
+		"testResultPanelHeightChangesWithFontSize" : "TK 6/9/2026 16:01",
+		"testResultTextColorChanges" : "TK 6/9/2026 16:01",
+		"testRunButtonFontSizeMatchesScaledSelectionFontSize" : "TK 6/9/2026 16:01",
+		"testRunButtonIsAddedOnInitialize" : "TK 6/9/2026 16:01",
+		"testRunButtonIsInstanceOfPSRunButton" : "TK 6/9/2026 16:01",
+		"testRunButtonIsPositionedWithinMorph" : "TK 6/9/2026 16:01",
+		"testRunButtonRemainsWithinMorphAfterRescale" : "TK 6/9/2026 16:02",
+		"testSelectionFontSizeUpdatesRunButton" : "TK 6/9/2026 16:02",
+		"testShowResultDoesNotExpandSize" : "TK 6/9/2026 16:02",
+		"testShowResultSetsResultText" : "TK 6/9/2026 16:02",
+		"testShowResultUpdatesTextOnSecondCall" : "TK 6/9/2026 16:02",
+		"testTextEditedPreservesFontSize" : "TK 6/9/2026 16:02" } }

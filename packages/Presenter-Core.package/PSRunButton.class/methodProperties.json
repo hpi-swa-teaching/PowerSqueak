@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"action" : "TK 6/9/2026 15:47",
+		"action:" : "TK 6/9/2026 15:47",
+		"drawBackgroundOn:" : "TK 6/9/2026 15:49",
+		"drawOn:" : "TK 6/9/2026 15:49",
+		"drawRunSymbolOn:" : "TK 6/9/2026 15:49",
+		"fontSize" : "TK 6/9/2026 15:47",
+		"fontSize:" : "TK 6/9/2026 15:48",
+		"handlesMouseDown:" : "TK 6/9/2026 15:50",
+		"handlesMouseOver:" : "TK 6/9/2026 15:50",
+		"hovered" : "TK 6/9/2026 15:48",
+		"hovered:" : "TK 6/9/2026 15:48",
+		"initialize" : "TK 6/9/2026 15:50",
+		"mouseDown:" : "TK 6/9/2026 15:50",
+		"mouseEnter:" : "TK 6/9/2026 15:50",
+		"mouseLeave:" : "TK 6/9/2026 15:50",
+		"updateExtent" : "TK 6/9/2026 15:51" } }
