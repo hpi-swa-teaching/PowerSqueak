@@ -1,6 +1,8 @@
-as yet unclassified
+initialize
 initialize
 	
 	super initialize.
 	self installSyntaxHighlighting;
-		useMonospaceFont.
+		useMonospaceFont;
+		addRunButton;
+		resultWasShowing: false.
