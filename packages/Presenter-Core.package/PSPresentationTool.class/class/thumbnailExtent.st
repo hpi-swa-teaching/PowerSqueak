@@ -1,4 +1,4 @@
 constants
 thumbnailExtent
 
-    ^ 80 @ 60
+	^ 48 @ 27

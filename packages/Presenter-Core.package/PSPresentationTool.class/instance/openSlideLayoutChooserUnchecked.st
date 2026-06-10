@@ -1,4 +1,4 @@
 layouts
 openSlideLayoutChooserUnchecked
-	
-	PSLayoutChooser openFor: self
+
+	self openLayoutMenu
