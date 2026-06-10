@@ -1,4 +1,0 @@
-constants
-thumbnailWidth
-
-	^ 120
