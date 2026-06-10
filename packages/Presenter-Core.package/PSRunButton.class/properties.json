@@ -6,11 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"runButton",
-		"resultText",
-		"resultWasShowing" ],
-	"name" : "PSCodeMorph",
+		"action",
+		"hovered",
+		"fontSize" ],
+	"name" : "PSRunButton",
 	"pools" : [
 		 ],
-	"super" : "PSTextMorph",
+	"super" : "Morph",
 	"type" : "normal" }
