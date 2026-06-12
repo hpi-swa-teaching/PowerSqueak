@@ -135,7 +135,7 @@
 		"testPreviousSlideClampsToMin" : "WoC 7/25/2018 13:14",
 		"testPromoteChildrenKeepsSlidesAndDecrementsChildLevels" : "mv 5/25/2026 18:00",
 		"testRecursiveSlideCountIncludesChildren" : "mv 5/25/2026 18:00",
-		"testRenameLayoutFromMiniatureRenamesSelectedLayout" : "Sebastian Hahn 6/12/2026 19:57",
+		"testRenameLayoutFromMiniatureRenamesSelectedLayout" : "Sebastian Hahn 6/12/2026 20:10",
 		"testRenameLayoutThenCreateWithOldName" : "rc 5/2/2026 12:00",
 		"testRenameLayoutToSameNameKeepsLayout" : "Sebastian Hahn 6/12/2026 19:13",
 		"testRenamedLayoutIsSavedWithNewName" : "rc 5/2/2026 16:30",

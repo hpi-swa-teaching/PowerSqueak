@@ -6,7 +6,9 @@ testRenameLayoutFromMiniatureRenamesSelectedLayout
 	newName := 'Miniature Rename New'.
 	self presentation addLayout: self currentSlide duplicate withName: oldName.
 	[(self miniatureOf: self currentSlide) renameLayout]
-		valueSupplyingAnswers: {oldName. newName}.
+		valueSupplyingAnswers: {
+			{'Choose a layout to rename'. oldName}.
+			{'Enter a new name for your Layout'. newName}}.
 	self
 		deny: (self tool slideLayoutNames includes: oldName);
 		assert: (self tool slideLayoutNames includes: newName)
