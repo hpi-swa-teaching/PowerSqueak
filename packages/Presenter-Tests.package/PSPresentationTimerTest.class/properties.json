@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PSPresentationTimerTest",
+	"pools" : [
+		 ],
+	"super" : "PSUITestCase",
+	"type" : "normal" }
