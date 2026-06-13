@@ -1,6 +1,8 @@
 createSlideContent
 newCodeField
 
-	PSCodeMorph new 
+	^ self currentSlide addContent: (PSCodeMorph new
+		color: self currentSlide color;
 		rescale: self currentSlide extent;
-		openInHand
+		center: self currentSlide center;
+		yourself)
