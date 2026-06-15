@@ -1,0 +1,9 @@
+section move tests
+testMiniatureMoveSectionUpShiftsAnchor
+
+	2 timesRepeat: [self createSlide].
+	self presentation addSectionNamed: 'Mid' firstSlide: (self presentation slideAt: 3).
+	(self tool miniatureOf: (self presentation slideAt: 3)) moveSectionUp.
+	self
+		assert: (self presentation sectionNamed: 'Mid') firstSlide
+		equals: (self presentation slideAt: 2)
