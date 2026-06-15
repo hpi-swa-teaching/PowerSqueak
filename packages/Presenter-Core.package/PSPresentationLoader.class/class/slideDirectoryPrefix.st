@@ -1,4 +1,4 @@
 accessing
 slideDirectoryPrefix
 
-	^ 'slide'
+	^ super slideDirectoryPrefix

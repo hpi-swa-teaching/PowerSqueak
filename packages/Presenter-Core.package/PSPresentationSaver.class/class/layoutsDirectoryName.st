@@ -1,4 +1,4 @@
 filesystem
 layoutsDirectoryName
 	
-	^ PSPresentationLoader layoutsDirectoryName
+	^ super layoutsDirectoryName

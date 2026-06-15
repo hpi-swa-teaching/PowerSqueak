@@ -1,4 +1,4 @@
 constants
 defaultDirectoryName 
 
-	^ super defaultDirectoryName
+	^ 'PSPresentations'
