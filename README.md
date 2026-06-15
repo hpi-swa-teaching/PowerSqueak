@@ -188,4 +188,4 @@ For a complete overview of Squeak's command-key mappings, see `CommandKeyMapping
 Credits:
   * Team 2018: Leon Bein, Tom Braun, Maximilian König, Jonas Zimmermann, Leon Matthes
   * Team 2019: Mark Bader, Vincent Opitz, Julian Berger, Katharina Wille, Mona Sobhani
-  * Team 2026 Marvin Heyne, Robert Vetter, Julian Windhäuser, Jan-Erick Großmann, Tobias Krauth, Lukas Kresse, Sebastian Hahn
+  * Team 2026 Marvin Heyne, Robert Vetter, Julian Windheuser, Jan-Erik Großmann, Tobias Krauth, Lukas Kresse, Sebastian Hahn
