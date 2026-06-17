@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "JEG 6/15/2026 14:18",
+		"testDoExecutesCommandAndEnablesUndo" : "JEG 6/15/2026 14:20",
+		"testNewCommandClearsRedoStack" : "JEG 6/15/2026 14:22",
+		"testRedoCallsExecuteAgain" : "JEG 6/15/2026 14:21",
+		"testUndoCallsUnexecuteAndEnablesRedo" : "JEG 6/15/2026 14:20",
+		"testUndoUsesLifoOrder" : "JEG 6/15/2026 14:22" } }

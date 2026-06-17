@@ -1,0 +1,4 @@
+accessing
+redoSize
+
+	^ redoStack size

@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JEG 6/17/2026 00:40",
+	"instvars" : [
+		 ],
+	"name" : "PSMoveContentCommand",
+	"pools" : [
+		 ],
+	"super" : "PSContentPlacementCommand",
+	"type" : "normal" }

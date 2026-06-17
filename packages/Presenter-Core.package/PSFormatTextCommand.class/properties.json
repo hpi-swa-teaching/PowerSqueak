@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JEG 6/17/2026 02:06",
+	"instvars" : [
+		"formatBlock" ],
+	"name" : "PSFormatTextCommand",
+	"pools" : [
+		 ],
+	"super" : "PSTextCommand",
+	"type" : "normal" }

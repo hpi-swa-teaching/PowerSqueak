@@ -1,0 +1,15 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JEG 6/17/2026 02:01",
+	"instvars" : [
+		"slides",
+		"currentSlideNumber" ],
+	"name" : "PSPresentationState",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

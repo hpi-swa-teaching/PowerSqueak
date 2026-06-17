@@ -1,0 +1,17 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JEG 6/17/2026 02:03",
+	"instvars" : [
+		"slide",
+		"morph",
+		"container",
+		"location" ],
+	"name" : "PSAddContentCommand",
+	"pools" : [
+		 ],
+	"super" : "PSCommand",
+	"type" : "normal" }

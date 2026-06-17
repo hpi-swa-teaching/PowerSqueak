@@ -1,0 +1,4 @@
+removing
+removeContainer: aPSContentContainer
+
+	aPSContentContainer basicDeleteContent

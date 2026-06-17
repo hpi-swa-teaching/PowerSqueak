@@ -1,0 +1,4 @@
+accessing
+undoSize
+
+	^ undoStack size
