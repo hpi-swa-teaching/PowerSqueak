@@ -1,7 +1,7 @@
 createSlideContent
 newCodeField
 
-	^ self currentSlide addContent: (PSCodeMorph new
+	^ self currentSlide addContentUndoably: (PSCodeMorph new
 		color: self currentSlide color;
 		rescale: self currentSlide extent;
 		center: self currentSlide center;

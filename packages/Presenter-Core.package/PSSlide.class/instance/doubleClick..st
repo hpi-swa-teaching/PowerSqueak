@@ -2,4 +2,7 @@ event handling
 doubleClick: evt
 
 	evt redButtonPressed 
-		ifTrue: [self addContent: (PSTextMorph new color: self color; center: evt position; yourself)]
+		ifTrue: [self addContentUndoably: (PSTextMorph new
+			color: self color;
+			center: evt position;
+			yourself)]

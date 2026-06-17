@@ -1,0 +1,16 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JEG 6/17/2026 02:02",
+	"instvars" : [
+		"tool",
+		"beforeState",
+		"afterState" ],
+	"name" : "PSPresentationCommand",
+	"pools" : [
+		 ],
+	"super" : "PSCommand",
+	"type" : "normal" }

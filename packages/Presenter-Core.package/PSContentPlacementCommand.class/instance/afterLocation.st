@@ -1,0 +1,4 @@
+accessing
+afterLocation
+
+	^ afterLocation
