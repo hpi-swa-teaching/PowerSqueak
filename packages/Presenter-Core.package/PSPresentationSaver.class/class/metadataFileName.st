@@ -1,4 +1,4 @@
 constants
 metadataFileName
 	
-	^ PSPresentationLoader metadataFileName
+	^ super metadataFileName

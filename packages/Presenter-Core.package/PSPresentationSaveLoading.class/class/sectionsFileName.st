@@ -1,4 +1,4 @@
 constants
 sectionsFileName
 
-	^ super sectionsFileName
+	^ 'sections.dict'
