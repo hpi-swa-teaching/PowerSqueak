@@ -7,5 +7,8 @@ createHandleOnMove: aSymbol
 		color: self handleColor;
 		borderWidth: 0;
 		yourself.
-	handle on: #mouseMove send: aSymbol to: self.
+	handle
+		on: #mouseDown send: #startResizeUndo: to: self;
+		on: #mouseMove send: aSymbol to: self;
+		on: #mouseUp send: #finishResizeUndo: to: self.
 	^ handle

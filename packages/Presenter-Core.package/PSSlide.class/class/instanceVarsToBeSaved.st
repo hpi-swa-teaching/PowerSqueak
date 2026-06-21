@@ -1,4 +1,4 @@
 constants
 instanceVarsToBeSaved
 
-	^ {#isHidden} asOrderedCollection
+	^ {#isHidden. #color} asOrderedCollection

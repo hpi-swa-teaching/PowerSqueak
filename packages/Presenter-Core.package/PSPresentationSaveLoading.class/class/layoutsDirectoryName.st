@@ -1,0 +1,4 @@
+constants
+layoutsDirectoryName
+
+	^ 'layouts'

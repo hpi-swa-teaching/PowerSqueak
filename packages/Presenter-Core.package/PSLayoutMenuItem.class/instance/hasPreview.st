@@ -1,0 +1,4 @@
+testing
+hasPreview
+
+	^ previewMorph notNil

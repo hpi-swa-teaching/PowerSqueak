@@ -1,5 +1,4 @@
 styling
 selectionFontSize: aNumber
 
-	self selectionAddAttribute: (self fontSizeAttribute: aNumber).
-	self textMorph releaseParagraph
+	self performUndoableFormatting: [self basicSelectionFontSize: aNumber]

@@ -11,6 +11,7 @@ Instance Variables
 	snapActive: 	<Boolean>	
 	toolBuilder:	<ToolBuilder>
 	advancedMenuBarButtons: <Collection>
+	commandHistory:		<PSCommandHistory>
 
 isInteractive
 	- Shows whether the presentation is in interactive or noninteractive mode
@@ -39,3 +40,6 @@ toolBuilder
 	
 advancedMenuBarButtons
 	- All buttons currently in the advancedMenuBar
+
+commandHistory
+	- Stores undoable and redoable PowerSqueak commands for the current presentation editing session

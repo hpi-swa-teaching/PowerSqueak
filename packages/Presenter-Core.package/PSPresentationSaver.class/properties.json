@@ -11,5 +11,5 @@
 	"name" : "PSPresentationSaver",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PSPresentationSaveLoading",
 	"type" : "normal" }

@@ -1,4 +1,4 @@
 filesystem
 slideDirectoryPrefix
 	
-	^ PSPresentationLoader slideDirectoryPrefix
+	^ super slideDirectoryPrefix
