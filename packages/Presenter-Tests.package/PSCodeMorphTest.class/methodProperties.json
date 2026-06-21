@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"codeMorph" : "rc 6/21/2026 12:00",
+		"codeMorph:" : "rc 6/21/2026 12:00",
+		"setUp" : "rc 6/21/2026 12:00",
+		"testInstallSyntaxHighlightingAddsAttributes" : "rc 6/21/2026 12:00",
+		"testInstallSyntaxHighlightingKeepsString" : "rc 6/21/2026 12:00",
+		"testNewCodeMorphHasFontAttribute" : "rc 6/21/2026 12:00",
+		"testTextEditedKeepsFontSize" : "rc 6/21/2026 12:00" } }

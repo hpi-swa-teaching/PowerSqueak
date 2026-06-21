@@ -19,4 +19,5 @@
 		"testDraggingInBeforeMiniature" : "jb 7/25/2019 13:28",
 		"testDraggingOutMiniatureRemovesSlide" : "jb 7/25/2019 13:28",
 		"testMiniatureDoesntWantNonMiniature" : "VO 7/24/2019 13:34",
+		"testMiniatureRowDelegatesWantsDroppedMorph" : "rc 6/21/2026 12:00",
 		"testNoErrorWhenDroppingMiniatureOnDroppedMiniature" : "jb 7/25/2019 13:28" } }
