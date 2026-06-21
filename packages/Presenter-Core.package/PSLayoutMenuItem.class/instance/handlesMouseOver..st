@@ -1,0 +1,4 @@
+events
+handlesMouseOver: anEvent
+
+	^ true

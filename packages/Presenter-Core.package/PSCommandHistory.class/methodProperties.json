@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"canRedo" : "JEG 6/15/2026 14:11",
+		"canUndo" : "JEG 6/15/2026 14:11",
+		"clear" : "JEG 6/15/2026 14:11",
+		"do:" : "JEG 6/15/2026 14:09",
+		"initialize" : "JEG 6/15/2026 14:09",
+		"redo" : "JEG 6/15/2026 14:10",
+		"redoSize" : "JEG 6/15/2026 14:12",
+		"undo" : "JEG 6/15/2026 14:10",
+		"undoSize" : "JEG 6/15/2026 14:11" } }

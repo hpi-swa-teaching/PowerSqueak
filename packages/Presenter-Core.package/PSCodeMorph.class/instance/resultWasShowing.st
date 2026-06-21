@@ -1,0 +1,4 @@
+accessing
+resultWasShowing
+
+	^resultWasShowing

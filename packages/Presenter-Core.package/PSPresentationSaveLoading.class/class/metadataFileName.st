@@ -1,0 +1,4 @@
+constants
+metadataFileName
+	
+	^ 'metadata.dict'

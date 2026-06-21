@@ -20,6 +20,7 @@
 		"testSectionDataEncodesMultipleSections" : "rc 6/21/2026 12:00",
 		"testSectionDataEncodesSingleSection" : "rc 6/21/2026 12:00",
 		"testSectionsFileNameDelegatesToLoader" : "rc 6/21/2026 12:00",
+		"testSlideColorIsSavedCorrectly" : "JEG 6/3/2026 18:49",
 		"testSlideDirectoryNameOfConcatenatesPrefixAndIndex" : "rc 6/21/2026 12:00",
 		"testSlideDirectoryPrefixDelegatesToLoader" : "rc 6/21/2026 12:00",
 		"testSlidesDirectoryNameDelegatesToLoader" : "rc 6/21/2026 12:00" } }
