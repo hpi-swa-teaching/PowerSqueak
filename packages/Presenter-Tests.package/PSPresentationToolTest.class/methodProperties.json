@@ -227,7 +227,7 @@
 		"testTimerRemovedWhenLeavingPresentationMode" : "mv 6/8/2026 11:00",
 		"testTimerStartsWhenEnteringPresentationMode" : "mv 6/8/2026 11:00",
 		"testToggleCollapsedFlipsState" : "mv 5/16/2026 17:30",
-		"testTopRightButtonDataHasFourButtons" : "rc 6/21/2026 12:00",
+		"testTopRightButtonDataIncludesSnapAndPresentationButtons" : "rc 6/21/2026 16:34",
 		"testTopmostSectionExpandsViaClick" : "mv 5/27/2026 09:00",
 		"testTopmostSectionTogglesCollapseRepeatedlyViaClick" : "mv 5/27/2026 09:00",
 		"testValidIndentsAfterChildSectionAnchor" : "mv 5/26/2026 14:00",
