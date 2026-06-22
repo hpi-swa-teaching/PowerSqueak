@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addTextMorph" : "LK 6/16/2026 20:03",
+		"testContrastingTextColorOnDarkSlide" : "LK 6/16/2026 20:04",
+		"testContrastingTextColorOnLightSlide" : "LK 6/16/2026 20:04",
+		"testDarkSlideIsDark" : "LK 6/16/2026 20:03",
+		"testLightSlideIsNotDark" : "LK 6/16/2026 20:04",
+		"testManualTextColorIsKept" : "LK 6/16/2026 20:05",
+		"testNewTextMorphOnDarkSlideGetsLightText" : "LK 6/16/2026 20:04",
+		"testNewTextMorphOnLightSlideGetsDarkText" : "LK 6/16/2026 20:04" } }
