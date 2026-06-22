@@ -1,4 +1,4 @@
 presentation serialization
 slideName: aNumber
 
-	^ 'slide' , aNumber , '.png'
+	^ 'slide' , aNumber asString , '.png'

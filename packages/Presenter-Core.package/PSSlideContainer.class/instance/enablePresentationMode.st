@@ -7,4 +7,6 @@ enablePresentationMode
 		occupyWorld: self world;
 		startStepping;
 		color: Color black;
-		showNotification: 'Press ''i'' to toggle interactivity'
+		showTimer;
+		showNotification: 'Press ''i'' interactivity, ''h'' pause timer, ''t'' timer on/off'.
+	self world activeHand newKeyboardFocus: self
