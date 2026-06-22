@@ -6,5 +6,6 @@ openFileMenu
 		{'Save' . #savePresentation}.
 		{'Load' . #loadPresentation}.
 		{'Export as PNGs' . #exportAsPNGs}.
+		{'Export selected slides...' . #exportSelectedAsPNGs}.
 	}
 		
