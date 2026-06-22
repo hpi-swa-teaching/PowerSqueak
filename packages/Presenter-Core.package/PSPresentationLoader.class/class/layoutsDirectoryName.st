@@ -1,4 +1,4 @@
 accessing
 layoutsDirectoryName
 
-	^ 'layouts'
+	^ super layoutsDirectoryName

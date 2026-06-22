@@ -1,4 +1,4 @@
 slide management
 duplicateCurrentSlide
 
-	self duplicateSlide: self currentSlide
+	^ self duplicateSlide: self currentSlide

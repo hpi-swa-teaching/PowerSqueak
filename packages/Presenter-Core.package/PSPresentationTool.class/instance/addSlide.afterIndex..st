@@ -1,9 +1,9 @@
 slide management
 addSlide: aSlide afterIndex: anInteger
 
-	self presentation addSlide: aSlide afterIndex: anInteger.
-	self
-		selectSlideAt: anInteger + 1;
-		updateSlideMiniatures;
-		updateCurrentMiniature.
+	self doCommand:
+		(PSAddSlideCommand
+			on: self
+			add: aSlide
+			afterIndex: anInteger).
 	^ aSlide

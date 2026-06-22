@@ -1,0 +1,4 @@
+testing
+canRedo
+
+	^ redoStack notEmpty

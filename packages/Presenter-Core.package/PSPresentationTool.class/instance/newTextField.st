@@ -1,7 +1,7 @@
 createSlideContent
 newTextField
 
-	^ self currentSlide addContent: (PSTextMorph new
+	^ self currentSlide addContentUndoably: (PSTextMorph new
 		color: self currentSlide color;
 		rescale: self currentSlide extent;
 		center: self currentSlide center;

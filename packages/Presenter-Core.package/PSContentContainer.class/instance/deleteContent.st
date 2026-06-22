@@ -1,5 +1,7 @@
 submorphs-add/remove
 deleteContent
-	
-	self slideContainer ifNotNil: [self slideContainer removeSelection].
-	self abandon.
+
+	self slideContainer ifNil: [^ self basicDeleteContent].
+	self slideContainer model ifNil: [^ self basicDeleteContent].
+	self slideContainer model doCommand: (PSDeleteContentCommand on: self).
+	^ self

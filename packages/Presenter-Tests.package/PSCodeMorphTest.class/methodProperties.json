@@ -7,6 +7,8 @@
 		"defaultCode" : "TK 6/9/2026 16:00",
 		"setUp" : "TK 6/9/2026 16:00",
 		"tearDown" : "TK 6/9/2026 16:00",
+		"testApplyUserInterfaceThemeDoesNotRaise" : "TK 6/10/2026 19:24",
+		"testApplyUserInterfaceThemeReinstallsSyntaxHighlighting" : "TK 6/10/2026 19:36",
 		"testChangeFontSizeUpdatesRunButtonFontSize" : "TK 6/9/2026 16:00",
 		"testExecuteCodeErrorWithMessageShowsMessageText" : "TK 6/9/2026 16:00",
 		"testExecuteCodeEvaluatesExpression" : "TK 6/9/2026 16:01",

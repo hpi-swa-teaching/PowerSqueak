@@ -1,4 +1,4 @@
 accessing
 layoutDirectoryPrefix
 
-	^ 'layout'
+	^ super layoutDirectoryPrefix

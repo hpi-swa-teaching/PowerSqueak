@@ -1,0 +1,15 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JEG 6/17/2026 02:03",
+	"instvars" : [
+		"slide",
+		"targetIndex" ],
+	"name" : "PSMoveSlideCommand",
+	"pools" : [
+		 ],
+	"super" : "PSPresentationCommand",
+	"type" : "normal" }

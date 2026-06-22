@@ -1,9 +1,9 @@
 slide management
 deleteSlideAt: anIndex
 
-	| deletedSlide |
-	deletedSlide :=  self presentation deleteSlideAt: anIndex.
-	self currentSlideNumber >= anIndex 
-		ifTrue: [self selectSlideAt: (self currentSlideNumber - 1 max: self class minimumSlideCount)].
-	self miniatures removeKey: deletedSlide ifAbsent: [].
-	self updateSlideMiniatures
+	| command |
+	command := PSDeleteSlideCommand
+		on: self
+		deleteAt: anIndex.
+	self doCommand: command.
+	^ command deletedSlide

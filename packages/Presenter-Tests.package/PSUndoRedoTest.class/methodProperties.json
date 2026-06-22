@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testContentActionClearsRedoStack" : "JEG 6/16/2026 01:30",
+		"testRedoCreateSlideRestoresCreatedSlide" : "JEG 6/15/2026 23:56",
+		"testRedoDeleteContentRemovesItAgain" : "JEG 6/16/2026 01:30",
+		"testRedoInsertTextFieldRestoresIt" : "JEG 6/16/2026 01:30",
+		"testRedoInsertThenRedoMoveRestoresMovedContainer" : "JEG 6/17/2026 00:31",
+		"testRedoMoveContentRestoresMovedLayoutFrame" : "JEG 6/17/2026 00:12",
+		"testRedoMoveSlideRestoresMovedOrder" : "JEG 6/15/2026 23:56",
+		"testRedoResizeContentRestoresResizedLayoutFrame" : "JEG 6/17/2026 00:13",
+		"testRedoSlideBackgroundColorRestoresNewColor" : "JEG 6/17/2026 01:11",
+		"testRedoTextEditRestoresChangedText" : "JEG 6/16/2026 23:39",
+		"testRedoTextFormattingRestoresEmphasis" : "JEG 6/16/2026 23:39",
+		"testTextEditClearsRedoStack" : "JEG 6/16/2026 23:39",
+		"testUndoCreateSlideRemovesCreatedSlide" : "JEG 6/15/2026 23:55",
+		"testUndoDeleteContentRestoresIt" : "JEG 6/16/2026 01:30",
+		"testUndoDeleteSlideRestoresDeletedSlide" : "JEG 6/15/2026 23:56",
+		"testUndoDuplicateSlideRemovesDuplicate" : "JEG 6/15/2026 23:56",
+		"testUndoInsertTextFieldRemovesIt" : "JEG 6/16/2026 01:29",
+		"testUndoMoveContentRestoresOriginalLayoutFrame" : "JEG 6/17/2026 00:12",
+		"testUndoMoveSlideRestoresOriginalOrder" : "JEG 6/15/2026 23:59",
+		"testUndoMoveThenUndoInsertRemovesSameContainer" : "JEG 6/17/2026 00:31",
+		"testUndoResizeContentRestoresOriginalLayoutFrame" : "JEG 6/17/2026 00:13",
+		"testUndoSlideBackgroundColorRestoresPreviousColor" : "JEG 6/17/2026 01:17",
+		"testUndoTextEditRestoresPreviousText" : "JEG 6/16/2026 23:38",
+		"testUndoTextFormattingRestoresPreviousEmphasis" : "JEG 6/16/2026 23:39" } }

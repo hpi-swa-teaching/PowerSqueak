@@ -1,8 +1,9 @@
 slide management
 duplicateSlide: aSlide
 
-	self slideContainer removeSelectionDuring:
-		[self presentation 
-			addSlide: aSlide duplicate
-			afterIndex: aSlide slideNumber.
-		self updateSlideMiniatures.]
+	| command |
+	command := PSDuplicateSlideCommand
+		on: self
+		duplicate: aSlide.
+	self doCommand: command.
+	^ command duplicate
