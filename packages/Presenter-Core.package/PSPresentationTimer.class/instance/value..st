@@ -1,6 +1,5 @@
 accessing
 value: secondsCount
-	"Keep value in raw seconds (so the inherited pause/resume keep working) but show it as minutes and seconds on the LED digits."
 
 	| shown |
 	value := secondsCount.
