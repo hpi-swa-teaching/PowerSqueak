@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"parser" : "rc 6/21/2026 20:11",
+		"parser:" : "rc 6/21/2026 17:46",
+		"setUp" : "rc 6/21/2026 13:54",
+		"testContiguousRangeExpandsToAllIndices" : "rc 6/21/2026 13:33",
+		"testDuplicatesAreRemovedPreservingOrder" : "rc 6/21/2026 14:19",
+		"testEmptyStringYieldsNoIndices" : "rc 6/21/2026 16:07",
+		"testIndexAboveSlideCountRaisesError" : "rc 6/21/2026 19:49",
+		"testMixedRangeAndListCombines" : "rc 6/21/2026 18:15",
+		"testNonContiguousListKeepsEachIndex" : "rc 6/21/2026 21:45",
+		"testNonNumericTokenRaisesError" : "rc 6/21/2026 13:08",
+		"testReversedRangeRaisesError" : "rc 6/21/2026 17:22",
+		"testSeparatorOnlyYieldsNoIndices" : "rc 6/21/2026 18:37",
+		"testSingleIndexReturnsThatIndex" : "rc 6/21/2026 14:18",
+		"testWhitespaceIsTolerated" : "rc 6/21/2026 20:17",
+		"testZeroRaisesError" : "rc 6/21/2026 21:35" } }

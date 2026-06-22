@@ -1,7 +1,6 @@
 presentation serialization
 exportSlidesAsPNGsInDirectory: aDirectory
 
-	self presentation slidesWithIndexDo: [:each :index |
-		self selectSlideAt: index.
-		World doOneCycle.
-		each exportAsPNGNamed: (aDirectory / (self slideName: index)) fullName]
+	self
+		exportSlidesAsPNGsInDirectory: aDirectory
+		atIndices: (1 to: self presentation slideCount)
