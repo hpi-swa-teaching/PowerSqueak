@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testInitializeHasFourGreenDigits" : "mv 6/13/2026 12:00",
+		"testMorphicLayerNumberIsProgressLayer" : "mv 6/13/2026 12:00",
+		"testValueKeepsRawSeconds" : "mv 6/13/2026 12:00",
+		"testValueRendersFiftyNineFiftyNine" : "rc 6/22/2026 9:43",
+		"testValueRendersMinutesAndSeconds" : "mv 6/13/2026 12:00",
+		"testValueRendersTenMinutes" : "mv 6/13/2026 12:00",
+		"testValueShowsZerosForZeroSeconds" : "mv 6/13/2026 12:00" } }
