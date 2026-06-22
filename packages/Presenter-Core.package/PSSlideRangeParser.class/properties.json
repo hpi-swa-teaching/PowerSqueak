@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "rc 6/21/2026 12:00",
+	"instvars" : [
+		"slideCount" ],
+	"name" : "PSSlideRangeParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
