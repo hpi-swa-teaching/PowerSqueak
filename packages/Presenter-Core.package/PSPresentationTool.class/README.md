@@ -12,6 +12,7 @@ Instance Variables
 	toolBuilder:	<ToolBuilder>
 	advancedMenuBarButtons: <Collection>
 	commandHistory:		<PSCommandHistory>
+	warnBeforeClosing:	<Boolean>
 
 isInteractive
 	- Shows whether the presentation is in interactive or noninteractive mode
@@ -43,3 +44,6 @@ advancedMenuBarButtons
 
 commandHistory
 	- Stores undoable and redoable PowerSqueak commands for the current presentation editing session
+	
+warnBeforeClosing
+	- Indicates whether the tool should warn before closing with unsaved changes
