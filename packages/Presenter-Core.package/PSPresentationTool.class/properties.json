@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JEG 6/15/2026 14:33",
+	"commentStamp" : "JEG 6/23/2026 02:15",
 	"instvars" : [
 		"slideContainer",
 		"advancedMenuBarButtons",
@@ -17,7 +17,8 @@
 		"toolBuilder",
 		"snapActive",
 		"draggedSlide",
-		"commandHistory" ],
+		"commandHistory",
+		"warnBeforeClosing" ],
 	"name" : "PSPresentationTool",
 	"pools" : [
 		 ],

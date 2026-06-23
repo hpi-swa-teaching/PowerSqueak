@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JEG 6/17/2026 02:00",
+	"commentStamp" : "JEG 6/23/2026 00:34",
 	"instvars" : [
 		"undoStack",
-		"redoStack" ],
+		"redoStack",
+		"cleanUndoStack" ],
 	"name" : "PSCommandHistory",
 	"pools" : [
 		 ],
