@@ -36,6 +36,14 @@ GSMetadata {
 			#path : FSAbsolutePath [
 				'packages'
 			]
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'PowerSqueakLogo.png'
+			],
+			#encoding : Class [ #PNGReadWriter ]
 		}
 	],
 	#name : 'PowerSqueak'

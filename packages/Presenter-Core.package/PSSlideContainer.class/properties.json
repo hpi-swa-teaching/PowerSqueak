@@ -12,7 +12,8 @@
 		"selection",
 		"snapSize",
 		"timer",
-		"timerPaused" ],
+		"timerPaused",
+		"logo" ],
 	"name" : "PSSlideContainer",
 	"pools" : [
 		 ],

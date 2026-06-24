@@ -3,4 +3,5 @@ step
 
 	self isInPresentationMode ifFalse: [^self].
 	self occupiesWorld 
-		ifFalse: [self occupyWorld: self world]
+		ifFalse: [self occupyWorld: self world].
+	self ensureLogoVisible
