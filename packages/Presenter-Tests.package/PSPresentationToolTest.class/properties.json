@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"window",
-		"fullScreenMode" ],
+		"fullScreenMode",
+		"logoPreference" ],
 	"name" : "PSPresentationToolTest",
 	"pools" : [
 		 ],

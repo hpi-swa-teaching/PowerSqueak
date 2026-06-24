@@ -5,6 +5,7 @@ disablePresentationMode
 	self previousOwner addMorph: self.
 	self
 		hideTimer;
+		hideLogo;
 		color: self defaultColor;
 		deleteNotification;
 		stopStepping

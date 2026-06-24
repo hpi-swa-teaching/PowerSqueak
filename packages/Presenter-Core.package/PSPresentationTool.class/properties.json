@@ -3,7 +3,8 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"LogoForm",
+		"ShowLogoInPresentationMode" ],
 	"commentStamp" : "JEG 6/15/2026 14:33",
 	"instvars" : [
 		"slideContainer",
