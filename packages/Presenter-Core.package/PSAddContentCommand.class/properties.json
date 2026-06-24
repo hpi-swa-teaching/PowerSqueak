@@ -4,12 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JEG 6/17/2026 02:03",
+	"commentStamp" : "JEG 6/24/2026 16:09",
 	"instvars" : [
 		"slide",
 		"morph",
 		"container",
-		"location" ],
+		"location",
+		"containerCreated" ],
 	"name" : "PSAddContentCommand",
 	"pools" : [
 		 ],

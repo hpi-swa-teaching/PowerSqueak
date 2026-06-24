@@ -1,9 +1,10 @@
 execution
 execute
 
-	container
-		ifNil: [
+	containerCreated
+		ifTrue: [location restoreContainer: container]
+		ifFalse: [
 			container := slide addContent: morph.
-			location := PSContentLocation of: container]
-		ifNotNil: [location restoreContainer: container].
+			location := PSContentLocation of: container.
+			containerCreated := true].
 	^ container

@@ -2,8 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"execute" : "JEG 6/16/2026 23:11",
+		"execute" : "JEG 6/24/2026 16:04",
+		"executeFirstTime" : "JEG 6/24/2026 16:02",
 		"executeOnTextMorph" : "JEG 6/16/2026 23:12",
+		"executed" : "JEG 6/24/2026 16:02",
+		"executed:" : "JEG 6/24/2026 16:02",
+		"initialize" : "JEG 6/24/2026 16:02",
+		"restoreAfterState" : "JEG 6/24/2026 16:03",
 		"textMorph" : "JEG 6/16/2026 23:11",
 		"textMorph:" : "JEG 6/16/2026 23:11",
 		"unexecute" : "JEG 6/16/2026 23:12" } }

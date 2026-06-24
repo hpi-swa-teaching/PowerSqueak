@@ -4,6 +4,7 @@ It captures the presentation state before and after executing a concrete present
 Instance Variables
 	afterState:		<PSPresentationState>
 	beforeState:	<PSPresentationState>
+	executed:		<Boolean>
 	tool:			<PSPresentationTool>
 
 afterState
@@ -11,6 +12,9 @@ afterState
 
 beforeState
 	- The presentation state before the command was executed
+	
+executed
+	- Indicates whether the command has already been executed once
 
 tool
 	- The presentation tool whose presentation is changed by this command

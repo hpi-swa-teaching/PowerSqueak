@@ -4,4 +4,5 @@ on: aPSPresentationTool duplicate: aPSSlide
 	^ self new
 		tool: aPSPresentationTool;
 		slide: aPSSlide;
-		yourself
+		duplicate: aPSSlide duplicate;
+		yourself 

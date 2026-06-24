@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JEG 6/17/2026 02:06",
+	"commentStamp" : "JEG 6/24/2026 16:11",
 	"instvars" : [
 		"textMorph",
 		"beforeState",
-		"afterState" ],
+		"afterState",
+		"executed" ],
 	"name" : "PSTextCommand",
 	"pools" : [
 		 ],
