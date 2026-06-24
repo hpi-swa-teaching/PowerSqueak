@@ -1,8 +1,9 @@
-# **PowerSqueak** [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SWT18-Project-09/badge.svg?branch=release)](https://coveralls.io/github/hpi-swa-teaching/SWT18-Project-09?branch=release)
+<h1><img src="assets/PowerSqueakLogo.png" alt="" width="40" align="middle"> PowerSqueak</h1>
 
-<img src="assets/PowerSqueakLogo.png" alt="PowerSqueak" width="200">
+[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SWT18-Project-09/badge.svg?branch=release)](https://coveralls.io/github/hpi-swa-teaching/SWT18-Project-09?branch=release)
 
 A presentation tool for the Squeak development platform
+
 
 
 Supported platforms:
