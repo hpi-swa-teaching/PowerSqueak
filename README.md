@@ -134,6 +134,17 @@ So try to take a few minutes when preparing your presentation to reflect on this
 PowerSqueak can save and load presentations to/from the file system.
 
 Use the corresponding save/load buttons in the "File" menu to save/load the presentation.
+
+#### **Saving selected slides**
+When saving, you can choose to export only specific slides instead of the whole presentation.
+Enter the slide numbers in the save dialog using either:
+
+* a range, e.g. `1-3` (saves slides 1, 2 and 3), or
+* a comma-separated list, e.g. `1,2,3` (saves slides 1, 2 and 3).
+
+You can also combine both, e.g. `1-3,5` saves slides 1, 2, 3 and 5.
+Leaving the field empty saves the entire presentation.
+
 If you want to view the saved files, go to the `PSPresentation` directory in your Squeak VMs directory.
 You can share presentations by copying any presentation in the `PSPresentation` directory into the `PSPresentation` directory of another image.
 In the other image you can then load the presentation as usual in PowerSqueak.
