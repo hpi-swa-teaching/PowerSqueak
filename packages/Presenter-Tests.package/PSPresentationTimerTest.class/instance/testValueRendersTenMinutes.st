@@ -1,6 +1,5 @@
-as yet unclassified
+timer tests
 testValueRendersTenMinutes
-	"600 seconds are shown as 10:00 on the four digits."
 	| timer |
 
 	timer := PSPresentationTimer new.

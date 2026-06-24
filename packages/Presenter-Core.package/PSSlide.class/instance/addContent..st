@@ -7,3 +7,4 @@ addContent: aMorph
 	container notifySlideRescale: self extent.
 	self owner ifNotNil: [self owner updateSelection: container].
 	^ container
+

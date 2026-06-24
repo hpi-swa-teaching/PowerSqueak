@@ -1,4 +1,4 @@
-as yet unclassified
+timer tests
 testValueShowsZerosForZeroSeconds
 	| timer |
 

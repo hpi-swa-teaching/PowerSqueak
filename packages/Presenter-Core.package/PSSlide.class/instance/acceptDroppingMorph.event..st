@@ -1,4 +1,6 @@
 dropping/grabbing
 acceptDroppingMorph: aMorph event: anEvent
 
-	self addContent: aMorph
+	(self isMovedContentMorph: aMorph)
+		ifTrue: [^ self acceptMovedContentMorph: aMorph].
+	^ self addContentUndoably: aMorph

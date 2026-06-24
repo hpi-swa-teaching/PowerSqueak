@@ -1,6 +1,5 @@
-as yet unclassified
+timer tests
 testValueKeepsRawSeconds
-	"The raw seconds stay in value so the inherited pause/resume keep counting correctly."
 	| timer |
 
 	timer := PSPresentationTimer new.

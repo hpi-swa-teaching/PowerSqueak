@@ -1,4 +1,4 @@
 constants
 defaultDirectory
 
-	^ PSPresentationLoader defaultDirectory
+	^ super defaultDirectory

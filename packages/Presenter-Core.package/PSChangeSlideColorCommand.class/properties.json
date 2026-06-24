@@ -1,0 +1,16 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JEG 6/17/2026 02:07",
+	"instvars" : [
+		"slide",
+		"oldColor",
+		"newColor" ],
+	"name" : "PSChangeSlideColorCommand",
+	"pools" : [
+		 ],
+	"super" : "PSCommand",
+	"type" : "normal" }

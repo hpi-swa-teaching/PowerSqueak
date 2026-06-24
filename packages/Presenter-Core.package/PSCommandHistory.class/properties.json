@@ -1,0 +1,16 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JEG 6/23/2026 00:34",
+	"instvars" : [
+		"undoStack",
+		"redoStack",
+		"cleanUndoStack" ],
+	"name" : "PSCommandHistory",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

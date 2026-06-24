@@ -1,0 +1,16 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JEG 6/17/2026 02:03",
+	"instvars" : [
+		"slide",
+		"layoutFrame",
+		"index" ],
+	"name" : "PSContentLocation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

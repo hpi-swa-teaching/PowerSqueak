@@ -1,6 +1,5 @@
-as yet unclassified
+timer tests
 testValueRendersMinutesAndSeconds
-	"65 seconds are shown as 01:05 on the four digits."
 	| timer |
 
 	timer := PSPresentationTimer new.

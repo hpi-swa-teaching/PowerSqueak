@@ -1,0 +1,4 @@
+testing
+canUndo
+
+	^ undoStack notEmpty

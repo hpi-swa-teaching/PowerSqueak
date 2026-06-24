@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"for:" : "rc 6/21/2026 13:37",
+		"listSeparator" : "rc 6/21/2026 21:31",
+		"rangeSeparator" : "rc 6/21/2026 14:31" },
+	"instance" : {
+		"indexFromNumber:" : "rc 6/21/2026 19:16",
+		"indicesFrom:" : "rc 6/21/2026 19:36",
+		"indicesFromRange:" : "rc 6/21/2026 15:27",
+		"indicesFromToken:" : "rc 6/21/2026 17:24",
+		"numberFrom:" : "rc 6/21/2026 17:43",
+		"setSlideCount:" : "rc 6/21/2026 16:10",
+		"signalInvalidRange" : "rc 6/21/2026 16:50",
+		"validateInBounds:" : "rc 6/21/2026 21:13" } }

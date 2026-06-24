@@ -1,4 +1,4 @@
 constants
 metadataFileName
 	
-	^ 'metadata.dict'
+	^super metadataFileName

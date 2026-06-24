@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "JEG 6/15/2026 14:18",
+		"testClearResetsDirtyState" : "JEG 6/23/2026 00:41",
+		"testDoExecutesCommandAndEnablesUndo" : "JEG 6/15/2026 14:20",
+		"testExecutedCommandMakesHistoryDirty" : "JEG 6/23/2026 00:39",
+		"testMarkCleanResetsDirtyState" : "JEG 6/23/2026 00:40",
+		"testNewCommandClearsRedoStack" : "JEG 6/15/2026 14:22",
+		"testNewHistoryIsNotDirty" : "JEG 6/23/2026 00:39",
+		"testRedoAfterCleanUndoMakesHistoryDirtyAgain" : "JEG 6/23/2026 00:41",
+		"testRedoCallsExecuteAgain" : "JEG 6/15/2026 14:21",
+		"testUndoBackToCleanStateClearsDirtyState" : "JEG 6/23/2026 00:42",
+		"testUndoCallsUnexecuteAndEnablesRedo" : "JEG 6/15/2026 14:20",
+		"testUndoUsesLifoOrder" : "JEG 6/15/2026 14:22" } }

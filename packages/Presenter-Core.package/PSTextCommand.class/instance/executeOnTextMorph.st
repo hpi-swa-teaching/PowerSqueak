@@ -1,0 +1,4 @@
+private
+executeOnTextMorph
+
+	self subclassResponsibility

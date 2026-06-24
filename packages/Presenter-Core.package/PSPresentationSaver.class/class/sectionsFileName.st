@@ -1,4 +1,4 @@
 constants
 sectionsFileName
 
-	^ PSPresentationLoader sectionsFileName
+	^ super sectionsFileName
