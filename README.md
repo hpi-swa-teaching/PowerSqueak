@@ -73,14 +73,23 @@ To open PowerSqueak either
 	<img src="pictures/apps-drawer.png" alt="Open PowerSqueak in the Apps menu" width="250">
 
 ### **Edit mode**
-During edit mode, you can use the menu to save, load or export a presentation. You can insert a text field, an image, a shape or slide numbers with the "insert" button. You can hide, delete, duplicate, move or save a slide as a layout with the "slide" button in the menu bar (see shortcuts). 
-You may also drop other Morphs onto slides, but be aware, that some features of those Morphs might not work as expected (scaling most of the time does not work correctly).
+During edit mode, you can use the menu to save, load or export a presentation. You can insert a text field, a code field, an image, a shape or slide numbers with the "Insert" button. Shapes include circles, lines, rectangles and arrows.
+You can hide, delete, duplicate, move or save a slide as a layout with the "Slide" button or the miniature context menu. Slides can also be assigned a custom background color via the slide context menu.
+Text fields support formatting actions such as text size, text color, bold, italic, underline, alignment and bullet lists. Bullet lists can be toggled, indented and outdented from the text context menu.
 
 For advanced features like deleting morphs or resizing text, right-click the Morph.\
 <img src="pictures/right_click.PNG" alt="Right-click example" width="400">
 
 You can now use the features in the Menu bar to edit your text. \
 <img src="pictures/menu-bar.png" alt="Advanced Menu Bar" width = 400>
+
+#### **Layouts**
+PowerSqueak supports reusable slide layouts. A slide can be saved as a layout from its miniature context menu. Existing layouts can be renamed or deleted from the same menu.
+To create a slide from a layout, click the "with Layout" button below the miniature list. Hovering over a layout in the layout chooser shows a preview of that layout.
+
+#### **Sections**
+Slides can be organized into sections and subsections from the miniature context menu. Section headers are shown in the miniature sidebar and can be collapsed or expanded.
+Section headers provide actions to rename, delete, indent, outdent, move, collapse all and expand all sections. When deleting a section, PowerSqueak lets you choose whether to delete the section and its contents or keep the contents by promoting them to the parent section.
 
 #### **Snapping Raster**
 PowerSqueak supports a snapping raster for easy layouting.
@@ -125,6 +134,8 @@ If you want to view the saved files, go to the `PSPresentation` directory in you
 You can share presentations by copying any presentation in the `PSPresentation` directory into the `PSPresentation` directory of another image.
 In the other image you can then load the presentation as usual in PowerSqueak.
 
+If parts of a saved presentation are missing or corrupted, PowerSqueak tries to load the remaining content and reports missing metadata, missing morph files or missing layout directories. You will get a notification.
+
 ``` diff
 - Warning: some morphs may crash your image if they are saved/loaded!
 - It is recommended, that you save your image before every save/load operation in PowerSqueak
@@ -132,28 +143,49 @@ In the other image you can then load the presentation as usual in PowerSqueak.
 
 You may also export your presentation to a list of .png files, which will get exported into the `PSPresentationsExports` folder in your Squeak VMS directory
 
+
 #### **List of shortcuts**
-### **Global schortcuts**
-| Key | Action|
-| ---- | ---- |
-| right arrow/arrow down/page down | next slide |
-| left arrow/arrow up/page up | previous slide |
-| Number keys | Jump to a slide number (0 = last slide) |
-| Cmd + t | Create a text field in hand |
-| delete | Delete slide (miniature needs to be selected) |
-| delete | Delete morph (morph needs to be selected and for deleting a text field, mouse needs to be outside of morph)
+
+PowerSqueak uses Squeak's command-key handling. On macOS, command shortcuts use `Cmd`. On Linux and Windows, use `Alt` instead. For example, `Cmd + t` on macOS corresponds to `Alt + t` on Linux/Windows.
+
+For a complete overview of Squeak's command-key mappings, see `CommandKeyMappings` in the Squeak image.
+
+### **Global shortcuts**
+| Key | Action |
+| --- | --- |
+| right arrow / arrow down / page down | Go to the next slide |
+| left arrow / arrow up / page up | Go to the previous slide |
+| Number keys 1-9 | Jump to slide 1-9 |
+| 0 | Jump to the last slide |
+| Cmd + t / Alt + t | Create a text field in hand |
+| Delete / Backspace | Delete the selected morph |
 
 ### **Edit mode shortcuts**
 | Key | Action |
 | --- | --- |
-| Cmd + i | Create an image |
+| Cmd + i / Alt + i | Create an image |
+
+### **Text shortcuts**
+| Key | Action |
+| --- | --- |
+| Cmd + 6 / Alt + 6 | Toggle italic formatting |
+| Cmd + 7 / Alt + 7 | Toggle bold formatting |
+| Cmd + 9 / Alt + 9 | Toggle underline formatting |
+
+### **Miniature shortcuts**
+| Key | Action |
+| --- | --- |
+| Delete | Delete the highlighted slide miniature |
+| Tab | Create a subsection for the selected slide, or indent the selected section anchor |
+| Shift + Tab | Outdent the selected section anchor |
 
 ### **Presentation mode shortcuts**
 | Key | Action |
 | --- | --- |
-| i | (de-)activate interactivity and (un-)hide cursor |
+| i | Toggle interactive/non-interactive mode and show/hide cursor |
 | Esc | Leave presentation mode |
 
 Credits:
   * Team 2018: Leon Bein, Tom Braun, Maximilian König, Jonas Zimmermann, Leon Matthes
-  * Team 2019: Mark Bader, Vincent Opitz, Julian Berger, Katharina Wille, Mona Sobhani 
+  * Team 2019: Mark Bader, Vincent Opitz, Julian Berger, Katharina Wille, Mona Sobhani
+  * Team 2026 Marvin Heyne, Robert Vetter, Julian Windheuser, Jan-Erik Großmann, Tobias Krauth, Lukas Kresse, Sebastian Hahn
