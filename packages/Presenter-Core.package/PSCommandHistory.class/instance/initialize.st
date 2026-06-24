@@ -3,4 +3,5 @@ initialize
 
 	super initialize.
 	undoStack := OrderedCollection new.
-	redoStack := OrderedCollection new
+	redoStack := OrderedCollection new.
+	cleanUndoStack := OrderedCollection new

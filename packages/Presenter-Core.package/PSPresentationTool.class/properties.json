@@ -18,7 +18,8 @@
 		"toolBuilder",
 		"snapActive",
 		"draggedSlide",
-		"commandHistory" ],
+		"commandHistory",
+		"warnBeforeClosing" ],
 	"name" : "PSPresentationTool",
 	"pools" : [
 		 ],

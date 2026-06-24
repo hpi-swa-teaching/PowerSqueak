@@ -2,4 +2,5 @@ clearing
 clear
 
 	undoStack removeAll.
-	redoStack removeAll
+	redoStack removeAll.
+	self markClean

@@ -1,0 +1,4 @@
+accessing
+warnBeforeClosing
+
+	^ warnBeforeClosing
