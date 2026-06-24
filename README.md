@@ -81,6 +81,14 @@ During edit mode, you can use the menu to save, load or export a presentation. Y
 You can hide, delete, duplicate, move or save a slide as a layout with the "Slide" button or the miniature context menu. Slides can also be assigned a custom background color via the slide context menu.
 Text fields support formatting actions such as text size, text color, bold, italic, underline, alignment and bullet lists. Bullet lists can be toggled, indented and outdented from the text context menu.
 
+#### **Undo & Redo**
+Most editing actions in PowerSqueak can be undone and redone.
+Use the two undo/redo buttons at the top center of the toolbar:
+
+* the left button undoes the last action,
+* the right button redoes the action you just undid.
+
+
 For advanced features like deleting morphs or resizing text, right-click the Morph.\
 <img src="pictures/right_click.PNG" alt="Right-click example" width="400">
 
