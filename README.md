@@ -1,6 +1,6 @@
 # **PowerSqueak** [![Build Status]](https://travis-ci.org/hpi-swa-teaching/PowerSqueak)[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SWT18-Project-09/badge.svg?branch=release)](https://coveralls.io/github/hpi-swa-teaching/SWT18-Project-09?branch=release)
 
-<img src="pictures/logo.png" alt="PowerSqueak" width="300">
+<img src="assets/PowerSqueakLogo.png" alt="PowerSqueak" width="300">
 A presentation tool for the Squeak development platform
 
 Supported platforms:
