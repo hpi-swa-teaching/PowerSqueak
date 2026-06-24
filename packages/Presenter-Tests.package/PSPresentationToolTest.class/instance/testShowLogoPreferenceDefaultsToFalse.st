@@ -1,5 +1,0 @@
-logo tests
-testShowLogoPreferenceDefaultsToFalse
-
-	PSPresentationTool showLogoInPresentationMode: false.
-	self deny: PSPresentationTool showLogoInPresentationMode

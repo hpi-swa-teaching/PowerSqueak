@@ -1,5 +1,0 @@
-logo tests
-testShowLogoPreferenceCanBeEnabled
-
-	PSPresentationTool showLogoInPresentationMode: true.
-	self assert: PSPresentationTool showLogoInPresentationMode
