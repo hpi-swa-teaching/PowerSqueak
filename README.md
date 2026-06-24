@@ -7,20 +7,9 @@ A presentation tool for the Squeak development platform
 
 
 Supported platforms:
-* Squeak 5.1
 * Squeak 5.2
 * Squeak 5.3
-
-Squeak 6.0 is unofficially supported as well.
-For Squeak 6.0, please install from the `master` branch like this:
-
-``` Smalltalk
-Metacello new
-	baseline: 'Presenter';
-	repository: 'github://hpi-swa-teaching/PowerSqueak:master/packages';
-	get;
-	load.
-```
+* Squeak 6.0
 
 Squeak Trunk is also a target plattform, but due to the fast changing nature of Trunk, certain versions of Squeak Trunk may not work.
 
