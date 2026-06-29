@@ -1,4 +1,0 @@
-accessing
-slide
-
-	^ slide
