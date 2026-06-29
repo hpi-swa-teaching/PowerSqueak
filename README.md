@@ -22,14 +22,12 @@ Squeak 5.0 is officially unsupported (see the [CI build](https://github.com/hpi-
 		* [Undo & Redo](https://github.com/hpi-swa-teaching/PowerSqueak#undo--redo)
 		* [Layouts](https://github.com/hpi-swa-teaching/PowerSqueak#layouts)
 		* [Sections](https://github.com/hpi-swa-teaching/PowerSqueak#sections)
-		* [Snapping Raster](https://github.com/hpi-swa-teaching/PowerSqueak#snapping-raster)
 		* [Drag & Drop](https://github.com/hpi-swa-teaching/PowerSqueak#drag--drop)
 	* [Presentation mode](https://github.com/hpi-swa-teaching/PowerSqueak#presentation-mode)
 		* [Interactive/Non-Interactive mode](https://github.com/hpi-swa-teaching/PowerSqueak#interactivenon-interactive-mode)
 		* [Timer](https://github.com/hpi-swa-teaching/PowerSqueak#timer)
 	* [Saving and loading](https://github.com/hpi-swa-teaching/PowerSqueak#saving-and-loading)
 		* [Saving selected slides](https://github.com/hpi-swa-teaching/PowerSqueak#saving-selected-slides)
-	* [List of shortcuts](https://github.com/hpi-swa-teaching/PowerSqueak#list-of-shortcuts)
 
 ## **Installation Instructions**
 For easy installation, please first install [Metacello](https://github.com/Metacello/metacello).
@@ -92,17 +90,14 @@ You can also use the keyboard: `Cmd + z` to undo and `Cmd + y` to redo (`Alt + z
 PowerSqueak supports reusable slide layouts. You can save a slide as a layout from its miniature context menu, and rename or delete existing layouts from the same menu.
 To create a slide from a layout, click the "with Layout" button below the miniature list. When you hover over a layout in the layout chooser, you see a preview of it.
 
+<img src="pictures/Layout.png" alt="Layout chooser" width="400">
+
 #### **Sections**
 You can organize your slides into sections and subsections from the miniature context menu. Section headers are shown in the miniature sidebar and can be collapsed or expanded.
 A section header lets you rename, delete, indent, outdent and move the section, as well as collapse all or expand all sections. When you delete a section, PowerSqueak asks whether you want to delete the section together with its slides, or keep the slides by moving them up to the parent section.
 During a presentation you can jump to the next or previous section with the `n` and `p` keys.
 
-#### **Snapping Raster**
-PowerSqueak supports a snapping raster for easy layouting.
-If the snapping raster is active, resizing a Morph will automatically snap the corners of the Morph to an imaginary raster.\
-To enable the snapping raster click the button. It will change its color to show that it's activated. 
-You can select your snap size by clicking on the small arrow right next to the snap button.\
-<img src="pictures/snap.png" alt="How to enable raster" width=250>
+<img src="pictures/Sections.png" alt="Sections and subsections in the sidebar" width="250">
 
 #### **Drag & Drop**
 You can drag a miniature slide with the left mouseclick and drop it anywhere. If you want to change the position of a miniature, drag the miniature and drop it on the lower half of the above slide. 
@@ -140,6 +135,8 @@ PowerSqueak can save and load presentations to/from the file system.
 
 Use the corresponding save/load buttons in the "File" menu to save/load the presentation.
 
+<img src="pictures/LoadSaveMenu.png" alt="The File menu" width="500">
+
 If you want to view the saved files, go to the `PSPresentation` directory in your Squeak VMs directory.
 You can share presentations by copying any presentation in the `PSPresentation` directory into the `PSPresentation` directory of another image.
 In the other image you can then load the presentation as usual in PowerSqueak.
@@ -163,52 +160,7 @@ Enter the slide numbers in the save dialog using either:
 You can also combine both, e.g. `1-3,5` saves slides 1, 2, 3 and 5.
 Leaving the field empty saves the entire presentation.
 
-#### **List of shortcuts**
-
-PowerSqueak uses Squeak's command-key handling. On macOS, command shortcuts use `Cmd`. On Linux and Windows, use `Alt` instead. For example, `Cmd + t` on macOS corresponds to `Alt + t` on Linux/Windows.
-
-For a complete overview of Squeak's command-key mappings, see `CommandKeyMappings` in the Squeak image.
-
-### **Global shortcuts**
-| Key | Action |
-| --- | --- |
-| right arrow / arrow down / page down | Go to the next slide |
-| left arrow / arrow up / page up | Go to the previous slide |
-| Number keys 1-9 | Jump to slide 1-9 |
-| 0 | Jump to the last slide |
-| Cmd + t / Alt + t | Create a text field in hand |
-| Cmd + z / Alt + z | Undo the last change |
-| Cmd + y / Alt + y | Redo the last undone change |
-| Delete / Backspace | Delete the selected morph |
-
-### **Edit mode shortcuts**
-| Key | Action |
-| --- | --- |
-| Cmd + i / Alt + i | Create an image |
-
-### **Text shortcuts**
-| Key | Action |
-| --- | --- |
-| Cmd + 6 / Alt + 6 | Toggle italic formatting |
-| Cmd + 7 / Alt + 7 | Toggle bold formatting |
-| Cmd + 9 / Alt + 9 | Toggle underline formatting |
-
-### **Miniature shortcuts**
-| Key | Action |
-| --- | --- |
-| Delete | Delete the highlighted slide miniature |
-| Tab | Create a subsection for the selected slide, or indent the selected section anchor |
-| Shift + Tab | Outdent the selected section anchor |
-
-### **Presentation mode shortcuts**
-| Key | Action |
-| --- | --- |
-| i | Toggle interactive/non-interactive mode and show/hide cursor |
-| n | Go to the next section |
-| p | Go to the previous section |
-| t | Turn the timer on/off |
-| h | Pause/resume the timer |
-| Esc | Leave presentation mode |
+<img src="pictures/SelectSlidesToSaveMenu.png" alt="Choose slides to export dialog" width="350">
 
 Credits:
   * Team 2018: Leon Bein, Tom Braun, Maximilian König, Jonas Zimmermann, Leon Matthes
