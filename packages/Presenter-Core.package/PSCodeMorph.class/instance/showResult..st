@@ -1,5 +1,5 @@
 result panel
 showResult: aString
 
-	resultText := aString.
+	self resultText: aString.
 	self changed.

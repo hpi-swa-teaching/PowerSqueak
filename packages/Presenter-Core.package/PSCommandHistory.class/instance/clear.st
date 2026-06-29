@@ -1,6 +1,6 @@
 clearing
 clear
 
-	undoStack removeAll.
-	redoStack removeAll.
+	self undoStack removeAll.
+	self redoStack removeAll.
 	self markClean

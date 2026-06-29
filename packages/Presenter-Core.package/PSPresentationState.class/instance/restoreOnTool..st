@@ -1,7 +1,7 @@
 restoring
 restoreOnTool: aPSPresentationTool
 
-	aPSPresentationTool presentation slides: slides copy.
+	aPSPresentationTool presentation slides: self slides copy.
 	aPSPresentationTool
-		selectSlideAt: (currentSlideNumber min: aPSPresentationTool presentation slideCount);
+		selectSlideAt: (self currentSlideNumber min: aPSPresentationTool presentation slideCount);
 		updateSlideMiniaturesCompletely

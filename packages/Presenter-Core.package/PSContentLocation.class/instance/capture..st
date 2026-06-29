@@ -1,6 +1,6 @@
 capturing
 capture: aPSContentContainer
 
-	slide := aPSContentContainer slide.
-	layoutFrame := aPSContentContainer layoutFrame copy.
-	index := slide submorphs indexOf: aPSContentContainer ifAbsent: [0]
+	self slide: aPSContentContainer slide;
+		layoutFrame: aPSContentContainer layoutFrame copy;
+		index: (self slide submorphs indexOf: aPSContentContainer ifAbsent: [0])

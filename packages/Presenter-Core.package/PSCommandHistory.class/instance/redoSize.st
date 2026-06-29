@@ -1,4 +1,4 @@
 accessing
 redoSize
 
-	^ redoStack size
+	^ self redoStack size

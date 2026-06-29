@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "rc 6/21/2026 12:00",
+	"commentStamp" : "TK 6/29/2026 21:08",
 	"instvars" : [
 		"slideCount" ],
 	"name" : "PSSlideRangeParser",

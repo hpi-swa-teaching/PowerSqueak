@@ -1,9 +1,9 @@
 execution
 execute
 
-	beforeState
+	self beforeState
 		ifNil: [
-			beforeState := PSTextState of: self textMorph.
+			self beforeState: (PSTextState of: self textMorph).
 			self executeOnTextMorph.
-			afterState := PSTextState of: self textMorph]
-		ifNotNil: [afterState restoreOn: self textMorph]
+			self afterState: (PSTextState of: self textMorph)]
+		ifNotNil: [self afterState restoreOn: self textMorph]

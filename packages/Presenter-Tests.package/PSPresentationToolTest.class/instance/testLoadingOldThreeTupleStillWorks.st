@@ -11,5 +11,5 @@ testLoadingOldThreeTupleStillWorks
 	self
 		assert: (self presentation hasSectionNamed: 'Intro');
 		assert: (self presentation hasSectionNamed: 'Body');
-		deny: (self presentation sectionNamed: 'Intro') isCollapsed;
-		deny: (self presentation sectionNamed: 'Body') isCollapsed
+		deny: (self presentation sectionNamed: 'Intro') collapsed;
+		deny: (self presentation sectionNamed: 'Body') collapsed

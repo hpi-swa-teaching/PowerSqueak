@@ -1,4 +1,4 @@
 testing
 canUndo
 
-	^ undoStack notEmpty
+	^ (self undoStack) notEmpty

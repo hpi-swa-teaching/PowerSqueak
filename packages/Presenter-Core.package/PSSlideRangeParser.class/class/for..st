@@ -2,5 +2,5 @@ instance creation
 for: anInteger
 
 	^ self new
-		setSlideCount: anInteger;
+		slideCount: anInteger;
 		yourself

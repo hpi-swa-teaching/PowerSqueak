@@ -1,4 +1,4 @@
 execution
 executeOnTool
 
-	deletedSlide := self tool basicDeleteSlideAt: index
+	self deletedSlide: (self tool basicDeleteSlideAt: self index)

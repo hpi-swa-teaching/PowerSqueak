@@ -2,5 +2,6 @@
 	"class" : {
 		"on:do:" : "JEG 6/16/2026 23:15" },
 	"instance" : {
-		"executeOnTextMorph" : "JEG 6/16/2026 23:16",
+		"executeOnTextMorph" : "TK 6/29/2026 18:48",
+		"formatBlock" : "TK 6/29/2026 18:48",
 		"formatBlock:" : "JEG 6/16/2026 23:16" } }

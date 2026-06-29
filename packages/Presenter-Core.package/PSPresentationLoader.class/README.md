@@ -5,7 +5,6 @@ Instance Variables
 	slideErrors: 	<Dictionary>
 	missingMorphErrors:		<Dictionary>
 	layoutsDirectoryMissing:	<Boolean>
-	presentation:		            <PSPresentation>
 
 fileErrors:
 	- Dictionary containing the number of files that could not be loaded per slide
@@ -18,6 +17,3 @@ missingMorphErrors
 
 layoutsDirectoryMissing
 	- Indicates whether the layouts directory is missing
-
-presentation
-	- The presentation the loader is loading

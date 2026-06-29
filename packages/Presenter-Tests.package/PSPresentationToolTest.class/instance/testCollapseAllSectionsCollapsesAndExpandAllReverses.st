@@ -7,9 +7,9 @@ testCollapseAllSectionsCollapsesAndExpandAllReverses
 		addSectionNamed: 'B' firstSlide: (self presentation slideAt: 2).
 	self tool collapseAllSections.
 	self
-		assert: (self presentation sectionNamed: 'A') isCollapsed;
-		assert: (self presentation sectionNamed: 'B') isCollapsed.
+		assert: (self presentation sectionNamed: 'A') collapsed;
+		assert: (self presentation sectionNamed: 'B') collapsed.
 	self tool expandAllSections.
 	self
-		deny: (self presentation sectionNamed: 'A') isCollapsed;
-		deny: (self presentation sectionNamed: 'B') isCollapsed
+		deny: (self presentation sectionNamed: 'A') collapsed;
+		deny: (self presentation sectionNamed: 'B') collapsed
