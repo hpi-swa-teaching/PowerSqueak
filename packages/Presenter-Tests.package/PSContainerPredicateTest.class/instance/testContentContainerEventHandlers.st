@@ -5,4 +5,4 @@ testContentContainerEventHandlers
 	self assert: (container handlesMouseOver: nil).
 	container mouseLeave: nil.
 	container inspectContent.
-	container recordMoveFromRememberedLocation
+	container recordResizeFromRememberedLocation
