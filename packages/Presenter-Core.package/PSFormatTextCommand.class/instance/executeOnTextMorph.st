@@ -1,4 +1,4 @@
 execution
 executeOnTextMorph
 
-	formatBlock value
+	self formatBlock value

@@ -1,9 +1,9 @@
 execution
 redo
-
 	| command |
-	redoStack isEmpty ifTrue: [^ self].
-	command := redoStack removeLast.
+	
+	self redoStack isEmpty ifTrue: [^ self].
+	command := self redoStack removeLast.
 	command execute.
-	undoStack addLast: command.
+	self undoStack addLast: command.
 	^ command 

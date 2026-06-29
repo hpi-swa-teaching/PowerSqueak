@@ -1,4 +1,4 @@
 dirty state
 markClean
 
-	cleanUndoStack := undoStack copy
+	self cleanUndoStack: self undoStack copy

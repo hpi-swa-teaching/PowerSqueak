@@ -1,5 +1,5 @@
 execution
 execute
 
-	location ifNil: [location := PSContentLocation of: container].
-	location removeContainer: container
+	self location ifNil: [self location: (PSContentLocation of: self container)].
+	self location removeContainer: self container

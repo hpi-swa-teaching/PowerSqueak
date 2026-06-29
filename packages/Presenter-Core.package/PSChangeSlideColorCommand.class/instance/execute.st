@@ -1,5 +1,5 @@
 execution
 execute
 
-	oldColor ifNil: [oldColor := slide color].
-	slide basicColor: newColor
+	self oldColor ifNil: [self oldColor: self slide color].
+	self slide basicColor: self newColor

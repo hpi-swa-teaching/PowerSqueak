@@ -1,4 +1,4 @@
 execution
 executeOnTool
 
-	self tool basicMoveSlide: slide to: targetIndex
+	self tool basicMoveSlide: self slide to: self targetIndex

@@ -1,6 +1,6 @@
 private
 hidePreview
 
-	previewMorph ifNotNil: [:aMorph |
+	self previewMorph ifNotNil: [:aMorph |
 		aMorph delete.
-		previewMorph := nil]
+		self previewMorph: nil]

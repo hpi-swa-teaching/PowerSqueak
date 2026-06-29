@@ -1,4 +1,4 @@
 execution
 unexecute
 
-	slide basicColor: oldColor
+	self slide basicColor: self oldColor

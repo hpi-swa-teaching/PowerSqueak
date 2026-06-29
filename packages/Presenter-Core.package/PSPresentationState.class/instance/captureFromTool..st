@@ -1,5 +1,5 @@
 capturing
 captureFromTool: aPSPresentationTool
 
-	slides := aPSPresentationTool presentation slides copy.
-	currentSlideNumber := aPSPresentationTool currentSlideNumber
+	self slides: aPSPresentationTool presentation slides copy.
+	self currentSlideNumber: aPSPresentationTool currentSlideNumber

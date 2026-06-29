@@ -4,13 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JEG 6/2/2026 17:00",
+	"commentStamp" : "TK 6/29/2026 20:39",
 	"instvars" : [
 		"fileErrors",
 		"slideErrors",
 		"missingMorphErrors",
 		"layoutsDirectoryMissing",
-		"presentation",
 		"world" ],
 	"name" : "PSPresentationLoader",
 	"pools" : [

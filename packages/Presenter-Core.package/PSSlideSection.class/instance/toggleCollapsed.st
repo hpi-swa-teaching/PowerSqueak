@@ -1,4 +1,4 @@
 updating
 toggleCollapsed
 
-	collapsed := collapsed not
+	self collapsed: self collapsed not

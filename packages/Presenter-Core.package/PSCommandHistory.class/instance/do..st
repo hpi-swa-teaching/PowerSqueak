@@ -2,6 +2,6 @@ execution
 do: aCommand
 
 	aCommand execute.
-	undoStack addLast: aCommand.
-	redoStack removeAll.
+	self undoStack addLast: aCommand.
+	self redoStack removeAll.
 	^ aCommand

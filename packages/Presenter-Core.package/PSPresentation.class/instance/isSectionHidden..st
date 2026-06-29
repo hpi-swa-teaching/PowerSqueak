@@ -2,4 +2,4 @@ testing
 isSectionHidden: aPSSlideSection
 
 	^ (self ancestorSectionsOf: aPSSlideSection)
-		anySatisfy: [:each | each isCollapsed]
+		anySatisfy: [:each | each collapsed]

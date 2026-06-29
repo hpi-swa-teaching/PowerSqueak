@@ -17,5 +17,5 @@ testTopmostSectionTogglesCollapseRepeatedlyViaClick
 	10 timesRepeat: [
 		header click: redClick.
 		self world doOneCycle.
-		self assert: section isCollapsed equals: expected.
+		self assert: section collapsed equals: expected.
 		expected := expected not]
