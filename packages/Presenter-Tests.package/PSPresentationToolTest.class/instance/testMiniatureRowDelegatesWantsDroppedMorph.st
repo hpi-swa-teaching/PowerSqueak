@@ -1,4 +1,4 @@
-dragging in tests
+as yet unclassified
 testMiniatureRowDelegatesWantsDroppedMorph
 
 	| row |
