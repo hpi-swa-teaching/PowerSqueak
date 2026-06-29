@@ -1,4 +1,4 @@
 testing
 canRedo
 
-	^ redoStack notEmpty
+	^ (self redoStack) notEmpty

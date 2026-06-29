@@ -8,7 +8,7 @@ testCollapseAllCollapsesEverythingAndExpandAllReverses
 		addSectionNamed: 'C' firstSlide: (self presentation slideAt: 3).
 	self presentation collapseAllSections.
 	self presentation sections do: [:each |
-		self assert: each isCollapsed].
+		self assert: each collapsed].
 	self presentation expandAllSections.
 	self presentation sections do: [:each |
-		self deny: each isCollapsed]
+		self deny: each collapsed]

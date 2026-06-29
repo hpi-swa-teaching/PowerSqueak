@@ -1,4 +1,4 @@
 accessing
 undoSize
 
-	^ undoStack size
+	^ self undoStack size

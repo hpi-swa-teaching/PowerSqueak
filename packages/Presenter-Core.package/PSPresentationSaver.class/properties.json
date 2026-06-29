@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "VO 7/26/2019 11:01",
 	"instvars" : [
-		"presentation",
 		"presentationDirectory" ],
 	"name" : "PSPresentationSaver",
 	"pools" : [

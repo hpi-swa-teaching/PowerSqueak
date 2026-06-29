@@ -3,7 +3,7 @@ toggleCollapseData
 
 	^ Dictionary withAll: {
 		#noButton -> true.
-		#contextMenuLabel -> (self section isCollapsed
+		#contextMenuLabel -> (self section collapsed
 			ifTrue: ['Expand Section']
 			ifFalse: ['Collapse Section']).
 		#action -> #toggleCollapse.

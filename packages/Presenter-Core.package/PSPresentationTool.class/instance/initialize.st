@@ -1,8 +1,7 @@
 initialize-release
 initialize
 
-	warnBeforeClosing := true.
-	self 
+	self warnBeforeClosing: true;
 		initializeSlides;
 		initializeAdvancedMenuBar;
 		initializeEditMode

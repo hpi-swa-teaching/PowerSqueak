@@ -21,7 +21,7 @@
 		"deleteSection" : "mv 5/16/2026 17:30",
 		"deleteSectionData" : "mv 5/16/2026 17:30",
 		"drawOn:" : "mv 5/16/2026 17:30",
-		"drawTriangleOn:at:" : "mv 5/16/2026 17:30",
+		"drawTriangleOn:at:" : "TK 6/29/2026 19:03",
 		"expandAll" : "mv 5/25/2026 18:00",
 		"expandAllData" : "mv 5/25/2026 18:00",
 		"handlesMouseDown:" : "mv 5/16/2026 17:30",
@@ -42,7 +42,7 @@
 		"section" : "mv 5/16/2026 17:00",
 		"section:" : "mv 5/16/2026 17:00",
 		"toggleCollapse" : "mv 5/26/2026 14:00",
-		"toggleCollapseData" : "mv 5/16/2026 17:30",
+		"toggleCollapseData" : "TK 6/29/2026 19:03",
 		"tool" : "mv 5/16/2026 17:30",
 		"tool:" : "mv 5/16/2026 17:30",
 		"wantsDroppedMorph:event:" : "mv 5/25/2026 18:00" } }

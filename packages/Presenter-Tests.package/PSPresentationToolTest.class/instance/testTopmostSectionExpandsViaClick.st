@@ -16,4 +16,4 @@ testTopmostSectionExpandsViaClick
 		stamp: Time millisecondClockValue.
 	header click: redClick.
 	self world doOneCycle.
-	self deny: section isCollapsed
+	self deny: section collapsed

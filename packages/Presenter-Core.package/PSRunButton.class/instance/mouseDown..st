@@ -1,4 +1,4 @@
 event handling
 mouseDown: evt
     
-	action value
+	self action value

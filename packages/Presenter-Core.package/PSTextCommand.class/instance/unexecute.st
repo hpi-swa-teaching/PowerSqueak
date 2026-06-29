@@ -1,4 +1,4 @@
 execution
 unexecute
 
-	beforeState restoreOn: self textMorph
+	self beforeState restoreOn: self textMorph

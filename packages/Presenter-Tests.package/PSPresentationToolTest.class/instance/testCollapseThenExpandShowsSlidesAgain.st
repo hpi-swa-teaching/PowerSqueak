@@ -7,7 +7,7 @@ testCollapseThenExpandShowsSlidesAgain
 	section := self presentation sectionNamed: 'Intro'.
 	(PSSectionHeader forSection: section tool: self tool) toggleCollapse.
 	self world doOneCycle.
-	self assert: section isCollapsed.
+	self assert: section collapsed.
 	(PSSectionHeader forSection: section tool: self tool) toggleCollapse.
 	self world doOneCycle.
-	self deny: section isCollapsed
+	self deny: section collapsed

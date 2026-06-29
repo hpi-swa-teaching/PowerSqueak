@@ -1,4 +1,4 @@
 execution
 unexecute
 
-	location removeContainer: container
+	self location removeContainer: self container

@@ -1,7 +1,7 @@
 event handling
 doubleClick: evt
 
-	| textMoprh |
+	| textMorph |
   evt redButtonPressed
 		ifTrue: [
 			textMorph := PSTextMorph new

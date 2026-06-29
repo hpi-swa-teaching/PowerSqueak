@@ -10,5 +10,5 @@ testSectionHeaderExpandAllExpandsSections
 	section := self presentation sectionNamed: 'A'.
 	(self tool sectionHeaderFor: section) expandAll.
 	self
-		deny: (self presentation sectionNamed: 'A') isCollapsed;
-		deny: (self presentation sectionNamed: 'B') isCollapsed
+		deny: (self presentation sectionNamed: 'A') collapsed;
+		deny: (self presentation sectionNamed: 'B') collapsed

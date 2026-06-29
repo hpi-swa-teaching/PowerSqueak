@@ -2,10 +2,10 @@
 	"class" : {
 		"named:firstSlide:" : "mv 5/27/2026 09:00" },
 	"instance" : {
+		"collapsed" : "TK 6/29/2026 19:30",
 		"collapsed:" : "mv 5/16/2026 17:30",
 		"firstSlide" : "mv 5/16/2026 17:00",
 		"firstSlide:" : "mv 5/16/2026 17:00",
-		"isCollapsed" : "mv 5/16/2026 17:30",
 		"lastSlide" : "mv 5/27/2026 09:00",
 		"lastSlide:" : "mv 5/27/2026 09:00",
 		"level" : "mv 5/16/2026 17:30",
@@ -13,4 +13,4 @@
 		"name" : "mv 5/16/2026 17:00",
 		"name:" : "mv 5/16/2026 17:00",
 		"printOn:" : "mv 5/16/2026 17:00",
-		"toggleCollapsed" : "mv 5/16/2026 17:30" } }
+		"toggleCollapsed" : "TK 6/29/2026 19:04" } }

@@ -10,7 +10,6 @@
 		"slideErrors",
 		"missingMorphErrors",
 		"layoutsDirectoryMissing",
-		"presentation",
 		"world" ],
 	"name" : "PSPresentationLoader",
 	"pools" : [

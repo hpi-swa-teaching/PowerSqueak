@@ -1,5 +1,5 @@
 execution
 executeOnTool
 
-	duplicate ifNil: [duplicate := slide duplicate].
-	self tool basicDuplicateSlide: duplicate after: slide
+	self duplicate ifNil: [self duplicate: self slide duplicate].
+	self tool basicDuplicateSlide: self duplicate after: self slide
