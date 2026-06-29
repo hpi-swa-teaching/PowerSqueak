@@ -65,6 +65,17 @@
 
 ---
 
+### Textfeld-Hintergrund transparent
+**Als** Präsentationsersteller **möchte ich** den Hintergrund von nem Textfeld transparent schalten können, **um** den Text direkt aufm Slide oder über nem Bild liegen zu haben ohne so nen hässlichen Kasten drumrum.
+
+**Akzeptanzkriterien:**
+- Bei einem Textfeld kann man über das Kontextmenü den Hintergrund auf transparent stellen
+- Wenn transparent dann sieht man den Slide-Hintergrund bzw. das Bild dahinter durch
+- Lässt sich auch wieder zurück auf ne richtige Hintergrundfarbe stellen
+- Die Einstellung bleibt nach Save/Load immernoch erhalten
+
+---
+
 ## Slide Sections
 
 ### Slides in Sektionen gruppieren
@@ -112,6 +123,30 @@
 - Bei Fehlern (z.B. Division durch 0) wird die Fehlermeldung angezeigt statt die Präsentation abzuschiessen
 
 *Hängt ab von: Code-Block mit Syntax-Highlighting*
+
+---
+
+## Formen / Shapes
+
+### Ecken von Rechtecken abrunden
+**Als** Präsentationsersteller **möchte ich** die Ecken von einem Rechteck abrunden können, **um** dass meine Slides moderner aussehen und nicht so kantig wie Powerpoint von 2003.
+
+**Akzeptanzkriterien:**
+- Gegebenn ein Rechteck liegt aufm Slide, wenn ich "Ecken abrunden" wähle, dann sind die Ecken rund
+- Man kann zumindest grob einstellen wie stark abgerundet wird
+- Abrundung lässt sich wieder auf eckig zurückstellen
+- Rundung bleibt nach Save/Load erhalten
+
+---
+
+### Rechteck-Hintergrundfarbe ändern
+**Als** Präsentationsersteller **möchte ich** die Hintergrundfarbe von einem Rechteck ändern können, **um** Farbakzente zu setzen und wichtige Sachen aufm Slide hervorzuheben.
+
+**Akzeptanzkriterien:**
+- Bei einem Rechteck kann man über das Kontextmenü eine Füllfarbe auswählen
+- Die gewählte Farbe wird sofort am Rechteck angezeigt
+- Geht für alle Shapes, mindestens aber fürs Rechteck
+- Die Farbe bleibt nach Save/Load immernoch erhalten
 
 ---
 
