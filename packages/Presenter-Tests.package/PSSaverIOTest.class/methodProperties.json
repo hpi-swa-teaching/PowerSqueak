@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAskForPresentationNameReturnsTypedName" : "rc 6/29/2026 12:52",
+		"testClearSubdirectoryRecreatesIt" : "rc 6/29/2026 13:26",
+		"testCreateDirectoryReturnsSubdirectory" : "rc 6/29/2026 13:13",
+		"testFullSaveCreatesPresentationDirectory" : "rc 6/29/2026 13:34",
+		"testOverwriteConfirmRecreatesDirectory" : "rc 6/29/2026 13:41",
+		"testSaveInstanceVarsWritesMetadata" : "rc 6/29/2026 13:19",
+		"testSaveLayoutsCreatesLayoutsDirectory" : "rc 6/29/2026 13:05",
+		"testSaveSectionsWritesSectionsFile" : "rc 6/29/2026 13:04",
+		"testSaveSlidesCreatesSlidesDirectory" : "rc 6/29/2026 12:58" } }

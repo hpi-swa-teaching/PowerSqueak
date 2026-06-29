@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"tearDown" : "rc 6/29/2026 14:52",
+		"testChangeSlideColorCommandExecuteUnexecute" : "rc 6/29/2026 15:08",
+		"testContentContainerApplyUserInterfaceTheme" : "rc 6/29/2026 15:34",
+		"testContentLocationCaptureRemoveRestore" : "rc 6/29/2026 15:14",
+		"testInvokeContextMenuOnContainer" : "rc 6/29/2026 15:21",
+		"testLoaderConstantMessages" : "rc 6/29/2026 15:28",
+		"testTextMorphFontSizeDialogText" : "rc 6/29/2026 15:01",
+		"testToolWindowReturnsSystemWindow" : "rc 6/29/2026 14:53" } }

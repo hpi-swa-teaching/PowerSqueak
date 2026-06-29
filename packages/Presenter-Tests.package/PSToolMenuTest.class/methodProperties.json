@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"tearDown" : "rc 6/29/2026 14:08",
+		"testExportFolderExists" : "rc 6/29/2026 14:38",
+		"testOpenFileMenuOpens" : "rc 6/29/2026 14:02",
+		"testOpenInsertMenuOpens" : "rc 6/29/2026 14:09",
+		"testOpenPresentationModeOptionsMenuOpens" : "rc 6/29/2026 14:23",
+		"testOpenSlideMenuOpens" : "rc 6/29/2026 14:31",
+		"testOpenSnapOptionsMenuOpens" : "rc 6/29/2026 14:16",
+		"testSlideRangeConstantsAreStrings" : "rc 6/29/2026 14:24",
+		"testWarnTrueChoiceRunsTrueBlock" : "rc 6/29/2026 14:45" } }

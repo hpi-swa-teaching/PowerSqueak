@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PSCoverageExtraTest",
+	"pools" : [
+		 ],
+	"super" : "PSPresentationToolTest",
+	"type" : "normal" }
