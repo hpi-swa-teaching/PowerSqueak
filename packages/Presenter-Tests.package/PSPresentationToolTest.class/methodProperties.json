@@ -112,7 +112,6 @@
 		"testIndentingSectionAlsoIndentsDescendants" : "mv 5/26/2026 22:00",
 		"testInsertButtonData" : "rc 6/21/2026 16:12",
 		"testInsertShapeNamesContainsAllShapes" : "LK 6/30/2026 18:02",
-		"testInsertShapeNamesHasFourShapes" : "LK 6/30/2026 18:02",
 		"testInvalidAnswerDoesntChangeSnapSize:" : "VO 7/26/2019 12:49",
 		"testInvalidAnswersDontChangeSnapSize" : "VO 7/26/2019 12:46",
 		"testLastSlideSurvivesSaveLoad" : "mv 5/27/2026 09:00",
