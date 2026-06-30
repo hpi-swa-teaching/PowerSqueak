@@ -1,4 +1,4 @@
-shape creation tests
+tests shapes
 testCreatingCircleAddsShapeToCurrentSlide
 
 	| container |

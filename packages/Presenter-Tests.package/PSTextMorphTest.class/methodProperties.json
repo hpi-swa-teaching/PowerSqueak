@@ -12,8 +12,6 @@
 		"testContextMenu" : "VO 5/23/2019 17:52",
 		"testDecreaseBulletIndentFromLevel1RemovesBullet" : "rc 6/15/2026 11:09",
 		"testDecreaseBulletIndentStepsFromLevel2ToLevel1" : "rc 6/15/2026 14:22",
-		"testDefaultFontColorIsBlack" : "rc 6/21/2026 16:05",
-		"testDefaultTextBackgroundColorIsTransparent" : "rc 6/21/2026 13:38",
 		"testEverythingIsSelectedOnTextMorphCreation" : "jb 6/19/2019 18:21",
 		"testFontColorDialog" : "VO 5/23/2019 16:40",
 		"testFontSizeDialog" : "mb 7/24/2019 12:03",

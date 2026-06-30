@@ -1,0 +1,4 @@
+constants
+defaultShapeBorderWidth
+
+	^ 2
