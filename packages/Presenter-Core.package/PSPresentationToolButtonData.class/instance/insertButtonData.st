@@ -1,4 +1,4 @@
-toolbuilder buttons
+button data
 insertButtonData
 
 	^ Dictionary withAll: {	
@@ -6,4 +6,4 @@ insertButtonData
 		#name -> #InsertButton.
 		#label -> 'Insert'.
 		#action -> #openInsertMenu.
-		#color -> self menuBarColor}
+		#color -> tool menuBarColor}

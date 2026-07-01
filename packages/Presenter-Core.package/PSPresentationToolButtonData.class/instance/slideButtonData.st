@@ -1,4 +1,4 @@
-toolbuilder buttons
+button data
 slideButtonData
 
 	^ Dictionary withAll: {	
@@ -6,4 +6,4 @@ slideButtonData
 		#name -> #SlideButton.
 		#label -> 'Slide'.
 		#action -> #openSlideMenu.
-		#color -> self menuBarColor}
+		#color -> tool menuBarColor}

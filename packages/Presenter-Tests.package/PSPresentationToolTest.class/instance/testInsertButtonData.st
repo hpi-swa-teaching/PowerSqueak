@@ -2,7 +2,7 @@ button tests
 testInsertButtonData
 
 	| data |
-	data := self tool insertButtonData.
+	data := self tool buttonData insertButtonData.
 	self
 		assert: (data at: #label)
 		equals: 'Insert'.

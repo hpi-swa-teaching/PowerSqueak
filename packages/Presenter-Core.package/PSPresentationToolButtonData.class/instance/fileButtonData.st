@@ -1,4 +1,4 @@
-toolbuilder buttons
+button data
 fileButtonData
 
 	^ Dictionary withAll: {	
@@ -6,4 +6,4 @@ fileButtonData
 		#name -> #FileButton.
 		#label -> 'File'.
 		#action -> #openFileMenu.
-		#color -> self menuBarColor}
+		#color -> tool menuBarColor}

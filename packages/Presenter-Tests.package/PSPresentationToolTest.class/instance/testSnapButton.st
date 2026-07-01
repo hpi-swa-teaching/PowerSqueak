@@ -2,8 +2,8 @@ button tests
 testSnapButton
 
 	| button modeBefore |
-	button := self window allMorphs detect: 
-		[:m | m externalName = (self tool snapButtonData at: #name)].
+	button := self window allMorphs detect:
+		[:m | m externalName = (self tool buttonData snapButtonData at: #name)].
 	modeBefore := self snapActive.
 	
 	self 
@@ -13,4 +13,3 @@ testSnapButton
 	self 
 		click: MouseEvent redButton at: button boundsInWorld center;
 		assert: self snapActive equals: modeBefore
-	

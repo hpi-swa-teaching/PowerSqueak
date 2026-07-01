@@ -1,4 +1,4 @@
-toolbuilder buttons
+button data
 createSlideButtonData
 
 	^ Dictionary withAll: {	

@@ -2,7 +2,7 @@ button tests
 testSlideButtonData
 
 	| data |
-	data := self tool slideButtonData.
+	data := self tool buttonData slideButtonData.
 	self
 		assert: (data at: #label)
 		equals: 'Slide'.

@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"for:" : "JEG 7/1/2026 21:00" },
+	"instance" : {
+		"createLayoutSlideButtonData" : "JEG 7/1/2026 21:45",
+		"createSlideButtonData" : "JEG 7/1/2026 21:43",
+		"dropDownMenuButtonData" : "JEG 7/1/2026 21:07",
+		"fileButtonData" : "JEG 7/1/2026 21:16",
+		"insertButtonData" : "JEG 7/1/2026 21:21",
+		"menuBarButtonData" : "JEG 7/1/2026 21:03",
+		"presentationModeButtonData" : "JEG 7/1/2026 21:38",
+		"presentationModeOptionsButtonData" : "JEG 7/1/2026 21:40",
+		"redoButtonData" : "JEG 7/1/2026 21:29",
+		"slideButtonData" : "JEG 7/1/2026 21:24",
+		"slideCreationButtonData" : "JEG 7/1/2026 21:12",
+		"snapButtonData" : "JEG 7/1/2026 21:33",
+		"snapOptionsButtonData" : "JEG 7/1/2026 21:35",
+		"tool" : "JEG 7/1/2026 21:02",
+		"tool:" : "JEG 7/1/2026 21:02",
+		"topRightButtonData" : "JEG 7/1/2026 21:11",
+		"undoButtonData" : "JEG 7/1/2026 21:28" } }

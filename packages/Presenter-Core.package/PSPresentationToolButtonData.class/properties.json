@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JEG 7/1/2026 20:59",
+	"instvars" : [
+		"tool" ],
+	"name" : "PSPresentationToolButtonData",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
