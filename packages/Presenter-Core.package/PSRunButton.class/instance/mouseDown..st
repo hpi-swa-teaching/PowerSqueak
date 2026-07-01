@@ -1,4 +1,5 @@
 event handling
 mouseDown: evt
-    
-	self action value
+
+	(self owner notNil and: [self owner respondsTo: #executeCode])
+		ifTrue: [self owner executeCode]
