@@ -1,4 +1,4 @@
-accessing
+testing support
 mockCorruptedMorphPresentationDirectory
 
 	| directory slideDirectory metadata |
