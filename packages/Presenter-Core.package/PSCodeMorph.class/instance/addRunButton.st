@@ -1,12 +1,12 @@
 run button
 addRunButton
-
 	| aRunButton |
+	
 	aRunButton := PSRunButton new
-		fontSize: self selectionFontSize * self textScale;
+		action: [self executeCode];
+		fontSize:  self selectionFontSize * self textScale;
 		yourself.
 	
-	self
-		addMorph: aRunButton;
+	self addMorph: aRunButton;
 		runButton: aRunButton;
-		repositionButton
+		repositionButton.
