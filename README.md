@@ -115,6 +115,10 @@ To control your presentation during presentation mode, use:
 | left arrow/arrow up/page up | previous slide |
 | Number keys | Jump to a slide number (0 = last slide) |
 | i | (de-)activate interactivity and (un-)hide cursor |
+| n | Jump to the next section |
+| p | Jump to the previous section |
+| t | Turn the timer on or off |
+| h | Pause or resume the timer |
 
 Because PowerSqueak supports slide selection with both arrow and page keys, most wireless presenters will work correctly with PowerSqueak, but pressing the present button on your presenter will not work, as the Squeak VM does not support function keys.
 
