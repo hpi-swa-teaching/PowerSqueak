@@ -1,4 +1,0 @@
-toolbuilder buttons
-presentationModeOptionsButtonData
-
-	^ self buttonData presentationModeOptionsButtonData

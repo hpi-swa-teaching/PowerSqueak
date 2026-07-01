@@ -2,7 +2,7 @@ button tests
 testCreateLayoutSlideButtonData
 
 	| data |
-	data := self tool createLayoutSlideButtonData.
+	data := self tool buttonData createLayoutSlideButtonData.
 	self
 		assert: (data at: #label)
 		equals: 'with Layout'.

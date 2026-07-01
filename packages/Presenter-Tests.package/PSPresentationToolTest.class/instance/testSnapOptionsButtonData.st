@@ -2,7 +2,7 @@ button tests
 testSnapOptionsButtonData
 
 	| data |
-	data := self tool snapOptionsButtonData.
+	data := self tool buttonData snapOptionsButtonData.
 	self
 		assert: (data at: #label)
 		equals: 'v'.

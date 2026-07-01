@@ -2,5 +2,6 @@ button tests
 testMenuBarButtonDataCombinesGroups
 
 	self
-		assert: self tool menuBarButtonData size
-		equals: self tool dropDownMenuButtonData size + self tool topRightButtonData size
+		assert: self tool buttonData menuBarButtonData size
+		equals: self tool buttonData dropDownMenuButtonData size
+			+ self tool buttonData topRightButtonData size

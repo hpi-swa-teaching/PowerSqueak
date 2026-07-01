@@ -1,4 +1,0 @@
-toolbuilder buttons
-createLayoutSlideButtonData
-
-	^ self buttonData createLayoutSlideButtonData

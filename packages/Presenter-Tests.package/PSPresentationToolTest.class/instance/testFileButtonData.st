@@ -2,7 +2,7 @@ button tests
 testFileButtonData
 
 	| data |
-	data := self tool fileButtonData.
+	data := self tool buttonData fileButtonData.
 	self
 		assert: (data at: #label)
 		equals: 'File'.
