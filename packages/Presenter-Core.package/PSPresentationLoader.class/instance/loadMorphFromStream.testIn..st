@@ -2,7 +2,7 @@ morph loading
 loadMorphFromStream: aStream testIn: aWorld
 
 	| morph |
-	[morph := aStream fileInObjectAndCode]
+	[morph := self loadMorphObjectFromStream: aStream]
 		on: Error
 		do: [:error |
 			morph := self abandonMorph: morph].
