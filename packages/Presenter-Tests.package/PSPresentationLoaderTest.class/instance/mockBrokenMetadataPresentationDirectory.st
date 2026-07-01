@@ -1,4 +1,4 @@
-accessing
+testing support
 mockBrokenMetadataPresentationDirectory
 
 	| directory slidesDirectory |

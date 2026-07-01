@@ -1,4 +1,4 @@
-accessing
+testing support
 mockCompletePresentationDirectory
 
 	| directory slidesDirectory |
