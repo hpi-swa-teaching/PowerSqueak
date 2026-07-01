@@ -1,4 +1,10 @@
-<h1><img src="assets/PowerSqueakLogo.png" alt="PowerSqueak logo" width="40" align="middle"> PowerSqueak</h1>
+<h1>
+	<picture>
+		<source media="(prefers-color-scheme: dark)" srcset="assets/PowerSqueakLogoDark.png">
+		<img src="assets/PowerSqueakLogo.png" alt="PowerSqueak logo" width="40" align="middle">
+	</picture>
+	PowerSqueak
+</h1>
 
 [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/PowerSqueak/badge.svg?branch=main)](https://coveralls.io/github/hpi-swa-teaching/PowerSqueak?branch=main)
 
