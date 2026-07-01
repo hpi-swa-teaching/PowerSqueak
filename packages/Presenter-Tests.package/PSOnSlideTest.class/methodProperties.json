@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"aContainerOnSlide" : "LK 6/30/2026 18:05",
 		"setUp" : "JEG 6/23/2026 02:57",
 		"slide" : "LB 6/1/2018 17:49",
 		"slide:" : "LB 6/1/2018 17:49",
@@ -10,9 +11,19 @@
 		"submorphs" : "WoC 7/24/2018 17:55",
 		"tearDown" : "VO 5/15/2019 18:01",
 		"testAcceptDropImageFile" : "LM 7/25/2018 12:27",
+		"testBorderColorButtonSitsNextToRecolor" : "LK 6/30/2026 18:08",
+		"testBorderColorIsIndependentOfFillColor" : "LK 6/30/2026 18:07",
+		"testBorderWidthDialogTextIsProvided" : "LK 6/30/2026 18:07",
+		"testChangeBorderWidthActionIsWiredUp" : "LK 6/30/2026 18:07",
 		"testCreatingArrowAddsShapeToCurrentSlide" : "JEG 6/29/2026 20:03",
 		"testCreatingCircleAddsShapeToCurrentSlide" : "JEG 6/29/2026 20:02",
 		"testCreatingLineAddsShapeToCurrentSlide" : "JEG 6/29/2026 20:41",
 		"testCreatingRectangleAddsShapeToCurrentSlide" : "JEG 6/29/2026 20:01",
+		"testCreatingRoundedRectangleAddsShapeToCurrentSlide" : "LK 6/30/2026 18:06",
+		"testDefaultActionsIncludeBorderActions" : "LK 6/30/2026 18:07",
+		"testNewShapeUsesDefaultBorderWidth" : "LK 6/30/2026 18:07",
+		"testPlainRectangleIsNotRounded" : "LK 6/30/2026 18:06",
+		"testRecolorBorderActionIsWiredUp" : "LK 6/30/2026 18:07",
+		"testRoundedRectangleHasRoundedCornerStyle" : "LK 6/30/2026 18:06",
 		"testTextFieldCreatedOnDoubleClick" : "WoC 7/25/2018 13:49",
 		"tool" : "VO 5/29/2019 16:18" } }

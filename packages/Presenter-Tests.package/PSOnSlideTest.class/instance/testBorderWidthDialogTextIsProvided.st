@@ -1,0 +1,4 @@
+tests boarder
+testBorderWidthDialogTextIsProvided
+
+	self deny: self aContainerOnSlide borderWidthDialogText isEmpty

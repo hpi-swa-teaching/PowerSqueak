@@ -1,4 +1,4 @@
-shape creation tests
+tests shapes
 testCreatingArrowAddsShapeToCurrentSlide
 
 	| container |
