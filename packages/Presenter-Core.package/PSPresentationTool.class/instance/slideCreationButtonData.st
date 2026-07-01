@@ -1,4 +1,4 @@
-toolbuilder
+toolbuilder buttons
 slideCreationButtonData
 	
-	^ {self createSlideButtonData. self createLayoutSlideButtonData}
+	^ self buttonData slideCreationButtonData

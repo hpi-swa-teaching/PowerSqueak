@@ -1,4 +1,4 @@
 toolbuilder buttons
 menuBarButtonData
 
-	^ self dropDownMenuButtonData , self topRightButtonData
+	^ self buttonData menuBarButtonData
