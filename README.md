@@ -14,20 +14,20 @@ Squeak Trunk is also a target platform, but due to the fast changing nature of T
 Squeak 5.0 is officially unsupported (see the [CI build](https://github.com/hpi-swa-teaching/PowerSqueak/actions/workflows/ci.yml)).
 
 ## **Overview**
-* [Overview](https://github.com/hpi-swa-teaching/PowerSqueak#overview)
-* [Installation Instructions](https://github.com/hpi-swa-teaching/PowerSqueak#installation-instructions)
-* [Build status](https://github.com/hpi-swa-teaching/PowerSqueak#build-status)
-* [Using PowerSqueak](https://github.com/hpi-swa-teaching/PowerSqueak#using-powersqueak)
-	* [Edit mode](https://github.com/hpi-swa-teaching/PowerSqueak#edit-mode)
-		* [Undo & Redo](https://github.com/hpi-swa-teaching/PowerSqueak#undo--redo)
-		* [Layouts](https://github.com/hpi-swa-teaching/PowerSqueak#layouts)
-		* [Sections](https://github.com/hpi-swa-teaching/PowerSqueak#sections)
-		* [Drag & Drop](https://github.com/hpi-swa-teaching/PowerSqueak#drag--drop)
-	* [Presentation mode](https://github.com/hpi-swa-teaching/PowerSqueak#presentation-mode)
-		* [Interactive/Non-Interactive mode](https://github.com/hpi-swa-teaching/PowerSqueak#interactivenon-interactive-mode)
-		* [Timer](https://github.com/hpi-swa-teaching/PowerSqueak#timer)
-	* [Saving and loading](https://github.com/hpi-swa-teaching/PowerSqueak#saving-and-loading)
-		* [Saving selected slides](https://github.com/hpi-swa-teaching/PowerSqueak#saving-selected-slides)
+* [Overview](#overview)
+* [Installation Instructions](#installation-instructions)
+* [Build status](#build-status)
+* [Using PowerSqueak](#using-powersqueak)
+	* [Edit mode](#edit-mode)
+		* [Undo & Redo](#undo--redo)
+		* [Layouts](#layouts)
+		* [Sections](#sections)
+		* [Drag & Drop](#drag--drop)
+	* [Presentation mode](#presentation-mode)
+		* [Interactive/Non-Interactive mode](#interactivenon-interactive-mode)
+		* [Timer](#timer)
+	* [Saving and loading](#saving-and-loading)
+		* [Saving selected slides](#saving-selected-slides)
 
 ## **Installation Instructions**
 For easy installation, please first install [Metacello](https://github.com/Metacello/metacello).
