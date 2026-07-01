@@ -1,9 +1,9 @@
 execution
 execute
 
-	container
+	self container
 		ifNil: [
-			container := slide addContent: morph.
-			location := PSContentLocation of: container]
-		ifNotNil: [location restoreContainer: container].
-	^ container
+			self container: (self slide addContent: self morph).
+			self location: (PSContentLocation of: self container)]
+		ifNotNil: [self location restoreContainer: self container].
+	^ self container

@@ -6,4 +6,4 @@ testExpandSectionsContainingSlideExpandsCoveringSection
 	section := self presentation sectionNamed: 'S'.
 	section collapsed: true.
 	self presentation expandSectionsContainingSlideAt: 1.
-	self deny: section isCollapsed
+	self deny: section collapsed

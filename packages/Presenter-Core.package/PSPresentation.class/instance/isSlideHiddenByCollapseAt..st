@@ -2,4 +2,4 @@ testing
 isSlideHiddenByCollapseAt: anIndex
 
 	^ (self sectionsCoveringSlideAt: anIndex)
-		anySatisfy: [:each | each isCollapsed]
+		anySatisfy: [:each | each collapsed]

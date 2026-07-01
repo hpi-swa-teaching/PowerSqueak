@@ -14,4 +14,4 @@ testCollapsedStateSurvivesSaveLoad
 		presentation: self presentation;
 		yourself.
 	loader addSectionsFromData: savedData.
-	self assert: (self presentation sectionNamed: 'Intro') isCollapsed
+	self assert: (self presentation sectionNamed: 'Intro') collapsed

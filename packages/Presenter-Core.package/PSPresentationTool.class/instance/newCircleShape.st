@@ -1,4 +1,4 @@
 shapes
 newCircleShape
 
-	self openMorphInHand: CircleMorph new
+	^ self addShape: CircleMorph new

@@ -1,4 +1,4 @@
 dirty state
 isDirty
 
-	^ undoStack ~= cleanUndoStack
+	^ (self undoStack) ~= (self cleanUndoStack)

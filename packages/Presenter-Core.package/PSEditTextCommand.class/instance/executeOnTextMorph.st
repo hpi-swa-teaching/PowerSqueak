@@ -1,4 +1,4 @@
 execution
 executeOnTextMorph
 
-	self textMorph basicTextEdited: newText
+	self textMorph basicTextEdited: self newText

@@ -1,4 +1,4 @@
 execution
 unexecute
 
-	beforeState restoreOnTool: self tool
+	self beforeState restoreOnTool: self tool

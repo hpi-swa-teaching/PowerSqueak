@@ -1,6 +1,6 @@
 restoring
 restoreContainer: aPSContentContainer
 
-	^ slide
+	^ self slide
 		restoreContentContainer: aPSContentContainer
-		withLayoutFrame: layoutFrame
+		withLayoutFrame: self layoutFrame

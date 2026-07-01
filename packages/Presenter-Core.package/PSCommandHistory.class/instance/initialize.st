@@ -2,6 +2,6 @@ initialize-release
 initialize
 
 	super initialize.
-	undoStack := OrderedCollection new.
-	redoStack := OrderedCollection new.
-	cleanUndoStack := OrderedCollection new
+	self undoStack: OrderedCollection new;
+		redoStack: OrderedCollection new;
+		cleanUndoStack: OrderedCollection new

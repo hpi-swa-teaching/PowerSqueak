@@ -1,4 +1,4 @@
 execution
 unexecute
 
-	beforeLocation restoreContainer: container
+	self beforeLocation restoreContainer: self container

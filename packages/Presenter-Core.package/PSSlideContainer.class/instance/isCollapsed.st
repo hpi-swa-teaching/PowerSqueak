@@ -1,4 +1,0 @@
-systemwindow-compatibility
-isCollapsed
-
-	^ false

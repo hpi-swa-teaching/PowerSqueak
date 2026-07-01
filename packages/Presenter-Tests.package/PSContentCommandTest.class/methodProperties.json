@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAddContentCommandAccessors" : "rc 6/29/2026 12:25",
+		"testCommandDescriptionAndLogoLayer" : "rc 6/29/2026 12:41",
+		"testContentLocationAccessors" : "rc 6/29/2026 12:19",
+		"testPlacementAndDeleteCommandAccessors" : "rc 6/29/2026 12:26",
+		"testPresentationCommandAccessors" : "rc 6/29/2026 12:34" } }

@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAccessorsRoundtrip" : "rc 6/29/2026 12:14",
+		"testCaptureFromToolRecordsSlides" : "rc 6/29/2026 12:03",
+		"testRestoreOnToolReinstatesSlides" : "rc 6/29/2026 12:09" } }

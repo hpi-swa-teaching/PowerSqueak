@@ -1,4 +1,0 @@
-constants
-defaultFontColor
-
-	^ Color black

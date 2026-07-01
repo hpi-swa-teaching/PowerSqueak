@@ -1,4 +1,4 @@
 execution
 execute
 
-	afterLocation restoreContainer: container
+	self afterLocation restoreContainer: self container
