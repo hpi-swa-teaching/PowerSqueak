@@ -6,7 +6,7 @@
 	PowerSqueak
 </h1>
 
-[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/PowerSqueak/badge.svg?branch=main)](https://coveralls.io/github/hpi-swa-teaching/PowerSqueak?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/PowerSqueak/badge.svg?branch=main&kill_cache=1)](https://coveralls.io/github/hpi-swa-teaching/PowerSqueak?branch=main)
 
 A presentation tool for the Squeak development platform
 
@@ -64,7 +64,7 @@ Alternatively, download the .sar file from the [latest release](https://github.c
 ## **Build status**
 | Build (`swt26-g01/main`) | Coverage (`main`) |
 | --- | --- |
-| [![CI](https://github.com/hpi-swa-teaching/PowerSqueak/actions/workflows/ci.yml/badge.svg?branch=swt26-g01%2Fmain)](https://github.com/hpi-swa-teaching/PowerSqueak/actions/workflows/ci.yml) | [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/PowerSqueak/badge.svg?branch=main)](https://coveralls.io/github/hpi-swa-teaching/PowerSqueak?branch=main) |
+| [![CI](https://github.com/hpi-swa-teaching/PowerSqueak/actions/workflows/ci.yml/badge.svg?branch=swt26-g01%2Fmain)](https://github.com/hpi-swa-teaching/PowerSqueak/actions/workflows/ci.yml) | [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/PowerSqueak/badge.svg?branch=main&kill_cache=1)](https://coveralls.io/github/hpi-swa-teaching/PowerSqueak?branch=main) |
 
 ## **Using PowerSqueak**
 To open PowerSqueak either
