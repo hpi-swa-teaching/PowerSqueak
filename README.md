@@ -9,7 +9,7 @@ Supported platforms:
 * Squeak 5.3
 * Squeak 6.0
 
-Squeak Trunk is also a target plattform, but due to the fast changing nature of Trunk, certain versions of Squeak Trunk may not work.
+Squeak Trunk is also a target platform, but due to the fast changing nature of Trunk, certain versions of Squeak Trunk may not work.
 
 Squeak 5.0 is officially unsupported (see the [CI build](https://github.com/hpi-swa-teaching/PowerSqueak/actions/workflows/ci.yml)).
 
@@ -75,7 +75,7 @@ For advanced features, right-click the Morph. From its context menu you can dele
 <img src="pictures/right_click.PNG" alt="Right-click example" width="400">
 
 You can now use the features in the Menu bar to edit your text. \
-<img src="pictures/menu-bar.png" alt="Advanced Menu Bar" width = 400>
+<img src="pictures/menu-bar.png" alt="Advanced Menu Bar" width="400">
 
 #### **Undo & Redo**
 Most editing actions in PowerSqueak can be undone and redone.
@@ -148,7 +148,7 @@ If parts of a saved presentation are missing or corrupted, PowerSqueak tries to 
 - It is recommended, that you save your image before every save/load operation in PowerSqueak
 ```
 
-You may also export your presentation to a list of .png files, which will get exported into the `PSPresentationsExports` folder in your Squeak VMS directory
+You may also export your presentation to a list of .png files, which will get exported into the `PSPresentationsExports` folder in your Squeak VMs directory.
 
 #### **Saving selected slides**
 When saving, you can choose to export only specific slides instead of the whole presentation.
