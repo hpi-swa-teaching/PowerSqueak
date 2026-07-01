@@ -84,6 +84,19 @@ For advanced features, right-click the Morph. From its context menu you can dele
 You can now use the features in the Menu bar to edit your text. \
 <img src="pictures/menu-bar.png" alt="Advanced Menu Bar" width="400">
 
+You can also use keyboard shortcuts in edit mode:
+
+| Key | Action |
+| ------- | ------- |
+| Cmd + t | Insert a text field |
+| Cmd + i | Insert an image |
+| Delete / Backspace | Delete the selected morph |
+| Tab | Indent the selected section or add a subsection |
+| Shift + Tab | Outdent the selected section |
+| Delete | Delete the highlighted slide miniature |
+
+On Linux and Windows, use `Alt` instead of `Cmd`.
+
 #### **Undo & Redo**
 Most editing actions in PowerSqueak can be undone and redone.
 Use the two undo/redo buttons in the top center of the toolbar:
