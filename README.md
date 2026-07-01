@@ -28,6 +28,7 @@ Squeak 5.0 is officially unsupported (see the [CI build](https://github.com/hpi-
 		* [Timer](#timer)
 	* [Saving and loading](#saving-and-loading)
 		* [Saving selected slides](#saving-selected-slides)
+* [Credits](#credits)
 
 ## **Installation Instructions**
 For easy installation, please first install [Metacello](https://github.com/Metacello/metacello).
@@ -162,7 +163,7 @@ Leaving the field empty saves the entire presentation.
 
 <img src="pictures/SelectSlidesToSaveMenu.png" alt="Choose slides to export dialog" width="350">
 
-Credits:
+## **Credits**
   * Team 2018: Leon Bein, Tom Braun, Maximilian König, Jonas Zimmermann, Leon Matthes
   * Team 2019: Mark Bader, Vincent Opitz, Julian Berger, Katharina Wille, Mona Sobhani
   * Team 2026: Marvin Heyne, Robert Vetter, Julian Windheuser, Jan-Erik Großmann, Tobias Krauth, Lukas Kresse, Sebastian Hahn
