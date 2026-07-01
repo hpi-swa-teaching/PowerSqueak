@@ -1,13 +1,19 @@
-<h1><img src="assets/PowerSqueakLogo.png" alt="PowerSqueak logo" width="40" align="middle"> PowerSqueak</h1>
+<h1>
+	<picture>
+		<source media="(prefers-color-scheme: dark)" srcset="assets/PowerSqueakLogoDark.png">
+		<img src="assets/PowerSqueakLogo.png" alt="PowerSqueak logo" width="40" align="middle">
+	</picture>
+	PowerSqueak
+</h1>
 
-[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/PowerSqueak/badge.svg?branch=main)](https://coveralls.io/github/hpi-swa-teaching/PowerSqueak?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/PowerSqueak/badge.svg?branch=main&kill_cache=1)](https://coveralls.io/github/hpi-swa-teaching/PowerSqueak?branch=main)
 
 A presentation tool for the Squeak development platform
 
 Supported platforms:
-* Squeak 5.2
-* Squeak 5.3
 * Squeak 6.0
+* Squeak 5.3
+* Squeak 5.2
 
 Squeak Trunk is also a target platform, but due to the fast changing nature of Trunk, certain versions of Squeak Trunk may not work.
 
@@ -58,7 +64,7 @@ Alternatively, download the .sar file from the [latest release](https://github.c
 ## **Build status**
 | Build (`swt26-g01/main`) | Coverage (`main`) |
 | --- | --- |
-| [![CI](https://github.com/hpi-swa-teaching/PowerSqueak/actions/workflows/ci.yml/badge.svg?branch=swt26-g01%2Fmain)](https://github.com/hpi-swa-teaching/PowerSqueak/actions/workflows/ci.yml) | [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/PowerSqueak/badge.svg?branch=main)](https://coveralls.io/github/hpi-swa-teaching/PowerSqueak?branch=main) |
+| [![CI](https://github.com/hpi-swa-teaching/PowerSqueak/actions/workflows/ci.yml/badge.svg?branch=swt26-g01%2Fmain)](https://github.com/hpi-swa-teaching/PowerSqueak/actions/workflows/ci.yml) | [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/PowerSqueak/badge.svg?branch=main&kill_cache=1)](https://coveralls.io/github/hpi-swa-teaching/PowerSqueak?branch=main) |
 
 ## **Using PowerSqueak**
 To open PowerSqueak either
@@ -77,6 +83,19 @@ For advanced features, right-click the Morph. From its context menu you can dele
 
 You can now use the features in the Menu bar to edit your text. \
 <img src="pictures/menu-bar.png" alt="Advanced Menu Bar" width="400">
+
+You can also use keyboard shortcuts in edit mode:
+
+| Key | Action |
+| ------- | ------- |
+| Cmd + t | Insert a text field |
+| Cmd + i | Insert an image |
+| Delete / Backspace | Delete the selected morph |
+| Tab | Indent the selected section or add a subsection |
+| Shift + Tab | Outdent the selected section |
+| Delete | Delete the highlighted slide miniature |
+
+On Linux and Windows, use `Alt` instead of `Cmd`.
 
 #### **Undo & Redo**
 Most editing actions in PowerSqueak can be undone and redone.
@@ -115,6 +134,10 @@ To control your presentation during presentation mode, use:
 | left arrow/arrow up/page up | previous slide |
 | Number keys | Jump to a slide number (0 = last slide) |
 | i | (de-)activate interactivity and (un-)hide cursor |
+| n | Jump to the next section |
+| p | Jump to the previous section |
+| t | Turn the timer on or off |
+| h | Pause or resume the timer |
 
 Because PowerSqueak supports slide selection with both arrow and page keys, most wireless presenters will work correctly with PowerSqueak, but pressing the present button on your presenter will not work, as the Squeak VM does not support function keys.
 
