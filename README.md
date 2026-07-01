@@ -11,6 +11,7 @@
 A presentation tool for the Squeak development platform
 
 Supported platforms:
+* Squeak 6.1
 * Squeak 6.0
 * Squeak 5.3
 * Squeak 5.2
