@@ -3,4 +3,4 @@ updateUndoRedoButtons
 
 	self
 		changed: #undoButtonColor;
-		changed: #redoButtonColor
+		changed: #redoButtonColor 

@@ -24,8 +24,7 @@
 		"snapSizeDialogString" : "VO 7/26/2019 12:08",
 		"thumbnailExtent" : "LK 6/9/2026 14:40",
 		"unHighlightColor" : "mb 6/4/2019 15:40",
-		"unsavedChangesMessage" : "JEG 6/23/2026 01:51"},
-
+		"unsavedChangesMessage" : "JEG 6/23/2026 01:51" },
 	"instance" : {
 		"addButton:" : "VO 5/29/2019 17:57",
 		"addShape:" : "LK 6/30/2026 15:53",
@@ -153,6 +152,7 @@
 		"newImageField" : "LM 5/18/2018 17:13",
 		"newLineShape" : "Sebastian Hahn 5/31/2026 16:10",
 		"newRectangleShape" : "Sebastian Hahn 5/31/2026 15:45",
+		"newRoundedRectangleShape" : " 7/1/2026 18:52:55",
 		"newTextField" : "JEG 6/16/2026 00:51",
 		"nextSection" : "rc 6/4/2026 10:14",
 		"nextSlide" : "jb 7/25/2019 13:30",
@@ -243,7 +243,7 @@
 		"updateSlideMiniatureCompletelyAt:" : "JEG 6/17/2026 03:13",
 		"updateSlideMiniatures" : "LB 6/29/2018 17:08",
 		"updateSlideMiniaturesCompletely" : "jb 7/26/2019 12:05",
-		"updateUndoRedoButtons" : "JEG 6/15/2026 13:40",
+		"updateUndoRedoButtons" : "JEG 7/1/2026 18:52",
 		"viewPortLayoutFrame" : "VO 7/25/2019 12:25",
 		"visibleMiniaturesInOrder" : "M. H. 6/24/2026 15:52",
 		"wantsSteps" : "LB 6/29/2018 17:04",
