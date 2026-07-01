@@ -1,39 +1,34 @@
-# **PowerSqueak** [![Build Status](https://travis-ci.org/hpi-swa-teaching/PowerSqueak.svg?branch=release)](https://travis-ci.org/hpi-swa-teaching/PowerSqueak)[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SWT18-Project-09/badge.svg?branch=release)](https://coveralls.io/github/hpi-swa-teaching/SWT18-Project-09?branch=release)
+<h1><img src="assets/PowerSqueakLogo.png" alt="PowerSqueak logo" width="40" align="middle"> PowerSqueak</h1>
+
+[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/PowerSqueak/badge.svg?branch=main)](https://coveralls.io/github/hpi-swa-teaching/PowerSqueak?branch=main)
 
 A presentation tool for the Squeak development platform
 
 Supported platforms:
-* Squeak 5.1
 * Squeak 5.2
 * Squeak 5.3
+* Squeak 6.0
 
-Squeak 6.0 is unofficially supported as well.
-For Squeak 6.0, please install from the `master` branch like this:
+Squeak Trunk is also a target platform, but due to the fast changing nature of Trunk, certain versions of Squeak Trunk may not work.
 
-``` Smalltalk
-Metacello new
-	baseline: 'Presenter';
-	repository: 'github://hpi-swa-teaching/PowerSqueak:master/packages';
-	get;
-	load.
-```
-
-Squeak Trunk is also a target plattform, but due to the fast changing nature of Trunk, certain versions of Squeak Trunk may not work.
-
-Squeak 5.0 is officially unsupported (see [Travis-ci](https://travis-ci.org/hpi-swa-teaching/PowerSqueak)).
+Squeak 5.0 is officially unsupported (see the [CI build](https://github.com/hpi-swa-teaching/PowerSqueak/actions/workflows/ci.yml)).
 
 ## **Overview**
-* [Overview](https://github.com/hpi-swa-teaching/PowerSqueak#overview)
-* [Installation Instructions](https://github.com/hpi-swa-teaching/PowerSqueak#installation-instructions)
-* [Build status](https://github.com/hpi-swa-teaching/PowerSqueak#build-status)
-* [Using PowerSqueak](https://github.com/hpi-swa-teaching/PowerSqueak#using-powersqueak)
-	* [Edit mode](https://github.com/hpi-swa-teaching/PowerSqueak#edit-mode)
-		* [Snapping Raster](https://github.com/hpi-swa-teaching/PowerSqueak#snapping-raster)
-		* [Drag & Drop](https://github.com/hpi-swa-teaching/PowerSqueak#drag-&-drop)
-	* [Presentation mode](https://github.com/hpi-swa-teaching/PowerSqueak#presentation-mode)
-		* [Interactive/Non-Interactive mode](https://github.com/hpi-swa-teaching/PowerSqueak#interactivenon-interactive-mode)
-	* [saving and loading](https://github.com/hpi-swa-teaching/PowerSqueak#saving-and-loading)
-	* [list of shortcuts](https://github.com/hpi-swa-teaching/PowerSqueak#list-of-shortcuts)
+* [Overview](#overview)
+* [Installation Instructions](#installation-instructions)
+* [Build status](#build-status)
+* [Using PowerSqueak](#using-powersqueak)
+	* [Edit mode](#edit-mode)
+		* [Undo & Redo](#undo--redo)
+		* [Layouts](#layouts)
+		* [Sections](#sections)
+		* [Drag & Drop](#drag--drop)
+	* [Presentation mode](#presentation-mode)
+		* [Interactive/Non-Interactive mode](#interactivenon-interactive-mode)
+		* [Timer](#timer)
+	* [Saving and loading](#saving-and-loading)
+		* [Saving selected slides](#saving-selected-slides)
+* [Credits](#credits)
 
 ## **Installation Instructions**
 For easy installation, please first install [Metacello](https://github.com/Metacello/metacello).
@@ -53,7 +48,7 @@ For Squeak 6:
 ``` smalltalk
 Metacello new
 	baseline: 'Presenter';
-	repository: 'github://hpi-swa-teaching/PowerSqueak:master/packages';
+	repository: 'github://hpi-swa-teaching/PowerSqueak:main/packages';
 	get;
 	load.
 ```
@@ -61,10 +56,9 @@ Metacello new
 Alternatively, download the .sar file from the [latest release](https://github.com/hpi-swa-teaching/PowerSqueak/releases/latest) and install it into your Squeak image via drag and drop (Squeak 5 only).
 
 ## **Build status**
-| [Release](https://github.com/hpi-swa-teaching/PowerSqueak/releases/latest) | master
-| ------------------------- | ------------------- |
-| [![Build Status](https://travis-ci.org/hpi-swa-teaching/PowerSqueak.svg?branch=release)](https://travis-ci.org/hpi-swa-teaching/PowerSqueak) | [![Build Status](https://travis-ci.org/hpi-swa-teaching/PowerSqueak.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/PowerSqueak) |
-| [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SWT18-Project-09/badge.svg?branch=release)](https://coveralls.io/github/hpi-swa-teaching/SWT18-Project-09?branch=release) | [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SWT18-Project-09/badge.svg?branch=master)](https://coveralls.io/github/hpi-swa-teaching/SWT18-Project-09?branch=master) |
+| Build (`swt26-g01/main`) | Coverage (`main`) |
+| --- | --- |
+| [![CI](https://github.com/hpi-swa-teaching/PowerSqueak/actions/workflows/ci.yml/badge.svg?branch=swt26-g01%2Fmain)](https://github.com/hpi-swa-teaching/PowerSqueak/actions/workflows/ci.yml) | [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/PowerSqueak/badge.svg?branch=main)](https://coveralls.io/github/hpi-swa-teaching/PowerSqueak?branch=main) |
 
 ## **Using PowerSqueak**
 To open PowerSqueak either
@@ -73,21 +67,38 @@ To open PowerSqueak either
 	<img src="pictures/apps-drawer.png" alt="Open PowerSqueak in the Apps menu" width="250">
 
 ### **Edit mode**
-During edit mode, you can use the menu to save, load or export a presentation. You can insert a text field, an image, a shape or slide numbers with the "insert" button. You can hide, delete, duplicate, move or save a slide as a layout with the "slide" button in the menu bar (see shortcuts). 
-You may also drop other Morphs onto slides, but be aware, that some features of those Morphs might not work as expected (scaling most of the time does not work correctly).
+During edit mode, you can use the menu to save, load, rename or export a presentation. With the "Insert" button you can add a text field, a code field, an image, a shape or slide numbers. Shapes include circles, lines, rectangles and arrows.
+With the "Slide" button or the miniature context menu you can hide, delete, duplicate, move or save a slide as a layout. You can also give a slide a custom background color from the slide context menu.
+Text fields support formatting such as text size, text color, bold, italic, underline, alignment and bullet lists. You can toggle, indent and outdent bullet lists from the text context menu.
+A code field shows Smalltalk code with syntax highlighting and has a run button, so you can run the code right from the slide.
 
-For advanced features like deleting morphs or resizing text, right-click the Morph.\
+For advanced features, right-click the Morph. From its context menu you can delete, duplicate or recolor it, bring it to front or send it to back, resize text, or open a scripting tool to change the slide from code.\
 <img src="pictures/right_click.PNG" alt="Right-click example" width="400">
 
 You can now use the features in the Menu bar to edit your text. \
-<img src="pictures/menu-bar.png" alt="Advanced Menu Bar" width = 400>
+<img src="pictures/menu-bar.png" alt="Advanced Menu Bar" width="400">
 
-#### **Snapping Raster**
-PowerSqueak supports a snapping raster for easy layouting.
-If the snapping raster is active, resizing a Morph will automatically snap the corners of the Morph to an imaginary raster.\
-To enable the snapping raster click the button. It will change its color to show that it's activated. 
-You can select your snap size by clicking on the small arrow right next to the snap button.\
-<img src="pictures/snap.png" alt="How to enable raster" width=250>
+#### **Undo & Redo**
+Most editing actions in PowerSqueak can be undone and redone.
+Use the two undo/redo buttons in the top center of the toolbar:
+
+* the left button undoes the last action,
+* the right button redoes the action you just undid.
+
+You can also use the keyboard: `Cmd + z` to undo and `Cmd + y` to redo (`Alt + z` / `Alt + y` on Linux and Windows).
+
+#### **Layouts**
+PowerSqueak supports reusable slide layouts. You can save a slide as a layout from its miniature context menu, and rename or delete existing layouts from the same menu.
+To create a slide from a layout, click the "with Layout" button below the miniature list. When you hover over a layout in the layout chooser, you see a preview of it.
+
+<img src="pictures/Layout.png" alt="Layout chooser" width="400">
+
+#### **Sections**
+You can organize your slides into sections and subsections from the miniature context menu. Section headers are shown in the miniature sidebar and can be collapsed or expanded.
+A section header lets you rename, delete, indent, outdent and move the section, as well as collapse all or expand all sections. When you delete a section, PowerSqueak asks whether you want to delete the section together with its slides, or keep the slides by moving them up to the parent section.
+During a presentation you can jump to the next or previous section with the `n` and `p` keys.
+
+<img src="pictures/Sections.png" alt="Sections and subsections in the sidebar" width="250">
 
 #### **Drag & Drop**
 You can drag a miniature slide with the left mouseclick and drop it anywhere. If you want to change the position of a miniature, drag the miniature and drop it on the lower half of the above slide. 
@@ -113,47 +124,46 @@ This mode is added to avoid the visual clutter of the cursor and to keep text on
 
 Leaving the presentation mode also enables interactivity and unhides the cursor.
 
-Play around with the two modes a bit. Interactive mode is a great advantage of using PowerSqueak and allows you to hold extra-ordinary interactive presentations.
-You can add notes and incorporate feedback on the fly, show demos on the slides directly and generally interact with your audience in a very different way.
-So try to take a few minutes when preparing your presentation to reflect on this cool new ability and see how you can use this cool new tool to create an even better presentation.
+Try out both modes. Interactive mode is one of the big advantages of PowerSqueak: you can add notes and react to feedback on the fly, show demos directly on the slides and interact with your audience in a way that normal slides do not allow.
+It is worth taking a few minutes while preparing your talk to think about where this can make your presentation better.
+
+#### **Timer**
+In presentation mode PowerSqueak can show a small timer in the top-left corner. It works like a stopwatch and shows the time since you started it as minutes and seconds.
+Press `t` to turn the timer on or off, and `h` to pause or resume it.
 
 ### **Saving and loading**
 PowerSqueak can save and load presentations to/from the file system.
 
 Use the corresponding save/load buttons in the "File" menu to save/load the presentation.
+
+<img src="pictures/LoadSaveMenu.png" alt="The File menu" width="500">
+
 If you want to view the saved files, go to the `PSPresentation` directory in your Squeak VMs directory.
 You can share presentations by copying any presentation in the `PSPresentation` directory into the `PSPresentation` directory of another image.
 In the other image you can then load the presentation as usual in PowerSqueak.
+
+If parts of a saved presentation are missing or corrupted, PowerSqueak tries to load the remaining content and tells you which metadata, morph files or layout directories are missing. You will get a notification.
 
 ``` diff
 - Warning: some morphs may crash your image if they are saved/loaded!
 - It is recommended, that you save your image before every save/load operation in PowerSqueak
 ```
 
-You may also export your presentation to a list of .png files, which will get exported into the `PSPresentationsExports` folder in your Squeak VMS directory
+You may also export your presentation to a list of .png files, which will get exported into the `PSPresentationsExports` folder in your Squeak VMs directory.
 
-#### **List of shortcuts**
-### **Global schortcuts**
-| Key | Action|
-| ---- | ---- |
-| right arrow/arrow down/page down | next slide |
-| left arrow/arrow up/page up | previous slide |
-| Number keys | Jump to a slide number (0 = last slide) |
-| Cmd + t | Create a text field in hand |
-| delete | Delete slide (miniature needs to be selected) |
-| delete | Delete morph (morph needs to be selected and for deleting a text field, mouse needs to be outside of morph)
+#### **Saving selected slides**
+When saving, you can choose to export only specific slides instead of the whole presentation.
+Enter the slide numbers in the save dialog using either:
 
-### **Edit mode shortcuts**
-| Key | Action |
-| --- | --- |
-| Cmd + i | Create an image |
+* a range, e.g. `1-3` (saves slides 1, 2 and 3), or
+* a comma-separated list, e.g. `1,2,3` (saves slides 1, 2 and 3).
 
-### **Presentation mode shortcuts**
-| Key | Action |
-| --- | --- |
-| i | (de-)activate interactivity and (un-)hide cursor |
-| Esc | Leave presentation mode |
+You can also combine both, e.g. `1-3,5` saves slides 1, 2, 3 and 5.
+Leaving the field empty saves the entire presentation.
 
-Credits:
+<img src="pictures/SelectSlidesToSaveMenu.png" alt="Choose slides to export dialog" width="350">
+
+## **Credits**
   * Team 2018: Leon Bein, Tom Braun, Maximilian König, Jonas Zimmermann, Leon Matthes
-  * Team 2019: Mark Bader, Vincent Opitz, Julian Berger, Katharina Wille, Mona Sobhani 
+  * Team 2019: Mark Bader, Vincent Opitz, Julian Berger, Katharina Wille, Mona Sobhani
+  * Team 2026: Marvin Heyne, Robert Vetter, Julian Windheuser, Jan-Erik Großmann, Tobias Krauth, Lukas Kresse, Sebastian Hahn
