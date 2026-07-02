@@ -2,7 +2,7 @@ presentation serialization
 savePresentation
 
 	self slideContainer removeSelection.
-	^ self
+	^ (self
 		warn: self class riskyOperationMessage
 		trueChoice: [
 			(PSPresentationSaver save: self presentation)
@@ -10,4 +10,4 @@ savePresentation
 					self markSaved.
 					true]
 				ifFalse: [false]]
-		falseChoice: [false]
+		falseChoice: [false]) = true
