@@ -35,6 +35,8 @@
 		"testChangingSnapSizeChangesSnapSize" : "VO 7/26/2019 12:22",
 		"testChangingSnapSizeChangesSnapSizeWithValue:" : "VO 7/26/2019 12:09",
 		"testChangingSnapSizeTo:clampsSnapSizeTo:" : "VO 7/26/2019 12:14",
+		"testCloseWithUnsavedChangesAndSaveDeclinedKeepsWindowOpen" : "JEG 7/2/2026 02:12",
+		"testCloseWithUnsavedChangesAndSaveNameCancelledKeepsWindowOpen" : "JEG 7/2/2026 02:20",
 		"testCloseWithUnsavedChangesCanBeCancelled" : "JEG 6/23/2026 02:27",
 		"testCloseWithUnsavedChangesCanBeDiscarded" : "JEG 6/23/2026 02:26",
 		"testCloseWithoutUnsavedChangesIsAllowed" : "JEG 6/23/2026 01:53",

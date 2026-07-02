@@ -32,7 +32,7 @@
 		"testInvalidLayoutDirectoryNames" : "JB 5/7/2019 21:48",
 		"testInvalidLoadReturnsNil" : "MK 7/20/2018 15:51",
 		"testInvalidSlideDirectoryNames" : "VO 6/13/2019 17:14",
-		"testLineMorphSurvivesSaveLoad" : "JEG 7/2/2026 01:02",
+		"testLineMorphSurvivesSaveLoad" : "JEG 7/2/2026 01:40",
 		"testLoadCompletePresentation" : "mb 7/25/2019 15:28",
 		"testMissingFirstMorphFileProducesWarning" : "JEG 6/2/2026 16:45",
 		"testMissingLastMorphFileProducesWarning" : "JEG 6/2/2026 16:47",
