@@ -10,5 +10,5 @@ testRenameLayoutFromMiniatureRenamesSelectedLayout
 			{'Choose a layout to rename'. oldName}.
 			{'Enter a new name for your Layout'. newName}}.
 	self
-		deny: (self tool slideLayoutNames includes: oldName);
-		assert: (self tool slideLayoutNames includes: newName)
+		deny: (self tool layoutController slideLayoutNames includes: oldName);
+		assert: (self tool layoutController slideLayoutNames includes: newName)

@@ -3,5 +3,5 @@ createSlideFromLayout: aLayout
 
 	| slide |
 	slide := aLayout duplicate.
-	slide presentation: self presentation.
-	self addSlide: slide
+	slide presentation: self tool presentation.
+	self tool addSlide: slide

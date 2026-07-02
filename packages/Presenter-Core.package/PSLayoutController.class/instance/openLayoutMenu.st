@@ -1,11 +1,11 @@
-layouts
+layout menu
 openLayoutMenu
 
 	| menu |
 	menu := MenuMorph new.
 	menu defaultTarget: self.
 	self slideLayoutNames asSortedCollection do: [:aName | | layout item |
-		layout := self presentation slideLayouts at: aName.
+		layout := self tool presentation slideLayouts at: aName.
 		item := PSLayoutMenuItem new
 			contents: aName;
 			target: self;
@@ -17,4 +17,3 @@ openLayoutMenu
 		menu addMorphBack: item].
 	menu popUpInWorld.
 	^ menu
-

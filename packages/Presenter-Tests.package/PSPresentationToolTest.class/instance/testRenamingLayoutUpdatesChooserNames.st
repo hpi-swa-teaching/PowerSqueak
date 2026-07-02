@@ -5,7 +5,7 @@ testRenamingLayoutUpdatesChooserNames
 	oldName := 'Old Layout'.
 	newName := 'New Layout'.
 	self presentation addLayout: self currentSlide duplicate withName: oldName.
-	self tool renameLayoutNamed: oldName to: newName.
+	self tool layoutController renameLayoutNamed: oldName to: newName.
 	self
-		deny: (self tool slideLayoutNames includes: oldName);
-		assert: (self tool slideLayoutNames includes: newName)
+		deny: (self tool layoutController slideLayoutNames includes: oldName);
+		assert: (self tool layoutController slideLayoutNames includes: newName)

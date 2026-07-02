@@ -5,8 +5,8 @@ testRenameLayoutThenCreateWithOldName
 	oldName := 'Original'.
 	newName := 'Renamed'.
 	[(self miniatureOf: self currentSlide) saveAsLayout] valueSupplyingAnswer: oldName.
-	self tool renameLayoutNamed: oldName to: newName.
+	self tool layoutController renameLayoutNamed: oldName to: newName.
 	[(self miniatureOf: self currentSlide) saveAsLayout] valueSupplyingAnswer: oldName.
 	self
-		assert: (self tool slideLayoutNames includes: oldName);
-		assert: (self tool slideLayoutNames includes: newName)
+		assert: (self tool layoutController slideLayoutNames includes: oldName);
+		assert: (self tool layoutController slideLayoutNames includes: newName)

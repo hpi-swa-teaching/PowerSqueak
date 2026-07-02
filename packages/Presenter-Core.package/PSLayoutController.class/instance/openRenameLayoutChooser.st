@@ -1,7 +1,7 @@
-layouts
+layout menu
 openRenameLayoutChooser
 
-	self presentation slideLayouts
+	self tool presentation slideLayouts
 		ifEmpty: [self showNoLayoutsDialog]
 		ifNotEmpty: [
 			(UIManager default
