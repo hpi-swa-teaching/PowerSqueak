@@ -1,4 +1,4 @@
 initialization
 saveAsLayout	
 
-	self model openLayoutNameChooserFor: self slide
+	self model layoutController openLayoutNameChooserFor: self slide

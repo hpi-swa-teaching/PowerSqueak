@@ -1,4 +1,4 @@
-layouts
+layout menu
 openSlideLayoutChooserUnchecked
 
 	self openLayoutMenu

@@ -4,6 +4,6 @@ testDeletedLayoutNotInChooser
 	| layoutName |
 	layoutName := 'MyTemplate'.
 	[(self miniatureOf: self currentSlide) saveAsLayout] valueSupplyingAnswer: layoutName.
-	self assert: (self tool slideLayoutNames includes: layoutName).
-	self tool deleteLayoutNamed: layoutName.
-	self deny: (self tool slideLayoutNames includes: layoutName)
+	self assert: (self tool layoutController slideLayoutNames includes: layoutName).
+	self tool layoutController deleteLayoutNamed: layoutName.
+	self deny: (self tool layoutController slideLayoutNames includes: layoutName)

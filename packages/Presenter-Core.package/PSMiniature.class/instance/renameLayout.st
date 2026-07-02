@@ -1,4 +1,4 @@
 context menu
 renameLayout
 
-	self model openRenameLayoutChooser
+	self model layoutController openRenameLayoutChooser

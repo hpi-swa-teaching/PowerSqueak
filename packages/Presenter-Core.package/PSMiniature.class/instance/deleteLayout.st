@@ -1,4 +1,4 @@
 context menu
 deleteLayout
 
-	self model openDeleteLayoutChooser
+	self model layoutController openDeleteLayoutChooser

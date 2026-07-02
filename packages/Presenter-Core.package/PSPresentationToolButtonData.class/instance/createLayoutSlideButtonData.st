@@ -1,7 +1,8 @@
 button data
 createLayoutSlideButtonData
 
-	^ Dictionary withAll: {	
+	^ Dictionary withAll: {
+		#model -> self tool layoutController.
 		#size -> #hugeButtonSize.
 		#name -> #CreateLayoutSlideButton.
 		#label -> 'with Layout'.

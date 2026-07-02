@@ -1,6 +1,6 @@
-layouts
+layout menu
 openSlideLayoutChooser
-	
-	self presentation slideLayouts
+
+	self tool presentation slideLayouts
 		ifEmpty: [self showNoLayoutsDialog]
 		ifNotEmpty: [self openSlideLayoutChooserUnchecked]

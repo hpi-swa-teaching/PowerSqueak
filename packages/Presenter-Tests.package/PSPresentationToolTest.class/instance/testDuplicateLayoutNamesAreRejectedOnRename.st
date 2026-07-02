@@ -9,7 +9,7 @@ testDuplicateLayoutNamesAreRejectedOnRename
 	oldLayout := self presentation slideLayouts at: oldName.
 	duplicateLayout := self presentation slideLayouts at: duplicateName.
 	self
-		should: [self tool renameLayoutNamed: oldName to: duplicateName]
+		should: [self tool layoutController renameLayoutNamed: oldName to: duplicateName]
 		raise: Error.
 	self
 		assert: (self presentation slideLayouts at: oldName) equals: oldLayout;

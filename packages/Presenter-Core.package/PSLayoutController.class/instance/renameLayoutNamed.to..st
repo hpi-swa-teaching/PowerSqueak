@@ -1,6 +1,6 @@
 layouts
 renameLayoutNamed: aString to: anotherString
 
-	self presentation
+	self tool presentation
 		renameLayoutNamed: aString
 		to: anotherString

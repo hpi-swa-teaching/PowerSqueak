@@ -2,7 +2,7 @@ layout menu tests
 testHoverShowsAndHidesPreview
 
 	| menu item |
-	menu := self tool openLayoutMenu.
+	menu := self tool layoutController openLayoutMenu.
 	item := menu submorphs detect: [:each | each isKindOf: PSLayoutMenuItem].
 	self deny: item hasPreview.
 	item mouseEnter: nil.

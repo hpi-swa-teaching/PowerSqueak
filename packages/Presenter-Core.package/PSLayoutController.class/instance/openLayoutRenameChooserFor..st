@@ -1,7 +1,7 @@
-layouts
+layout menu
 openLayoutRenameChooserFor: aString
 
-	self
+	self tool
 		askForInputWithQuestion: 'Enter a new name for your Layout'
 		withInitial: aString
 		andDo: [:userInput |

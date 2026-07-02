@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"for:" : "JEG 7/2/2026 02:52" },
+	"instance" : {
+		"createLayout:from:" : "JEG 7/2/2026 02:54",
+		"createSlideFromLayout:" : "JEG 7/2/2026 02:54",
+		"deleteLayoutNamed:" : "JEG 7/2/2026 02:55",
+		"layoutPreviewFor:" : "JEG 7/2/2026 03:14",
+		"layoutPreviewFor:extent:" : "JEG 7/2/2026 03:15",
+		"layoutThumbnailFor:" : "JEG 7/2/2026 03:14",
+		"openDeleteLayoutChooser" : "JEG 7/2/2026 03:12",
+		"openLayoutMenu" : "JEG 7/2/2026 03:05",
+		"openLayoutNameChooserFor:" : "JEG 7/2/2026 03:13",
+		"openLayoutRenameChooserFor:" : "JEG 7/2/2026 03:08",
+		"openRenameLayoutChooser" : "JEG 7/2/2026 03:06",
+		"openSlideLayoutChooser" : "JEG 7/2/2026 03:03",
+		"openSlideLayoutChooserUnchecked" : "JEG 7/2/2026 03:37",
+		"renameLayoutNamed:to:" : "JEG 7/2/2026 02:55",
+		"showLastLayoutDialog" : "JEG 7/2/2026 02:57",
+		"showNoLayoutsDialog" : "JEG 7/2/2026 02:57",
+		"slideLayoutNames" : "JEG 7/2/2026 02:53",
+		"tool" : "JEG 7/2/2026 02:52",
+		"tool:" : "JEG 7/2/2026 02:52" } }

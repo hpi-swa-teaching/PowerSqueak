@@ -1,7 +1,7 @@
-layouts
+layout menu
 openDeleteLayoutChooser
 
-	self presentation hasMinimumLayouts
+	self tool presentation hasMinimumLayouts
 		ifTrue: [^ self showLastLayoutDialog].
 	(UIManager default
 		chooseFrom: self slideLayoutNames
