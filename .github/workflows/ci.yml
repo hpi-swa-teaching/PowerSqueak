@@ -22,7 +22,7 @@ jobs:
           #- macos-latest
           #- windows-latest
         # Select compatible Smalltalk image(s)
-        smalltalk: [ Squeak64-trunk, Squeak64-6.0 ]
+        smalltalk: [ Squeak64-trunk, Squeak64-6.1, Squeak64-6.0 ]
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
