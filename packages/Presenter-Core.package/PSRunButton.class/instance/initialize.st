@@ -2,6 +2,7 @@ initialization
 initialize
 
 	super initialize.
-	self hovered: false;
-		fontSize: 5;
-		borderWidth: 0.
+	self
+		hovered: false;
+		fontSize: self class defaultFontSize;
+		borderWidth: 0

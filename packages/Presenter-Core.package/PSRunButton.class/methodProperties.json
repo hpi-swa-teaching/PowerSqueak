@@ -1,21 +1,26 @@
 {
 	"class" : {
-		 },
+		"defaultBackgroundColor" : "rc 7/3/2026 11:48",
+		"defaultFontSize" : "rc 7/3/2026 11:54",
+		"extentToFontSizeRatio" : "rc 7/3/2026 11:56",
+		"hoveredBackgroundColor" : "rc 7/3/2026 11:48",
+		"runSymbol" : "rc 7/3/2026 11:42",
+		"runSymbolColor" : "rc 7/3/2026 11:45" },
 	"instance" : {
 		"action" : "TK 6/9/2026 15:47",
 		"action:" : "TK 6/9/2026 15:47",
-		"drawBackgroundOn:" : "TK 6/9/2026 15:49",
+		"drawBackgroundOn:" : "rc 7/3/2026 12:04",
 		"drawOn:" : "TK 6/9/2026 15:49",
-		"drawRunSymbolOn:" : "TK 6/29/2026 18:56",
+		"drawRunSymbolOn:" : "rc 7/3/2026 12:01",
 		"fontSize" : "TK 6/9/2026 15:47",
 		"fontSize:" : "TK 6/9/2026 15:48",
 		"handlesMouseDown:" : "TK 6/9/2026 15:50",
 		"handlesMouseOver:" : "TK 6/9/2026 15:50",
 		"hovered" : "TK 6/9/2026 15:48",
 		"hovered:" : "TK 6/9/2026 15:48",
-		"initialize" : "TK 6/9/2026 15:50",
+		"initialize" : "rc 7/3/2026 12:06",
 		"mouseDown:" : "JEG 7/2/2026 01:42",
 		"mouseEnter:" : "TK 6/9/2026 15:50",
 		"mouseLeave:" : "TK 6/9/2026 15:50",
 		"prepareToBeSaved" : "JEG 7/2/2026 01:25",
-		"updateExtent" : "TK 6/9/2026 15:51" } }
+		"updateExtent" : "rc 7/3/2026 12:10" } }

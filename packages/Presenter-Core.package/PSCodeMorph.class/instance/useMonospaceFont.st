@@ -1,8 +1,6 @@
 styling
 useMonospaceFont
-	| attribute font|
-	
-	font := StrikeFont familyName: 'Courier' pointSize: 12.
-	attribute := TextFontReference toFont: font.
-	self addAttribute: attribute.
-		
+
+	| attribute |
+	attribute := TextFontReference toFont: self class monospaceFont.
+	self addAttribute: attribute
