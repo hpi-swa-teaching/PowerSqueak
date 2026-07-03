@@ -1,5 +1,8 @@
 run button
 repositionButton
 
+	| margin |
 	self runButton ifNil: [^ self].
-	self runButton position: (self right - self runButton width - 6) @ (self top + 6).		"arbitrary UI offset"
+	margin := self class buttonMargin.
+	self runButton position:
+		(self right - self runButton width - margin) @ (self top + margin)

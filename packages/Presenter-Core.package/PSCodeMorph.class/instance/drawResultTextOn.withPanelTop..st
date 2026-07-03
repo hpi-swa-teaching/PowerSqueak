@@ -1,10 +1,10 @@
 drawing
 drawResultTextOn: aCanvas withPanelTop: aNumber
-	| resultFont |
 
+	| resultFont |
 	resultFont := PSTextMorph defaultTextStyle fontOfSize: (self selectionFontSize * self textScale) rounded.
 	aCanvas
 		drawString: self resultText
-		at: (self left + 8) @ (aNumber + 10) 		"arbitrary offsets (UI)"
+		at: (self left @ aNumber) + self class resultTextOffset
 		font: resultFont
-		color: self resultTextColor.
+		color: self resultTextColor

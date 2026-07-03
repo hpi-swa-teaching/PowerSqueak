@@ -1,0 +1,4 @@
+constants
+separationLineHeight
+
+	^ 1
