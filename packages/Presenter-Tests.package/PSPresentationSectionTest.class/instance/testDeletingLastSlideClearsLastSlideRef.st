@@ -8,4 +8,4 @@ testDeletingLastSlideClearsLastSlideRef
 	slideTwo := self presentation slideAt: 2.
 	section lastSlide: slideTwo.
 	self presentation deleteSlideAt: 2.
-	self assert: section lastSlide isNil
+	self assert: section lastSlide isNil 

@@ -2,5 +2,5 @@ timer tests
 testTimerRemovedWhenLeavingPresentationMode
 
 	self enablePresentationMode.
-	self pressKey: Character escape at: self slideContainer center.
+	self tool disablePresentationMode.
 	self assert: self slideContainer timer isNil
