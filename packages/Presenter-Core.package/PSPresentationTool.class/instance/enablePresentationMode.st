@@ -3,5 +3,6 @@ enablePresentationMode
 
 	self presentationMode ifTrue: [^ self].
 	self slideContainer enablePresentationMode.
-	self presentationMode: true.
-	self enterFullScreen
+	self
+		presentationMode: true;
+		enterFullScreen

@@ -4,4 +4,4 @@ prepareExportAsPNG
 	self
 		enablePresentationMode;
 		enableNonInteractiveMode.
-	World doOneCycle.
+	World doOneCycle

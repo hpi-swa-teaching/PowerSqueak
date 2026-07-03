@@ -1,9 +1,10 @@
 presentation mode
-disablePresentationMode 
+disablePresentationMode
 
 	self presentationMode ifFalse: [^ self].
-	
+
 	self disableNonInteractiveMode.
 	self slideContainer disablePresentationMode.
-	self presentationMode: false.
-	self enterPreviousFullScreenMode
+	self
+		presentationMode: false;
+		enterPreviousFullScreenMode

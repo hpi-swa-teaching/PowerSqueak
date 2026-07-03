@@ -8,5 +8,6 @@ dropSlide: aPSSlide at: aWorldPoint
 	self presentation
 		moveSlideAt: (self presentation indexOf: aPSSlide)
 		to: slot.
-	self cancelDrag.
-	self selectSlideAt: slot
+	self
+		cancelDrag;
+		selectSlideAt: slot
