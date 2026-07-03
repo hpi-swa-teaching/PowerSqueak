@@ -2,6 +2,6 @@ tests shapes
 testCreatingLineAddsShapeToCurrentSlide
 
 	| container |
-	container := self tool newLineShape.
+	container := self tool contentCreationController newLineShape.
 	self assert: (self slide submorphs includes: container).
 	self assert: container content class equals: LineMorph new class

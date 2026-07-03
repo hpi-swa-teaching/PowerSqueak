@@ -2,7 +2,7 @@ text undo tests
 testUndoTextEditRestoresPreviousText
 
 	| textField |
-	textField := self tool newTextField content. 
+	textField := self tool contentCreationController newTextField content. 
 	textField setString: 'Before'.
 
 	textField textEdited: 'After'.

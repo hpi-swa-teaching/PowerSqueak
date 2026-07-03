@@ -2,7 +2,7 @@ content undo tests
 testRedoDeleteContentRemovesItAgain
 
 	| container |
-	container := self tool newTextField.
+	container := self tool contentCreationController newTextField.
 
 	container deleteContent.
 	self tool undo.

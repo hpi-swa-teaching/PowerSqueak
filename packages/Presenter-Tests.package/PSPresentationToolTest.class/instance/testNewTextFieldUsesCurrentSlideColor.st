@@ -4,5 +4,5 @@ testNewTextFieldUsesCurrentSlideColor
 	| color container |
 	color := Color red.
 	self currentSlide color: color.
-	container := self tool newTextField.
+	container := self tool contentCreationController newTextField.
 	self assert: container content color equals: color

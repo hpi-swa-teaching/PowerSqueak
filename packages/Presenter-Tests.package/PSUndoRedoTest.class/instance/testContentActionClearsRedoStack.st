@@ -5,6 +5,6 @@ testContentActionClearsRedoStack
 	self tool undo.
 	self assert: self tool canRedo.
 
-	self tool newTextField.
+	self tool contentCreationController newTextField.
 
 	self deny: self tool canRedo

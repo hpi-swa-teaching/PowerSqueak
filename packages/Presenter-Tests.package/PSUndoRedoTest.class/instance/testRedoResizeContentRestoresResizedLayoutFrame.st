@@ -2,7 +2,7 @@ move resize undo tests
 testRedoResizeContentRestoresResizedLayoutFrame
 
 	| container before after |
-	container := self tool newTextField.
+	container := self tool contentCreationController newTextField.
 	before := PSContentLocation of: container.
 
 	container layoutFrame
