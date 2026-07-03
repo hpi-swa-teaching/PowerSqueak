@@ -1,10 +1,10 @@
 initialize-release
-initialize 
+initialize
 
 	super initialize.
-	self 
+	self
 		initializeTextAttribute;
 		initializeProperties;
 		applyUserInterfaceTheme.
 	self textMorph releaseParagraph.
-	self selectAll.
+	self selectAll
