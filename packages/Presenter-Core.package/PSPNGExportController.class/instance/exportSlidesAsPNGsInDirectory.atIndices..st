@@ -5,4 +5,4 @@ exportSlidesAsPNGsInDirectory: aDirectory atIndices: aCollection
 		self tool selectSlideAt: index.
 		World doOneCycle.
 		(self tool presentation slideAt: index)
-			exportAsPNGNamed: (aDirectory / (self slideName: index)) fullName]
+			exportAsPNGNamed: (aDirectory / (self slideName: index)) fullName] 
