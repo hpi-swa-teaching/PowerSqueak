@@ -1,8 +1,9 @@
 toolbuilder
 afterBuildWith: aBuilder
-	
-	self createSlideContainerIn: (aBuilder widgetAt: #SlideViewport).
-	self selectSlideAt: 1.
-	self toolBuilder: aBuilder.
+
+	self
+		createSlideContainerIn: (aBuilder widgetAt: #SlideViewport);
+		selectSlideAt: 1;
+		toolBuilder: aBuilder.
 	aBuilder class = MorphicToolBuilder
 		ifTrue: [self styleDropDownButtons: aBuilder]

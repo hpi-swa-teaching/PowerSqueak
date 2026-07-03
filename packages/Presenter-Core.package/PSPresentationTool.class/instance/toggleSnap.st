@@ -1,5 +1,6 @@
 slide management
 toggleSnap
 
-	self snapActive: self snapActive not.
-	self changed: #snapButtonColor
+	self
+		snapActive: self snapActive not;
+		changed: #snapButtonColor

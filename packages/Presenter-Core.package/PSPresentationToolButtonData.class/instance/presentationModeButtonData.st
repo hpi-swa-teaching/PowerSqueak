@@ -1,5 +1,5 @@
 button data
-presentationModeButtonData 
+presentationModeButtonData
 
 	^ Dictionary withAll: {
 		#name -> #PresentationModeButton.
