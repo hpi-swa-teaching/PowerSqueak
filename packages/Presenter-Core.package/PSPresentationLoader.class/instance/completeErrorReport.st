@@ -1,10 +1,12 @@
 error reporting
 completeErrorReport
 
-	^ self buildSlidesErrorReportString,
-		Character cr,
-		self buildMissingMorphErrorReportString,
-		Character cr,
-		self buildFileErrorReportString,
-		Character cr,
-		self buildLayoutsDirectoryErrorReportString
+	^ String streamContents: [:stream |
+		stream
+			nextPutAll: self buildSlidesErrorReportString;
+			cr;
+			nextPutAll: self buildMissingMorphErrorReportString;
+			cr;
+			nextPutAll: self buildFileErrorReportString;
+			cr;
+			nextPutAll: self buildLayoutsDirectoryErrorReportString]
