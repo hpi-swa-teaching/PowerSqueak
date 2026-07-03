@@ -3,8 +3,8 @@ showTimer
 
 	self hideTimer.
 	self timer: (PSPresentationTimer new
-		extent: 96 @ 40;
-		position: self topLeft + (20 @ 20);
+		extent: self class defaultTimerExtent;
+		position: self topLeft + self class defaultTimerMargin;
 		yourself).
 	self timerPaused: false.
 	self timer

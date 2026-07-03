@@ -1,4 +1,4 @@
 accessing
 logoMargin
 
-	^ 24 @ 24
+	^ self class defaultLogoMargin

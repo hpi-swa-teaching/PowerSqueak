@@ -1,0 +1,4 @@
+constants
+defaultLogoHeight
+
+	^ 120

@@ -1,4 +1,4 @@
 accessing
 logoHeight
 
-	^ 120
+	^ self class defaultLogoHeight
