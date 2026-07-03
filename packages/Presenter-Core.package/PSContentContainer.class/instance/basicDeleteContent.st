@@ -1,6 +1,6 @@
 submorphs-add/remove
 basicDeleteContent
-	
-	self slideContainer ifNotNil: [self slideContainer removeSelection].
+
+	self slideContainer ifNotNil: [:container | container removeSelection].
 	self abandon.
 	^ self

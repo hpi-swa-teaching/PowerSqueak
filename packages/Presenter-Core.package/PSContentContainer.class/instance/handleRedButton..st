@@ -1,6 +1,6 @@
 event handling
 handleRedButton: anEvent
 
-	(self isInteractive) ifFalse:
-		[self updateSelection.
-		anEvent ignore]
+	self isInteractive ifTrue: [^ self].
+	self updateSelection.
+	anEvent ignore

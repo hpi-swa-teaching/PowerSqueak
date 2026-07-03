@@ -1,5 +1,7 @@
 context menu
 grabChild
 
-	self content center: self world firstHand position.
-	self world firstHand grabMorph: self content
+	| hand |
+	hand := self world firstHand.
+	self content center: hand position.
+	hand grabMorph: self content

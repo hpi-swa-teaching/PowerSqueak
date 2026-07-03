@@ -1,10 +1,8 @@
 accessing
 menuBarItems
 
-	| aCollection |
-	aCollection := self defaultActions.
+	| actions |
+	actions := self defaultActions.
 	(self hasSubmorphWithProperty: #hasCustomActions)
-		ifTrue:[ aCollection addAll: self content customActions].
-	
-	 ^ aCollection
-	
+		ifTrue: [actions addAll: self content customActions].
+	^ actions

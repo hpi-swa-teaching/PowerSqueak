@@ -1,5 +1,5 @@
 submorphs-add/remove
 abandon
-	
-	self slideContainer ifNotNil: [self slideContainer removeSelection].
+
+	self slideContainer ifNotNil: [:container | container removeSelection].
 	super abandon

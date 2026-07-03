@@ -1,4 +1,4 @@
 accessing
 resizeHandleSize
 
-	^ 10 @ 10
+	^ self class defaultHandleExtent
