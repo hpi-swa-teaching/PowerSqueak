@@ -1,12 +1,12 @@
 event handling
-doubleClick: evt
+doubleClick: anEvent
 
 	| textMorph |
-  evt redButtonPressed
+	anEvent redButtonPressed
 		ifTrue: [
 			textMorph := PSTextMorph new
 				color: self color;
-				center: evt position;
+				center: anEvent position;
 				yourself.
 			textMorph adjustToSlideBackground: self.
 			self addContentUndoably: textMorph]
