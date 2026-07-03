@@ -4,7 +4,7 @@ createWindowSpec: aBuilder
 	^ aBuilder pluggableWindowSpec new
 		model: self;
 		label: 'Scripting API';
-		minimumExtent: 300@200;
-		extent: 300 @ 200;
+		minimumExtent: self class defaultWindowExtent;
+		extent: self class defaultWindowExtent;
 		children: OrderedCollection new;
 		yourself
