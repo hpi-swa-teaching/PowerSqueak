@@ -1,0 +1,4 @@
+constants
+previewBorderWidth
+
+	^ 1

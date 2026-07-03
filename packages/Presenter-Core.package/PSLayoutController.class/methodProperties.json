@@ -1,12 +1,17 @@
 {
 	"class" : {
-		"for:" : "JEG 7/2/2026 02:52" },
+		"for:" : "JEG 7/2/2026 02:52",
+		"previewBackgroundColor" : "rc 7/3/2026 11:49",
+		"previewBorderColor" : "rc 7/3/2026 12:02",
+		"previewBorderWidth" : "rc 7/3/2026 12:16",
+		"previewBoxColor" : "rc 7/3/2026 11:55",
+		"previewFormDepth" : "rc 7/3/2026 11:47" },
 	"instance" : {
 		"createLayout:from:" : "JEG 7/2/2026 02:54",
 		"createSlideFromLayout:" : "JEG 7/2/2026 02:54",
 		"deleteLayoutNamed:" : "JEG 7/2/2026 02:55",
 		"layoutPreviewFor:" : "JEG 7/2/2026 03:14",
-		"layoutPreviewFor:extent:" : "JEG 7/2/2026 03:15",
+		"layoutPreviewFor:extent:" : "rc 7/3/2026 12:27",
 		"layoutThumbnailFor:" : "JEG 7/2/2026 03:14",
 		"openDeleteLayoutChooser" : "JEG 7/2/2026 03:12",
 		"openLayoutMenu" : "JEG 7/2/2026 03:05",

@@ -1,0 +1,4 @@
+constants
+previewBorderColor
+
+	^ Color gray
