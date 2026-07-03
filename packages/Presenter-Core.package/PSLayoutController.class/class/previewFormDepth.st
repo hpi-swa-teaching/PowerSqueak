@@ -1,0 +1,4 @@
+constants
+previewFormDepth
+
+	^ 32

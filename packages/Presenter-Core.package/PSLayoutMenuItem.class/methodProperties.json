@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"previewBorderWidth" : "rc 7/3/2026 12:38",
+		"previewOffset" : "rc 7/3/2026 12:40" },
 	"instance" : {
 		"delete" : "LK 6/9/2026 19:47",
 		"handlesMouseOver:" : "LK 6/9/2026 19:53",
@@ -12,4 +13,4 @@
 		"mouseLeave:" : "LK 6/9/2026 19:53",
 		"previewMorph" : "TK 6/29/2026 18:48",
 		"previewMorph:" : "TK 6/29/2026 18:49",
-		"showPreview" : "TK 6/29/2026 18:52" } }
+		"showPreview" : "rc 7/3/2026 12:43" } }
