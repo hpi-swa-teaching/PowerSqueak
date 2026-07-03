@@ -1,4 +1,4 @@
 shortcuts
 presentationModeCommandShortcuts
-	"{character that triggers event .  action block . discription}"
+	"{character that triggers event . action block . description}"
 	^ {}, self sharedCommandShortcuts

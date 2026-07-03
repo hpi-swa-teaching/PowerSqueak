@@ -1,4 +1,4 @@
 accessing
 snapSize
 
-	^ snapSize ifNil: [snapSize := 0.03]
+	^ snapSize ifNil: [snapSize := self class defaultSnapSize]
