@@ -1,4 +1,4 @@
 testing
 dominates: otherTextAttribute
 
-	^ (otherTextAttribute isKindOf: TextFontChange) or: [otherTextAttribute class ==  self class]
+	^ (otherTextAttribute isKindOf: TextFontChange) or: [otherTextAttribute class == self class]
