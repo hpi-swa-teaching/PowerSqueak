@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"for:" : "JEG 7/3/2026 00:52" },
+	"instance" : {
+		"exportAsPNGs" : "JEG 7/3/2026 00:54",
+		"exportAsPNGsAtIndices:" : "JEG 7/3/2026 00:59",
+		"exportAsPNGsIn:" : "JEG 7/3/2026 00:59",
+		"exportAsPNGsIn:atIndices:" : "JEG 7/3/2026 01:04",
+		"exportAsPNGsIn:atIndices:message:" : "JEG 7/3/2026 01:05",
+		"exportFolder" : "JEG 7/3/2026 01:07",
+		"exportFolderName" : "JEG 7/3/2026 01:07",
+		"exportSelectedAsPNGs" : "JEG 7/3/2026 00:58",
+		"exportSlidesAsPNGsInDirectory:" : "JEG 7/3/2026 01:05",
+		"exportSlidesAsPNGsInDirectory:atIndices:" : "JEG 7/3/2026 01:06",
+		"prepareExportAsPNG" : "JEG 7/3/2026 01:06",
+		"slideName:" : "JEG 7/3/2026 01:07",
+		"tool" : "JEG 7/3/2026 00:52",
+		"tool:" : "JEG 7/3/2026 00:52" } }

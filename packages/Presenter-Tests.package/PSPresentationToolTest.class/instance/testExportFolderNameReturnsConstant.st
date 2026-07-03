@@ -2,5 +2,5 @@ export tests
 testExportFolderNameReturnsConstant
 
 	self
-		assert: self tool exportFolderName
+		assert: self tool exportController exportFolderName
 		equals: 'PSPresentationsExports'

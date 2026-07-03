@@ -1,7 +1,7 @@
-presentation serialization
+exporting
 prepareExportAsPNG
 
-	self
+	self tool
 		enablePresentationMode;
 		enableNonInteractiveMode.
-	World doOneCycle.
+	World doOneCycle

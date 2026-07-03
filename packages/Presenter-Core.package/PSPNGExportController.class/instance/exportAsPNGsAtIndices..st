@@ -1,4 +1,4 @@
-presentation serialization
+exporting
 exportAsPNGsAtIndices: aCollection
 
 	| directory |
