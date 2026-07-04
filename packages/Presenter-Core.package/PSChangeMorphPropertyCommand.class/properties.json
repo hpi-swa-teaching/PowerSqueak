@@ -1,0 +1,18 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"target",
+		"getterSelector",
+		"setterSelector",
+		"oldValue",
+		"newValue" ],
+	"name" : "PSChangeMorphPropertyCommand",
+	"pools" : [
+		 ],
+	"super" : "PSCommand",
+	"type" : "normal" }

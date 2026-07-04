@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"on:get:set:to:" : "JEG 7/4/2026 22:24" },
+	"instance" : {
+		"execute" : "JEG 7/4/2026 22:26",
+		"getterSelector" : "JEG 7/4/2026 22:25",
+		"getterSelector:" : "JEG 7/4/2026 22:25",
+		"newValue" : "JEG 7/4/2026 22:25",
+		"newValue:" : "JEG 7/4/2026 22:25",
+		"oldValue" : "JEG 7/4/2026 22:25",
+		"oldValue:" : "JEG 7/4/2026 22:25",
+		"setterSelector" : "JEG 7/4/2026 22:25",
+		"setterSelector:" : "JEG 7/4/2026 22:25",
+		"target" : "JEG 7/4/2026 22:25",
+		"target:" : "JEG 7/4/2026 22:25",
+		"unexecute" : "JEG 7/4/2026 22:27" } }

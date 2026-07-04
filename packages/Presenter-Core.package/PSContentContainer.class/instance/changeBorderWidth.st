@@ -5,7 +5,7 @@ changeBorderWidth
 	answer := UIManager default
 		request: self borderWidthDialogText
 		initialAnswer: self content borderWidth printString.
-	answer ifEmpty: [^ self]. "Cancel"
-	[self content borderWidth: answer asNumber]
+	answer ifEmpty: [^ self].
+	[self changeContentBorderWidth: answer asNumber]
 		on: Error
 		do: [UIManager default inform: 'Not a valid number']
