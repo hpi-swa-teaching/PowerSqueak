@@ -1,0 +1,16 @@
+{
+	"category" : "Presenter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"window",
+		"fullScreenMode",
+		"logoPreference" ],
+	"name" : "PSPresentationToolTestCase",
+	"pools" : [
+		 ],
+	"super" : "PSUITestCase",
+	"type" : "normal" }
