@@ -155,6 +155,7 @@
 		"testTopRightButtonDataIncludesSnapAndPresentationButtons" : "JEG 7/1/2026 22:27",
 		"testUndoBackToCleanStateClearsUnsavedChanges" : "JEG 6/23/2026 00:49",
 		"testUndoRedoThroughTool" : "JEG 6/15/2026 14:11",
+		"testUpdatingMiniatureCompletelyDoesNotChangeCurrentSlide" : "JEG 7/4/2026 22:57",
 		"testUpdatingPresentationClearsCommandHistory" : "JEG 6/15/2026 14:49",
 		"testUpdatingPresentationClearsUnsavedChanges" : "JEG 6/23/2026 00:47",
 		"testValidIndentsAfterChildSectionAnchor" : "mv 5/26/2026 12:18",
