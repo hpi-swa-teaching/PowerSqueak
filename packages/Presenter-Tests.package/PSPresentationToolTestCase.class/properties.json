@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"presentation" ],
-	"name" : "PSPresentationSectionTest",
+		"window",
+		"fullScreenMode",
+		"logoPreference" ],
+	"name" : "PSPresentationToolTestCase",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "PSUITestCase",
 	"type" : "normal" }

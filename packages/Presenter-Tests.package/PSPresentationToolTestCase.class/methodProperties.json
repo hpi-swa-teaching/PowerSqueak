@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"isAbstract" : "JEG 7/4/2026 18:19" },
+	"instance" : {
+		"createSlide" : "JEG 7/4/2026 18:36",
+		"currentSlide" : "JEG 7/4/2026 18:37",
+		"currentSlideNumber" : "JEG 7/4/2026 18:37",
+		"deleteSlideAt:" : "JEG 7/4/2026 18:37",
+		"enablePresentationMode" : "JEG 7/4/2026 18:37",
+		"fullScreenMode" : "JEG 7/4/2026 18:36",
+		"fullScreenMode:" : "JEG 7/4/2026 18:36",
+		"isInteractive" : "JEG 7/4/2026 18:37",
+		"miniatureOf:" : "JEG 7/4/2026 18:37",
+		"presentation" : "JEG 7/4/2026 18:36",
+		"selectSlideAt:" : "JEG 7/4/2026 18:38",
+		"setUp" : "JEG 7/4/2026 18:22",
+		"slideContainer" : "JEG 7/4/2026 18:38",
+		"slideCount" : "JEG 7/4/2026 18:38",
+		"slides" : "JEG 7/4/2026 18:38",
+		"slides:" : "JEG 7/4/2026 18:38",
+		"snapActive" : "JEG 7/4/2026 18:38",
+		"tearDown" : "JEG 7/4/2026 20:17",
+		"tool" : "JEG 7/4/2026 18:36",
+		"window" : "JEG 7/4/2026 18:35",
+		"window:" : "JEG 7/4/2026 18:35" } }

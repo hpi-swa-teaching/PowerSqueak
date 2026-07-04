@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "PSPresentationToolTest",
+		"presentation" ],
+	"name" : "PSPresentationSectionModelTest",
 	"pools" : [
 		 ],
-	"super" : "PSPresentationToolTestCase",
+	"super" : "TestCase",
 	"type" : "normal" }
