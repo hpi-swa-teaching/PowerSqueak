@@ -11,13 +11,13 @@
 A presentation tool for the Squeak development platform
 
 Supported platforms:
+* Squeak Trunk 
+* Squeak 6.1beta
 * Squeak 6.0
-* Squeak 5.3
-* Squeak 5.2
 
-Squeak Trunk is also a target platform, but due to the fast changing nature of Trunk, certain versions of Squeak Trunk may not work.
+Note: Due to the fast-changing nature of Trunk, certain Trunk versions may not work.
 
-Squeak 5.0 is officially unsupported (see the [CI build](https://github.com/hpi-swa-teaching/PowerSqueak/actions/workflows/ci.yml)).
+Squeak 5.3 and earlier are not supported. See the [CI build](https://github.com/hpi-swa-teaching/PowerSqueak/actions/workflows/ci.yml) for the versions we test against.
 
 ## **Overview**
 * [Overview](#overview)
