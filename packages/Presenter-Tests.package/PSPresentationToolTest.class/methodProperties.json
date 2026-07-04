@@ -65,7 +65,7 @@
 		"testInvalidAnswersDontChangeSnapSize" : "VO 7/26/2019 12:46",
 		"testLayoutItemsAreSelectable" : "JEG 7/2/2026 03:56",
 		"testLayoutedSlidesCanBeCreated" : "JEG 7/2/2026 03:55",
-		"testLeaveNonInteractiveMode" : "VO 5/9/2019 15:42",
+		"testLeaveNonInteractiveMode" : "JEG 7/5/2026 01:39",
 		"testLeaveNonInteractiveModeWhenLeavingPresentation" : "VO 5/9/2019 15:56",
 		"testLoadingProvidesWarning" : "mb 7/25/2019 12:42",
 		"testMarkSavedAfterSuccessfulSaveClearsUnsavedChanges" : "JEG 6/23/2026 02:36",
