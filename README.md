@@ -11,9 +11,9 @@
 A presentation tool for the Squeak development platform
 
 Supported platforms:
+* Squeak Trunk 
+* Squeak 6.1beta
 * Squeak 6.0
-* Squeak 5.3
-* Squeak 5.2
 
 Squeak Trunk is also a target platform, but due to the fast changing nature of Trunk, certain versions of Squeak Trunk may not work.
 
