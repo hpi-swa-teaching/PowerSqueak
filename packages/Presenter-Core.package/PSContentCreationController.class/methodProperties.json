@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"for:" : "JEG 7/3/2026 17:52" },
+	"instance" : {
+		"addShape:" : "JEG 7/3/2026 17:59",
+		"insertShapeNames" : "JEG 7/3/2026 18:00",
+		"newArrowShape" : "JEG 7/3/2026 18:03",
+		"newCircleShape" : "JEG 7/3/2026 18:01",
+		"newCodeField" : "JEG 7/3/2026 17:56",
+		"newImageField" : "JEG 7/3/2026 17:56",
+		"newLineShape" : "JEG 7/3/2026 18:01",
+		"newRectangleShape" : "JEG 7/3/2026 18:01",
+		"newRoundedRectangleShape" : "JEG 7/3/2026 18:04",
+		"newTextField" : "JEG 7/3/2026 17:55",
+		"openImageField:" : "JEG 7/3/2026 17:57",
+		"openMorphInHand:" : "JEG 7/3/2026 17:58",
+		"openShapeChooser" : "JEG 7/3/2026 18:05",
+		"tool" : "JEG 7/3/2026 17:54",
+		"tool:" : "JEG 7/3/2026 17:54" } }

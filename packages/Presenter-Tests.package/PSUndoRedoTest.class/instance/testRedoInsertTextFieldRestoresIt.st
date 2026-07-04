@@ -2,7 +2,7 @@ content undo tests
 testRedoInsertTextFieldRestoresIt
 
 	| container |
-	container := self tool newTextField.
+	container := self tool contentCreationController newTextField.
 
 	self tool undo.
 	self tool redo.

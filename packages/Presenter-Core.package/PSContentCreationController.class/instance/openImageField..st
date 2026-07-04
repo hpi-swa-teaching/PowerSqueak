@@ -1,7 +1,7 @@
-createSlideContent
+content creation
 openImageField: aFileName
 
 	| imageField |
 	imageField := SketchMorph fromFile: aFileName.
-	self currentSlide resizeMorphToFit: imageField.
+	self tool currentSlide resizeMorphToFit: imageField.
 	imageField openInHand

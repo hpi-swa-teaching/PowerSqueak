@@ -1,7 +1,7 @@
 extra coverage tests
 testContentLocationCaptureRemoveRestore
 	| container location |
-	container := self tool newTextField.
+	container := self tool contentCreationController newTextField.
 	location := PSContentLocation new.
 	location capture: container.
 	self assert: location slide equals: container slide.

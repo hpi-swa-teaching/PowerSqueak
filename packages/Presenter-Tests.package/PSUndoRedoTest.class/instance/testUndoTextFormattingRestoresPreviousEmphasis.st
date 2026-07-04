@@ -2,7 +2,7 @@ text undo tests
 testUndoTextFormattingRestoresPreviousEmphasis
 
 	| textField textLength |
-	textField := self tool newTextField content.
+	textField := self tool contentCreationController newTextField content.
 	textField setString: 'Hello'.
 	textLength := textField textMorph contents size.
 

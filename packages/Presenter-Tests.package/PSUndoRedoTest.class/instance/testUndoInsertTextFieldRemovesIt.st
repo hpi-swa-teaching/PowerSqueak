@@ -2,7 +2,7 @@ content undo tests
 testUndoInsertTextFieldRemovesIt
 
 	| container |
-	container := self tool newTextField.
+	container := self tool contentCreationController newTextField.
 
 	self assert: (self currentSlide submorphs includes: container).
 

@@ -2,7 +2,7 @@ slide undo tests
 testRedoInsertShapeRestoresIt
 
 	| container |
-	container := self tool newRectangleShape.
+	container := self tool contentCreationController newRectangleShape.
 	self tool undo.
 	self deny: (self currentSlide submorphs includes: container).
 	self tool redo.
