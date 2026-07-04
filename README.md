@@ -15,7 +15,7 @@ Supported platforms:
 * Squeak 6.1beta
 * Squeak 6.0
 
-Squeak Trunk is also a target platform, but due to the fast changing nature of Trunk, certain versions of Squeak Trunk may not work.
+Note: Due to the fast-changing nature of Trunk, certain Trunk versions may not work.
 
 Squeak 5.0 is officially unsupported (see the [CI build](https://github.com/hpi-swa-teaching/PowerSqueak/actions/workflows/ci.yml)).
 
