@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "PSPresentationToolTest",
+	"name" : "PSPresentationSectionToolTest",
 	"pools" : [
 		 ],
 	"super" : "PSPresentationToolTestCase",

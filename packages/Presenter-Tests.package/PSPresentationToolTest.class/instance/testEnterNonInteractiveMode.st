@@ -1,9 +1,8 @@
 presentation mode tests
 testEnterNonInteractiveMode
-	
-	self enablePresentationMode.
-	self 
-		pressKey: $i at: self slideContainer center;
-		deny: self isInteractive.
-	
-	self tool disablePresentationMode
+
+	[
+		self enablePresentationMode.
+		(self slideContainer presentationShortcuts at: $i) value.
+		self deny: self isInteractive]
+		ensure: [self tool disablePresentationMode]
