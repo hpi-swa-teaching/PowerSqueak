@@ -2,7 +2,6 @@ styling
 showBackgroundColorDialog
 
 	| picker |
-	self closeBackgroundColorDialog.
 	self setProperty: #ignoreNextBackgroundColorChange toValue: true.
 	picker := (NewColorPickerMorph
 		on: self
@@ -10,5 +9,5 @@ showBackgroundColorDialog
 		setColorSelector: #changeBackgroundColor:)
 			openNear: self fullBoundsInWorld;
 			yourself.
-	self setProperty: #backgroundColorDialog toValue: picker.
+	self registerColorDialog: picker.
 	^ picker

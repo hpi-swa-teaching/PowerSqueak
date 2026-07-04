@@ -5,6 +5,6 @@ mouseDown: evt
 	self owner removeSelection.
 	evt yellowButtonPressed
 		ifTrue: [^ self invokeContextMenu].
-	self closeBackgroundColorDialog.
+	self closeColorDialog.
 	evt redButtonPressed
 		ifTrue: [self waitForDoubleClick: evt]

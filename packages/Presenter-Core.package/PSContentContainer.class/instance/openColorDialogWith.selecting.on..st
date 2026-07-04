@@ -1,9 +1,13 @@
 coloring
 openColorDialogWith: aColor selecting: aSymbol on: aMorph
 
-	^ (NewColorPickerMorph 
+	| picker |
+	aMorph setProperty: #ignoreNextColorDialogChange toValue: true.
+	picker := (NewColorPickerMorph
 		on: aMorph
 		originalColor: aColor
-		setColorSelector: aSymbol) 
+		setColorSelector: aSymbol)
 		openNear: self fullBoundsInWorld;
-		yourself
+		yourself.
+	self slide ifNotNil: [:slide | slide registerColorDialog: picker].
+	^ picker

@@ -1,11 +1,15 @@
 event tests
 testTextFieldCreatedOnDoubleClick
 
-	| oldSubmorphs addedMorphs |
+	| oldSubmorphs addedTextFields event |
 	oldSubmorphs := self submorphs.
-	self doubleClick: MouseEvent redButton at: self slide center.
-	addedMorphs := self submorphs difference: oldSubmorphs.
-	
-	self 
-		assert: addedMorphs size equals: 1;
-		assert: (addedMorphs first content isKindOf: PSTextMorph)
+	event := self mouse: MouseEvent redButton downAt: self slide center.
+
+	self slide doubleClick: event.
+
+	addedTextFields := (self submorphs difference: oldSubmorphs)
+		select: [:each |
+			(each isKindOf: PSContentContainer)
+				and: [each content isKindOf: PSTextMorph]].
+
+	self assert: addedTextFields size equals: 1

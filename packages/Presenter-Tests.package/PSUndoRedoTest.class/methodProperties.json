@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testClosingShapeColorDialogWithoutChoiceDoesNotCreateUndoStep" : "JEG 7/5/2026 00:14",
 		"testContentActionClearsRedoStack" : "JEG 7/3/2026 22:12",
 		"testContentStyleChangeClearsRedoStack" : "JEG 7/4/2026 23:13",
 		"testRedoCreateSlideRestoresCreatedSlide" : "JEG 6/15/2026 23:56",
