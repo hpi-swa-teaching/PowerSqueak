@@ -16,6 +16,7 @@
 		"testMetadataFileNameDelegatesToLoader" : "rc 6/21/2026 20:07",
 		"testPresentationAccessorWorks" : "rc 6/21/2026 16:33",
 		"testPresentationDirectoryAccessorRoundtrips" : "rc 6/21/2026 19:32",
+		"testRemoveBlockPropertiesStripsOnlyBlocks" : "rc 7/4/2026 18:26",
 		"testSectionDataEncodesCollapseAndLastSlide" : "rc 6/21/2026 17:35",
 		"testSectionDataEncodesMultipleSections" : "rc 6/21/2026 15:11",
 		"testSectionDataEncodesSingleSection" : "rc 6/21/2026 13:14",
