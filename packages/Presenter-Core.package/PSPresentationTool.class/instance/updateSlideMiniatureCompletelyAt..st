@@ -1,7 +1,8 @@
 slide miniatures
 updateSlideMiniatureCompletelyAt: aNumber
- 
-	self selectSlideAt: aNumber.
-	self currentSlide changed.
-	self currentSlide world displayWorldSafely.
-	self updateCurrentMiniature
+
+	| slide |
+	slide := self presentation slideAt: aNumber.
+	slide changed.
+	slide world ifNotNil: [:world | world displayWorldSafely].
+	(self miniatureOf: slide) updateImage
