@@ -1,7 +1,8 @@
-A PSPresentationSaveLoading is an abstract class that declares the default directory names for saving and .
+A PSPresentationSaveLoading is an abstract superclass for presentation saving and loading.
+It provides shared directory and file naming conventions used by PSPresentationSaver and PSPresentationLoader.
 
 Instance Variables
-	presentation:		<PSPresentation>
+	presentation:	<PSPresentation>
 
 presentation
-	- the presentation to perform operation on
+	- The presentation to save or load into
