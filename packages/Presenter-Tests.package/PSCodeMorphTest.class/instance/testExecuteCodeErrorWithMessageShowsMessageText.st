@@ -1,4 +1,4 @@
-as yet unclassified
+code morph tests
 testExecuteCodeErrorWithMessageShowsMessageText
 
 	self codeMorph textMorph contents: 'Error signal: ''Fuck'''.

@@ -1,4 +1,4 @@
-as yet unclassified
+code morph tests
 testRunButtonFontSizeMatchesScaledSelectionFontSize
 
 	self assert: self codeMorph runButton fontSize

@@ -1,4 +1,4 @@
-as yet unclassified
+code morph tests
 testRescaleUpdatesRunButtonFontSize
 
 	self codeMorph rescale: 200 @ 200.

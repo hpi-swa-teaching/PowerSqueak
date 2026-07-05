@@ -1,4 +1,4 @@
-slide styling tests
+content tests
 testNewTextFieldUsesCurrentSlideColor
 
 	| color container |

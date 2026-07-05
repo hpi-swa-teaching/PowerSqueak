@@ -1,4 +1,4 @@
-drop slot tests
+section drop tests
 testValidIndentsAfterChildSectionAnchor
 
 	3 timesRepeat: [self createSlide].

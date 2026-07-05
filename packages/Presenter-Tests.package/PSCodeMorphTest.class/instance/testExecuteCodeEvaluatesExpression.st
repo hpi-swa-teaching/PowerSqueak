@@ -1,4 +1,4 @@
-as yet unclassified
+code morph tests
 testExecuteCodeEvaluatesExpression
 
 	self codeMorph textMorph contents: '6 + 7'.

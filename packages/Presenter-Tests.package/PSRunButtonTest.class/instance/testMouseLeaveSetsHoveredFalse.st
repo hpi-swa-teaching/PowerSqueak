@@ -1,4 +1,4 @@
-as yet unclassified
+run button tests
 testMouseLeaveSetsHoveredFalse
 
 	self button mouseEnter: nil.

@@ -1,4 +1,4 @@
-as yet unclassified
+code morph tests
 testApplyUserInterfaceThemeReinstallsSyntaxHighlighting
 
 	self codeMorph setText: 'self ifTrue: [1 + 2]' asText.

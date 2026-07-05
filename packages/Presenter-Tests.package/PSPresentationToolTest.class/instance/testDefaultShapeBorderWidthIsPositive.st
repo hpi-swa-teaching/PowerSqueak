@@ -1,4 +1,4 @@
-as yet unclassified
+content tests
 testDefaultShapeBorderWidthIsPositive
 
 	self assert: PSPresentationTool defaultShapeBorderWidth > 0

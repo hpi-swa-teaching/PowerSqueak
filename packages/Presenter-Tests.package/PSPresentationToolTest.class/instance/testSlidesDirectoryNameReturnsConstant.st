@@ -1,4 +1,4 @@
-export tests
+file tests
 testSlidesDirectoryNameReturnsConstant
 
 	self

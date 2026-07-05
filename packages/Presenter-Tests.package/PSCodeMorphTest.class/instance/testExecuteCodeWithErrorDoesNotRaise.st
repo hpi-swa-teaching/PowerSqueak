@@ -1,4 +1,4 @@
-as yet unclassified
+code morph tests
 testExecuteCodeWithErrorDoesNotRaise
 
 	self codeMorph textMorph contents: '1/0'.

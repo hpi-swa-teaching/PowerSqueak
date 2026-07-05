@@ -1,4 +1,4 @@
-as yet unclassified
+code morph tests
 testShowResultUpdatesTextOnSecondCall
 
 	self codeMorph showResult: 'first'.
