@@ -1,4 +1,4 @@
-as yet unclassified
+drag and drop tests
 testDropSlideMovesToFront
 
 	| dragged aboveFirst |

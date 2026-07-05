@@ -1,4 +1,4 @@
-slide deletion tests
+accessing
 slideAt: aNumber
 
 	^ self tool slideAt: aNumber
