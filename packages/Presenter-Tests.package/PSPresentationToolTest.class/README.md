@@ -1,0 +1,2 @@
+A PSPresentationToolTest tests the main user-facing behavior of PSPresentationTool.
+It covers presentation setup, slide operations, menus, shortcuts, dirty-state handling and other tool-level workflows.

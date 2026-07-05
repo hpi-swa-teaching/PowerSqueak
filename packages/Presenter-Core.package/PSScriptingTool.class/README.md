@@ -1,7 +1,5 @@
-A PSScriptingTool lets a user define custom scripts that are then executed by
-a aPSContentContainer. It should be opened using openFor: aMorph.
-The script is checked for syntax upon saving and put into the receiver's
-properties.
+A PSScriptingTool lets a user define custom scripts that are then executed by a PSContentContainer. 
+It is opened for a receiver morph, lets the user edit script code, checks syntax on saving and stores the scripts in the receiver's properties.
 
 Instance Variables
 	code:		<Text>
@@ -11,10 +9,16 @@ Instance Variables
 	selectedMethod:		<Symbol>
 
 code
-	- The scipt is put into code upon saving.
+	- The script source currently edited by the user
 
 codePane
-	- The widget where the user is able to insert the script. Needed to hide/unhide
-		it when selecting the method.
+	- The text widget in which the user edits the script
+
 receiver
-	- The morph to save the script in
+	- The morph whose scripts are edited
+
+selectedIndex
+	- The index of the currently selected script/action entry
+
+selectedMethod
+	- The selector of the script/action currently selected for editing
