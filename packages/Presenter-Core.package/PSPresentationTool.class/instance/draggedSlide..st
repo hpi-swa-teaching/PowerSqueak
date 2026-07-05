@@ -1,4 +1,4 @@
 accessing
 draggedSlide: aPSSlideOrNil
 
-	draggedSlide := aPSSlideOrNil
+	self miniatureController draggedSlide: aPSSlideOrNil

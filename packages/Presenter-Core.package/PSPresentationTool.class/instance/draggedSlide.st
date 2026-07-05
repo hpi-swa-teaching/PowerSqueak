@@ -1,4 +1,4 @@
 accessing
 draggedSlide
 
-	^ draggedSlide
+	^ self miniatureController draggedSlide

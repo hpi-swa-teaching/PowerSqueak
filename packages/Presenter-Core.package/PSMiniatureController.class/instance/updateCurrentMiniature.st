@@ -1,0 +1,4 @@
+updating
+updateCurrentMiniature
+
+	self currentMiniature updateImage

@@ -1,4 +1,4 @@
 testing
 isDraggingSlide: aPSSlide
 
-	^ self draggedSlide == aPSSlide
+	^ self miniatureController isDraggingSlide: aPSSlide

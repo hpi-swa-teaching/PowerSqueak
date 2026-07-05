@@ -1,4 +1,4 @@
 slide miniatures
 updateCurrentMiniature
 
-	self currentMiniature updateImage
+	self miniatureController updateCurrentMiniature

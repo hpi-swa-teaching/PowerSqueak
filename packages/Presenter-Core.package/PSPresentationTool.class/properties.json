@@ -19,7 +19,8 @@
 		"snapActive",
 		"draggedSlide",
 		"commandHistory",
-		"warnBeforeClosing" ],
+		"warnBeforeClosing",
+		"miniatureController" ],
 	"name" : "PSPresentationTool",
 	"pools" : [
 		 ],

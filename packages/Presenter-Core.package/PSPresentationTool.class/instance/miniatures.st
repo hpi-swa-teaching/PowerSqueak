@@ -1,4 +1,4 @@
 accessing
 miniatures
-	
-	^ miniatures
+
+	^ self miniatureController miniatures

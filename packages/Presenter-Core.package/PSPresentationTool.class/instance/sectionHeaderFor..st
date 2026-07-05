@@ -1,4 +1,4 @@
 slide miniatures
 sectionHeaderFor: aPSSlideSection
 
-	^ PSSectionHeader forSection: aPSSlideSection tool: self
+	^ self miniatureController sectionHeaderFor: aPSSlideSection

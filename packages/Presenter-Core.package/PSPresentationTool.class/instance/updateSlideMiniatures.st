@@ -1,4 +1,4 @@
 slide miniatures
 updateSlideMiniatures
 
-	self changed: #slideMiniatures
+	self miniatureController updateSlideMiniatures

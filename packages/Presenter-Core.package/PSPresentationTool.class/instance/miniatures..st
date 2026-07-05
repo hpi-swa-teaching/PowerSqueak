@@ -1,4 +1,4 @@
 accessing
 miniatures: aDictionary
-	
-	miniatures := aDictionary
+
+	self miniatureController miniatures: aDictionary
