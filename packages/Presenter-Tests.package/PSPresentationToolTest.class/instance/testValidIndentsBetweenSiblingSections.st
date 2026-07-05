@@ -1,4 +1,4 @@
-drop slot tests
+section drop tests
 testValidIndentsBetweenSiblingSections
 
 	2 timesRepeat: [self createSlide].

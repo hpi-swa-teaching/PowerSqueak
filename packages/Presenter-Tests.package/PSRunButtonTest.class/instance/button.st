@@ -1,4 +1,4 @@
-as yet unclassified
+run button tests
 button
 	
 	^button

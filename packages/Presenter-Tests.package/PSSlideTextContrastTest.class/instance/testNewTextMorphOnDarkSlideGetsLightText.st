@@ -1,4 +1,4 @@
-as yet unclassified
+text contrast tests
 testNewTextMorphOnDarkSlideGetsLightText
 
 	self slide color: Color black.

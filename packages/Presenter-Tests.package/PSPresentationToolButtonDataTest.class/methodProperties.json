@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testCreateLayoutSlideButtonData" : "JEG 7/1/2026 22:19",
+		"testCreateSlideButtonData" : "JEG 7/1/2026 22:19",
+		"testDropDownMenuButtonDataHasThreeButtons" : "JEG 7/1/2026 22:20",
+		"testFileButtonData" : "JEG 7/1/2026 22:20",
+		"testInsertButtonData" : "JEG 7/1/2026 22:23",
+		"testMenuBarButtonDataCombinesGroups" : "JEG 7/1/2026 22:24",
+		"testPresentationModeButtonData" : "JEG 7/1/2026 22:24",
+		"testPresentationModeOptionsButtonData" : "JEG 7/1/2026 22:25",
+		"testSlideButtonData" : "JEG 7/1/2026 22:23",
+		"testSlideCreationButtonDataHasTwoButtons" : "JEG 7/1/2026 22:25",
+		"testSnapButtonData" : "JEG 7/1/2026 22:44",
+		"testSnapOptionsButtonData" : "JEG 7/1/2026 22:27",
+		"testTopRightButtonDataIncludesSnapAndPresentationButtons" : "JEG 7/1/2026 22:27" } }

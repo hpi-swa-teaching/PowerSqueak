@@ -1,4 +1,4 @@
-insert tests
+content tests
 testInsertShapeNamesContainsAllShapes
 
 	| shapeNames |

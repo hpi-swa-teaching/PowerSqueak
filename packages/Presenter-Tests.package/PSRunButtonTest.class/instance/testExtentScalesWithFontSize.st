@@ -1,4 +1,4 @@
-as yet unclassified
+run button tests
 testExtentScalesWithFontSize
 
 	{10. 20. 30. 50} do: [:size |

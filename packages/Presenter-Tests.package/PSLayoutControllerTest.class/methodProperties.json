@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testCannotDeleteLastLayout" : "JEG 7/2/2026 03:51",
+		"testDeleteLayoutFromMiniatureUsesChooser" : "JEG 7/2/2026 03:52",
+		"testDeleteLayoutNamedDoesNotDeleteMinimumLayout" : "JEG 7/2/2026 03:53",
+		"testDeletedLayoutNotInChooser" : "JEG 7/2/2026 03:52",
+		"testDeletingLayoutRemovesIt" : "JEG 7/2/2026 03:53",
+		"testDuplicateLayoutNameIsRejectedOnCreate" : "rc 5/2/2026 10:52",
+		"testDuplicateLayoutNamesAreRejectedOnRename" : "JEG 7/2/2026 03:54",
+		"testHoverShowsAndHidesPreview" : "JEG 7/2/2026 03:54",
+		"testLayoutItemsAreSelectable" : "JEG 7/2/2026 03:56",
+		"testLayoutedSlidesCanBeCreated" : "JEG 7/2/2026 03:55",
+		"testOpenDeleteLayoutChooserDeletesSelectedLayout" : "JEG 7/2/2026 03:57",
+		"testOpenLayoutMenuContainsAllLayouts" : "JEG 7/2/2026 03:57",
+		"testOpenLayoutRenameChooserForRenamesLayout" : "JEG 7/2/2026 03:58",
+		"testRenameLayoutFromMiniatureRenamesSelectedLayout" : "JEG 7/2/2026 04:02",
+		"testRenameLayoutThenCreateWithOldName" : "JEG 7/2/2026 04:01",
+		"testRenameLayoutToSameNameKeepsLayout" : "JEG 7/2/2026 04:00",
+		"testRenamedLayoutIsSavedWithNewName" : "JEG 7/2/2026 04:00",
+		"testRenamingLayoutUpdatesChooserNames" : "JEG 7/2/2026 04:00",
+		"testSavingSlideAsLayoutAddsALayoutOfCorrectName" : "JEG 7/2/2026 04:01",
+		"testSlideLayoutCreationBlocksMatchesLayoutCount" : "rc 6/21/2026 17:03",
+		"testSlideLayoutNamesReturnsKeys" : "JEG 7/2/2026 04:02" } }

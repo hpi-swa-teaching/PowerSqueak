@@ -1,4 +1,4 @@
-as yet unclassified
+code morph tests
 testRunButtonIsPositionedWithinMorph
 
 	self codeMorph fullBounds.

@@ -1,4 +1,4 @@
-button tests
+tool window tests
 testFramesInsideWindow
 
 	| buttonDictionaries lastFrame |

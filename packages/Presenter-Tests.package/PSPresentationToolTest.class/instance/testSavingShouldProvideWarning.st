@@ -1,4 +1,4 @@
-loading and saving tests
+file tests
 testSavingShouldProvideWarning
 
 	self

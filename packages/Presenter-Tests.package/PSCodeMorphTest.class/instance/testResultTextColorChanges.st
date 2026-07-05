@@ -1,4 +1,4 @@
-as yet unclassified
+code morph tests
 testResultTextColorChanges
  	| firstColor secondColor|
 	self codeMorph color: Color white.

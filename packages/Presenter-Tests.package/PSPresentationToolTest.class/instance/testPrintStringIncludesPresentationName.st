@@ -1,4 +1,4 @@
-presentation tests
+presentation model tests
 testPrintStringIncludesPresentationName
 
 	| presentation |

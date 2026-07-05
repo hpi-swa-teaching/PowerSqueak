@@ -1,4 +1,4 @@
-as yet unclassified
+text contrast tests
 testLightSlideIsNotDark
 
 	self slide color: Color white.

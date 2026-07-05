@@ -1,4 +1,4 @@
-as yet unclassified
+code morph tests
 testRunButtonRemainsWithinMorphAfterRescale
 
 	self codeMorph rescale: 200 @ 200.

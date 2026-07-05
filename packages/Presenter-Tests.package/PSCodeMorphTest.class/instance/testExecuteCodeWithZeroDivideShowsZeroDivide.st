@@ -1,4 +1,4 @@
-as yet unclassified
+code morph tests
 testExecuteCodeWithZeroDivideShowsZeroDivide
     
 	self codeMorph textMorph contents: '(6+7) / 0'.

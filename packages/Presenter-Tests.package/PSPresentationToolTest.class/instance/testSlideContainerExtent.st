@@ -1,4 +1,4 @@
-presentation mode tests
+tool window tests
 testSlideContainerExtent
 
 	self 
