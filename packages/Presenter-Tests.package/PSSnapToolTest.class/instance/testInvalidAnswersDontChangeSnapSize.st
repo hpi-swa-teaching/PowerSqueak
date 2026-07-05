@@ -1,4 +1,4 @@
-snapping tests
+snap tests
 testInvalidAnswersDontChangeSnapSize
 
 	{'Rüdiger' . '' . 'Pi' . '???' . '[^ 420]' .'FBI database dropTable: #citizens' . 'self halt'} do:

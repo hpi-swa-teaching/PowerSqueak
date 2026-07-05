@@ -1,4 +1,4 @@
-miniature view tests
+hidden slide presentation tests
 testPresentOnHiddenSlide
 
 	| slide miniature slideNumber |

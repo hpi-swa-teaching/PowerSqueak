@@ -1,4 +1,4 @@
-slide creation tests
+layout creation tests
 testSavingSlideAsLayoutAddsALayoutOfCorrectName
 
 	| name |

@@ -1,4 +1,4 @@
-snapping tests
+snap tests
 testInvalidAnswerDoesntChangeSnapSize: aString
 
 	| valueBefore |

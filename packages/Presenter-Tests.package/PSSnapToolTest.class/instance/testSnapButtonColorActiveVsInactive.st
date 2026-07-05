@@ -1,4 +1,4 @@
-toolbuilder tests
+snap tests
 testSnapButtonColorActiveVsInactive
 
 	self tool snapActive: true.

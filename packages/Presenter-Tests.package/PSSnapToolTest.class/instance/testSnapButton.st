@@ -1,4 +1,4 @@
-button tests
+snap tests
 testSnapButton
 
 	| button modeBefore |

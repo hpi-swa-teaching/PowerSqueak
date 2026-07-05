@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testChangingSnapSizeChangesSnapSize" : "VO 7/26/2019 12:22",
+		"testChangingSnapSizeChangesSnapSizeWithValue:" : "VO 7/26/2019 12:09",
+		"testChangingSnapSizeTo:clampsSnapSizeTo:" : "VO 7/26/2019 12:14",
+		"testInvalidAnswerDoesntChangeSnapSize:" : "VO 7/26/2019 12:49",
+		"testInvalidAnswersDontChangeSnapSize" : "VO 7/26/2019 12:46",
+		"testSnapButton" : "JEG 7/1/2026 22:44",
+		"testSnapButtonColorActiveVsInactive" : "rc 6/21/2026 21:42",
+		"testSnapSizeDialogStringMentionsBounds" : "rc 6/21/2026 15:47",
+		"testValuesOverMaxSnapSizeGetClamped" : "VO 7/26/2019 12:18",
+		"testValuesUnderMinSnapSizeGetClamped" : "VO 7/26/2019 12:23",
+		"tryChangingSnapSizeTo:" : "JEG 7/5/2026 22:11" } }

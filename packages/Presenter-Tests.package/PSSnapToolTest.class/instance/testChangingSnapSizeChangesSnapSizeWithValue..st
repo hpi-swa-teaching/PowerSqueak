@@ -1,4 +1,4 @@
-snapping tests
+snap tests
 testChangingSnapSizeChangesSnapSizeWithValue: aString
 
 	self tryChangingSnapSizeTo: aString.

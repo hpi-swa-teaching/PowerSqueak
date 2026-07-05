@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PSPresentationModeToolTest",
+	"pools" : [
+		 ],
+	"super" : "PSPresentationToolTestCase",
+	"type" : "normal" }

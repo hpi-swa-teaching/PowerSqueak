@@ -1,4 +1,4 @@
-window resizing tests
+fullscreen tests
 testFullScreenOff
 
 	DisplayScreen fullScreenOff.

@@ -1,4 +1,4 @@
-slide creation tests
+layout creation tests
 testLayoutItemsAreSelectable
 
 	self tool layoutController createSlideFromLayout: self presentation slideLayouts values first.
