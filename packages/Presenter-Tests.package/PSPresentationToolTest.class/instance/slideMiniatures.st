@@ -1,4 +1,4 @@
 slide deletion tests
 slideMiniatures
 
-	^ self tool slideMiniatures
+	^ self tool miniatureController slideMiniatures

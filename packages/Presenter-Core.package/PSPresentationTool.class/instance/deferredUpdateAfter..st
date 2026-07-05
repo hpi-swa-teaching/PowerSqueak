@@ -2,4 +2,4 @@ slide miniatures
 deferredUpdateAfter: aBlock
 
 	aBlock value.
-	WorldState addDeferredUIMessage: [self updateSlideMiniatures]
+	WorldState addDeferredUIMessage: [self miniatureController updateSlideMiniatures]

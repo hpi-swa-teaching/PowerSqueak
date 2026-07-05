@@ -1,8 +1,8 @@
 slide miniatures
 updatePresentation: aPSPresentation
 
-	self 
+	self
 		presentation: aPSPresentation;
-		selectSlideAt: 1;
-		updateSlideMiniaturesCompletely;
-		clearCommandHistory
+		selectSlideAt: 1.
+	self miniatureController updateSlideMiniaturesCompletely.
+	self clearCommandHistory

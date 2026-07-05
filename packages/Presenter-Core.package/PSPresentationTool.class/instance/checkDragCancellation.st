@@ -1,4 +1,0 @@
-slide miniatures
-checkDragCancellation
-
-	self miniatureController checkDragCancellation

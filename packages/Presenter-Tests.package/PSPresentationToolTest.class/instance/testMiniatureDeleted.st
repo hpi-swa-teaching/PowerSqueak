@@ -3,6 +3,6 @@ testMiniatureDeleted
 
 	| oldSize |
 	self createSlide.
-	oldSize := self slideMiniatures size.
+	oldSize := self tool miniatureController slideMiniatures size.
 	self tool deleteSlide.
-	self assert: self slideMiniatures size equals: oldSize - 1
+	self assert: self tool miniatureController slideMiniatures size equals: oldSize - 1

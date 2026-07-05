@@ -6,5 +6,5 @@ basicDeleteSlideAt: anIndex
 	self currentSlideNumber >= anIndex
 		ifTrue: [self selectSlideAt: (self currentSlideNumber - 1 max: self class minimumSlideCount)].
 	self miniatureController removeMiniatureOf: deletedSlide.
-	self updateSlideMiniatures.
+	self miniatureController updateSlideMiniatures.
 	^ deletedSlide

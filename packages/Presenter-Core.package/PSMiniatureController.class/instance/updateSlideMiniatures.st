@@ -1,4 +1,4 @@
 updating
 updateSlideMiniatures
 
-	self tool changed: #slideMiniatures
+	self changed: #slideMiniatures

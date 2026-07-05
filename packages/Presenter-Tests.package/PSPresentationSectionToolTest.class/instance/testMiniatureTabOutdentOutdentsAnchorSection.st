@@ -8,5 +8,5 @@ testMiniatureTabOutdentOutdentsAnchorSection
 		addSectionNamed: 'Child' firstSlide: (self presentation slideAt: 2).
 	child := self presentation sectionNamed: 'Child'.
 	self presentation indentSection: child.
-	(self tool miniatureOf: (self presentation slideAt: 2)) tabOutdent.
+	(self tool miniatureController miniatureOf: (self presentation slideAt: 2)) tabOutdent.
 	self assert: child level equals: 1

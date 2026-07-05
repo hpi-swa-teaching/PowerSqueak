@@ -5,5 +5,5 @@ basicDuplicateSlide: duplicateSlide after: originalSlide
 		self presentation
 			addSlide: duplicateSlide
 			afterIndex: originalSlide slideNumber.
-		self updateSlideMiniatures].
+		self miniatureController updateSlideMiniatures].
 	^ duplicateSlide

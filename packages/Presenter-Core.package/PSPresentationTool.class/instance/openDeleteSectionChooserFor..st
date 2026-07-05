@@ -8,7 +8,7 @@ openDeleteSectionChooserFor: aSlide
 		and: [(self presentation slideCountOfSection: section) <= 1])
 			ifTrue: [
 				self presentation promoteChildrenOfSection: section.
-				^ self updateSlideMiniatures].
+				^ self miniatureController updateSlideMiniatures].
 	choice := UIManager default
 		chooseFrom: #('Delete section and all its contents' 'Keep contents (promote to parent)' 'Cancel')
 		values: #(#cascade #promote #cancel)

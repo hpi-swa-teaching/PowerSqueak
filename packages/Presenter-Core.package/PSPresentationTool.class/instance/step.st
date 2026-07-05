@@ -1,5 +1,5 @@
 stepping and presenter
 step
 
-	self updateCurrentMiniature.
-	self checkDragCancellation
+	self miniatureController updateCurrentMiniature.
+	self miniatureController checkDragCancellation

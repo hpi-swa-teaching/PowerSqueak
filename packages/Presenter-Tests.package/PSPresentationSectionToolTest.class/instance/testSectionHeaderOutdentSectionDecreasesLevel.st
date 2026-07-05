@@ -8,5 +8,5 @@ testSectionHeaderOutdentSectionDecreasesLevel
 		addSectionNamed: 'Child' firstSlide: (self presentation slideAt: 2).
 	child := self presentation sectionNamed: 'Child'.
 	self presentation indentSection: child.
-	(self tool sectionHeaderFor: child) outdentSection.
+	(self tool miniatureController sectionHeaderFor: child) outdentSection.
 	self assert: child level equals: 1

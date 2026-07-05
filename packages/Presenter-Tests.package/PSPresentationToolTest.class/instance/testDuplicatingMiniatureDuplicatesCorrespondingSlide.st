@@ -4,7 +4,7 @@ testDuplicatingMiniatureDuplicatesCorrespondingSlide
 	| slide duplicatedSlide |
 	slide := self currentSlide.
 	slide addContent: (Morph new center: slide center).
-	(self miniatureOf: slide) duplicateSlide.
+	(self tool miniatureController miniatureOf: slide) duplicateSlide.
 	duplicatedSlide := self slideAt: self currentSlideNumber +1.
 	slide fullBounds.
 	slide submorphs withIndexDo: [:each :index | 

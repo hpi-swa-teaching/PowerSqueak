@@ -1,4 +1,0 @@
-slide miniatures
-updateSlideMiniaturesCompletely
-
-	self miniatureController updateSlideMiniaturesCompletely

@@ -1,4 +1,4 @@
 accessing
 miniatureOf: aPSSlide
 
-	^ self tool miniatureOf: aPSSlide
+	^ self tool miniatureController miniatureOf: aPSSlide

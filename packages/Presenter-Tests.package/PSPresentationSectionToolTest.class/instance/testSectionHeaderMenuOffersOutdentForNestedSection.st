@@ -8,6 +8,6 @@ testSectionHeaderMenuOffersOutdentForNestedSection
 		addSectionNamed: 'B' firstSlide: (self presentation slideAt: 2).
 	self presentation indentSection: (self presentation sectionNamed: 'B').
 	section := self presentation sectionNamed: 'B'.
-	actions := (self tool sectionHeaderFor: section) defaultActions
+	actions := (self tool miniatureController sectionHeaderFor: section) defaultActions
 		collect: [:each | each at: #action ifAbsent: [nil]].
 	self assert: (actions includes: #outdentSection)

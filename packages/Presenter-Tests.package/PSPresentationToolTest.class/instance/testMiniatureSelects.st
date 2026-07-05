@@ -5,7 +5,7 @@ testMiniatureSelects
 	5 timesRepeat: [self createSlide].
 	
 	slideToSelect := self slides third.
-	miniatureToClick := self miniatureOf: slideToSelect.
+	miniatureToClick := self tool miniatureController miniatureOf: slideToSelect.
 	
 	self 
 		click: MouseEvent redButton at: miniatureToClick boundsInWorld center;

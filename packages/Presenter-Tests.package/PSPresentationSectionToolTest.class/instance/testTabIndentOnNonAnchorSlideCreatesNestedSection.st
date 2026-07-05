@@ -5,7 +5,7 @@ testTabIndentOnNonAnchorSlideCreatesNestedSection
 	2 timesRepeat: [self createSlide].
 	self presentation addSectionNamed: 'A' firstSlide: (self presentation slideAt: 1).
 	nonAnchor := self presentation slideAt: 2.
-	[(self tool miniatureOf: nonAnchor) tabIndent]
+	[(self tool miniatureController miniatureOf: nonAnchor) tabIndent]
 		valueSupplyingAnswer: 'B'.
 	child := self presentation sectionNamed: 'B'.
 	self

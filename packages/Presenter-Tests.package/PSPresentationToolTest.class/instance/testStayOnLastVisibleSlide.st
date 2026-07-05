@@ -3,7 +3,7 @@ testStayOnLastVisibleSlide
 
 	| miniature |
 	self createSlide.
-	miniature := self miniatureOf: (self slides at: 2).
+	miniature := self tool miniatureController miniatureOf: (self slides at: 2).
 	
 	miniature hideSlide.
 	self selectSlideAt: 1.

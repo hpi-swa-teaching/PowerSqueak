@@ -1,4 +1,4 @@
 layout
 rejectDropMorphEvent: anEvent
 
-	self model dropSlide: self slide at: anEvent position
+	self model miniatureController dropSlide: self slide at: anEvent position

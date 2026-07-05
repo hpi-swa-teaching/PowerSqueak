@@ -9,7 +9,8 @@
 		"draggedSlide" : "JEG 7/5/2026 01:54",
 		"draggedSlide:" : "JEG 7/5/2026 01:54",
 		"dropSlide:at:" : "JEG 7/5/2026 02:15",
-		"initialize" : "JEG 7/5/2026 01:55",
+		"highlightCurrentMiniature" : "JEG 7/5/2026 03:09",
+		"initialize" : "JEG 7/5/2026 02:59",
 		"isDraggingSlide:" : "JEG 7/5/2026 01:56",
 		"miniatureOf:" : "JEG 7/5/2026 01:56",
 		"miniatureRowFor:at:" : "JEG 7/5/2026 02:01",
@@ -22,6 +23,6 @@
 		"tool:" : "JEG 7/5/2026 01:54",
 		"updateCurrentMiniature" : "JEG 7/5/2026 02:02",
 		"updateSlideMiniatureCompletelyAt:" : "JEG 7/5/2026 02:03",
-		"updateSlideMiniatures" : "JEG 7/5/2026 02:02",
+		"updateSlideMiniatures" : "JEG 7/5/2026 03:23",
 		"updateSlideMiniaturesCompletely" : "JEG 7/5/2026 02:03",
 		"visibleMiniaturesInOrder" : "JEG 7/5/2026 02:02" } }

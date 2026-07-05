@@ -5,6 +5,6 @@ testFreshSectionHeaderEachRender
 	self createSlide.
 	self presentation addSectionNamed: 'X' firstSlide: (self presentation slideAt: 1).
 	section := self presentation sectionNamed: 'X'.
-	first := self tool sectionHeaderFor: section.
-	second := self tool sectionHeaderFor: section.
+	first := self tool miniatureController sectionHeaderFor: section.
+	second := self tool miniatureController sectionHeaderFor: section.
 	self deny: first == second

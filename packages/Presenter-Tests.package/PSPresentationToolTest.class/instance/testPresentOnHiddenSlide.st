@@ -3,7 +3,7 @@ testPresentOnHiddenSlide
 
 	| slide miniature slideNumber |
 	slide := self createSlide.
-	miniature := self miniatureOf: slide.
+	miniature := self tool miniatureController miniatureOf: slide.
 	
 	miniature hideSlide.
 	slideNumber := self currentSlideNumber.

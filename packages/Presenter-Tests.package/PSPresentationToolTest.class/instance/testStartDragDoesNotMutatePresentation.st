@@ -4,7 +4,7 @@ testStartDragDoesNotMutatePresentation
 	| slide miniature beforeCount |
 	2 timesRepeat: [self createSlide].
 	slide := self presentation slideAt: 1.
-	miniature := self tool miniatureOf: slide.
+	miniature := self tool miniatureController miniatureOf: slide.
 	beforeCount := self presentation slideCount.
 	miniature startDrag: (self mouse: 4 downAt: 0 @ 0).
 	self
