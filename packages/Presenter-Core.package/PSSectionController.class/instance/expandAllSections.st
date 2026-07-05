@@ -1,0 +1,5 @@
+section visibility
+expandAllSections
+
+	self presentation expandAllSections.
+	self miniatureController updateSlideMiniatures

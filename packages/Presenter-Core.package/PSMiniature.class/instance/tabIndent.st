@@ -3,5 +3,5 @@ tabIndent
 
 	self model ifNil: [^ self].
 	self isSectionAnchor
-		ifTrue: [self model indentSectionStartingAt: self slide]
-		ifFalse: [self model openSubSectionNameChooserFor: self slide]
+		ifTrue: [self model sectionController indentSectionStartingAt: self slide]
+		ifFalse: [self model sectionController openSubSectionNameChooserFor: self slide]

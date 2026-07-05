@@ -1,4 +1,4 @@
 context menu
 addSection
 
-	self model openSectionNameChooserFor: self slide
+	self model sectionController openSectionNameChooserFor: self slide

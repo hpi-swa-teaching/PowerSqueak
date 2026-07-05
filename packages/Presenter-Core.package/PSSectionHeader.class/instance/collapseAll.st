@@ -1,4 +1,4 @@
 context menu
 collapseAll
 
-	self tool collapseAllSections
+	self tool sectionController collapseAllSections

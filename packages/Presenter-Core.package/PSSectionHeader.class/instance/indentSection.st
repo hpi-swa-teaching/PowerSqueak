@@ -1,4 +1,4 @@
 context menu
 indentSection
 
-	self tool indentSectionStartingAt: self section firstSlide
+	self tool sectionController indentSectionStartingAt: self section firstSlide

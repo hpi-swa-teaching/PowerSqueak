@@ -1,4 +1,4 @@
 context menu
 deleteSection
 
-	self model deleteSectionStartingAt: self slide
+	self model sectionController deleteSectionStartingAt: self slide

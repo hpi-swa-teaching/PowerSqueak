@@ -1,0 +1,14 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JEG 7/5/2026 04:40",
+	"instvars" : [
+		"tool" ],
+	"name" : "PSSectionController",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

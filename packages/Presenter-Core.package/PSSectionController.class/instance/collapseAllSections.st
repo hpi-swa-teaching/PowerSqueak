@@ -1,4 +1,4 @@
-sections
+section visibility
 collapseAllSections
 
 	self presentation collapseAllSections.

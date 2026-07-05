@@ -1,4 +1,4 @@
-sections
+section creation
 createSubSectionNamed: aString startingAt: aSlide
 
 	| section parent targetLevel |
