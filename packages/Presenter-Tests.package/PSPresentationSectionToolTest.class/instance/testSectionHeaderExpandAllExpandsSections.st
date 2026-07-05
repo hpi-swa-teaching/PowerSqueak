@@ -8,7 +8,7 @@ testSectionHeaderExpandAllExpandsSections
 		addSectionNamed: 'B' firstSlide: (self presentation slideAt: 2).
 	self presentation collapseAllSections.
 	section := self presentation sectionNamed: 'A'.
-	(self tool sectionHeaderFor: section) expandAll.
+	(self tool miniatureController sectionHeaderFor: section) expandAll.
 	self
 		deny: (self presentation sectionNamed: 'A') collapsed;
 		deny: (self presentation sectionNamed: 'B') collapsed

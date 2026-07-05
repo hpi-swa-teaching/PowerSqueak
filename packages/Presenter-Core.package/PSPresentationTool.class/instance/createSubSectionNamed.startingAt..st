@@ -7,9 +7,9 @@ createSubSectionNamed: aString startingAt: aSlide
 	parent := self presentation sectionOfSlideAt:
 		((self presentation indexOf: aSlide) - 1 max: 1).
 	(parent isNil or: [parent == section])
-		ifTrue: [^ self updateSlideMiniatures].
+		ifTrue: [^ self miniatureController updateSlideMiniatures].
 	targetLevel := parent level + 1.
 	[section level < targetLevel
 		and: [self presentation canIndentSection: section]]
 			whileTrue: [self presentation indentSection: section].
-	self updateSlideMiniatures
+	self miniatureController updateSlideMiniatures

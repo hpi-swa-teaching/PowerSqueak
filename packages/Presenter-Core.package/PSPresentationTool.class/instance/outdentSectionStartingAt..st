@@ -5,4 +5,4 @@ outdentSectionStartingAt: aSlide
 	section := self presentation sectionStartingAt: aSlide.
 	section ifNil: [^ self].
 	self presentation outdentSection: section.
-	self updateSlideMiniatures
+	self miniatureController updateSlideMiniatures

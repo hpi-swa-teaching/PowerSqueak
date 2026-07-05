@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"forTool:" : "JEG 7/5/2026 01:51" },
+	"instance" : {
+		"beginDraggingSlide:" : "JEG 7/5/2026 02:14",
+		"cancelDrag" : "JEG 7/5/2026 02:14",
+		"checkDragCancellation" : "JEG 7/5/2026 02:15",
+		"currentMiniature" : "JEG 7/5/2026 02:00",
+		"draggedSlide" : "JEG 7/5/2026 01:54",
+		"draggedSlide:" : "JEG 7/5/2026 01:54",
+		"dropSlide:at:" : "JEG 7/5/2026 02:15",
+		"highlightCurrentMiniature" : "JEG 7/5/2026 03:09",
+		"initialize" : "JEG 7/5/2026 02:59",
+		"isDraggingSlide:" : "JEG 7/5/2026 01:56",
+		"miniatureOf:" : "JEG 7/5/2026 01:56",
+		"miniatureRowFor:at:" : "JEG 7/5/2026 02:01",
+		"miniatures" : "JEG 7/5/2026 01:54",
+		"miniatures:" : "JEG 7/5/2026 01:54",
+		"removeMiniatureOf:" : "JEG 7/5/2026 02:15",
+		"sectionHeaderFor:" : "JEG 7/5/2026 02:01",
+		"slideMiniatures" : "JEG 7/5/2026 02:02",
+		"tool" : "JEG 7/5/2026 01:54",
+		"tool:" : "JEG 7/5/2026 01:54",
+		"updateCurrentMiniature" : "JEG 7/5/2026 02:02",
+		"updateSlideMiniatureCompletelyAt:" : "JEG 7/5/2026 02:03",
+		"updateSlideMiniatures" : "JEG 7/5/2026 03:23",
+		"updateSlideMiniaturesCompletely" : "JEG 7/5/2026 02:03",
+		"visibleMiniaturesInOrder" : "JEG 7/5/2026 02:02" } }

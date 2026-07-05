@@ -7,4 +7,4 @@ deleteAnchorSlideAt: anIndex choice: aSymbol
 	section := self presentation sectionStartingAt: (self presentation slideAt: anIndex).
 	section ifNotNil: [self presentation deleteSectionAndContents: section].
 	self selectSlideAt: (self currentSlideNumber min: self presentation slideCount).
-	self updateSlideMiniatures
+	self miniatureController updateSlideMiniatures

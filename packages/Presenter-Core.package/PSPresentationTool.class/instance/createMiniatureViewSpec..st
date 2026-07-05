@@ -2,7 +2,7 @@ toolbuilder
 createMiniatureViewSpec: aBuilder 
 	
 	^ aBuilder pluggableScrollPaneSpec new
-		model: self;
+		model: self miniatureController;
 		frame: self miniatureViewLayoutFrame;
 		name: #MiniatureView;
 		vScrollBarPolicy: #always;

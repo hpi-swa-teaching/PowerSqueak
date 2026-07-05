@@ -1,5 +1,4 @@
 menu bar
 openSlideMenu
 
-	PSContextMenu newWith: (self miniatureOf: self currentSlide)
-	
+	PSContextMenu newWith: 	(self miniatureController miniatureOf: self currentSlide)

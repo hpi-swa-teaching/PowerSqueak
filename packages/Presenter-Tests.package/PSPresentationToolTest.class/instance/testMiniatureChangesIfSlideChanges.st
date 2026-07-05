@@ -3,7 +3,7 @@ testMiniatureChangesIfSlideChanges
 
 	| slide miniature oldMiniatureForm |
 	slide := self slides first.
-	miniature := (self miniatureOf: slide).
+	miniature := (self tool miniatureController miniatureOf: slide).
 	oldMiniatureForm := miniature form.
 	
 	slide addContent: (Morph new center: slide center).

@@ -9,5 +9,5 @@ testMiniatureOutdentSectionDecreasesSectionLevel
 	child := self presentation sectionNamed: 'Child'.
 	self presentation indentSection: child.
 	self assert: child level equals: 2.
-	(self tool miniatureOf: (self presentation slideAt: 2)) outdentSection.
+	(self tool miniatureController miniatureOf: (self presentation slideAt: 2)) outdentSection.
 	self assert: child level equals: 1

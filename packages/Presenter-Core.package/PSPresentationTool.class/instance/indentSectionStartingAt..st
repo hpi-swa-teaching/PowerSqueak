@@ -5,4 +5,4 @@ indentSectionStartingAt: aSlide
 	section := self presentation sectionStartingAt: aSlide.
 	section ifNil: [^ self].
 	self presentation indentSection: section.
-	self updateSlideMiniatures
+	self miniatureController updateSlideMiniatures

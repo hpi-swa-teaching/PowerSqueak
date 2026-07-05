@@ -4,8 +4,8 @@ testSectionHeaderWantsDroppedMiniatureOnly
 	| section header |
 	self presentation addSectionNamed: 'S' firstSlide: (self presentation slideAt: 1).
 	section := self presentation sectionNamed: 'S'.
-	header := self tool sectionHeaderFor: section.
+	header := self tool miniatureController sectionHeaderFor: section.
 	self assert: (header
-		wantsDroppedMorph: (self tool miniatureOf: (self presentation slideAt: 1))
+		wantsDroppedMorph: (self tool miniatureController miniatureOf: (self presentation slideAt: 1))
 		event: nil).
 	self deny: (header wantsDroppedMorph: Morph new event: nil)

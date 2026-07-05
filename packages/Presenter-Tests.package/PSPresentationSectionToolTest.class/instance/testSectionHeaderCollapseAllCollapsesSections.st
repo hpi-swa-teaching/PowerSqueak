@@ -7,7 +7,7 @@ testSectionHeaderCollapseAllCollapsesSections
 		addSectionNamed: 'A' firstSlide: (self presentation slideAt: 1);
 		addSectionNamed: 'B' firstSlide: (self presentation slideAt: 2).
 	section := self presentation sectionNamed: 'A'.
-	(self tool sectionHeaderFor: section) collapseAll.
+	(self tool miniatureController sectionHeaderFor: section) collapseAll.
 	self
 		assert: (self presentation sectionNamed: 'A') collapsed;
 		assert: (self presentation sectionNamed: 'B') collapsed

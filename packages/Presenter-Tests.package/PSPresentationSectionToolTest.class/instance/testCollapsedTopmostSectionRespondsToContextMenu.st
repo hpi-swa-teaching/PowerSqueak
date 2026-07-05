@@ -6,9 +6,9 @@ testCollapsedTopmostSectionRespondsToContextMenu
 	self presentation addSectionNamed: 'Top' firstSlide: (self presentation slideAt: 1).
 	section := self presentation sectionNamed: 'Top'.
 	section collapsed: true.
-	self tool updateSlideMiniatures.
+	self tool miniatureController updateSlideMiniatures.
 	self world doOneCycle.
-	header := self tool slideMiniatures
+	header := self tool miniatureController slideMiniatures
 		detect: [:each | each isPSSectionHeader]
 		ifNone: [self error: 'no header rendered for collapsed topmost section'].
 	yellowClick := MouseButtonEvent new

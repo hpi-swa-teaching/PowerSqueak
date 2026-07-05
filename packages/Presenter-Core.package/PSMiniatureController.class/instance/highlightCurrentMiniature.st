@@ -1,4 +1,4 @@
-slide miniatures
+miniatures
 highlightCurrentMiniature
 
 	self miniatures do: [:each | each unHighlight].

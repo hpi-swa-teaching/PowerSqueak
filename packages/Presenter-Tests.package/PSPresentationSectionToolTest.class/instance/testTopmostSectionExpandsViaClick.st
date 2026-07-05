@@ -6,7 +6,7 @@ testTopmostSectionExpandsViaClick
 	self presentation addSectionNamed: 'Top' firstSlide: (self presentation slideAt: 1).
 	section := self presentation sectionNamed: 'Top'.
 	section collapsed: true.
-	header := self tool sectionHeaderFor: section.
+	header := self tool miniatureController sectionHeaderFor: section.
 	redClick := MouseButtonEvent new
 		setType: #mouseDown
 		position: 0 @ 0

@@ -1,4 +1,4 @@
-slide miniatures
+dragging
 beginDraggingSlide: aPSSlide
 
 	self draggedSlide: aPSSlide.

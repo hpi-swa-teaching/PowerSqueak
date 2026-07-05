@@ -7,6 +7,6 @@ selectSlideAt: aNumber
 		ifTrue: [
 			self presentation
 				expandSectionsContainingSlideAt: self currentSlideNumber.
-			self updateSlideMiniatures].
-	self highlightCurrentMiniature.
+			self miniatureController updateSlideMiniatures].
+	self miniatureController highlightCurrentMiniature.
 	self currentSlide enter

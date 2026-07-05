@@ -4,7 +4,6 @@ Instance Variables
 	currentSlideNumber:		<Number>
 	isInteractive:		<Boolean>
 	magneticRasterActive:		<Boolean>
-	miniatures:		<Dictionary>
 	presentation:		<PSPresentation>
 	presentationMode:		<Boolean>
 	slideContainer:		<PSSlideContainer>
@@ -13,15 +12,13 @@ Instance Variables
 	advancedMenuBarButtons: <Collection>
 	commandHistory:		<PSCommandHistory>
 	warnBeforeClosing:	<Boolean>
+	miniatureController:	<PSMiniatureController>
 
 isInteractive
 	- Shows whether the presentation is in interactive or noninteractive mode
 
 magneticRasterActive
 	- Shows whether the magnetic raster is activated or not
-
-miniatures
-	- Dictionary containing a PSMiniature for every slide of the current PSPresentation
 
 presentation
 	- The current PSPresentation
@@ -47,3 +44,6 @@ commandHistory
 	
 warnBeforeClosing
 	- Indicates whether the tool should warn before closing with unsaved changes
+	
+miniatureController
+	- Manages the miniature sidebar, including miniature creation, highlighting, preview updates, and miniature dragging

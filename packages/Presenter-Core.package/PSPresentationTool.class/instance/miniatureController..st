@@ -1,0 +1,4 @@
+accessing
+miniatureController: aPSMiniatureController
+
+	miniatureController := aPSMiniatureController

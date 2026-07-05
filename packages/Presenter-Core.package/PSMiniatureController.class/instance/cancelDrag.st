@@ -1,4 +1,4 @@
-slide miniatures
+dragging
 cancelDrag
 
 	self draggedSlide ifNil: [^ self].

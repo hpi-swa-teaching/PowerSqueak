@@ -1,9 +1,9 @@
-slide miniatures
+updating
 updateSlideMiniaturesCompletely
 
 	| previousSelection |
-	previousSelection := self currentSlideNumber.
+	previousSelection := self tool currentSlideNumber.
 	self updateSlideMiniatures.
-	1 to: self slideCount do:
+	1 to: self tool slideCount do:
 		[:index | self updateSlideMiniatureCompletelyAt: index].
-	self selectSlideAt: previousSelection
+	self tool selectSlideAt: previousSelection

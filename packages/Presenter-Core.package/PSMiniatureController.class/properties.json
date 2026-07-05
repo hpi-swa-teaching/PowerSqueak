@@ -1,0 +1,16 @@
+{
+	"category" : "Presenter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JEG 7/5/2026 01:50",
+	"instvars" : [
+		"tool",
+		"miniatures",
+		"draggedSlide" ],
+	"name" : "PSMiniatureController",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

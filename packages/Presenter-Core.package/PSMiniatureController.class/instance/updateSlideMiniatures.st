@@ -1,4 +1,4 @@
-slide miniatures
+updating
 updateSlideMiniatures
 
 	self changed: #slideMiniatures

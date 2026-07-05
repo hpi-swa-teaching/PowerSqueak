@@ -12,7 +12,7 @@ testEverySlideInSectionGetsSectionIndent
 	self presentation indentSection: (self presentation sectionNamed: 'C').
 	step := PSSectionHeader indentStep.
 	expected := {1 * step. 2 * step. 3 * step. 3 * step}.
-	rows := self tool slideMiniatures select: [:each | each isKindOf: PSMiniatureRow].
+	rows := self tool miniatureController slideMiniatures select: [:each | each isKindOf: PSMiniatureRow].
 	self assert: rows size equals: 4.
 	rows withIndexDo: [:row :i |
 		self
