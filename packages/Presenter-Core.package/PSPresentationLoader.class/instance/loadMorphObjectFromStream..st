@@ -5,5 +5,5 @@ loadMorphObjectFromStream: aStream
 		on: MessageNotUnderstood
 		do: [:error |
 			(self isRecoverableMorphicInvalidationError: error)
-				ifTrue: [error resume: nil]
+				ifTrue: [error resume: (self recoveryValueFor: error)]
 				ifFalse: [error pass]]
