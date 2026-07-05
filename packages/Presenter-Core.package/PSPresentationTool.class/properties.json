@@ -18,7 +18,8 @@
 		"snapActive",
 		"commandHistory",
 		"warnBeforeClosing",
-		"miniatureController" ],
+		"miniatureController",
+		"sectionController" ],
 	"name" : "PSPresentationTool",
 	"pools" : [
 		 ],

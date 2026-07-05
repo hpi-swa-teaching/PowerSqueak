@@ -1,4 +1,4 @@
 context menu
 renameSection
 
-	self model openRenameSectionChooserFor: self slide
+	self model sectionController openRenameSectionChooserFor: self slide

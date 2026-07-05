@@ -1,4 +1,4 @@
-sections
+section editing
 indentSectionStartingAt: aSlide
 
 	| section |

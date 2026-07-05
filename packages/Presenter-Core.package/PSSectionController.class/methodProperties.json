@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"forTool:" : "JEG 7/5/2026 04:40" },
+	"instance" : {
+		"collapseAllSections" : "JEG 7/5/2026 04:44",
+		"createSectionNamed:startingAt:" : "JEG 7/5/2026 04:41",
+		"createSubSectionNamed:startingAt:" : "JEG 7/5/2026 04:41",
+		"deleteSection:choice:" : "JEG 7/5/2026 04:44",
+		"deleteSectionStartingAt:" : "JEG 7/5/2026 04:43",
+		"expandAllSections" : "JEG 7/5/2026 04:44",
+		"indentSectionStartingAt:" : "JEG 7/5/2026 04:43",
+		"isSectionAnchorSlide:" : "JEG 7/5/2026 04:45",
+		"miniatureController" : "JEG 7/5/2026 04:41",
+		"moveSectionAnchorStartingAt:direction:" : "JEG 7/5/2026 04:43",
+		"moveSlideOutOfSection:" : "JEG 7/5/2026 05:08",
+		"nextSection" : "JEG 7/5/2026 04:44",
+		"openDeleteSectionChooserFor:" : "JEG 7/5/2026 04:44",
+		"openRenameSectionChooserFor:" : "JEG 7/5/2026 04:42",
+		"openSectionNameChooserFor:" : "JEG 7/5/2026 04:42",
+		"openSubSectionNameChooserFor:" : "JEG 7/5/2026 04:42",
+		"outdentSectionStartingAt:" : "JEG 7/5/2026 04:43",
+		"presentation" : "JEG 7/5/2026 04:41",
+		"previousSection" : "JEG 7/5/2026 04:45",
+		"reanchorSection:withDroppedMorph:" : "JEG 7/5/2026 05:08",
+		"renameSectionNamed:to:" : "JEG 7/5/2026 04:42",
+		"tool" : "JEG 7/5/2026 04:41",
+		"tool:" : "JEG 7/5/2026 04:41" } }

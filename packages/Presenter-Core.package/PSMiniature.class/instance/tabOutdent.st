@@ -3,4 +3,4 @@ tabOutdent
 
 	self model ifNil: [^ self].
 	self isSectionAnchor
-		ifTrue: [self model outdentSectionStartingAt: self slide]
+		ifTrue: [self model sectionController outdentSectionStartingAt: self slide]

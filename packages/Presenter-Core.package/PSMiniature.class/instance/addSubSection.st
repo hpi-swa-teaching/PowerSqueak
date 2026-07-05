@@ -1,4 +1,4 @@
 context menu
 addSubSection
 
-	self model openSubSectionNameChooserFor: self slide
+	self model sectionController openSubSectionNameChooserFor: self slide

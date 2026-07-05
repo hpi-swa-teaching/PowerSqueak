@@ -1,4 +1,4 @@
 context menu
 deleteSection
 
-	self tool deleteSectionStartingAt: self section firstSlide
+	self tool sectionController deleteSectionStartingAt: self section firstSlide

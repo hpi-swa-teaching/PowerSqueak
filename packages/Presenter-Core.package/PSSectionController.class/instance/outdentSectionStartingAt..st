@@ -1,4 +1,4 @@
-sections
+section editing
 outdentSectionStartingAt: aSlide
 
 	| section |

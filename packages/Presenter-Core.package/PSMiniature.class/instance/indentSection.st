@@ -1,4 +1,4 @@
 context menu
 indentSection
 
-	self model indentSectionStartingAt: self slide
+	self model sectionController indentSectionStartingAt: self slide

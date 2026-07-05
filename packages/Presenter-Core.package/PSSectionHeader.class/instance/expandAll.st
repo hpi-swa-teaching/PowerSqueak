@@ -1,4 +1,4 @@
 context menu
 expandAll
 
-	self tool expandAllSections
+	self tool sectionController expandAllSections

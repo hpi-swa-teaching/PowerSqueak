@@ -1,4 +1,4 @@
-sections
+section deletion
 openDeleteSectionChooserFor: aSlide
 
 	| section choice |

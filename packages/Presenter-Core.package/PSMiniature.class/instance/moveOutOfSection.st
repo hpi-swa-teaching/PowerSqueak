@@ -1,5 +1,4 @@
 context menu
 moveOutOfSection
 
-	self model presentation truncateSectionAt: self slide.
-	self model miniatureController updateSlideMiniatures
+	self model sectionController moveSlideOutOfSection: self slide

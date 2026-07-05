@@ -1,6 +1,6 @@
 context menu
 moveSectionUp
 
-	self tool
+	self tool sectionController
 		moveSectionAnchorStartingAt: self section firstSlide
 		direction: -1

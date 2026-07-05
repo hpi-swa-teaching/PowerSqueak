@@ -1,4 +1,4 @@
 context menu
 outdentSection
 
-	self model outdentSectionStartingAt: self slide
+	self model sectionController outdentSectionStartingAt: self slide
