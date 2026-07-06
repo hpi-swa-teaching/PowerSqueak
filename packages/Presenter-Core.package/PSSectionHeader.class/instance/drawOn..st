@@ -5,7 +5,7 @@ drawOn: aCanvas
 	indent := (self section level - 1) * self class indentStep.
 	aCanvas
 		fillRectangle: self bounds
-		color: (self class backgroundColorForLevel: self section level).
+		color: self color.
 	aCanvas
 		fillRectangle: (self left + indent @ self top
 			extent: self class accentWidth @ self height)
