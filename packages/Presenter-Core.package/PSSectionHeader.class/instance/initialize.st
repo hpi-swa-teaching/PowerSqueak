@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	self
-		hResizing: #spaceFill;
+		extent: self class defaultWidth @ self class headerHeight;
+		hResizing: #rigid; 
 		vResizing: #rigid;
-		height: self class headerHeight;
 		color: Color transparent
